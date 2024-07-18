@@ -4,23 +4,23 @@ import { EmailAlertChannel, Frequency } from 'checkly/constructs';
 
 const emailChannel = new EmailAlertChannel('email-channel-1', {
   // FIXME: add your own email address, Checkly will send you an email notification if a check fails
-  address: 'contact@creativedesignsguru.com',
+  address: 'msmf2@student.le.ac.uk',
   sendDegraded: true,
 });
 
 export const config = defineConfig({
-  projectName: 'Next.js Boilerplate',
-  logicalId: 'nextjs-boilerplate',
-  repoUrl: 'https://github.com/ixartz/Next-js-Boilerplate',
+  projectName: 'CV Mate',
+  logicalId: 'cv-mate',
+  repoUrl: 'https://github.com/mfmsajidh/UoL-IndividualProject-NextJS',
   checks: {
     locations: ['us-east-1', 'eu-west-1'],
     tags: ['website'],
-    runtimeId: '2023.09',
+    runtimeId: '2024.07',
     environmentVariables: [
       {
         key: 'PRODUCTION_URL',
         // FIXME: Add your own production URL
-        value: 'https://google.com',
+        value: 'https://cvmate.com',
       },
     ],
     browserChecks: {
