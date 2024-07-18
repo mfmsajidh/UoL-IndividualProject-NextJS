@@ -5,11 +5,7 @@
 import * as Sentry from '@sentry/nextjs';
 
 Sentry.init({
-  // FIXME: Add your Sentry DSN
-  // dsn: '___DSN___',
-
-  // Enable Spotlight in development
-  spotlight: process.env.NODE_ENV === 'development',
+  dsn: 'https://552ec233e1dd0d80d3ed7f26c4f087b3@o4507611940651008.ingest.de.sentry.io/4507611948384336',
 
   ignoreErrors: [
     // Workaround for React RSC and Suspense boundaries: https://github.com/amannn/next-intl/issues/614#issuecomment-1862508393
@@ -22,4 +18,7 @@ Sentry.init({
 
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
   debug: false,
+
+  // Enables Spotlight in development (https://spotlightjs.com)
+  spotlight: process.env.NODE_ENV === 'development',
 });
