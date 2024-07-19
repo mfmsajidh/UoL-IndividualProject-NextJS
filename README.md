@@ -23,7 +23,7 @@ yarn install
 
 Then, you can run the project locally in development mode with live reload by executing:
 ```shell
-yarn run dev
+yarn dev
 ```
 
 Open http://localhost:3000 with your favorite browser to see your project.
