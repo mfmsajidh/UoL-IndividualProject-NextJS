@@ -1,7 +1,7 @@
 # CV Mate
 > Boilerplate from [Next.js Boilerplate](https://nextjs-boilerplate.com/) refactored to suit the project requirements.
 
-✍ with ♥ by [Sajidh Farook](https://github.com/mfmsajidh) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mfmsajidh/)
+✍️ with 🤍 by [Sajidh Farook](https://github.com/mfmsajidh) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mfmsajidh/)
 
 🏫 University of Leicester, UK
 
