@@ -38,8 +38,8 @@ export default withSentryConfig(
     // Only print logs for uploading source maps in CI
     silent: !process.env.CI,
 
-    org: 'university-of-leicester-we',
-    project: 'javascript-nextjs',
+    org: 'mfmsajidh-uol',
+    project: 'cv-mate',
   },
   {
     // For all available options, see:
