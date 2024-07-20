@@ -23,19 +23,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "yarn"
+          cache: "npm"
 
       - name: Cache Next.js build and dependencies
         uses: actions/cache@v4
         with:
           path: |
             ${{ github.workspace }}/.next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
           restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
 
-      - run: yarn install --frozen-lockfile
-      - run: yarn build
+      - run: npm ci
+      - run: npm run build
 
   test:
     strategy:
@@ -54,18 +54,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "yarn"
+          cache: "npm"
 
       - name: Cache Next.js build and dependencies
         uses: actions/cache@v4
         with:
           path: |
             ${{ github.workspace }}/.next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
           restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
 
-      - run: yarn install --frozen-lockfile
+      - run: npm ci
 
       - name: Set SENTRY_AUTH_TOKEN env if secret exists
         run: |
@@ -80,20 +80,20 @@ jobs:
           fi
 
       - name: Build Next.js for E2E tests
-        run: yarn build
+        run: npm run build
 
       - if: github.event_name == 'pull_request'
         name: Validate all commits from PR
         run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
 
       - name: Linter
-        run: yarn lint
+        run: npm run lint
 
       - name: Type checking
-        run: yarn check-types
+        run: npm run check-types
 
       - name: Run unit tests
-        run: yarn test
+        run: npm run test
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4
@@ -104,10 +104,10 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run storybook tests
-        run: yarn test-storybook:ci
+        run: npm run test-storybook:ci
 
       - name: Run E2E tests
-        run: npx percy exec -- yarn test:e2e
+        run: npx percy exec -- npm run test:e2e
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
 

@@ -20,12 +20,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "yarn"
-      - run: yarn install --frozen-lockfile
+          cache: "npm"
+      - run: npm ci
 
       - run: npx npm-check-updates -u # Update dependencies
-      - run: rm -Rf node_modules package-lock.json yarn.lock
-      - run: yarn install
+      - run: rm -Rf node_modules package-lock.json
+      - run: npm install
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:

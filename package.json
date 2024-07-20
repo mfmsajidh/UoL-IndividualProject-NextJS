@@ -7,7 +7,7 @@
     "dev": "run-p dev:*",
     "build": "next build",
     "start": "next start",
-    "build-stats": "cross-env ANALYZE=true yarn build",
+    "build-stats": "cross-env ANALYZE=true npm run build",
     "clean": "rimraf .next .swc out coverage",
     "lint": "next lint",
     "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
