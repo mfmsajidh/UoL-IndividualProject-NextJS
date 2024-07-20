@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        node-version: [20.x, 22.x]
+        node-version: [20.x, 22.4.x] # TODO: Error with 22.5.x, see https://github.com/npm/cli/issues/7657
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     name: Build with ${{ matrix.node-version }}
@@ -18,7 +18,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
