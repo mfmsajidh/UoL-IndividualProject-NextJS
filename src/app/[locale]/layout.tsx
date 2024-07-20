@@ -1,9 +1,9 @@
 import '@/styles/global.css';
 
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
-import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 
 import { DemoBadge } from '@/components/DemoBadge';
 import { AppConfig } from '@/utils/AppConfig';
@@ -46,15 +46,14 @@ export default function RootLayout(props: {
   return (
     <html lang={props.params.locale}>
       <body>
-      <AppRouterCacheProvider>
-        <NextIntlClientProvider
-          locale={props.params.locale}
-          messages={messages}
-        >
-          {props.children}
-
-          <DemoBadge />
-        </NextIntlClientProvider>
+        <AppRouterCacheProvider>
+          <NextIntlClientProvider
+            locale={props.params.locale}
+            messages={messages}
+          >
+            {props.children}
+            <DemoBadge />
+          </NextIntlClientProvider>
         </AppRouterCacheProvider>
       </body>
     </html>
