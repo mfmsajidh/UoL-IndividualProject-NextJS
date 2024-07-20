@@ -47,6 +47,12 @@ jobs:
 
       - name: Set SENTRY_AUTH_TOKEN env if secret exists
         run: |
+          if [[ -n "${{ secrets.CLERK_SECRET_KEY }}" ]]; then
+            echo "CLERK_SECRET_KEY=${{ secrets.CLERK_SECRET_KEY }}" >> $GITHUB_ENV
+          fi
+          if [[ -n "${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY }}" ]]; then
+            echo "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=${{ secrets.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY }}" >> $GITHUB_ENV
+          fi
           if [[ -n "${{ secrets.SENTRY_AUTH_TOKEN }}" ]]; then
             echo "SENTRY_AUTH_TOKEN=${{ secrets.SENTRY_AUTH_TOKEN }}" >> $GITHUB_ENV
           fi
