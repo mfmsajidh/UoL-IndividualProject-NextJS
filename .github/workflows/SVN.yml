@@ -2,8 +2,7 @@ name: Sync Git to SVN
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 env:
   SVN_USER: ${{ secrets.SVN_USER }}
@@ -19,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install SVN
-        uses: sudo apt-get install -y subversion
+        run: sudo apt-get install -y subversion
 
       - name: Setup SVN configuration
         run: |

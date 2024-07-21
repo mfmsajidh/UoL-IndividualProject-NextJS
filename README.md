@@ -5,6 +5,7 @@
 [![Crowdin Action](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/crowdin.yml/badge.svg)](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/crowdin.yml)
 [![Release](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/release.yml/badge.svg)](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/release.yml)
 [![Update dependencies](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/update-deps.yml/badge.svg)](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/update-deps.yml)
+[![SVN Sync](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/SVN.yml/badge.svg)](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/SVN.yml)
 [![Crowdin](https://badges.crowdin.net/cv-mate/localized.svg)](https://crowdin.com)
 
 > Boilerplate from [Next.js Boilerplate](https://nextjs-boilerplate.com/) refactored to suit the project requirements.
