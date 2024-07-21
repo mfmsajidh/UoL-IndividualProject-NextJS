@@ -24,13 +24,10 @@ jobs:
         run: |
           svn checkout --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert $SVN_URL svn-folder
 
-      - name: Clear SVN folder
+      - name: Clear and sync files to SVN folder
         run: |
-          cd svn-folder
-          svn rm --force * || true
-
-      - name: Copy files to SVN folder
-        run: rsync -av --exclude '.git' . svn-folder/
+          find svn-folder/ -mindepth 1 -maxdepth 1 ! -name '.svn' -exec rm -rfv {} +
+          rsync -av --exclude '.git' . svn-folder/
 
       - name: Add new files to SVN
         run: |
@@ -40,4 +37,4 @@ jobs:
       - name: Commit changes to SVN
         run: |
           cd svn-folder
-          svn commit -m "Sync from Git" --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert
+          svn commit -m "Sync from Git $GITHUB_SHA" --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert
