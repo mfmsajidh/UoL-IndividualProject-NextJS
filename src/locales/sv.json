@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "home_link": "Hem",
+    "about_link": "Om",
+    "guestbook_link": "Gästbok",
+    "portfolio_link": "Portfölj",
+    "sign_in_link": "Logga in",
+    "sign_up_link": "Registrera dig"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Startkod för din Nextjs Boilerplate med Tailwind CSS",
+    "made_with": "Gjord med"
   },
   "Index": {
     "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_description": "Nästa js Boilerplate är den perfekta startkoden för ditt projekt. Bygg din React ansökan med Next.js ramverk."
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "Gästbok",
+    "meta_description": "Ett exempel på CRUD-operation",
+    "database_powered_by": "Databas drivs av",
+    "loading_guestbook": "Laddar gästbok...",
+    "error_reporting_powered_by": "Fel vid rapportering drivs av"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "Användarnamn",
+    "body": "Kropp",
+    "save": "Spara"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "Om",
+    "meta_description": "Om sidan beskrivning",
+    "about_paragraph": "Välkommen till vår Om sidan! Vi är ett team av passionerade individer dedikerade till att skapa fantastisk programvara.",
+    "translation_powered_by": "Översättning drivs av"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "meta_title": "Portfölj",
+    "meta_description": "Välkommen till min portföljsida!",
+    "presentation": "Välkommen till min portfölj sida! Här hittar du en noggrant curerad samling av mitt arbete och prestationer. Genom denna portfölj ska jag visa upp min kompetens, kreativitet och det värde jag kan tillföra dina projekt.",
+    "portfolio_name": "Portfölj {name}",
+    "error_reporting_powered_by": "Fel vid rapportering drivs av",
+    "coverage_powered_by": "Kodtäckning drivs av"
   },
   "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "meta_title": "Portfölj {slug}",
+    "meta_description": "Portfölj {slug} beskrivning",
+    "header": "Portfölj {slug}",
+    "content": "Skapade en uppsättning reklammaterial och branding element för ett företagsevenemang. Skapade ett visuellt enhetligt tema, som omfattar en logotyp, affischer, banners och digitala tillgångar. Integrerade kundens varumärkesidentitet samtidigt som den fylldes med ett modernt och innovativt angreppssätt. Garnered gynnsamma svar från deltagare evenemang, vilket resulterar i ett framgångsrikt evenemang med ökad deltagarengagemang och ökad märkessynlighet.",
+    "log_management_powered_by": "Logghantering drivs av"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Logga in",
+    "meta_description": "Logga utan problem in på ditt konto med vår användarvänliga inloggningsprocess."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Registrera dig",
+    "meta_description": "Skapa ett konto genom vår intuitiva registreringsprocess."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "Instrumentpanel",
+    "hello_message": "Hej {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "Användarprofil"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "Instrumentpanel",
+    "user_profile_link": "Hantera ditt konto",
+    "sign_out": "Logga ut"
   }
 }

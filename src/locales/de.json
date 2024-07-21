@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
+    "home_link": "Zuhause",
+    "about_link": "Über",
+    "guestbook_link": "Gästebuch",
     "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "sign_in_link": "Anmelden",
+    "sign_up_link": "Registrieren"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Starter Code für Ihre Nextjs Boilerplate mit maßgeschneidertem CSS",
+    "made_with": "Gemacht mit"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_title": "Nächste.js Boilerplate Präsentation",
+    "meta_description": "Nächste js Boilerplate ist der perfekte Startercode für Ihr Projekt. Erstellen Sie Ihre React-Anwendung mit dem Next.js Framework."
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "Gästebuch",
+    "meta_description": "Ein Beispiel für CRUD-Operation",
+    "database_powered_by": "Datenbank betrieben von",
+    "loading_guestbook": "Gästebuch wird geladen...",
+    "error_reporting_powered_by": "Fehlerberichte powered by"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "Benutzername",
+    "body": "Körper",
+    "save": "Speichern"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "Über",
+    "meta_description": "Über Seitenbeschreibung",
+    "about_paragraph": "Willkommen auf unserer Über Seite! Wir sind ein Team von leidenschaftlichen Persönlichkeiten, die sich mit der Entwicklung fantastischer Software beschäftigen.",
+    "translation_powered_by": "Übersetzung betrieben von"
   },
   "Portfolio": {
     "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "meta_description": "Willkommen auf meiner Portfolio-Seite!",
+    "presentation": "Willkommen auf meiner Portfolio-Seite! Hier finden Sie eine sorgfältig kuratierte Sammlung meiner Arbeit und Leistungen. Mit diesem Portfolio werde ich meine Kompetenz, Kreativität und den Wert, den ich für Ihre Projekte bringen kann, demonstrieren.",
+    "portfolio_name": "Portfolio- {name}",
+    "error_reporting_powered_by": "Fehlerberichte powered by",
+    "coverage_powered_by": "Code-Deckung powered by"
   },
   "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "meta_title": "Portfolio- {slug}",
+    "meta_description": "Portfolio- {slug} Beschreibung",
+    "header": "Portfolio- {slug}",
+    "content": "Erstellen Sie eine Reihe von Werbematerialien und Branding-Elementen für eine Firmenveranstaltung. Hergestellt ein visuell vereinheitlichtes Thema, das ein Logo, Plakate, Banner und digitale Vermögenswerte umfasst. Integriert die Markenidentität des Kunden und mit einem modernen und innovativen Ansatz. Garnered vorteilhafte Reaktionen von Veranstaltungsteilnehmern, die zu einem erfolgreichen Event mit gesteigertem Teilnehmerengagement und erhöhter Markensichtbarkeit führten.",
+    "log_management_powered_by": "Log-Management betrieben von"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Anmelden",
+    "meta_description": "Melden Sie sich nahtlos mit unserem benutzerfreundlichen Anmeldeprozess in Ihr Konto ein."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Registrieren",
+    "meta_description": "Erstellen Sie mühelos ein Konto durch unseren intuitiven Anmeldeprozess."
   },
   "Dashboard": {
     "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "hello_message": "Hallo {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "Benutzerprofil"
   },
   "DashboardLayout": {
     "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "user_profile_link": "Verwalten Sie Ihr Konto",
+    "sign_out": "Abmelden"
   }
 }

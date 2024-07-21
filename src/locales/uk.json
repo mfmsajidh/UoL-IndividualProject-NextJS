@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "home_link": "Домашній екран",
+    "about_link": "Про програму",
+    "guestbook_link": "Гостьова книга",
+    "portfolio_link": "Портфель",
+    "sign_in_link": "Увійти",
+    "sign_up_link": "Зареєструватися"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Стартовий код для вашого Nextjs Boilerplate за допомогою Tailwind CSS",
+    "made_with": "Зроблено з"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_title": "Презентація Boilerplate Next.js",
+    "meta_description": "Next js Boilerplate - це ідеальний початковий код для вашого проекту. Створіть програму React за допомогою фреймворку Next.js."
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "Гостьова книга",
+    "meta_description": "Приклад операції з CRUD",
+    "database_powered_by": "База даних від",
+    "loading_guestbook": "Завантаження гостьової книги...",
+    "error_reporting_powered_by": "Помилка повідомлення від"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "Ім'я користувача",
+    "body": "Тіло",
+    "save": "Зберегти"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "Про програму",
+    "meta_description": "Про опис сторінки",
+    "about_paragraph": "Ласкаво просимо на нашу сторінку про себе! Ми команда пристрасних осіб, присвячених дивовижному програмному забезпеченню.",
+    "translation_powered_by": "Переклад від"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "meta_title": "Портфель",
+    "meta_description": "Ласкаво просимо на мою сторінку портфоліо!",
+    "presentation": "Ласкаво просимо на мою сторінку портфоліо! Тут ви знайдете ретельно продуману колекцію моєї роботи і досягнень. За допомогою цього портфеля я демонструю свою кваліфікованість, творчість та цінність, яку я можу принести до ваших проектів.",
+    "portfolio_name": "Портфоліо {name}",
+    "error_reporting_powered_by": "Помилка повідомлення від",
+    "coverage_powered_by": "Покриття коду створено"
   },
   "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "meta_title": "Портфоліо {slug}",
+    "meta_description": "Опис портфоліо {slug}",
+    "header": "Портфоліо {slug}",
+    "content": "Створено набір рекламних матеріалів та товарних елементів для корпоративної події. Створено візуально об'єднану тему, охоплює логотип, постери, банери та цифрові активи. Інтеграція брендової ідентичності клієнта, при використанні його сучасним та інноваційним підходом. Отримано сприятливі відповіді від відвідувачів заходу, що призводить до успішної події з посиленим учасником та підвищенням видимості бренду.",
+    "log_management_powered_by": "Керування журналом створено"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Увійти",
+    "meta_description": "Легко ввійдіть до своєї обліковки через наш зручний вхід в систему."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Зареєструватися",
+    "meta_description": "Повторно створити рахунок через інтуїтивний процес реєстрації."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "Приладна дошка",
+    "hello_message": "Доброго дня, {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "Профіль користувача"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "Приладна дошка",
+    "user_profile_link": "Керувати вашим профілем",
+    "sign_out": "Вийти"
   }
 }

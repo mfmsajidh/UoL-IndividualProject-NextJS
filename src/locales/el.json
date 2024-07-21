@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "home_link": "Αρχική",
+    "about_link": "Σχετικά",
+    "guestbook_link": "Βιβλίο Επισκεπτών",
+    "portfolio_link": "Χαρτοφυλάκιο",
+    "sign_in_link": "Σύνδεση",
+    "sign_up_link": "Εγγραφείτε"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Κώδικας εκκίνησης για το Nextjs Boilerplate σας με Tailwind CSS",
+    "made_with": "Κατασκευασμένο με"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_title": "Next.js Boilerplate Παρουσίαση",
+    "meta_description": "Επόμενο js Boilerplate είναι ο τέλειος κώδικας εκκίνησης για το έργο σας. Δημιουργήστε την εφαρμογή React με το πλαίσιο Next.js."
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "Βιβλίο Επισκεπτών",
+    "meta_description": "Ένα παράδειγμα λειτουργίας CRUD",
+    "database_powered_by": "Η βάση δεδομένων τροφοδοτείται από",
+    "loading_guestbook": "Φόρτωση βιβλίου επισκεπτών...",
+    "error_reporting_powered_by": "Η αναφορά σφαλμάτων τροφοδοτείται από"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "Όνομα Χρήστη",
+    "body": "Σώμα",
+    "save": "Αποθήκευση"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "Σχετικά",
+    "meta_description": "Σχετικά με την περιγραφή σελίδας",
+    "about_paragraph": "Καλώς ήρθατε στη σελίδα μας Σχετικά με! Είμαστε μια ομάδα παθιασμένων ατόμων αφιερωμένη στη δημιουργία καταπληκτικού λογισμικού.",
+    "translation_powered_by": "Μετάφραση που υποστηρίζεται από"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
+    "meta_title": "Χαρτοφυλάκιο",
+    "meta_description": "Καλώς ήρθατε στη σελίδα χαρτοφυλακίου μου!",
+    "presentation": "Καλώς ήρθατε στη σελίδα χαρτοφυλακίου μου! Εδώ θα βρείτε μια προσεκτικά επιμελημένη συλλογή από το έργο και τα επιτεύγματά μου. Μέσα από αυτό το χαρτοφυλάκιο, θα παρουσιάσω την τεχνογνωσία μου, τη δημιουργικότητα και την αξία που μπορώ να φέρω στα έργα σας.",
     "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "error_reporting_powered_by": "Η αναφορά σφαλμάτων τροφοδοτείται από",
+    "coverage_powered_by": "Κάλυψη κώδικα που τροφοδοτείται από"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
     "meta_description": "Portfolio {slug} description",
     "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "content": "Δημιουργήθηκε ένα σύνολο διαφημιστικών υλικών και στοιχείων branding για μια εταιρική εκδήλωση. Κατασκευάστηκε ένα οπτικά ενοποιημένο θέμα, που περιλαμβάνει ένα λογότυπο, αφίσες, πανό και ψηφιακά περιουσιακά στοιχεία. Ολοκληρώθηκε η ταυτότητα της μάρκας του πελάτη, ενώ παράλληλα εμπλουτίζεται με μια σύγχρονη και καινοτόμο προσέγγιση. Garnered ευνοϊκές απαντήσεις από τους συμμετέχοντες της εκδήλωσης, με αποτέλεσμα μια επιτυχημένη εκδήλωση με αυξημένη συμμετοχή των συμμετεχόντων και αυξημένη προβολή της μάρκας.",
+    "log_management_powered_by": "Διαχείριση αρχείων καταγραφής που τροφοδοτείται από"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Σύνδεση",
+    "meta_description": "Σύνδεση χωρίς ραφή στο λογαριασμό σας με τη διαδικασία σύνδεσης φιλική προς το χρήστη."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Εγγραφείτε",
+    "meta_description": "Δημιουργία λογαριασμού χωρίς προσπάθεια μέσω της διαισθητικής διαδικασίας εγγραφής μας."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "Ταμπλό",
+    "hello_message": "Γεια {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "Προφίλ Χρήστη"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "Ταμπλό",
+    "user_profile_link": "Διαχείριση του λογαριασμού σας",
+    "sign_out": "Αποσύνδεση"
   }
 }

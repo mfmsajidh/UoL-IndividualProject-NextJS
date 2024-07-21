@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "home_link": "المنزل",
+    "about_link": "حول",
+    "guestbook_link": "سجل الزوار",
+    "portfolio_link": "الحافظة",
+    "sign_in_link": "تسجيل الدخول",
+    "sign_up_link": "تسجيل الدخول"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "كود البدء لـ Nextjs Boilerplate الخاص بك مع Tailwind CSS",
+    "made_with": "صنع مع"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_title": "عرض Text.js Boilerplate",
+    "meta_description": "js Boilerplate التالي هو الكود المبدئي المثالي لمشروعك. أنشئ تطبيق React الخاص بك مع إطار Next.js."
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "سجل الزوار",
+    "meta_description": "مثال على عملية CRUD",
+    "database_powered_by": "قاعدة البيانات مدعومة من قبل",
+    "loading_guestbook": "جاري تحميل دفتر الزوار...",
+    "error_reporting_powered_by": "خطأ في الإبلاغ بواسطة"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "اسم المستخدم",
+    "body": "الجسم",
+    "save": "حفظ"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "حول",
+    "meta_description": "حول وصف الصفحة",
+    "about_paragraph": "مرحبا بكم في صفحة عن الإنترنت! نحن فريق من الأفراد المتحمسين المكرسين لإنشاء برامج مدهشة.",
+    "translation_powered_by": "الترجمة مدعومة من قبل"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "meta_title": "الحافظة",
+    "meta_description": "مرحبا بكم في صفحة حقيبتي!",
+    "presentation": "مرحبا بكم في صفحة حقيبتي! هنا سوف تجد مجموعة محكومة بعناية من عملي وإنجازاتي. من خلال هذه الحافظة، أنا أقوم بعرض خبرتي وإبداعي والقيمة التي يمكنني جلبها لمشاريعك.",
+    "portfolio_name": "الحافظة {name}",
+    "error_reporting_powered_by": "خطأ في الإبلاغ بواسطة",
+    "coverage_powered_by": "تغطية التعليمات البرمجية مدعومة من قبل"
   },
   "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "meta_title": "الحافظة {slug}",
+    "meta_description": "وصف الحافظة {slug}",
+    "header": "الحافظة {slug}",
+    "content": "• وضع مجموعة من المواد الترويجية وعناصر العلامات التجارية لحدث من أحداث الشركات. صنعت موضوعا موحدا بصريا، يشمل شعارا وملصقات وشعارات وأصولا رقمية. دمج هوية العميل التجارية مع إشراكه في نهج معاصر ومبتكر. وحشدت استجابات إيجابية من المشاركين في الحدث، مما أسفر عن حدث ناجح مع زيادة مشاركة المشاركين وزيادة إبراز العلامة التجارية.",
+    "log_management_powered_by": "إدارة السجل مدعوم من قبل"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "تسجيل الدخول",
+    "meta_description": "تسجيل الدخول بسلاسة إلى حسابك من خلال عملية تسجيل الدخول الخاصة بنا سهلة الاستخدام."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "تسجيل الدخول",
+    "meta_description": "إنشاء حساب بلا هوادة من خلال عملية التسجيل البديهية."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "لوحة التحكم",
+    "hello_message": "مرحبا {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "الملف الشخصي للمستخدم"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "لوحة التحكم",
+    "user_profile_link": "إدارة حسابك",
+    "sign_out": "تسجيل الخروج"
   }
 }

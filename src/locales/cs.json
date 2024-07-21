@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
+    "home_link": "Domů",
+    "about_link": "O aplikaci",
+    "guestbook_link": "Kniha návštěv",
     "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "sign_in_link": "Přihlásit se",
+    "sign_up_link": "Zaregistrovat se"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Výchozí kód pro tvůj Nextjs Boilerplate s Tailwind CSS",
+    "made_with": "Vyrobeno pomocí"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_title": "Prezentace plotu Next.js",
+    "meta_description": "Další js Boilerplate je perfektní počáteční kód pro tvůj projekt. Postav svou React aplikaci s frameworkem Next.js."
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "Kniha návštěv",
+    "meta_description": "Příklad operace CRUD",
+    "database_powered_by": "Databáze je podporována",
+    "loading_guestbook": "Načítání knihy...",
+    "error_reporting_powered_by": "Hlášení chyb je napájeno"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "Uživatelské jméno",
+    "body": "Tělo",
+    "save": "Uložit"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "O aplikaci",
+    "meta_description": "O popisu stránky",
+    "about_paragraph": "Vítejte na naší stránce O aplikaci! Jsme tým vášnivých jedinců věnovaných vytváření úžasného softwaru.",
+    "translation_powered_by": "Překlad je poháněn"
   },
   "Portfolio": {
     "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
+    "meta_description": "Vítejte na mé stránce!",
+    "presentation": "Vítejte na mé portfoliové stránce! Zde najdete pečlivě upravenou sbírku mé práce a úspěchů. Prostřednictvím tohoto portfolia ukazuji své odborné znalosti, kreativitu a hodnotu, kterou vám mohu přinést do vašich projektů.",
     "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "error_reporting_powered_by": "Hlášení chyb je napájeno",
+    "coverage_powered_by": "Obsazení kódu napájeno"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
+    "meta_description": "Popis portfolia {slug}",
     "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "content": "Vytvořil soubor propagačních materiálů a značkových prvků pro firemní akci. Vyrobil vizuálně jednotné téma, které zahrnuje logo, plakáty, bannery a digitální aktiva. Integrovaná identita značky klienta a zároveň její používání moderním a inovativním přístupem. Získaly příznivé reakce od účastníků události, což vedlo k úspěšné události se zvýšeným zapojením účastníků a zvýšenou viditelností značky.",
+    "log_management_powered_by": "Správa protokolů je podporována"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Přihlásit se",
+    "meta_description": "Bezproblémově se přihlaste k vašemu účtu pomocí uživatelsky přívětivého přihlašovacího procesu."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Zaregistrovat se",
+    "meta_description": "Snažíme se vytvořit účet prostřednictvím intuitivního registračního procesu."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "Nástěnka",
+    "hello_message": "Ahoj {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "Profil uživatele"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "Nástěnka",
+    "user_profile_link": "Spravovat svůj účet",
+    "sign_out": "Odhlásit se"
   }
 }

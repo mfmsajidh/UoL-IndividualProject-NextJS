@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "home_link": "Hjem",
+    "about_link": "Om",
+    "guestbook_link": "Gæstebog",
+    "portfolio_link": "Portefølje",
+    "sign_in_link": "Log ind",
+    "sign_up_link": "Tilmeld dig"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Startkode til din Nextjs kedelplade med Tailwind CSS",
+    "made_with": "Lavet med"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_title": "Next.js Boilerplate Præsentation",
+    "meta_description": "Næste js Boilerplate er den perfekte startkode til dit projekt. Byg din React applikation med Next.js framework."
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "Gæstebog",
+    "meta_description": "Et eksempel på CRUD-operation",
+    "database_powered_by": "Database drevet af",
+    "loading_guestbook": "Indlæser gæstebog...",
+    "error_reporting_powered_by": "Fejlrapportering drevet af"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "Brugernavn",
+    "body": "Krop",
+    "save": "Gem"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "Om",
+    "meta_description": "Om side beskrivelse",
+    "about_paragraph": "Velkommen til vores Om side! Vi er et team af lidenskabelige individer dedikeret til at skabe fantastiske software.",
+    "translation_powered_by": "Oversættelse drevet af"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "meta_title": "Portefølje",
+    "meta_description": "Velkommen til min porteføljeside!",
+    "presentation": "Velkommen til min portefølje side! Her vil du finde en omhyggeligt kurateret samling af mit arbejde og resultater. Gennem denne portefølje vil jeg fremvise min ekspertise, kreativitet, og den værdi, jeg kan bringe til dine projekter.",
+    "portfolio_name": "Portefølje {name}",
+    "error_reporting_powered_by": "Fejlrapportering drevet af",
+    "coverage_powered_by": "Kode dækning drevet af"
   },
   "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "meta_title": "Portefølje {slug}",
+    "meta_description": "Portefølje {slug} beskrivelse",
+    "header": "Portefølje {slug}",
+    "content": "Oprettet et sæt af salgsfremmende materialer og branding elementer til en corporate event. Udformet en visuelt forenet tema, der omfatter et logo, plakater, bannere og digitale aktiver. Integrerede kundens brand identitet, mens det infunderes med en moderne og innovativ tilgang. Garnered gunstige svar fra event deltagere, hvilket resulterer i en vellykket begivenhed med øget deltagelse engagement og øget brand synlighed.",
+    "log_management_powered_by": "Log management drevet af"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Log ind",
+    "meta_description": "Log problemfrit ind på din konto med vores brugervenlige login-proces."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Tilmeld dig",
+    "meta_description": "Opret ubesværet en konto gennem vores intuitive tilmeldingsproces."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "Instrumentbræt",
+    "hello_message": "Hej {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "Bruger Profil"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "Instrumentbræt",
+    "user_profile_link": "Administrer din konto",
+    "sign_out": "Log ud"
   }
 }
