@@ -3,12 +3,12 @@
     "home_link": "Accueil",
     "about_link": "A propos",
     "guestbook_link": "Livre d'or",
-    "portfolio_link": "Portfolio",
+    "portfolio_link": "Portefeuille",
     "sign_in_link": "Se connecter",
     "sign_up_link": "S'inscrire"
   },
   "BaseTemplate": {
-    "description": "Code de démarrage pour Next.js avec Tailwind CSS",
+    "description": "Code de démarrage pour votre Nextjs Boilerplate avec Tailwind CSS",
     "made_with": "Fait avec"
   },
   "Index": {
@@ -34,17 +34,17 @@
     "translation_powered_by": "Traduction propulsée par"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
+    "meta_title": "Portefeuille",
     "meta_description": "Bienvenue sur la page de mon portfolio !",
     "presentation": "Bienvenue sur ma page portfolio ! Vous trouverez ici une collection soigneusement organisée de mon travail et de mes réalisations. À travers ce portfolio, je mets en valeur mon expertise, ma créativité et la valeur que je peux apporter à vos projets.",
-    "portfolio_name": "Portfolio {name}",
+    "portfolio_name": "Portefeuille {name}",
     "error_reporting_powered_by": "Rapport d'erreur propulsé par",
     "coverage_powered_by": "Couverture de code propulsée par"
   },
   "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
+    "meta_title": "Portefeuille {slug}",
     "meta_description": "Description du Portfolio {slug}",
-    "header": "Portfolio {slug}",
+    "header": "Portefeuille {slug}",
     "content": "Créé un ensemble de matériel promotionnel et d'éléments de marquage pour un événement d'entreprise. Conçu un thème visuellement unifié, englobant un logo, des affiches, des bannières et des actifs numériques. Intégrer l'identité de marque du client tout en l'insufflant à une approche contemporaine et innovante. Des réponses favorables de la part des participants ont été obtenues, ce qui a donné lieu à un événement réussi avec un engagement accru des participants et une meilleure visibilité de la marque.",
     "log_management_powered_by": "Gestion des logs propulsée par"
   },
