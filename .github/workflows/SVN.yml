@@ -21,11 +21,6 @@ jobs:
       - name: Install SVN
         run: sudo apt-get install -y subversion
 
-      - name: Setup SVN configuration
-        run: |
-          echo "[global]" >> ~/.subversion/servers
-          echo "store-plaintext-passwords = yes" >> ~/.subversion/servers
-
       - name: Checkout SVN repository
         run: |
           svn checkout --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert $SVN_URL svn-folder
