@@ -25,37 +25,10 @@ jobs:
         run: |
           svn checkout --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert $SVN_URL svn-folder
 
-      - name: List files and directories in Git repository
-        id: list_git_files_dirs
-        run: |
-          find . -type f | sed 's|^\./||' | sort > git-files.txt
-          find . -type d | sed 's|^\./||' | sort > git-dirs.txt
-
-      - name: List files and directories in SVN repository
-        id: list_svn_files_dirs
+      - name: Clear SVN folder
         run: |
           cd svn-folder
-          svn status --no-ignore | awk '{print $2}' | sort > svn-files.txt
-          find . -type d | sed 's|^\./||' | sort > svn-dirs.txt
-
-      - name: Determine files and directories to delete from SVN
-        id: files_dirs_to_delete
-        run: |
-          comm -23 svn-files.txt git-files.txt > files-to-delete.txt
-          comm -23 svn-dirs.txt git-dirs.txt > dirs-to-delete.txt
-          cat files-to-delete.txt
-          cat dirs-to-delete.txt
-
-      - name: Delete files and directories from SVN
-        run: |
-          cd svn-folder
-          while read -r file; do
-            svn rm "$file"
-          done < ../files-to-delete.txt
-          while read -r dir; do
-            svn rm --keep-local "$dir"
-          done < ../dirs-to-delete.txt
-          svn commit -m "Remove files and directories not present in Git $GITHUB_SHA" --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert
+          svn rm --force * || true
 
       - name: Copy files to SVN folder
         run: rsync -av --exclude '.git' . svn-folder/
