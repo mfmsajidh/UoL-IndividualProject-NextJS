@@ -24,6 +24,11 @@ jobs:
         run: |
           svn checkout --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert $SVN_URL svn-folder
 
+      - name: Clear SVN folder
+        run: |
+          cd svn-folder
+          svn rm --force * || true
+
       - name: Copy files to SVN folder
         run: rsync -av --exclude '.git' . svn-folder/
 
