@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "home_link": "Домашний",
+    "about_link": "О программе",
+    "guestbook_link": "Гостевая книга",
+    "portfolio_link": "Портфолио",
+    "sign_in_link": "Войти",
+    "sign_up_link": "Регистрация"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Стартовый код для вашей Nextjs Boilerplate с CSS Tailwind",
+    "made_with": "Сделано с"
   },
   "Index": {
     "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_description": "Следующая версия js Boilerplate является идеальным стартовым кодом для вашего проекта. Создайте приложение React с помощью фреймворка Next.js."
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "Гостевая книга",
+    "meta_description": "Пример операции CRUD",
+    "database_powered_by": "База данных предоставлена",
+    "loading_guestbook": "Загрузка гостевой книги...",
+    "error_reporting_powered_by": "Отчет об ошибке основан на"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "Имя пользователя",
+    "body": "Тело",
+    "save": "Сохранить"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "О программе",
+    "meta_description": "Описание страницы",
+    "about_paragraph": "Добро пожаловать на нашу страницу О программе!",
+    "translation_powered_by": "Перевод основан на"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "meta_title": "Портфолио",
+    "meta_description": "Добро пожаловать на мою страницу портфолио!",
+    "presentation": "Добро пожаловать на мою страницу портфолио! С помощью этого портфолио, я вижу свои знания, творческие способности и ценность, которую я могу принести вашим проектам.",
+    "portfolio_name": "Портфолио {name}",
+    "error_reporting_powered_by": "Отчет об ошибке основан на",
+    "coverage_powered_by": "Покрытие кода на основе"
   },
   "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "meta_title": "Портфолио {slug}",
+    "meta_description": "Описание портфолио {slug}",
+    "header": "Портфолио {slug}",
+    "content": "Создан набор рекламных материалов и элементов брендинга для корпоративного мероприятия. Создана единая визуально тема, включающая в себя логотип, плакаты, баннеры и цифровые активы. Интегрируйте фирменный знак клиента в сочетании с современным инновационным подходом. Оборот положительных отзывов участников события, что привело к успешному мероприятию с повышенной вовлеченностью участников и повышенной привлекательностью бренда.",
+    "log_management_powered_by": "Управление журналом на основе"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Войти",
+    "meta_description": "Войдите в свою учетную запись с помощью нашего удобного для пользователя процесса входа."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Регистрация",
+    "meta_description": "Усилия по созданию учетной записи через интуитивно понятный процесс регистрации."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "Панель",
+    "hello_message": "Здравствуйте, {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "Профиль пользователя"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "Панель",
+    "user_profile_link": "Управление аккаунтом",
+    "sign_out": "Выйти"
   }
 }
