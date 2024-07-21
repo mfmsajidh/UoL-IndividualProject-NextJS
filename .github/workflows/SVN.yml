@@ -73,4 +73,4 @@ jobs:
       - name: Commit changes to SVN
         run: |
           cd svn-folder
-          svn commit -m "Sync from Git $GITHUB_SHA" --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert
+          svn commit -m "Sync from Git" --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert
