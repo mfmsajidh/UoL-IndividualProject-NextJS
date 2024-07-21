@@ -1,13 +1,9 @@
 # CV Mate
 
 [![Checkly](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/checkly.yml/badge.svg)](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/checkly.yml)
-
 [![CI](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/CI.yml/badge.svg)](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/CI.yml)
-
 [![Crowdin Action](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/crowdin.yml/badge.svg)](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/crowdin.yml)
-
 [![Release](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/release.yml/badge.svg)](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/release.yml)
-
 [![Update dependencies](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/update-deps.yml/badge.svg)](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/actions/workflows/update-deps.yml)
 
 > Boilerplate from [Next.js Boilerplate](https://nextjs-boilerplate.com/) refactored to suit the project requirements.
