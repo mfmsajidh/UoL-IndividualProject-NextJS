@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "home_link": "Koti",
+    "about_link": "Tietoja",
+    "guestbook_link": "Vieraskirja",
+    "portfolio_link": "Salkku",
+    "sign_in_link": "Kirjaudu sisään",
+    "sign_up_link": "Rekisteröidy nyt"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Nextjs Boilerplaten aloituskoodi Tailwind CSS:llä",
+    "made_with": "Valmistettu kanssa"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_title": "Next.js Boilerplate Esittely",
+    "meta_description": "Next js Boilerplate on täydellinen aloituskoodi projektillesi. Rakenna React sovelluksesi Next.js puitteella."
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "Vieraskirja",
+    "meta_description": "Esimerkki CRUD-toimien toteuttamisesta",
+    "database_powered_by": "Tietokannan tarjoaa",
+    "loading_guestbook": "Ladataan vieraskirjaa...",
+    "error_reporting_powered_by": "Virheen raportointi käynnistäjä"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "Käyttäjätunnus",
+    "body": "Runko",
+    "save": "Tallenna"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "Tietoja",
+    "meta_description": "Tietoja sivun kuvauksesta",
+    "about_paragraph": "Tervetuloa meidän Tietoja sivu! Olemme joukkue intohimoisia yksilöitä omistettu luoda hämmästyttävä ohjelmisto.",
+    "translation_powered_by": "Käännöksen tarjoaa"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
+    "meta_title": "Salkku",
+    "meta_description": "Tervetuloa minun salkuni sivulle!",
+    "presentation": "Tervetuloa salkuni sivulle! Täältä löydät huolellisesti kuratoidun kokoelman työstäni ja saavutuksistani. Tämän salkun kautta esitän asiantuntemukseni, luovuuteni ja arvon, jonka voin tuoda projekteihisi.",
     "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "error_reporting_powered_by": "Virheen raportointi käynnistäjä",
+    "coverage_powered_by": "Koodin kattavuus voimanlähteenä"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
+    "meta_description": "Portfolio {slug} kuvaus",
     "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "content": "Luotu joukko myynninedistämismateriaaleja ja brändin elementtejä yritystapahtumaan. Valmistettu visuaalisesti yhtenäinen teema, joka kattaa logon, julisteet, bannerit ja digitaaliset resurssit. Integroitu asiakkaan brändi-identiteetti ja infusoi sitä nykyaikaisella ja innovatiivisella lähestymistavalla. Garnered suotuisat vastaukset tapahtumaosallistujilta, mikä johtaa onnistuneeseen tapahtumaan, jossa osallistujien sitoutuminen ja lisääntynyt brändin näkyvyys.",
+    "log_management_powered_by": "Lokin hallinta tarjoaa"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Kirjaudu sisään",
+    "meta_description": "Kirjaudu tilillesi saumattomasti käyttäjäystävällisen kirjautumisprosessin avulla."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Rekisteröidy nyt",
+    "meta_description": "Luodaan vaivattomasti tili intuitiivisen allekirjoitusprosessin kautta."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "Hallintapaneeli",
+    "hello_message": "Hei {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "Käyttäjän Profiili"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "Hallintapaneeli",
+    "user_profile_link": "Hallinnoi tiliäsi",
+    "sign_out": "Kirjaudu ulos"
   }
 }
