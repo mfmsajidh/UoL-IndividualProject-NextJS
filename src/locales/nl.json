@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "home_link": "Startpagina",
+    "about_link": "Informatie",
+    "guestbook_link": "Gastenboek",
+    "portfolio_link": "Presentatie",
+    "sign_in_link": "Log in",
+    "sign_up_link": "Registreer nu"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Begincode voor je Nextjs Boilerplate met Tailwind CSS",
+    "made_with": "Gemaakt met"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_title": "Next.js Boilerplate presentatie",
+    "meta_description": "Volgende js Boilerplate is de perfecte startercode voor je project. Bouw je React toepassing met het Next.js framework."
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_title": "Gastenboek",
+    "meta_description": "Een voorbeeld van CRUD bewerking",
+    "database_powered_by": "Database aangedreven door",
+    "loading_guestbook": "Gastboek wordt geladen...",
+    "error_reporting_powered_by": "Fout rapportage mogelijk gemaakt door"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "Gebruikersnaam",
+    "body": "Lichaam",
+    "save": "Opslaan"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "Informatie",
+    "meta_description": "Over pagina beschrijving",
+    "about_paragraph": "Welkom op onze pagina Over pagina! Wij zijn een team van gepassioneerde individuen die zich bezighouden met het maken van geweldige software.",
+    "translation_powered_by": "Vertaling mogelijk gemaakt door"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
+    "meta_title": "Presentatie",
+    "meta_description": "Welkom op mijn portfolio pagina!",
+    "presentation": "Welkom op mijn portfolio pagina! Hier vindt u een zorgvuldig geordende collectie van mijn werk en prestaties. Via deze portefeuille laat ik mijn expertise, creativiteit en de waarde zien die ik kan meebrengen naar uw projecten.",
     "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "error_reporting_powered_by": "Fout rapportage mogelijk gemaakt door",
+    "coverage_powered_by": "Code dekking aangedreven door"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
+    "meta_description": "Portfolio {slug} beschrijving",
     "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "content": "Ontwerp promotiemateriaal en brandingselementen voor een corporate event. Maak een visueel verenigd thema, dat een logo, posters, spandoeken en digitale activa omvat. Geïntegreerde de merkidentiteit van de klant tijdens het communiceren met een hedendaagse en innovatieve benadering. Gegarandeerd gunstige reacties van deelnemers aan het evenement, wat resulteert in een succesvol evenement met verhoogde deelnemer betrokkenheid en toegenomen merkzichtbaarheid.",
+    "log_management_powered_by": "Logboek beheer aangedreven door"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Log in",
+    "meta_description": "Meld u naadloos aan bij uw account met ons gebruikersvriendelijke aanmeldproces."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Registreer nu",
+    "meta_description": "Maak zonder problemen een account aan via onze intuïtieve aanmeldingsprocedure."
   },
   "Dashboard": {
     "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "hello_message": "Hallo {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "Gebruikers Profiel"
   },
   "DashboardLayout": {
     "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "user_profile_link": "Beheer je account",
+    "sign_out": "Log uit"
   }
 }

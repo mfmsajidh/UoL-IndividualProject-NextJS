@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
+    "home_link": "Acasă",
+    "about_link": "Despre",
     "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "portfolio_link": "Portofoliu",
+    "sign_in_link": "Autentificare",
+    "sign_up_link": "Înscrie-te"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Cod de inceput pentru Boilerplate Nextjs cu Tailwind CSS",
+    "made_with": "Realizat cu"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_title": "Prezentarea Boilerplate Next.js",
+    "meta_description": "Următorul js Boilerplate este codul de început perfect pentru proiectul tău. Construiește aplicația React cu cadrul Next.js."
   },
   "Guestbook": {
     "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "database_powered_by": "Database powered by",
-    "loading_guestbook": "Loading guestbook...",
-    "error_reporting_powered_by": "Error reporting powered by"
+    "meta_description": "Un exemplu de funcționare a CRUD",
+    "database_powered_by": "Baza de date alimentată de",
+    "loading_guestbook": "Se încarcă cartea de oaspeţi...",
+    "error_reporting_powered_by": "Eroare la raportarea alimentată de"
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "Nume",
+    "body": "Corp",
+    "save": "Salvează"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
-    "translation_powered_by": "Translation powered by"
+    "meta_title": "Despre",
+    "meta_description": "Despre descrierea paginii",
+    "about_paragraph": "Bine ai venit la pagina noastră Despre pagina! Suntem o echipă de indivizi pasionați dedicați creării unui software uimitor.",
+    "translation_powered_by": "Traducere alimentată de"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+    "meta_title": "Portofoliu",
+    "meta_description": "Bun venit pe pagina mea a portofoliului!",
+    "presentation": "Bine ați venit în pagina mea de portofoliu! Aici veți găsi o colecție cu atenție a lucrărilor și realizărilor mele. Prin intermediul acestui portofoliu, vă prezint expertiza, creativitatea şi valoarea pe care o pot aduce proiectelor voastre.",
+    "portfolio_name": "Portofoliu {name}",
+    "error_reporting_powered_by": "Eroare la raportarea alimentată de",
+    "coverage_powered_by": "Acoperire cod alimentată de"
   },
   "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "log_management_powered_by": "Log management powered by"
+    "meta_title": "Portofoliu {slug}",
+    "meta_description": "Descriere portofoliu {slug}",
+    "header": "Portofoliu {slug}",
+    "content": "Crearea unui set de materiale promoționale și de elemente de marcă pentru un eveniment corporativ. A creat o temă vizuală unificată, cuprinzând un logo, postere, bannere și active digitale. integrarea identității mărcii clientului în același timp cu o abordare contemporană și inovatoare. S-au obținut răspunsuri favorabile din partea participanților la evenimente, ceea ce a dus la un eveniment de succes cu o implicare sporită a participanților și o vizibilitate sporită a mărcii.",
+    "log_management_powered_by": "Gestionare jurnal alimentată de"
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "Autentificare",
+    "meta_description": "Conectați-vă perfect la contul dvs. prin procesul nostru de autentificare ușor de utilizat."
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "Înscrie-te",
+    "meta_description": "Creează fără efort un cont prin procesul nostru intuitiv de înscriere."
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
+    "meta_title": "Panou",
+    "hello_message": "Salut, {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "Profil utilizator"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "Panou",
+    "user_profile_link": "Gestionează-ți contul",
+    "sign_out": "Deconectare"
   }
 }
