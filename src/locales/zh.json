@@ -1,71 +1,71 @@
 {
   "RootLayout": {
-    "home_link": "首页",
-    "about_link": "关于",
-    "guestbook_link": "留言板",
-    "portfolio_link": "投资组合",
-    "sign_in_link": "登录",
-    "sign_up_link": "注册"
+    "home_link": "Home",
+    "about_link": "About",
+    "guestbook_link": "Guestbook",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Sign in",
+    "sign_up_link": "Sign up"
   },
   "BaseTemplate": {
-    "description": "带着尾风CSS 的Nextjs Boilermast的启动代码",
-    "made_with": "制作于"
+    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
+    "made_with": "Made with"
   },
   "Index": {
-    "meta_title": "下次.js Boilerplate 演示文稿",
-    "meta_description": "下一个 js Boilerplate 是你项目的完美的启动代码。使用 Next.js 框架构建你的React 应用程序。"
+    "meta_title": "Next.js Boilerplate Presentation",
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
   },
   "Guestbook": {
-    "meta_title": "留言板",
-    "meta_description": "CRUD 操作示例",
-    "database_powered_by": "数据库支持",
-    "loading_guestbook": "正在加载留言板...",
-    "error_reporting_powered_by": "错误报告由"
+    "meta_title": "Guestbook",
+    "meta_description": "An example of CRUD operation",
+    "database_powered_by": "Database powered by",
+    "loading_guestbook": "Loading guestbook...",
+    "error_reporting_powered_by": "Error reporting powered by"
   },
   "GuestbookForm": {
-    "username": "用户名",
-    "body": "正文内容",
-    "save": "保存"
+    "username": "Username",
+    "body": "Body",
+    "save": "Save"
   },
   "About": {
-    "meta_title": "关于",
-    "meta_description": "关于页面描述",
-    "about_paragraph": "欢迎来到我们的关于页面！我们是一群热诚的人，致力于创建惊人的软件。",
-    "translation_powered_by": "翻译支持"
+    "meta_title": "About",
+    "meta_description": "About page description",
+    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
+    "translation_powered_by": "Translation powered by"
   },
   "Portfolio": {
-    "meta_title": "投资组合",
-    "meta_description": "欢迎来到我的组合页面！",
-    "presentation": "欢迎来到我的组合页面！这里你会找到精心管理的我的工作和成就集合。 通过这个组合，我要展示我的专业知识、创造力和我能给你的项目带来的价值。",
+    "meta_title": "Portfolio",
+    "meta_description": "Welcome to my portfolio page!",
+    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
     "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "错误报告由",
-    "coverage_powered_by": "代码覆盖范围由"
+    "error_reporting_powered_by": "Error reporting powered by",
+    "coverage_powered_by": "Code coverage powered by"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
     "meta_description": "Portfolio {slug} description",
     "header": "Portfolio {slug}",
-    "content": "为公司活动创建了一套宣传材料和品牌元素。 设计了一个视觉统一的主题，包括标识、海报、横幅和数字资产。 将客户的品牌特性结合起来，同时注入了当代的创新办法。 从活动参与者那里得到了有利的反应，促成了一次成功的活动，提高了参与者的参与程度，提高了品牌知名度。",
-    "log_management_powered_by": "日志管理由"
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
+    "log_management_powered_by": "Log management powered by"
   },
   "SignIn": {
-    "meta_title": "登录",
-    "meta_description": "通过我们方便用户的登录过程无缝登录您的帐户。"
+    "meta_title": "Sign in",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
   },
   "SignUp": {
-    "meta_title": "注册",
-    "meta_description": "通过我们直观的注册过程无力创建一个帐户。"
+    "meta_title": "Sign up",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
   },
   "Dashboard": {
-    "meta_title": "仪表板",
+    "meta_title": "Dashboard",
     "hello_message": "Hello {email}!"
   },
   "UserProfile": {
-    "meta_title": "用户资料"
+    "meta_title": "User Profile"
   },
   "DashboardLayout": {
-    "dashboard_link": "仪表板",
-    "user_profile_link": "管理您的帐户",
-    "sign_out": "登出"
+    "dashboard_link": "Dashboard",
+    "user_profile_link": "Manage your account",
+    "sign_out": "Sign out"
   }
 }
