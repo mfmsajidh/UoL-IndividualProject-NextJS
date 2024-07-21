@@ -1,0 +1,39 @@
+name: Sync Git to SVN
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  SVN_USER: ${{ secrets.SVN_USER }}
+  SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+  SVN_URL: ${{ secrets.SVN_URL }}
+
+jobs:
+  sync-to-svn:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - name: Install SVN
+        uses: sudo apt-get install -y subversion
+
+      - name: Setup SVN configuration
+        run: |
+          svn checkout --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert $SVN_URL svn-folder
+
+      - name: Copy files to SVN folder
+        run: rsync -av --exclude '.git' . svn-folder/
+
+      - name: Add new files to SVN
+        run: |
+          cd svn-folder
+          svn add --force * --auto-props --parents --depth infinity -q
+
+      - name: Commit changes to SVN
+        run: |
+          cd svn-folder
+          svn commit -m "Sync from Git" --username $SVN_USER --password $SVN_PASSWORD --non-interactive --trust-server-cert
