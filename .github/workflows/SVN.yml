@@ -28,10 +28,12 @@ jobs:
       - name: Clear SVN folder
         run: |
           cd svn-folder
-          svn rm --force * || true
+          rm -rfv trunk/* trunk/.*
 
       - name: Copy files to SVN folder
-        run:  |
+        run: |
+          ls -lah
+          exit
           rsync -av --exclude '.git' . svn-folder/
 
       - name: Add new files and directories to SVN
