@@ -29,18 +29,14 @@ jobs:
         run: |
           cd svn-folder
           svn rm --force * || true
-          pwd
 
       - name: Copy files to SVN folder
         run:  |
-          pwd
           rsync -av --exclude '.git' . svn-folder/
 
       - name: Add new files and directories to SVN
         run: |
-          pwd
           cd svn-folder
-          svn add --force * .* --auto-props --parents --depth infinity -q
           find . -type d -name ".svn" -prune | xargs svn add --force --auto-props --parents --depth infinity -q
 
       - name: Commit changes to SVN
