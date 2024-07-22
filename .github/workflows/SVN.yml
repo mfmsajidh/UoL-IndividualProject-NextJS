@@ -41,8 +41,6 @@ jobs:
           cd svn-folder
           svn status | grep '^?' | awk '{print $2}' | xargs -r svn add
           svn status | grep '^!' | awk '{print $2}' | xargs -r svn delete
-#          svn add --force * .* --auto-props --parents --depth infinity -q
-#          find . -type d -name ".svn" -prune | xargs svn add --force --auto-props --parents --depth infinity -q
 
       - name: Commit changes to SVN
         run: |
