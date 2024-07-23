@@ -2,8 +2,8 @@ import '@/styles/global.css';
 
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 import { DemoBadge } from '@/components/DemoBadge';
 import { AppConfig } from '@/utils/AppConfig';
@@ -33,12 +33,15 @@ export const metadata: Metadata = {
   ],
 };
 
+export function generateStaticParams() {
+  return AppConfig.locales.map((locale) => ({ locale }));
+}
+
 export default function RootLayout(props: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  // Validate that the incoming `locale` parameter is valid
-  if (!AppConfig.locales.includes(props.params.locale)) notFound();
+  unstable_setRequestLocale(props.params.locale);
 
   // Using internationalization in Client Components
   const messages = useMessages();
