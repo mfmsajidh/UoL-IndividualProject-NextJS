@@ -4,7 +4,7 @@ const localePrefix: LocalePrefix = 'as-needed';
 
 export const AppConfig = {
   name: 'CV Mate',
-  locales: ['en', 'fr'],
+  locales: ['af', 'ar', 'ca', 'cs', 'da', 'de', 'el', 'en', 'es', 'fi', 'fr', 'he', 'hi', 'hu', 'it', 'ja', 'ko', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sr', 'sv', 'tr', 'uk', 'vi', 'zh'],
   defaultLocale: 'en',
   localePrefix,
 };
