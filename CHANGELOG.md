@@ -1,3 +1,15 @@
+## [1.0.1](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.0.0...v1.0.1) (2024-07-23)
+
+
+### Bug Fixes
+
+* **Boilerplate:** minor improvements ([c1a2996](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/c1a299602bac78aaaba276e53efc226fb2559e76))
+
+
+### Reverts
+
+* **SVN.yml:** improved file handling ([9194454](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/91944547f53673e1aac0a35d2d249c2935e7d823))
+
 # 1.0.0 (2024-07-20)
 
 
