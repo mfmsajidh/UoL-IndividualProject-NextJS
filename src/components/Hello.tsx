@@ -1,5 +1,6 @@
 import { currentUser } from '@clerk/nextjs/server';
 import { getTranslations } from 'next-intl/server';
+
 import { getBaseUrl } from '@/utils/Helpers';
 
 const Hello = async () => {
