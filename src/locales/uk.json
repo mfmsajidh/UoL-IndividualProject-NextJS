@@ -8,19 +8,17 @@
     "sign_up_link": "Зареєструватися"
   },
   "BaseTemplate": {
-    "description": "Стартовий код для вашого Nextjs Boilerplate за допомогою Tailwind CSS",
+    "description": "Ми автоматизуємо створення вашого резюме в якості опису завдання",
     "made_with": "Зроблено з"
   },
   "Index": {
-    "meta_title": "Презентація Boilerplate Next.js",
-    "meta_description": "Next js Boilerplate - це ідеальний початковий код для вашого проекту. Створіть програму React за допомогою фреймворку Next.js."
+    "meta_title": "CV Матовий додаток",
+    "meta_description": "Ми автоматизуємо ваші телевізійні векселі."
   },
   "Guestbook": {
     "meta_title": "Гостьова книга",
     "meta_description": "Приклад операції з CRUD",
-    "database_powered_by": "База даних від",
-    "loading_guestbook": "Завантаження гостьової книги...",
-    "error_reporting_powered_by": "Помилка повідомлення від"
+    "loading_guestbook": "Завантаження гостьової книги..."
   },
   "GuestbookForm": {
     "username": "Ім'я користувача",
@@ -30,23 +28,19 @@
   "About": {
     "meta_title": "Про програму",
     "meta_description": "Про опис сторінки",
-    "about_paragraph": "Ласкаво просимо на нашу сторінку про себе! Ми команда пристрасних осіб, присвячених дивовижному програмному забезпеченню.",
-    "translation_powered_by": "Переклад від"
+    "about_paragraph": "Ласкаво просимо на тему «Про сторінку»! «Пасіона» та присвячені створенню чудового програмного забезпечення."
   },
   "Portfolio": {
     "meta_title": "Портфель",
     "meta_description": "Ласкаво просимо на мою сторінку портфоліо!",
-    "presentation": "Ласкаво просимо на мою сторінку портфоліо! Тут ви знайдете ретельно продуману колекцію моєї роботи і досягнень. За допомогою цього портфеля я демонструю свою кваліфікованість, творчість та цінність, яку я можу принести до ваших проектів.",
-    "portfolio_name": "Портфоліо {name}",
-    "error_reporting_powered_by": "Помилка повідомлення від",
-    "coverage_powered_by": "Покриття коду створено"
+    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "portfolio_name": "Портфоліо {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Портфоліо {slug}",
     "meta_description": "Опис портфоліо {slug}",
     "header": "Портфоліо {slug}",
-    "content": "Створено набір рекламних матеріалів та товарних елементів для корпоративної події. Створено візуально об'єднану тему, охоплює логотип, постери, банери та цифрові активи. Інтеграція брендової ідентичності клієнта, при використанні його сучасним та інноваційним підходом. Отримано сприятливі відповіді від відвідувачів заходу, що призводить до успішної події з посиленим учасником та підвищенням видимості бренду.",
-    "log_management_powered_by": "Керування журналом створено"
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
   },
   "SignIn": {
     "meta_title": "Увійти",

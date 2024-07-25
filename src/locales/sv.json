@@ -8,19 +8,17 @@
     "sign_up_link": "Registrera dig"
   },
   "BaseTemplate": {
-    "description": "Startkod för din Nextjs Boilerplate med Tailwind CSS",
+    "description": "Vi automatiserar skapandet av ditt CV enligt arbetsbeskrivningen",
     "made_with": "Gjord med"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Nästa js Boilerplate är den perfekta startkoden för ditt projekt. Bygg din React ansökan med Next.js ramverk."
+    "meta_title": "CV Mate Application",
+    "meta_description": "Vi automatiserar dina CV."
   },
   "Guestbook": {
     "meta_title": "Gästbok",
     "meta_description": "Ett exempel på CRUD-operation",
-    "database_powered_by": "Databas drivs av",
-    "loading_guestbook": "Laddar gästbok...",
-    "error_reporting_powered_by": "Fel vid rapportering drivs av"
+    "loading_guestbook": "Laddar gästbok..."
   },
   "GuestbookForm": {
     "username": "Användarnamn",
@@ -30,23 +28,19 @@
   "About": {
     "meta_title": "Om",
     "meta_description": "Om sidan beskrivning",
-    "about_paragraph": "Välkommen till vår Om sidan! Vi är ett team av passionerade individer dedikerade till att skapa fantastisk programvara.",
-    "translation_powered_by": "Översättning drivs av"
+    "about_paragraph": "Välkommen till sidan om! Passionerad och dedikerad till att skapa fantastisk programvara."
   },
   "Portfolio": {
     "meta_title": "Portfölj",
     "meta_description": "Välkommen till min portföljsida!",
-    "presentation": "Välkommen till min portfölj sida! Här hittar du en noggrant curerad samling av mitt arbete och prestationer. Genom denna portfölj ska jag visa upp min kompetens, kreativitet och det värde jag kan tillföra dina projekt.",
-    "portfolio_name": "Portfölj {name}",
-    "error_reporting_powered_by": "Fel vid rapportering drivs av",
-    "coverage_powered_by": "Kodtäckning drivs av"
+    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "portfolio_name": "Portfölj {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfölj {slug}",
     "meta_description": "Portfölj {slug} beskrivning",
     "header": "Portfölj {slug}",
-    "content": "Skapade en uppsättning reklammaterial och branding element för ett företagsevenemang. Skapade ett visuellt enhetligt tema, som omfattar en logotyp, affischer, banners och digitala tillgångar. Integrerade kundens varumärkesidentitet samtidigt som den fylldes med ett modernt och innovativt angreppssätt. Garnered gynnsamma svar från deltagare evenemang, vilket resulterar i ett framgångsrikt evenemang med ökad deltagarengagemang och ökad märkessynlighet.",
-    "log_management_powered_by": "Logghantering drivs av"
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
   },
   "SignIn": {
     "meta_title": "Logga in",

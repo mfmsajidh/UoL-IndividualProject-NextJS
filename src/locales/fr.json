@@ -8,19 +8,17 @@
     "sign_up_link": "S'inscrire"
   },
   "BaseTemplate": {
-    "description": "Code de démarrage pour votre Nextjs Boilerplate avec Tailwind CSS",
+    "description": "Nous automatisons la création de votre CV selon la description de l'emploi",
     "made_with": "Fait avec"
   },
   "Index": {
-    "meta_title": "Présentation de Next.js Boilerplate",
-    "meta_description": "Next js Boilerplate est le code de démarrage parfait pour votre projet. Construisez votre application React avec le framework Next.js."
+    "meta_title": "Demande de CV Mate",
+    "meta_description": "Nous automatisons vos CVs."
   },
   "Guestbook": {
     "meta_title": "Livre d'or",
     "meta_description": "Un exemple de fonctionnement CRUD",
-    "database_powered_by": "Base de données propulsée par",
-    "loading_guestbook": "Chargement du livre d'or...",
-    "error_reporting_powered_by": "Rapport d'erreur propulsé par"
+    "loading_guestbook": "Chargement du livre d'or..."
   },
   "GuestbookForm": {
     "username": "Nom d'utilisateur",
@@ -30,23 +28,19 @@
   "About": {
     "meta_title": "A propos",
     "meta_description": "A propos description",
-    "about_paragraph": "Bienvenue sur notre page À propos ! Nous sommes une équipe de passionnés et dévoués à la création de logiciels.",
-    "translation_powered_by": "Traduction propulsée par"
+    "about_paragraph": "Bienvenue sur la page À propos ! Passionné et dédié à la création de logiciels incroyables."
   },
   "Portfolio": {
     "meta_title": "Portefeuille",
     "meta_description": "Bienvenue sur la page de mon portfolio !",
-    "presentation": "Bienvenue sur ma page portfolio ! Vous trouverez ici une collection soigneusement organisée de mon travail et de mes réalisations. À travers ce portfolio, je mets en valeur mon expertise, ma créativité et la valeur que je peux apporter à vos projets.",
-    "portfolio_name": "Portefeuille {name}",
-    "error_reporting_powered_by": "Rapport d'erreur propulsé par",
-    "coverage_powered_by": "Couverture de code propulsée par"
+    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "portfolio_name": "Portefeuille {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portefeuille {slug}",
     "meta_description": "Description du Portfolio {slug}",
     "header": "Portefeuille {slug}",
-    "content": "Créé un ensemble de matériel promotionnel et d'éléments de marquage pour un événement d'entreprise. Conçu un thème visuellement unifié, englobant un logo, des affiches, des bannières et des actifs numériques. Intégrer l'identité de marque du client tout en l'insufflant à une approche contemporaine et innovante. Des réponses favorables de la part des participants ont été obtenues, ce qui a donné lieu à un événement réussi avec un engagement accru des participants et une meilleure visibilité de la marque.",
-    "log_management_powered_by": "Gestion des logs propulsée par"
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
   },
   "SignIn": {
     "meta_title": "Se connecter",
