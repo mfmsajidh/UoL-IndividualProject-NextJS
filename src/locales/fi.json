@@ -8,19 +8,17 @@
     "sign_up_link": "Rekisteröidy nyt"
   },
   "BaseTemplate": {
-    "description": "Nextjs Boilerplaten aloituskoodi Tailwind CSS:llä",
+    "description": "Me automatisoida luomisen CV kohti työnkuva",
     "made_with": "Valmistettu kanssa"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Esittely",
-    "meta_description": "Next js Boilerplate on täydellinen aloituskoodi projektillesi. Rakenna React sovelluksesi Next.js puitteella."
+    "meta_title": "Cv- Matesovellus",
+    "meta_description": "Automatisoimme ansioluettelosi automaattisesti."
   },
   "Guestbook": {
     "meta_title": "Vieraskirja",
     "meta_description": "Esimerkki CRUD-toimien toteuttamisesta",
-    "database_powered_by": "Tietokannan tarjoaa",
-    "loading_guestbook": "Ladataan vieraskirjaa...",
-    "error_reporting_powered_by": "Virheen raportointi käynnistäjä"
+    "loading_guestbook": "Ladataan vieraskirjaa..."
   },
   "GuestbookForm": {
     "username": "Käyttäjätunnus",
@@ -30,23 +28,19 @@
   "About": {
     "meta_title": "Tietoja",
     "meta_description": "Tietoja sivun kuvauksesta",
-    "about_paragraph": "Tervetuloa meidän Tietoja sivu! Olemme joukkue intohimoisia yksilöitä omistettu luoda hämmästyttävä ohjelmisto.",
-    "translation_powered_by": "Käännöksen tarjoaa"
+    "about_paragraph": "Tervetuloa Tietoja sivulle! Intohimoinen ja omistettu luoda hämmästyttävä ohjelmisto."
   },
   "Portfolio": {
     "meta_title": "Salkku",
     "meta_description": "Tervetuloa minun salkuni sivulle!",
-    "presentation": "Tervetuloa salkuni sivulle! Täältä löydät huolellisesti kuratoidun kokoelman työstäni ja saavutuksistani. Tämän salkun kautta esitän asiantuntemukseni, luovuuteni ja arvon, jonka voin tuoda projekteihisi.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Virheen raportointi käynnistäjä",
-    "coverage_powered_by": "Koodin kattavuus voimanlähteenä"
+    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "portfolio_name": "Portfolio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
     "meta_description": "Portfolio {slug} kuvaus",
     "header": "Portfolio {slug}",
-    "content": "Luotu joukko myynninedistämismateriaaleja ja brändin elementtejä yritystapahtumaan. Valmistettu visuaalisesti yhtenäinen teema, joka kattaa logon, julisteet, bannerit ja digitaaliset resurssit. Integroitu asiakkaan brändi-identiteetti ja infusoi sitä nykyaikaisella ja innovatiivisella lähestymistavalla. Garnered suotuisat vastaukset tapahtumaosallistujilta, mikä johtaa onnistuneeseen tapahtumaan, jossa osallistujien sitoutuminen ja lisääntynyt brändin näkyvyys.",
-    "log_management_powered_by": "Lokin hallinta tarjoaa"
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
   },
   "SignIn": {
     "meta_title": "Kirjaudu sisään",
