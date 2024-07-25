@@ -8,7 +8,7 @@ test.describe('Visual testing', () => {
 
       await expect(
         page.getByRole('heading', {
-          name: 'Boilerplate Code for Your Next.js Project with Tailwind CSS',
+          name: 'We automate the creation of your CV as per the job description',
         }),
       ).toBeVisible();
 

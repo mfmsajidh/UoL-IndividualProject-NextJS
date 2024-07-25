@@ -22,7 +22,7 @@ test.describe('Sanity', () => {
 
       await expect(
         page.getByRole('heading', {
-          name: 'Boilerplate Code for Your Next.js Project with Tailwind CSS',
+          name: 'We automate the creation of your CV as per the job description',
         }),
       ).toBeVisible();
     });
@@ -34,7 +34,10 @@ test.describe('Sanity', () => {
       await expect(page).toHaveURL(/about$/);
 
       await expect(
-        page.getByText('Welcome to our About page', { exact: false }),
+        page.getByText(
+          'Welcome to the About page! Passionate and dedicated to create amazing software.',
+          { exact: false },
+        ),
       ).toBeVisible();
     });
 
