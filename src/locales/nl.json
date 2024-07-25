@@ -8,19 +8,17 @@
     "sign_up_link": "Registreer nu"
   },
   "BaseTemplate": {
-    "description": "Begincode voor je Nextjs Boilerplate met Tailwind CSS",
+    "description": "We automatiseren het maken van je CV volgens de job beschrijving",
     "made_with": "Gemaakt met"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate presentatie",
-    "meta_description": "Volgende js Boilerplate is de perfecte startercode voor je project. Bouw je React toepassing met het Next.js framework."
+    "meta_title": "CV Mate applicatie",
+    "meta_description": "We automatiseren je CV."
   },
   "Guestbook": {
     "meta_title": "Gastenboek",
     "meta_description": "Een voorbeeld van CRUD bewerking",
-    "database_powered_by": "Database aangedreven door",
-    "loading_guestbook": "Gastboek wordt geladen...",
-    "error_reporting_powered_by": "Fout rapportage mogelijk gemaakt door"
+    "loading_guestbook": "Gastboek wordt geladen..."
   },
   "GuestbookForm": {
     "username": "Gebruikersnaam",
@@ -30,23 +28,19 @@
   "About": {
     "meta_title": "Informatie",
     "meta_description": "Over pagina beschrijving",
-    "about_paragraph": "Welkom op onze pagina Over pagina! Wij zijn een team van gepassioneerde individuen die zich bezighouden met het maken van geweldige software.",
-    "translation_powered_by": "Vertaling mogelijk gemaakt door"
+    "about_paragraph": "Welkom bij de pagina Over even! Passionate en toegewijd aan het maken van geweldige software."
   },
   "Portfolio": {
     "meta_title": "Presentatie",
     "meta_description": "Welkom op mijn portfolio pagina!",
-    "presentation": "Welkom op mijn portfolio pagina! Hier vindt u een zorgvuldig geordende collectie van mijn werk en prestaties. Via deze portefeuille laat ik mijn expertise, creativiteit en de waarde zien die ik kan meebrengen naar uw projecten.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Fout rapportage mogelijk gemaakt door",
-    "coverage_powered_by": "Code dekking aangedreven door"
+    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "portfolio_name": "Portfolio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
     "meta_description": "Portfolio {slug} beschrijving",
     "header": "Portfolio {slug}",
-    "content": "Ontwerp promotiemateriaal en brandingselementen voor een corporate event. Maak een visueel verenigd thema, dat een logo, posters, spandoeken en digitale activa omvat. Geïntegreerde de merkidentiteit van de klant tijdens het communiceren met een hedendaagse en innovatieve benadering. Gegarandeerd gunstige reacties van deelnemers aan het evenement, wat resulteert in een succesvol evenement met verhoogde deelnemer betrokkenheid en toegenomen merkzichtbaarheid.",
-    "log_management_powered_by": "Logboek beheer aangedreven door"
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
   },
   "SignIn": {
     "meta_title": "Log in",

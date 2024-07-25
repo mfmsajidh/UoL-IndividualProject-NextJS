@@ -8,19 +8,17 @@
     "sign_up_link": "Регистрация"
   },
   "BaseTemplate": {
-    "description": "Стартовый код для вашей Nextjs Boilerplate с CSS Tailwind",
+    "description": "Мы автоматизируем создание резюме в соответствии с описанием должности",
     "made_with": "Сделано с"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Следующая версия js Boilerplate является идеальным стартовым кодом для вашего проекта. Создайте приложение React с помощью фреймворка Next.js."
+    "meta_title": "Приложение CV Mate",
+    "meta_description": "Мы автоматизируем ваши резюме."
   },
   "Guestbook": {
     "meta_title": "Гостевая книга",
     "meta_description": "Пример операции CRUD",
-    "database_powered_by": "База данных предоставлена",
-    "loading_guestbook": "Загрузка гостевой книги...",
-    "error_reporting_powered_by": "Отчет об ошибке основан на"
+    "loading_guestbook": "Загрузка гостевой книги..."
   },
   "GuestbookForm": {
     "username": "Имя пользователя",
@@ -30,23 +28,19 @@
   "About": {
     "meta_title": "О программе",
     "meta_description": "Описание страницы",
-    "about_paragraph": "Добро пожаловать на нашу страницу О программе!",
-    "translation_powered_by": "Перевод основан на"
+    "about_paragraph": "Добро пожаловать на страницу О программе!"
   },
   "Portfolio": {
     "meta_title": "Портфолио",
     "meta_description": "Добро пожаловать на мою страницу портфолио!",
-    "presentation": "Добро пожаловать на мою страницу портфолио! С помощью этого портфолио, я вижу свои знания, творческие способности и ценность, которую я могу принести вашим проектам.",
-    "portfolio_name": "Портфолио {name}",
-    "error_reporting_powered_by": "Отчет об ошибке основан на",
-    "coverage_powered_by": "Покрытие кода на основе"
+    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "portfolio_name": "Портфолио {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Портфолио {slug}",
     "meta_description": "Описание портфолио {slug}",
     "header": "Портфолио {slug}",
-    "content": "Создан набор рекламных материалов и элементов брендинга для корпоративного мероприятия. Создана единая визуально тема, включающая в себя логотип, плакаты, баннеры и цифровые активы. Интегрируйте фирменный знак клиента в сочетании с современным инновационным подходом. Оборот положительных отзывов участников события, что привело к успешному мероприятию с повышенной вовлеченностью участников и повышенной привлекательностью бренда.",
-    "log_management_powered_by": "Управление журналом на основе"
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
   },
   "SignIn": {
     "meta_title": "Войти",

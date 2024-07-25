@@ -8,19 +8,17 @@
     "sign_up_link": "Zarejestruj"
   },
   "BaseTemplate": {
-    "description": "Kod startowy dla twojego Boilerplate Nextjs z CSS Tailwind",
+    "description": "Zautomatyzujemy tworzenie Twojego CV w opisie pracy",
     "made_with": "Wykonane z"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate prezentacja",
-    "meta_description": "Next js Boilerplate to idealny kod startowy dla twojego projektu. Zbuduj swoją aplikację React za pomocą frameworka Next.js."
+    "meta_title": "Aplikacja Mate CV",
+    "meta_description": "Zautomatyzujemy Twoje CV."
   },
   "Guestbook": {
     "meta_title": "Książka gości",
     "meta_description": "Przykład operacji CRUD",
-    "database_powered_by": "Baza danych obsługiwana przez",
-    "loading_guestbook": "Ładowanie listy gości...",
-    "error_reporting_powered_by": "Zgłaszanie błędów wspomagane przez"
+    "loading_guestbook": "Ładowanie listy gości..."
   },
   "GuestbookForm": {
     "username": "Nazwa użytkownika",
@@ -30,23 +28,19 @@
   "About": {
     "meta_title": "O programie",
     "meta_description": "Opis strony",
-    "about_paragraph": "Witamy na naszej stronie informacji! Jesteśmy zespołem pasjonatów poświęconych tworzeniu niesamowitego oprogramowania.",
-    "translation_powered_by": "Tłumaczenie obsługiwane przez"
+    "about_paragraph": "Witaj na stronie \"About\"! Passionate i dedykowane do tworzenia niesamowitego oprogramowania."
   },
   "Portfolio": {
     "meta_title": "Portfel",
     "meta_description": "Witaj na mojej stronie portfolio",
-    "presentation": "Witaj na mojej stronie portfolio! Tutaj znajdziesz starannie przygotowaną kolekcję mojej pracy i osiągnięć. Za pomocą tego portfolio pokazuję moją wiedzę fachową, kreatywność i wartość, jaką mogę wnieść do Twoich projektów.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Zgłaszanie błędów wspomagane przez",
-    "coverage_powered_by": "Pokrycie kodu zasilane przez"
+    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "portfolio_name": "Portfolio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
     "meta_description": "Opis portfolio {slug}",
     "header": "Portfolio {slug}",
-    "content": "Stworzono zestaw materiałów promocyjnych i elementów marki przeznaczonych na imprezę korporacyjną. Stworzono zjednoczony wizualnie motyw, obejmujący logo, plakaty, banery i zasoby cyfrowe. Zintegrowano tożsamość marki klienta, podając ją współczesnym i innowacyjnym podejściem. Otrzymano korzystne odpowiedzi od uczestników wydarzenia, co doprowadziło do udanego wydarzenia z podwyższonym zaangażowaniem uczestników i większą widocznością marki.",
-    "log_management_powered_by": "Zarządzanie logami obsługiwane przez"
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
   },
   "SignIn": {
     "meta_title": "Zaloguj się",

@@ -8,19 +8,17 @@
     "sign_up_link": "Registrer deg"
   },
   "BaseTemplate": {
-    "description": "Begynnerkode til Nextjs Boilerplate med Tailwind CSS",
+    "description": "Vi automatiserer ditt CV program automatisk i henhold til jobbeskrivelsen",
     "made_with": "Laget med"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentasjon",
-    "meta_description": "Neste js trykkplate er den perfekte startkoden for prosjektet. Bygg din React applikasjon med Next.js rammeverket."
+    "meta_title": "CV Mate applikasjon",
+    "meta_description": "Vi automatiserer din CV."
   },
   "Guestbook": {
     "meta_title": "Gjestebok",
     "meta_description": "Et eksempel på CRUD-operasjon",
-    "database_powered_by": "Database drevet av",
-    "loading_guestbook": "Laster gjestebok...",
-    "error_reporting_powered_by": "Feil ved rapportering drevet av"
+    "loading_guestbook": "Laster gjestebok..."
   },
   "GuestbookForm": {
     "username": "Brukernavn",
@@ -30,23 +28,19 @@
   "About": {
     "meta_title": "Om",
     "meta_description": "Om sidebeskrivelse",
-    "about_paragraph": "Velkommen til vår om side! Vi er et lag med lidenskapelige personer dedikert til å lage fantastisk programvare.",
-    "translation_powered_by": "Oversettelse drevet av"
+    "about_paragraph": "Velkommen til Om siden! lidenskapelig og dedikert til å lage fantastisk programvare."
   },
   "Portfolio": {
     "meta_title": "Portefølje",
     "meta_description": "Velkommen til siden for portefølje min!",
-    "presentation": "Velkommen til siden for porteføljen min! Her finner du en omhyggelig samling av mitt arbeid og gjennomføring av dette. Jeg vil gjennom denne porteføljen vise min kompetanse, kreativitet, og verdien jeg kan ta med i prosjektene dine.",
-    "portfolio_name": "Portefølje {name}",
-    "error_reporting_powered_by": "Feil ved rapportering drevet av",
-    "coverage_powered_by": "Kodedekning drevet av"
+    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "portfolio_name": "Portefølje {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portefølje {slug}",
     "meta_description": "Portefølje {slug} beskrivelse",
     "header": "Portefølje {slug}",
-    "content": "Opprettet et sett av markedsføringsmateriell og merkelapper til et selskapsarrangement. Laget et visuelt enhetlig tema, som omfatter en logo, plakater, bannere og digitale eiendeler. Integrer klientens merkevareidentitet mens den smitter med en samtid og nyskapende tilnærming. Garnered favorable responser fra event attendees, resulterende i en vellykket hendelse med økt deltakerengasjement og økt merkevaresynlighet.",
-    "log_management_powered_by": "Logg ledelse drevet av"
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
   },
   "SignIn": {
     "meta_title": "Logg inn",
