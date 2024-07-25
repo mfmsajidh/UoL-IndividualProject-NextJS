@@ -12,12 +12,12 @@ const Hello = async () => {
         {t('hello_message', { email: user?.emailAddresses[0]?.emailAddress })}
       </p>
       <p>
-        Looking for a SaaS Boilerplate?{' '}
+        Looking to automate your CV creation?{' '}
         <a
           className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://nextjs-boilerplate.com/pro-saas-starter-kit"
+          href="#"
         >
-          Next.js Boilerplate SaaS
+          CV Mate SaaS
         </a>{' '}
         can help you build one.
       </p>
