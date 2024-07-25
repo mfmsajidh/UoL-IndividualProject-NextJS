@@ -1,7 +1,5 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
-import { Sponsors } from '@/components/Sponsors';
-
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
@@ -20,74 +18,32 @@ export default function Index(props: { params: { locale: string } }) {
   return (
     <>
       <p>
-        Looking for a SaaS Boilerplate?{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://nextjs-boilerplate.com/pro-saas-starter-kit"
-        >
-          Next.js Boilerplate SaaS
-        </a>{' '}
-        can help you build one.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
+        scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
+        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut
+        aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.
+        In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae
+        dui eget tellus gravida venenatis. Integer fringilla congue eros non
+        fermentum. Sed dapibus pulvinar nibh tempor porta.
       </p>
+
       <p>
-        Follow{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://twitter.com/ixartz"
-          target="_blank"
-        >
-          @Ixartz on Twitter
-        </a>{' '}
-        for updates and more information about the boilerplate.
+        Crase venenatis odio in lacus blandit, at suscipit mauris consequat.
+        Nulla facilisi. Nullam vehicula sapien sit amet lorem vulputate, in
+        imperdiet sapien accumsan. Morbi euismod nisi eu libero convallis, non
+        porttitor orci varius. Nam at nunc eu augue vestibulum euismod. Nulla
+        facilisi. Pellentesque gravida ligula a orci ullamcorper, in vestibulum
+        lorem accumsan.
       </p>
+
       <p>
-        Our sponsors&apos; exceptional support has made this project possible.
-        Their services integrate seamlessly with the boilerplate, and we
-        recommend trying them out.
-      </p>
-      <h2 className="mt-5 text-2xl font-bold">Sponsors</h2>
-      <Sponsors />
-      <h2 className="mt-5 text-2xl font-bold">
-        Boilerplate Code for Your Next.js Project with Tailwind CSS
-      </h2>
-      <p className="text-base">
-        <span role="img" aria-label="rocket">
-          🚀
-        </span>{' '}
-        Next.js Boilerplate is a developer-friendly starter code for Next.js
-        projects, built with Tailwind CSS, and TypeScript.{' '}
-        <span role="img" aria-label="zap">
-          ⚡️
-        </span>{' '}
-        Made with developer experience first: Next.js, TypeScript, ESLint,
-        Prettier, Husky, Lint-Staged, Jest (replaced by Vitest), Testing
-        Library, Commitlint, VSCode, PostCSS, Tailwind CSS, Authentication with{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://clerk.com?utm_source=github&amp;utm_medium=sponsorship&amp;utm_campaign=nextjs-boilerplate"
-          target="_blank"
-        >
-          Clerk
-        </a>
-        , Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Error
-        Monitoring with{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://sentry.io/for/nextjs/?utm_source=github&amp;utm_medium=paid-community&amp;utm_campaign=general-fy25q1-nextjs&amp;utm_content=github-banner-nextjsboilerplate-logo"
-          target="_blank"
-        >
-          Sentry
-        </a>
-        , Logging with Pino.js and Log Management with{' '}
-        <a
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          href="https://betterstack.com/?utm_source=github&amp;utm_medium=sponsorship&amp;utm_campaign=next-js-boilerplate"
-          target="_blank"
-        >
-          Better Stack
-        </a>
-        , Monitoring as Code with Checkly, Storybook, Multi-language (i18n), and
-        more.
+        Integer pretium massa ut vestibulum egestas. Nullam faucibus metus a
+        ante egestas, ut pretium magna consectetur. Cras a turpis leo. In
+        interdum tellus sed erat tincidunt, ut posuere ligula iaculis. Donec
+        fringilla sollicitudin justo, vitae convallis augue consequat a.
+        Curabitur aliquet dui et risus volutpat, id luctus enim dignissim.
+        Suspendisse potenti.
       </p>
     </>
   );

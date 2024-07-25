@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
+import type { ReactNode } from 'react';
 
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
 export default function Layout(props: {
-  children: React.ReactNode;
+  children: ReactNode;
   params: { locale: string };
 }) {
   unstable_setRequestLocale(props.params.locale);
@@ -47,14 +48,6 @@ export default function Layout(props: {
             >
               {t('portfolio_link')}
             </Link>
-          </li>
-          <li>
-            <a
-              className="border-none text-gray-700 hover:text-gray-900"
-              href="https://github.com/ixartz/Next-js-Boilerplate"
-            >
-              GitHub
-            </a>
           </li>
         </>
       }

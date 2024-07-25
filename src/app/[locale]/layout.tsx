@@ -4,8 +4,8 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
+import type { ReactNode } from 'react';
 
-import { DemoBadge } from '@/components/DemoBadge';
 import { AppConfig } from '@/utils/AppConfig';
 
 export const metadata: Metadata = {
@@ -38,7 +38,7 @@ export function generateStaticParams() {
 }
 
 export default function RootLayout(props: {
-  children: React.ReactNode;
+  children: ReactNode;
   params: { locale: string };
 }) {
   unstable_setRequestLocale(props.params.locale);
@@ -55,7 +55,6 @@ export default function RootLayout(props: {
             messages={messages}
           >
             {props.children}
-            <DemoBadge />
           </NextIntlClientProvider>
         </AppRouterCacheProvider>
       </body>
