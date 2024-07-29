@@ -1,6 +1,7 @@
 {
   "name": "cv-mate",
   "version": "1.0.1",
+  "private": true,
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
     "dev:next": "next dev",
