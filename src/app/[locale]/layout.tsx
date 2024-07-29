@@ -1,5 +1,6 @@
 import '@/styles/global.css';
 
+import { ThemeProvider } from '@mui/material/styles';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
@@ -7,6 +8,8 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import type { ReactNode } from 'react';
 
 import { AppConfig } from '@/utils/AppConfig';
+
+import theme from '../../theme';
 
 export const metadata: Metadata = {
   icons: [
@@ -50,12 +53,14 @@ export default function RootLayout(props: {
     <html lang={props.params.locale}>
       <body>
         <AppRouterCacheProvider>
-          <NextIntlClientProvider
-            locale={props.params.locale}
-            messages={messages}
-          >
-            {props.children}
-          </NextIntlClientProvider>
+          <ThemeProvider theme={theme}>
+            <NextIntlClientProvider
+              locale={props.params.locale}
+              messages={messages}
+            >
+              {props.children}
+            </NextIntlClientProvider>
+          </ThemeProvider>
         </AppRouterCacheProvider>
       </body>
     </html>
