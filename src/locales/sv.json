@@ -12,7 +12,7 @@
     "made_with": "Gjord med"
   },
   "Index": {
-    "meta_title": "CV Mate Application",
+    "meta_title": "Next.js Boilerplate Presentation",
     "meta_description": "Vi automatiserar dina CV."
   },
   "Guestbook": {
@@ -33,14 +33,14 @@
   "Portfolio": {
     "meta_title": "Portfölj",
     "meta_description": "Välkommen till min portföljsida!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Välkommen till min portfölj sida! Här hittar du en noggrant curerad samling av mitt arbete och prestationer. Genom denna portfölj ska jag visa upp min kompetens, kreativitet och det värde jag kan tillföra dina projekt.",
     "portfolio_name": "Portfölj {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfölj {slug}",
     "meta_description": "Portfölj {slug} beskrivning",
     "header": "Portfölj {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Skapade en uppsättning reklammaterial och branding element för ett företagsevenemang. Skapade ett visuellt enhetligt tema, som omfattar en logotyp, affischer, banners och digitala tillgångar. Integrerade kundens varumärkesidentitet samtidigt som den fylldes med ett modernt och innovativt angreppssätt. Garnered gynnsamma svar från deltagare evenemang, vilket resulterar i ett framgångsrikt evenemang med ökad deltagarengagemang och ökad märkessynlighet."
   },
   "SignIn": {
     "meta_title": "Logga in",

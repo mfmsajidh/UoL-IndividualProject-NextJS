@@ -8,12 +8,12 @@
     "sign_up_link": "Înscrie-te"
   },
   "BaseTemplate": {
-    "description": "Noi automatizăm crearea CV-ului tău conform descrierii jobului",
+    "description": "Cod de inceput pentru Boilerplate Nextjs cu Tailwind CSS",
     "made_with": "Realizat cu"
   },
   "Index": {
-    "meta_title": "Aplicație Mat CV",
-    "meta_description": "Îți automatizăm CV-urile."
+    "meta_title": "Prezentarea Boilerplate Next.js",
+    "meta_description": "Următorul js Boilerplate este codul de început perfect pentru proiectul tău. Construiește aplicația React cu cadrul Next.js."
   },
   "Guestbook": {
     "meta_title": "Guestbook",
@@ -28,19 +28,19 @@
   "About": {
     "meta_title": "Despre",
     "meta_description": "Despre descrierea paginii",
-    "about_paragraph": "Bine ai venit la pagina Despre! Pasionat și dedicat creării unui software uimitor."
+    "about_paragraph": "Bine ai venit la pagina noastră Despre pagina! Suntem o echipă de indivizi pasionați dedicați creării unui software uimitor."
   },
   "Portfolio": {
     "meta_title": "Portofoliu",
     "meta_description": "Bun venit pe pagina mea a portofoliului!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Bine ați venit în pagina mea de portofoliu! Aici veți găsi o colecție cu atenție a lucrărilor și realizărilor mele. Prin intermediul acestui portofoliu, vă prezint expertiza, creativitatea şi valoarea pe care o pot aduce proiectelor voastre.",
     "portfolio_name": "Portofoliu {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portofoliu {slug}",
     "meta_description": "Descriere portofoliu {slug}",
     "header": "Portofoliu {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Crearea unui set de materiale promoționale și de elemente de marcă pentru un eveniment corporativ. A creat o temă vizuală unificată, cuprinzând un logo, postere, bannere și active digitale. integrarea identității mărcii clientului în același timp cu o abordare contemporană și inovatoare. S-au obținut răspunsuri favorabile din partea participanților la evenimente, ceea ce a dus la un eveniment de succes cu o implicare sporită a participanților și o vizibilitate sporită a mărcii."
   },
   "SignIn": {
     "meta_title": "Autentificare",

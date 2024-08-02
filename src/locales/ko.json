@@ -8,12 +8,12 @@
     "sign_up_link": "Sign up"
   },
   "BaseTemplate": {
-    "description": "We automate the creation of your CV as per the job description",
+    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
     "made_with": "Made with"
   },
   "Index": {
-    "meta_title": "CV Mate Application",
-    "meta_description": "We automate your CVs."
+    "meta_title": "Next.js Boilerplate Presentation",
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
   },
   "Guestbook": {
     "meta_title": "Guestbook",
@@ -28,19 +28,19 @@
   "About": {
     "meta_title": "About",
     "meta_description": "About page description",
-    "about_paragraph": "Welcome to the About page! Passionate and dedicated to create amazing software."
+    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software."
   },
   "Portfolio": {
     "meta_title": "Portfolio",
     "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
     "portfolio_name": "Portfolio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
     "meta_description": "Portfolio {slug} description",
     "header": "Portfolio {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility."
   },
   "SignIn": {
     "meta_title": "Sign in",

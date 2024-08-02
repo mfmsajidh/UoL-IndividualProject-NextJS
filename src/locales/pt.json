@@ -8,12 +8,12 @@
     "sign_up_link": "Criar conta"
   },
   "BaseTemplate": {
-    "description": "Nós automatizamos a criação de seu CV conforme a descrição do trabalho",
+    "description": "Código inicial para a sua Boilerplate Nextjs com CSS Caudal",
     "made_with": "Feito com"
   },
   "Index": {
-    "meta_title": "Aplicativo CV Mate",
-    "meta_description": "Nós automatizamos seus CVs."
+    "meta_title": "Apresentação do Next.js Boilerplate",
+    "meta_description": "Next js Boilerplate é o código inicial perfeito para seu projeto. Construa sua aplicação React com o framework Next.js."
   },
   "Guestbook": {
     "meta_title": "Livro de Visitas",
@@ -28,19 +28,19 @@
   "About": {
     "meta_title": "SOBRE",
     "meta_description": "Sobre a descrição da página",
-    "about_paragraph": "Bem-vindo à página Sobre! Apaixonado e dedicado a criar um software incrível."
+    "about_paragraph": "Bem-vindo à nossa página Sobre! Somos uma equipe de indivíduos apaixonados dedicados à criação de software incrível."
   },
   "Portfolio": {
     "meta_title": "Portfólio",
     "meta_description": "Bem-vindo à minha página de portfólio!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Bem-vindo à minha página de portfólio! Aqui você vai encontrar uma coleção cuidadosamente selecionada do meu trabalho e realizações. Através deste portfólio, eu mostrarei minha especialidade, criatividade e o valor que posso trazer para os seus projetos.",
     "portfolio_name": "Portfólio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfólio {slug}",
     "meta_description": "Descrição do Portfólio {slug}",
     "header": "Portfólio {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Criou um conjunto de materiais promocionais e elementos de marca para um evento corporativo. Tema visualmente unificado, englobando um logotipo, pôsteres, estandartes e ativos digitais. Integrou a identidade de marca do cliente enquanto a infundia com uma abordagem contemporânea e inovadora. Respostas favoráveis dos participantes do evento, resultando em um evento bem-sucedido com maior envolvimento dos participantes e maior visibilidade da marca."
   },
   "SignIn": {
     "meta_title": "Iniciar sessão",

@@ -8,12 +8,12 @@
     "sign_up_link": "Zaregistrovat se"
   },
   "BaseTemplate": {
-    "description": "Automatizujeme tvorbu tvého CV podle popisu úlohy",
+    "description": "Výchozí kód pro tvůj Nextjs Boilerplate s Tailwind CSS",
     "made_with": "Vyrobeno pomocí"
   },
   "Index": {
-    "meta_title": "CV Mate aplikace",
-    "meta_description": "Automatizujeme Vaše životopisy."
+    "meta_title": "Prezentace plotu Next.js",
+    "meta_description": "Další js Boilerplate je perfektní počáteční kód pro tvůj projekt. Postav svou React aplikaci s frameworkem Next.js."
   },
   "Guestbook": {
     "meta_title": "Kniha návštěv",
@@ -28,19 +28,19 @@
   "About": {
     "meta_title": "O aplikaci",
     "meta_description": "O popisu stránky",
-    "about_paragraph": "Vítejte na stránce O aplikaci! Nadšený a odhodlaný vytvořit úžasný software."
+    "about_paragraph": "Vítejte na naší stránce O aplikaci! Jsme tým vášnivých jedinců věnovaných vytváření úžasného softwaru."
   },
   "Portfolio": {
     "meta_title": "Portfolio",
     "meta_description": "Vítejte na mé stránce!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Vítejte na mé portfoliové stránce! Zde najdete pečlivě upravenou sbírku mé práce a úspěchů. Prostřednictvím tohoto portfolia ukazuji své odborné znalosti, kreativitu a hodnotu, kterou vám mohu přinést do vašich projektů.",
     "portfolio_name": "Portfolio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
     "meta_description": "Popis portfolia {slug}",
     "header": "Portfolio {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Vytvořil soubor propagačních materiálů a značkových prvků pro firemní akci. Vyrobil vizuálně jednotné téma, které zahrnuje logo, plakáty, bannery a digitální aktiva. Integrovaná identita značky klienta a zároveň její používání moderním a inovativním přístupem. Získaly příznivé reakce od účastníků události, což vedlo k úspěšné události se zvýšeným zapojením účastníků a zvýšenou viditelností značky."
   },
   "SignIn": {
     "meta_title": "Přihlásit se",

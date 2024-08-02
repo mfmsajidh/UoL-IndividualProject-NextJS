@@ -33,14 +33,14 @@
   "Portfolio": {
     "meta_title": "Портфель",
     "meta_description": "Ласкаво просимо на мою сторінку портфоліо!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Ласкаво просимо на мою сторінку портфоліо! Тут ви знайдете ретельно продуману колекцію моєї роботи і досягнень. За допомогою цього портфеля я демонструю свою кваліфікованість, творчість та цінність, яку я можу принести до ваших проектів.",
     "portfolio_name": "Портфоліо {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Портфоліо {slug}",
     "meta_description": "Опис портфоліо {slug}",
     "header": "Портфоліо {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Створено набір рекламних матеріалів та товарних елементів для корпоративної події. Створено візуально об'єднану тему, охоплює логотип, постери, банери та цифрові активи. Інтеграція брендової ідентичності клієнта, при використанні його сучасним та інноваційним підходом. Отримано сприятливі відповіді від відвідувачів заходу, що призводить до успішної події з посиленим учасником та підвищенням видимості бренду."
   },
   "SignIn": {
     "meta_title": "Увійти",

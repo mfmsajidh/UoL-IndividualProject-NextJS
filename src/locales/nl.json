@@ -8,12 +8,12 @@
     "sign_up_link": "Registreer nu"
   },
   "BaseTemplate": {
-    "description": "We automatiseren het maken van je CV volgens de job beschrijving",
+    "description": "Begincode voor je Nextjs Boilerplate met Tailwind CSS",
     "made_with": "Gemaakt met"
   },
   "Index": {
-    "meta_title": "CV Mate applicatie",
-    "meta_description": "We automatiseren je CV."
+    "meta_title": "Next.js Boilerplate presentatie",
+    "meta_description": "Volgende js Boilerplate is de perfecte startercode voor je project. Bouw je React toepassing met het Next.js framework."
   },
   "Guestbook": {
     "meta_title": "Gastenboek",
@@ -28,19 +28,19 @@
   "About": {
     "meta_title": "Informatie",
     "meta_description": "Over pagina beschrijving",
-    "about_paragraph": "Welkom bij de pagina Over even! Passionate en toegewijd aan het maken van geweldige software."
+    "about_paragraph": "Welkom op onze pagina Over pagina! Wij zijn een team van gepassioneerde individuen die zich bezighouden met het maken van geweldige software."
   },
   "Portfolio": {
     "meta_title": "Presentatie",
     "meta_description": "Welkom op mijn portfolio pagina!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Welkom op mijn portfolio pagina! Hier vindt u een zorgvuldig geordende collectie van mijn werk en prestaties. Via deze portefeuille laat ik mijn expertise, creativiteit en de waarde zien die ik kan meebrengen naar uw projecten.",
     "portfolio_name": "Portfolio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
     "meta_description": "Portfolio {slug} beschrijving",
     "header": "Portfolio {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Ontwerp promotiemateriaal en brandingselementen voor een corporate event. Maak een visueel verenigd thema, dat een logo, posters, spandoeken en digitale activa omvat. Geïntegreerde de merkidentiteit van de klant tijdens het communiceren met een hedendaagse en innovatieve benadering. Gegarandeerd gunstige reacties van deelnemers aan het evenement, wat resulteert in een succesvol evenement met verhoogde deelnemer betrokkenheid en toegenomen merkzichtbaarheid."
   },
   "SignIn": {
     "meta_title": "Log in",

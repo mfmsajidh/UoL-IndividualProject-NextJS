@@ -8,12 +8,12 @@
     "sign_up_link": "新規登録"
   },
   "BaseTemplate": {
-    "description": "ジョブの説明に従って履歴書の作成を自動化します",
+    "description": "Tailwind CSSを使用したNextjs Boilerplate用のスターターコード",
     "made_with": "製法："
   },
   "Index": {
-    "meta_title": "CV Mateアプリケーション",
-    "meta_description": "お客様のCVを自動化します。"
+    "meta_title": "Next.js Boilerplate プレゼンテーション",
+    "meta_description": "Next js Boilerplateはプロジェクトに最適なスターターコードです。次の.jsフレームワークを使用してReactアプリケーションを構築します。"
   },
   "Guestbook": {
     "meta_title": "Guestbook",
@@ -28,19 +28,19 @@
   "About": {
     "meta_title": "About",
     "meta_description": "ページの説明について",
-    "about_paragraph": "About ページへようこそ! 情熱と素晴らしいソフトウェアの作成に専念。"
+    "about_paragraph": "About ページへようこそ! 私たちは、素晴らしいソフトウェアの作成に専念する情熱的な個人のチームです。"
   },
   "Portfolio": {
     "meta_title": "ポートフォリオ",
     "meta_description": "ポートフォリオページへようこそ！",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "私のポートフォリオページへようこそ! ここでは、私の作品と成果の慎重にキュレーションされたコレクションがあります。 このポートフォリオを通じて、私は自分の専門知識、創造性、そしてあなたのプロジェクトにもたらす価値を紹介します。",
     "portfolio_name": "ポートフォリオ {name}"
   },
   "PortfolioSlug": {
     "meta_title": "ポートフォリオ {slug}",
     "meta_description": "ポートフォリオ {slug} の説明",
     "header": "ポートフォリオ {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "企業のイベントのための宣伝用資料とブランディング要素のセットを作成しました。 ロゴ、ポスター、バナー、デジタル資産を含む視覚的に統一されたテーマを作成しました。 現代的で革新的なアプローチでそれを注入しながら、クライアントのブランドアイデンティティを統合しました。 イベント参加者からの好意的な回答が得られ、参加者のエンゲージメントが高まり、ブランドの認知度が向上しました。"
   },
   "SignIn": {
     "meta_title": "サインイン",
