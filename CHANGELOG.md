@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.0.1...v1.1.0) (2024-08-01)
+
+
+### Features
+
+* **middleware:** support for middleware chaining ([0d3cc1d](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/0d3cc1d2d810d53706fb98be53d5063572ec19ff))
+
+
+### Reverts
+
+* **package.json:** @spotlightjs/spotlight to v~2.0.0 ([ae2180d](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/ae2180dab0195b9af03fe730eafc93104094c1d5))
+
 ## [1.0.1](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.0.0...v1.0.1) (2024-07-23)
 
 
