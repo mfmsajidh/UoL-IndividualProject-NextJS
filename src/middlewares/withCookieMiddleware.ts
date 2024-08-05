@@ -7,7 +7,15 @@ import { NextResponse } from 'next/server';
 
 import type { CustomMiddleware } from '@/middlewares/chain';
 
-export const withCookieMiddleware =
+const themeModeCookie = 'NEXT_THEME';
+
+const themeCookieOptions: object = {
+  path: '/',
+  maxAge: 60 * 60 * 24 * 365, // 1 year
+  sameSite: 'lax',
+};
+
+const withCookieMiddleware =
   (middleware: CustomMiddleware) =>
   async (
     request: NextRequest,
@@ -20,18 +28,17 @@ export const withCookieMiddleware =
       response,
     )) as NextResponseType;
 
-    const cookieName: string = 'NEXT_THEME';
-    if (!request.cookies.has(cookieName)) {
+    if (!request.cookies.has(themeModeCookie)) {
       nextResponse.cookies.set({
-        name: cookieName,
+        name: themeModeCookie,
         value: 'light',
-        httpOnly: true,
-        path: '/',
-        maxAge: 60 * 60 * 24 * 365, // 1 year
-        secure: process.env.NODE_ENV === 'production',
-        sameSite: 'lax',
+        ...themeCookieOptions,
       });
     }
 
     return nextResponse ?? NextResponse.next();
   };
+
+export { themeCookieOptions, themeModeCookie };
+
+export default withCookieMiddleware;
