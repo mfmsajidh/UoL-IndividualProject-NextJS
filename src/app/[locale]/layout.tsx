@@ -1,14 +1,10 @@
 import '@/styles/global.css';
 
-import { CssBaseline } from '@mui/material';
-import { ThemeProvider } from '@mui/material/styles';
-import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import type { Metadata, Viewport } from 'next';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import type { ReactNode } from 'react';
 
-import theme from '@/theme';
 import { AppConfig } from '@/utils/AppConfig';
 
 export const viewport: Viewport = {
@@ -57,17 +53,12 @@ export default function RootLayout(props: {
   return (
     <html lang={props.params.locale}>
       <body>
-        <AppRouterCacheProvider options={{ enableCssLayer: true }}>
-          <ThemeProvider theme={theme}>
-            <NextIntlClientProvider
-              locale={props.params.locale}
-              messages={messages}
-            >
-              <CssBaseline />
-              {props.children}
-            </NextIntlClientProvider>
-          </ThemeProvider>
-        </AppRouterCacheProvider>
+        <NextIntlClientProvider
+          locale={props.params.locale}
+          messages={messages}
+        >
+          {props.children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
