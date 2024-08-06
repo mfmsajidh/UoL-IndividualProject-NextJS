@@ -5,7 +5,8 @@
     "guestbook_link": "Guestbook",
     "portfolio_link": "Portfolio",
     "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "sign_up_link": "Sign up",
+    "made_with": "Made with"
   },
   "BaseTemplate": {
     "description": "We automate the creation of your CV as per the job description",
