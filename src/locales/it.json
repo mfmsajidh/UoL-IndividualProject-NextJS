@@ -5,7 +5,8 @@
     "guestbook_link": "Guestbook",
     "portfolio_link": "Portafoglio",
     "sign_in_link": "Accedi",
-    "sign_up_link": "Registrati"
+    "sign_up_link": "Registrati",
+    "made_with": "Realizzato con"
   },
   "BaseTemplate": {
     "description": "automatizziamo la creazione del tuo CV secondo la descrizione del lavoro",
