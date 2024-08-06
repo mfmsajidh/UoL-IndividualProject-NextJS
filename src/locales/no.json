@@ -5,7 +5,8 @@
     "guestbook_link": "Gjestebok",
     "portfolio_link": "Portefølje",
     "sign_in_link": "Logg inn",
-    "sign_up_link": "Registrer deg"
+    "sign_up_link": "Registrer deg",
+    "made_with": "Laget med"
   },
   "BaseTemplate": {
     "description": "Vi automatiserer ditt CV program automatisk i henhold til jobbeskrivelsen",
