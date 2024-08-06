@@ -37,18 +37,6 @@ const BaseTemplate = (props: {
         </header>
 
         <main>{props.children}</main>
-
-        <footer className="border-t border-gray-300 py-8 text-center text-sm">
-          © Copyright {new Date().getFullYear()} {AppConfig.name}.
-          {` ${t('made_with')} 🖤 `}
-          <a
-            href="https://github.com/mfmsajidh/"
-            className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-          >
-            Sajidh Farook
-          </a>
-          .
-        </footer>
       </div>
     </div>
   );
