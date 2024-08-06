@@ -1,39 +1,39 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up",
-    "made_with": "Made with"
+    "home_link": "首页",
+    "about_link": "关于",
+    "guestbook_link": "留言板",
+    "portfolio_link": "投资组合",
+    "sign_in_link": "登录",
+    "sign_up_link": "注册",
+    "made_with": "制作于"
   },
   "BaseTemplate": {
-    "description": "We automate the creation of your CV as per the job description",
-    "made_with": "Made with"
+    "description": "我们按照作业描述自动创建您的 CV",
+    "made_with": "制作于"
   },
   "Index": {
-    "meta_title": "CV Mate Application",
-    "meta_description": "We automate your CVs."
+    "meta_title": "CV Mate 应用程序",
+    "meta_description": "我们自动化您的 CV。"
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "loading_guestbook": "Loading guestbook..."
+    "meta_title": "留言板",
+    "meta_description": "CRUD 操作示例",
+    "loading_guestbook": "正在加载留言板..."
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "用户名",
+    "body": "正文内容",
+    "save": "保存"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to the About page! Passionate and dedicated to create amazing software."
+    "meta_title": "关于",
+    "meta_description": "关于页面描述",
+    "about_paragraph": "欢迎来到关于页面！充满热情并致力于创建惊人的软件。"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
+    "meta_title": "投资组合",
+    "meta_description": "欢迎来到我的组合页面！",
     "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
     "portfolio_name": "Portfolio {name}"
   },
@@ -44,23 +44,23 @@
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "登录",
+    "meta_description": "通过我们方便用户的登录过程无缝登录您的帐户。"
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "注册",
+    "meta_description": "通过我们直观的注册过程无力创建一个帐户。"
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
+    "meta_title": "仪表板",
     "hello_message": "Hello {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "用户资料"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "仪表板",
+    "user_profile_link": "管理您的帐户",
+    "sign_out": "登出"
   }
 }
