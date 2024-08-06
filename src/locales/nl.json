@@ -5,7 +5,8 @@
     "guestbook_link": "Gastenboek",
     "portfolio_link": "Presentatie",
     "sign_in_link": "Log in",
-    "sign_up_link": "Registreer nu"
+    "sign_up_link": "Registreer nu",
+    "made_with": "Gemaakt met"
   },
   "BaseTemplate": {
     "description": "We automatiseren het maken van je CV volgens de job beschrijving",
