@@ -5,7 +5,8 @@
     "guestbook_link": "Kniha návštěv",
     "portfolio_link": "Portfolio",
     "sign_in_link": "Přihlásit se",
-    "sign_up_link": "Zaregistrovat se"
+    "sign_up_link": "Zaregistrovat se",
+    "made_with": "Vyrobeno pomocí"
   },
   "BaseTemplate": {
     "description": "Automatizujeme tvorbu tvého CV podle popisu úlohy",
