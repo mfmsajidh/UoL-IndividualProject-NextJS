@@ -5,7 +5,8 @@
     "guestbook_link": "Гостевая книга",
     "portfolio_link": "Портфолио",
     "sign_in_link": "Войти",
-    "sign_up_link": "Регистрация"
+    "sign_up_link": "Регистрация",
+    "made_with": "Сделано с"
   },
   "BaseTemplate": {
     "description": "Мы автоматизируем создание резюме в соответствии с описанием должности",
