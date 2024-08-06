@@ -5,7 +5,8 @@
     "guestbook_link": "Livro de Visitas",
     "portfolio_link": "Portfólio",
     "sign_in_link": "Iniciar sessão",
-    "sign_up_link": "Criar conta"
+    "sign_up_link": "Criar conta",
+    "made_with": "Feito com"
   },
   "BaseTemplate": {
     "description": "Nós automatizamos a criação de seu CV conforme a descrição do trabalho",
