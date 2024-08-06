@@ -5,7 +5,8 @@
     "guestbook_link": "Libro de visitas",
     "portfolio_link": "Portafolio",
     "sign_in_link": "Iniciar sesión",
-    "sign_up_link": "Regístrate"
+    "sign_up_link": "Regístrate",
+    "made_with": "Hecho con"
   },
   "BaseTemplate": {
     "description": "Automatizamos la creación de su currículum según la descripción del trabajo",
