@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.1.0...v1.2.0) (2024-08-06)
+
+
+### Features
+
+* add header ([8ba0bd5](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/8ba0bd51461691905b779c9431970ff9395b8475))
+
 # [1.1.0](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.0.1...v1.1.0) (2024-08-01)
 
 
