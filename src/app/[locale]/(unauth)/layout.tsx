@@ -1,15 +1,13 @@
-import { Layout as AppLayout, Menu } from 'antd';
-import { Content, Footer, Header } from 'antd/lib/layout/layout';
-import Image from 'next/image';
+import { Layout as AppLayout } from 'antd';
+import { Content } from 'antd/lib/layout/layout';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import type { ReactNode } from 'react';
 
-import LocaleSwitcher from '@/components/LocaleSwitcher';
-import logo from '@/public/assets/images/cv_mate_logo.svg';
+import { AppFooter } from '@/app/[locale]/(unauth)/_components/AppFooter';
+import { AppHeader } from '@/app/[locale]/(unauth)/_components/AppHeader';
 import { BaseTemplate } from '@/templates/BaseTemplate';
-import { AppConfig } from '@/utils/AppConfig';
 
 export default function Layout(props: {
   children: ReactNode;
@@ -20,25 +18,7 @@ export default function Layout(props: {
 
   return (
     <AppLayout>
-      <Header className="flex items-center">
-        <Image src={logo} alt="Logo of CV Mate" className="w-40" />
-        <Menu
-          theme="dark"
-          mode="horizontal"
-          items={[
-            {
-              key: 'sign-in',
-              label: <Link href="/sign-in/">{t('sign_in_link')}</Link>,
-            },
-            {
-              key: 'sign-up',
-              label: <Link href="/sign-up/">{t('sign_up_link')}</Link>,
-            },
-          ]}
-          className="min-w-0 flex-1 justify-end"
-        />
-        <LocaleSwitcher />
-      </Header>
+      <AppHeader />
       <Content className="p-12">
         <div className="min-h-72 rounded-md bg-white p-6">
           <BaseTemplate
@@ -83,17 +63,7 @@ export default function Layout(props: {
           </BaseTemplate>
         </div>
       </Content>
-      <Footer className="text-center">
-        © Copyright {new Date().getFullYear()} {AppConfig.name}.
-        {` ${t('made_with')} 🖤 `}
-        <a
-          href="https://github.com/mfmsajidh/"
-          className="text-blue-700 hover:border-b-2 hover:border-blue-700"
-        >
-          Sajidh Farook
-        </a>
-        .
-      </Footer>
+      <AppFooter stringTranslation={t('made_with')} />
     </AppLayout>
   );
 }
