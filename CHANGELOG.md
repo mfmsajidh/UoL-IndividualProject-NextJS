@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.2.0...v1.3.0) (2024-08-12)
+
+
+### Features
+
+* **Header:** add responsive header and navigation ([cbb3018](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/cbb3018ee1db5644cfa34735b78442c65f566ce0))
+
 # [1.2.0](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.1.0...v1.2.0) (2024-08-06)
 
 
