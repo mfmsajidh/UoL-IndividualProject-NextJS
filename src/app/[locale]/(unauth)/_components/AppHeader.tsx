@@ -95,22 +95,7 @@ const AppHeader = () => {
 
   return (
     <Flex justify="center">
-      <Header
-        className="fixed z-10 m-5 !bg-white/[.4] max-lg:w-[80vw] lg:w-[95vw]"
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          flexShrink: 0,
-          borderRadius: '999px',
-          backdropFilter: 'blur(24px)',
-          maxHeight: 40,
-          borderColor: 'divider',
-          boxShadow:
-            '0 0 1rem rgba(85, 166, 246, 0.1), 1rem 1.5rem 2rem -1rem rgba(85, 166, 246, 0.15), 4rem 4rem 12rem -2.5rem rgba(85, 166, 246, 0.15)',
-          padding: '2rem',
-        }}
-      >
+      <Header className="fixed z-10 m-5 flex max-h-9 shrink-0 items-center justify-between rounded-full !bg-white/[.4] !p-8 shadow-2xl backdrop-blur-xl max-lg:w-[80vw] lg:w-[95vw]">
         <DesktopNavigation
           signInTranslation={t('sign_in_link')}
           signUpTranslation={t('sign_up_link')}

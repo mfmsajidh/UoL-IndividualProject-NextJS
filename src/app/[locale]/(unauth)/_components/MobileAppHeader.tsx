@@ -86,7 +86,7 @@ export const MobileAppHeader: FC<NavigationProps> = ({
         <Button
           type="primary"
           onClick={showDrawer}
-          icon={<MenuOutlined style={{ color: 'white' }} />}
+          icon={<MenuOutlined />}
           className="flex flex-wrap items-center !border-b-0"
         />
       </div>
