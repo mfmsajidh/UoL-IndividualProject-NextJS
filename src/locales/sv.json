@@ -5,11 +5,11 @@
     "guestbook_link": "Gästbok",
     "portfolio_link": "Portfölj",
     "sign_in_link": "Logga in",
-    "sign_up_link": "Registrera dig"
+    "sign_up_link": "Registrera dig",
+    "made_with": "Gjord med"
   },
   "BaseTemplate": {
-    "description": "Vi automatiserar skapandet av ditt CV enligt arbetsbeskrivningen",
-    "made_with": "Gjord med"
+    "description": "Vi automatiserar skapandet av ditt CV enligt arbetsbeskrivningen"
   },
   "Index": {
     "meta_title": "CV Mate Application",

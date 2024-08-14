@@ -5,11 +5,11 @@
     "guestbook_link": "Livre d'or",
     "portfolio_link": "Portefeuille",
     "sign_in_link": "Se connecter",
-    "sign_up_link": "S'inscrire"
+    "sign_up_link": "S'inscrire",
+    "made_with": "Fait avec"
   },
   "BaseTemplate": {
-    "description": "Nous automatisons la création de votre CV selon la description de l'emploi",
-    "made_with": "Fait avec"
+    "description": "Nous automatisons la création de votre CV selon la description de l'emploi"
   },
   "Index": {
     "meta_title": "Demande de CV Mate",

@@ -5,11 +5,11 @@
     "guestbook_link": "Książka gości",
     "portfolio_link": "Portfel",
     "sign_in_link": "Zaloguj się",
-    "sign_up_link": "Zarejestruj"
+    "sign_up_link": "Zarejestruj",
+    "made_with": "Wykonane z"
   },
   "BaseTemplate": {
-    "description": "Zautomatyzujemy tworzenie Twojego CV w opisie pracy",
-    "made_with": "Wykonane z"
+    "description": "Zautomatyzujemy tworzenie Twojego CV w opisie pracy"
   },
   "Index": {
     "meta_title": "Aplikacja Mate CV",

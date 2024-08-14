@@ -5,11 +5,11 @@
     "guestbook_link": "Gæstebog",
     "portfolio_link": "Portefølje",
     "sign_in_link": "Log ind",
-    "sign_up_link": "Tilmeld dig"
+    "sign_up_link": "Tilmeld dig",
+    "made_with": "Lavet med"
   },
   "BaseTemplate": {
-    "description": "Vi automatiserer oprettelsen af dit CV i henhold til jobbeskrivelsen",
-    "made_with": "Lavet med"
+    "description": "Vi automatiserer oprettelsen af dit CV i henhold til jobbeskrivelsen"
   },
   "Index": {
     "meta_title": "Cv Mate Program",

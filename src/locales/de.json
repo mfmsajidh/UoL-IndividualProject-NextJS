@@ -5,11 +5,11 @@
     "guestbook_link": "Gästebuch",
     "portfolio_link": "Portfolio",
     "sign_in_link": "Anmelden",
-    "sign_up_link": "Registrieren"
+    "sign_up_link": "Registrieren",
+    "made_with": "Gemacht mit"
   },
   "BaseTemplate": {
-    "description": "Wir automatisieren die Erstellung Ihres Lebenslaufs gemäß der Jobbeschreibung",
-    "made_with": "Gemacht mit"
+    "description": "Wir automatisieren die Erstellung Ihres Lebenslaufs gemäß der Jobbeschreibung"
   },
   "Index": {
     "meta_title": "Lebenslauf-Mate Anwendung",

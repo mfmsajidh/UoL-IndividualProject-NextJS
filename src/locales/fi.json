@@ -5,11 +5,11 @@
     "guestbook_link": "Vieraskirja",
     "portfolio_link": "Salkku",
     "sign_in_link": "Kirjaudu sisään",
-    "sign_up_link": "Rekisteröidy nyt"
+    "sign_up_link": "Rekisteröidy nyt",
+    "made_with": "Valmistettu kanssa"
   },
   "BaseTemplate": {
-    "description": "Me automatisoida luomisen CV kohti työnkuva",
-    "made_with": "Valmistettu kanssa"
+    "description": "Me automatisoida luomisen CV kohti työnkuva"
   },
   "Index": {
     "meta_title": "Cv- Matesovellus",
