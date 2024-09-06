@@ -1,4 +1,8 @@
+import { Button } from 'antd';
+import Link from 'next/link';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+
+import image from '@/public/assets/images/cv.svg';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -12,39 +16,55 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
+const Hero = () => {
+  return (
+    <div
+      id="hero"
+      className="w-full bg-gradient-to-b from-blue-100 to-white dark:from-blue-900 dark:to-transparent"
+    >
+      <div className="container mx-auto flex flex-col items-center pb-8 pt-14 sm:pb-12 sm:pt-32">
+        <div className="w-full space-y-4 sm:w-4/5 lg:w-2/3">
+          <div className="flex flex-col items-center justify-center text-center text-4xl sm:text-5xl md:text-6xl">
+            Transform Your CV with{' '}
+            <span className="text-blue-600 dark:text-blue-400">
+              AI & Blockchain
+            </span>
+          </div>
+          <div className="mx-auto w-full text-center text-gray-600 md:w-4/5 dark:text-gray-300">
+            Create, Validate, and Securely Share Your CV with the Power of
+            Machine Learning and Decentralisation. Automate your CV creation,
+            optimise it, and ensure its authenticity with blockchain technology.
+            Your career journey begins here.
+          </div>
+          <div className="flex flex-col items-center justify-center space-y-2 pt-4 sm:flex-row sm:space-x-2 sm:space-y-0">
+            <Link href="/sign-in/">
+              <Button type="primary" className="w-full sm:w-auto">
+                Get Started
+              </Button>
+            </Link>
+          </div>
+          <div className="block text-center text-xs text-gray-500 dark:text-gray-400">
+            By clicking &quot;Get Started&quot; you agree to our{' '}
+            <Link href="/#" className="text-blue-600 dark:text-blue-400">
+              Terms & Conditions
+            </Link>
+            .
+          </div>
+        </div>
+        <div
+          id="image"
+          className="mt-8 h-48 w-full rounded-lg border border-gray-200 bg-cover bg-center shadow-lg sm:mt-10 sm:h-[700px] dark:border-gray-800"
+          style={{
+            backgroundImage: `url(${image.src})`,
+          }}
+        />
+      </div>
+    </div>
+  );
+};
+
 export default function Index(props: { params: { locale: string } }) {
   unstable_setRequestLocale(props.params.locale);
 
-  return (
-    <>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-        imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
-        scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec
-        congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut
-        aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac.
-        In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae
-        dui eget tellus gravida venenatis. Integer fringilla congue eros non
-        fermentum. Sed dapibus pulvinar nibh tempor porta.
-      </p>
-
-      <p>
-        Crase venenatis odio in lacus blandit, at suscipit mauris consequat.
-        Nulla facilisi. Nullam vehicula sapien sit amet lorem vulputate, in
-        imperdiet sapien accumsan. Morbi euismod nisi eu libero convallis, non
-        porttitor orci varius. Nam at nunc eu augue vestibulum euismod. Nulla
-        facilisi. Pellentesque gravida ligula a orci ullamcorper, in vestibulum
-        lorem accumsan.
-      </p>
-
-      <p>
-        Integer pretium massa ut vestibulum egestas. Nullam faucibus metus a
-        ante egestas, ut pretium magna consectetur. Cras a turpis leo. In
-        interdum tellus sed erat tincidunt, ut posuere ligula iaculis. Donec
-        fringilla sollicitudin justo, vitae convallis augue consequat a.
-        Curabitur aliquet dui et risus volutpat, id luctus enim dignissim.
-        Suspendisse potenti.
-      </p>
-    </>
-  );
+  return <Hero />;
 }
