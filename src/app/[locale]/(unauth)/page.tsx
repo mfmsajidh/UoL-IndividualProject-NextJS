@@ -37,7 +37,7 @@ const Hero = () => {
             Your career journey begins here.
           </div>
           <div className="flex flex-col items-center justify-center space-y-2 pt-4 sm:flex-row sm:space-x-2 sm:space-y-0">
-            <Link href="/sign-in/">
+            <Link href="/sign-up/">
               <Button type="primary" className="w-full sm:w-auto">
                 Get Started
               </Button>
