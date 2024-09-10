@@ -1,22 +1,26 @@
-import { getTranslations } from 'next-intl/server';
+'use client';
 
-import { Hello } from '@/components/Hello';
+// import { Hello } from '@/components/Hello';
+import { useWallet } from '@/hooks/useWallet';
 
-export async function generateMetadata(props: { params: { locale: string } }) {
-  const t = await getTranslations({
-    locale: props.params.locale,
-    namespace: 'Dashboard',
-  });
+const Dashboard = () => {
+  const { isLoading, publicKey, account, network, connectWallet } = useWallet();
 
-  return {
-    title: t('meta_title'),
-  };
-}
-
-const Dashboard = () => (
-  <div className="[&_p]:my-6">
-    <Hello />
-  </div>
-);
+  return (
+    <div className="[&_p]:my-6">
+      {/* <Hello /> */}
+      asd {isLoading}
+      <button
+        className="h-8 rounded-md border-black bg-black px-2 py-1 text-white"
+        onClick={connectWallet}
+        type="button"
+      >
+        Connect Wallet
+      </button>
+      Connected to {network} publicKey {publicKey} account{' '}
+      {JSON.stringify(account)}
+    </div>
+  );
+};
 
 export default Dashboard;

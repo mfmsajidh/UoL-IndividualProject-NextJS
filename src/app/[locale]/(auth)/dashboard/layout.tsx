@@ -1,9 +1,21 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { LogOutButton } from '@/components/LogOutButton';
 import { BaseTemplate } from '@/templates/BaseTemplate';
+
+export async function generateMetadata(props: { params: { locale: string } }) {
+  const t = await getTranslations({
+    locale: props.params.locale,
+    namespace: 'Dashboard',
+  });
+
+  return {
+    title: t('meta_title'),
+  };
+}
 
 export default function DashboardLayout(props: { children: React.ReactNode }) {
   const t = useTranslations('DashboardLayout');

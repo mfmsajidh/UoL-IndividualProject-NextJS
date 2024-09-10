@@ -14,6 +14,7 @@ export const Env = createEnv({
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().min(1),
     NEXT_PUBLIC_CLERK_SIGN_IN_URL: z.string().min(1),
     NEXT_PUBLIC_PINATA_GATEWAY_URL: z.string().url(),
+    NEXT_PUBLIC_STELLAR_SERVER_URL: z.string().url(),
   },
   shared: {
     NODE_ENV: z.enum(['development', 'production']),
@@ -23,12 +24,13 @@ export const Env = createEnv({
     CLERK_SECRET_KEY: process.env.CLERK_SECRET_KEY,
     DATABASE_URL: process.env.DATABASE_URL,
     LOGTAIL_SOURCE_TOKEN: process.env.LOGTAIL_SOURCE_TOKEN,
+    PINATA_JWT: process.env.PINATA_JWT,
     NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY:
       process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
     NEXT_PUBLIC_CLERK_SIGN_IN_URL: process.env.NEXT_PUBLIC_CLERK_SIGN_IN_URL,
-    NODE_ENV: process.env.NODE_ENV,
-    PINATA_JWT: process.env.PINATA_JWT,
     NEXT_PUBLIC_PINATA_GATEWAY_URL: process.env.NEXT_PUBLIC_PINATA_GATEWAY_URL,
+    NEXT_PUBLIC_STELLAR_SERVER_URL: process.env.NEXT_PUBLIC_STELLAR_SERVER_URL,
+    NODE_ENV: process.env.NODE_ENV,
   },
 });
