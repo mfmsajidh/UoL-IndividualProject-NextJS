@@ -36,6 +36,7 @@
     "@logtail/pino": "^0.4.22",
     "@sentry/nextjs": "^8.24.0",
     "@spotlightjs/spotlight": "^2.3.0",
+    "@stellar/freighter-api": "^3.0.0",
     "@stellar/stellar-sdk": "^12.2.0",
     "@t3-oss/env-nextjs": "^0.11.0",
     "antd": "^5.20.0",
