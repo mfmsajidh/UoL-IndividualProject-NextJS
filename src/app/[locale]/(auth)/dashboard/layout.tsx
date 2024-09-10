@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+import type { ReactNode } from 'react';
 
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { LogOutButton } from '@/components/LogOutButton';
@@ -17,7 +18,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-export default function DashboardLayout(props: { children: React.ReactNode }) {
+export default function DashboardLayout(props: { children: ReactNode }) {
   const t = useTranslations('DashboardLayout');
 
   return (
