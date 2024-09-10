@@ -12,42 +12,14 @@ import { Env } from '@/libs/Env';
 
 const server = new Horizon.Server(Env.NEXT_PUBLIC_STELLAR_SERVER_URL);
 
-// TODO Replace with this with the platform account secret key
-const platformSecretKey =
-  'SCMMM7YGETYU7S64HARQECYCW6HEXPCDRO6FGLGPVVLIROFKC4DWYFYW';
-
 export const getAccount = async (publicKey: string) => {
   return server.loadAccount(publicKey);
-};
-
-export const createUserStellarAccount = async () => {
-  const keypair = Keypair.random();
-  const platformKeypair = Keypair.fromSecret(platformSecretKey);
-  const platformAccount = await server.loadAccount(platformKeypair.publicKey());
-
-  const transaction = new TransactionBuilder(platformAccount, {
-    fee: BASE_FEE,
-    networkPassphrase: Networks.TESTNET,
-  })
-    .addOperation(
-      Operation.createAccount({
-        destination: keypair.publicKey(),
-        startingBalance: '100', // Sufficient starting balance to cover base reserves and some operations
-      }),
-    )
-    .setTimeout(180)
-    .build();
-
-  transaction.sign(platformKeypair);
-  await server.submitTransaction(transaction);
-
-  return keypair;
 };
 
 export const storeHashOnStellar = async (
   ipfsHash: string,
   userSecret: string,
-  uniqueKey: string,
+  version: number = 0,
 ) => {
   try {
     const userKeypair = Keypair.fromSecret(userSecret);
@@ -55,11 +27,12 @@ export const storeHashOnStellar = async (
 
     const transaction = new TransactionBuilder(platformAccount, {
       fee: BASE_FEE,
-      networkPassphrase: Networks.TESTNET,
+      networkPassphrase:
+        Networks[Env.NEXT_PUBLIC_STELLAR_NETWORK as keyof typeof Networks],
     })
       .addOperation(
         Operation.manageData({
-          name: uniqueKey,
+          name: `UserProfileCID_V${version}`,
           value: ipfsHash,
         }),
       )
@@ -67,7 +40,9 @@ export const storeHashOnStellar = async (
       .build();
 
     transaction.sign(userKeypair);
-    return await server.submitTransaction(transaction);
+
+    // Send XDR for client to sign
+    return transaction.toXDR();
   } catch (e) {
     // console.log(e);
     throw new Error('Stellar record creation failed');

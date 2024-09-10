@@ -10,6 +10,7 @@ import type { Account } from '@stellar/stellar-sdk';
 import { Networks } from '@stellar/stellar-sdk';
 import { useEffect, useState } from 'react';
 
+import { Env } from '@/libs/Env';
 import { getAccount } from '@/libs/Stellar';
 
 export const useWallet = () => {
@@ -125,7 +126,8 @@ export const useWallet = () => {
     try {
       // eslint-disable-next-line consistent-return
       return await signTransaction(xdr, {
-        networkPassphrase: Networks.TESTNET,
+        networkPassphrase:
+          Networks[Env.NEXT_PUBLIC_STELLAR_NETWORK as keyof typeof Networks],
         address: publicKey,
       });
     } catch (err) {

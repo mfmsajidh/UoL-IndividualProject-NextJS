@@ -1,3 +1,4 @@
+import { Networks } from '@stellar/stellar-sdk';
 import { createEnv } from '@t3-oss/env-nextjs';
 import { z } from 'zod';
 
@@ -15,6 +16,9 @@ export const Env = createEnv({
     NEXT_PUBLIC_CLERK_SIGN_IN_URL: z.string().min(1),
     NEXT_PUBLIC_PINATA_GATEWAY_URL: z.string().url(),
     NEXT_PUBLIC_STELLAR_SERVER_URL: z.string().url(),
+    NEXT_PUBLIC_STELLAR_NETWORK: z.enum(
+      Object.keys(Networks) as [string, ...string[]],
+    ),
   },
   shared: {
     NODE_ENV: z.enum(['development', 'production']),
@@ -31,6 +35,7 @@ export const Env = createEnv({
     NEXT_PUBLIC_CLERK_SIGN_IN_URL: process.env.NEXT_PUBLIC_CLERK_SIGN_IN_URL,
     NEXT_PUBLIC_PINATA_GATEWAY_URL: process.env.NEXT_PUBLIC_PINATA_GATEWAY_URL,
     NEXT_PUBLIC_STELLAR_SERVER_URL: process.env.NEXT_PUBLIC_STELLAR_SERVER_URL,
+    NEXT_PUBLIC_STELLAR_NETWORK: process.env.NEXT_PUBLIC_STELLAR_NETWORK,
     NODE_ENV: process.env.NODE_ENV,
   },
 });
