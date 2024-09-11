@@ -6,7 +6,10 @@
     "portfolio_link": "Portafolio",
     "sign_in_link": "Iniciar sesión",
     "sign_up_link": "Regístrate",
-    "made_with": "Hecho con"
+    "made_with": "Hecho con",
+    "features_link": "Características",
+    "pricing_link": "Precios",
+    "faq_link": "FAQ"
   },
   "BaseTemplate": {
     "description": "Automatizamos la creación de su currículum según la descripción del trabajo"
