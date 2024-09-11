@@ -6,7 +6,10 @@
     "portfolio_link": "Portfólio",
     "sign_in_link": "Iniciar sessão",
     "sign_up_link": "Criar conta",
-    "made_with": "Feito com"
+    "made_with": "Feito com",
+    "features_link": "Funcionalidades",
+    "pricing_link": "Preços",
+    "faq_link": "Perguntas Frequentes"
   },
   "BaseTemplate": {
     "description": "Nós automatizamos a criação de seu CV conforme a descrição do trabalho"
