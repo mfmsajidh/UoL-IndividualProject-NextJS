@@ -6,7 +6,10 @@
     "portfolio_link": "Portfolio",
     "sign_in_link": "Sign in",
     "sign_up_link": "Sign up",
-    "made_with": "Made with"
+    "made_with": "Made with",
+    "features_link": "Features",
+    "pricing_link": "Pricing",
+    "faq_link": "FAQ"
   },
   "BaseTemplate": {
     "description": "We automate the creation of your CV as per the job description"
