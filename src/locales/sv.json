@@ -6,7 +6,10 @@
     "portfolio_link": "Portfölj",
     "sign_in_link": "Logga in",
     "sign_up_link": "Registrera dig",
-    "made_with": "Gjord med"
+    "made_with": "Gjord med",
+    "features_link": "Funktioner",
+    "pricing_link": "Prissättning",
+    "faq_link": "Vanliga frågor"
   },
   "BaseTemplate": {
     "description": "Vi automatiserar skapandet av ditt CV enligt arbetsbeskrivningen"
