@@ -6,7 +6,10 @@
     "portfolio_link": "Portfolio",
     "sign_in_link": "Přihlásit se",
     "sign_up_link": "Zaregistrovat se",
-    "made_with": "Vyrobeno pomocí"
+    "made_with": "Vyrobeno pomocí",
+    "features_link": "Vlastnosti",
+    "pricing_link": "Ceník",
+    "faq_link": "Nejčastější dotazy"
   },
   "BaseTemplate": {
     "description": "Automatizujeme tvorbu tvého CV podle popisu úlohy"
