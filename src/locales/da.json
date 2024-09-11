@@ -6,7 +6,10 @@
     "portfolio_link": "Portefølje",
     "sign_in_link": "Log ind",
     "sign_up_link": "Tilmeld dig",
-    "made_with": "Lavet med"
+    "made_with": "Lavet med",
+    "features_link": "Funktioner",
+    "pricing_link": "Priser",
+    "faq_link": "OSS"
   },
   "BaseTemplate": {
     "description": "Vi automatiserer oprettelsen af dit CV i henhold til jobbeskrivelsen"
