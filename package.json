@@ -163,5 +163,6 @@
       "@semantic-release/github"
     ]
   },
-  "author": "Sajidh Farook (https://github.com/mfmsajidh)"
+  "author": "Sajidh Farook (https://github.com/mfmsajidh)",
+  "packageManager": "npm@10.8.2"
 }
