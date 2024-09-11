@@ -6,7 +6,10 @@
     "portfolio_link": "Portfel",
     "sign_in_link": "Zaloguj się",
     "sign_up_link": "Zarejestruj",
-    "made_with": "Wykonane z"
+    "made_with": "Wykonane z",
+    "features_link": "Funkcje",
+    "pricing_link": "Cennik",
+    "faq_link": "Często zadawane pytania"
   },
   "BaseTemplate": {
     "description": "Zautomatyzujemy tworzenie Twojego CV w opisie pracy"
