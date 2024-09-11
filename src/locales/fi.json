@@ -6,7 +6,10 @@
     "portfolio_link": "Salkku",
     "sign_in_link": "Kirjaudu sisään",
     "sign_up_link": "Rekisteröidy nyt",
-    "made_with": "Valmistettu kanssa"
+    "made_with": "Valmistettu kanssa",
+    "features_link": "Ominaisuudet",
+    "pricing_link": "Hinnoittelu",
+    "faq_link": "UKK"
   },
   "BaseTemplate": {
     "description": "Me automatisoida luomisen CV kohti työnkuva"
