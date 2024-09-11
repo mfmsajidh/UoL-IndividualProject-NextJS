@@ -6,7 +6,10 @@
     "portfolio_link": "Портфель",
     "sign_in_link": "Увійти",
     "sign_up_link": "Зареєструватися",
-    "made_with": "Зроблено з"
+    "made_with": "Зроблено з",
+    "features_link": "Особливості",
+    "pricing_link": "Ціноутворення",
+    "faq_link": "ЧАП"
   },
   "BaseTemplate": {
     "description": "Ми автоматизуємо створення вашого резюме в якості опису завдання"
