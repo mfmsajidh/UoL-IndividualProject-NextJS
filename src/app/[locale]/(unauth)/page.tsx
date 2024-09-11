@@ -137,7 +137,7 @@ export default function Index() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="w-full bg-gray-900 py-12 md:py-24 lg:py-32 xl:py-48">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl lg:text-6xl/none">
@@ -165,7 +165,7 @@ export default function Index() {
 
         {/* Logo Collection */}
         <section className="w-full bg-gray-900 py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="mb-8 text-center text-2xl font-bold text-white">
               Trusted by Industry Leaders
             </h2>
@@ -190,7 +190,7 @@ export default function Index() {
           id="features"
           className="w-full bg-gray-950 py-12 md:py-24 lg:py-32"
         >
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="mb-12 text-center text-3xl font-bold text-white">
               Powerful Features
             </h2>
@@ -247,7 +247,7 @@ export default function Index() {
 
         {/* Testimonials */}
         <section className="w-full bg-gray-900 py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="mb-12 text-center text-3xl font-bold text-white">
               What Our Users Say
             </h2>
@@ -295,7 +295,7 @@ export default function Index() {
 
         {/* Highlights */}
         <section className="w-full bg-gray-950 py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <div className="grid gap-10 lg:grid-cols-2">
               <div className="flex flex-col justify-center space-y-4">
                 <h2 className="text-3xl font-bold tracking-tighter text-white sm:text-5xl">
@@ -337,7 +337,7 @@ export default function Index() {
           id="pricing"
           className="w-full bg-gray-900 py-12 md:py-24 lg:py-32"
         >
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="mb-12 text-center text-3xl font-bold text-white">
               Choose Your Plan
             </h2>
@@ -419,7 +419,7 @@ export default function Index() {
           id="faq"
           className="w-full bg-gray-950 py-12 md:py-24 lg:py-32"
         >
-          <div className="container px-4 md:px-6">
+          <div className="container mx-auto px-4 md:px-6">
             <h2 className="mb-12 text-center text-3xl font-bold text-white">
               Frequently Asked Questions
             </h2>
@@ -476,7 +476,7 @@ export default function Index() {
 
       {/* Footer */}
       <footer className="w-full bg-gray-900 py-6 text-gray-300">
-        <div className="container px-4 md:px-6">
+        <div className="container mx-auto px-4 md:px-6">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div>
               <h3 className="mb-4 text-lg font-semibold text-white">
