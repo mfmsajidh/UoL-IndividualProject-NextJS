@@ -6,7 +6,10 @@
     "portfolio_link": "Портфолио",
     "sign_in_link": "Войти",
     "sign_up_link": "Регистрация",
-    "made_with": "Сделано с"
+    "made_with": "Сделано с",
+    "features_link": "Возможности",
+    "pricing_link": "Цены",
+    "faq_link": "ЧАВО"
   },
   "BaseTemplate": {
     "description": "Мы автоматизируем создание резюме в соответствии с описанием должности"
