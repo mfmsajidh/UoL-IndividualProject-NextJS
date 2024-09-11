@@ -6,7 +6,10 @@
     "portfolio_link": "ポートフォリオ",
     "sign_in_link": "サインイン",
     "sign_up_link": "新規登録",
-    "made_with": "製法："
+    "made_with": "製法：",
+    "features_link": "特徴",
+    "pricing_link": "価格",
+    "faq_link": "FAQ"
   },
   "BaseTemplate": {
     "description": "ジョブの説明に従って履歴書の作成を自動化します"
