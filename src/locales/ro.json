@@ -6,7 +6,10 @@
     "portfolio_link": "Portofoliu",
     "sign_in_link": "Autentificare",
     "sign_up_link": "Înscrie-te",
-    "made_with": "Realizat cu"
+    "made_with": "Realizat cu",
+    "features_link": "Caracteristici",
+    "pricing_link": "Prețuri",
+    "faq_link": "Întrebări"
   },
   "BaseTemplate": {
     "description": "Noi automatizăm crearea CV-ului tău conform descrierii jobului"
