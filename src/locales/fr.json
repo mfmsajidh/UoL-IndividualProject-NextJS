@@ -13,17 +13,17 @@
   "AppFooter": {
     "description": "Création révolutionnaire de CV avec AI et Blockchain",
     "quick_links": "Liens rapides",
-    "features": "Features",
+    "features": "Fonctionnalités",
     "pricing": "Tarification",
     "faq": "Foire Aux Questions",
-    "legal": "Legal",
-    "privacy_policy": "Privacy Policy",
+    "legal": "Mentions légales",
+    "privacy_policy": "Politique de confidentialité",
     "terms_of_service": "Conditions d'utilisation",
-    "connect": "Connect",
+    "connect": "Connecter",
     "github": "Github",
     "linkedin": "LinkedIn",
-    "email": "Email",
-    "all_rights_reserved": "All rights reserved."
+    "email": "Courriel",
+    "all_rights_reserved": "Tous droits réservés."
   },
   "BaseTemplate": {
     "description": "Nous automatisons la création de votre CV selon la description de l'emploi"
@@ -80,7 +80,7 @@
     "sign_out": "Se déconnecter"
   },
   "TermsLayout": {
-    "back_to_home_link": "Home"
+    "back_to_home_link": "Domicile"
   },
   "PrivacyPolicy": {
     "meta_title": "Politique de confidentialité",
@@ -122,33 +122,33 @@
     "contact_us_content_2": "Par email:"
   },
   "TermsOfService": {
-    "meta_title": "Term of Service",
-    "meta_description": "Review the terms and conditions governing your use of CV Mate’s services, including important information about user responsibilities, rights, and limitations",
-    "acceptance_of_terms_title": "1. Acceptance of Terms",
-    "acceptance_of_terms_content": "By accessing or using the CV Mate service, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not use our service.",
-    "description_of_service_title": "2. Description of Service",
-    "description_of_service_content": "CV Mate provides an AI-powered CV generation and blockchain verification service. Our service uses machine learning algorithms to create and optimize your CV, and blockchain technology to verify and secure your professional information.",
-    "user_accounts_title": "3. User Accounts",
-    "user_accounts_content": "To use certain features of our service, you may be required to create an account. You are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account.",
-    "user_content_title": "4. User Content",
-    "user_content_content_1": "You retain all rights to the content you submit to our service. By submitting content, you grant CV Mate a worldwide, non-exclusive, royalty-free license to use, reproduce, and display your content in connection with providing and improving our service.",
-    "user_content_content_2": "You are solely responsible for the content you submit. You agree not to submit any false, misleading, or fraudulent information.",
-    "intellectual_property_title": "5. Intellectual Property",
-    "intellectual_property_content": "The CV Mate service, including its original content, features, and functionality, is owned by CV Mate and is protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.",
-    "blockchain_verification_title": "6. Blockchain Verification",
-    "blockchain_verification_content": "Our service uses blockchain technology to verify certain aspects of your CV. You understand and agree that information stored on a blockchain is immutable and cannot be deleted. We will only store necessary verification data on the blockchain, not your complete CV or detailed personal information.",
-    "ai_generated_content_title": "7. AI-Generated Content",
-    "ai_generated_content_content": "Our service uses AI to generate and optimize CV content. While we strive for accuracy, you are responsible for reviewing and ensuring the accuracy of all AI-generated content before using it. We do not guarantee that AI-generated content will be error-free or suitable for all purposes.",
-    "limitation_of_liability_title": "8. Limitation of Liability",
-    "limitation_of_liability_content": "CV Mate shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the service.",
-    "modifications_to_service_title": "9. Modifications to Service",
-    "modifications_to_service_content": "We reserve the right to modify or discontinue, temporarily or permanently, the service (or any part thereof) with or without notice. We shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the service.",
-    "governing_law_title": "10. Governing Law",
-    "governing_law_content": "These Terms shall be governed and construed in accordance with the laws of the United Kingdom, without regard to its conflict of law provisions.",
-    "changes_to_terms_title": "11. Changes to Terms",
-    "changes_to_terms_content": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect.",
-    "contact_us_title": "12. Contact Us",
-    "contact_us_content_1": "If you have any questions about these Terms, please contact us:",
-    "contact_us_content_2": "By email:"
+    "meta_title": "Conditions d'utilisation",
+    "meta_description": "Examinez les conditions générales régissant votre utilisation des services de CV Mate, y compris les informations importantes sur les responsabilités des utilisateurs, les droits et les limitations des utilisateurs.",
+    "acceptance_of_terms_title": "1. Acceptation des conditions",
+    "acceptance_of_terms_content": "En accédant au service CV Mate ou en l'utilisant, vous acceptez d'être lié par les présentes conditions d'utilisation et toutes les lois et réglementations applicables. Si vous n'êtes pas d'accord avec une partie quelconque de ces modalités, vous ne pouvez pas utiliser notre service.",
+    "description_of_service_title": "2. Description du Service",
+    "description_of_service_content": "CV Mate fournit un service de génération de CV et de vérification blockchain propulsé par l'AI. Notre service utilise des algorithmes d'apprentissage automatique pour créer et optimiser votre CV, et la technologie blockchain pour vérifier et sécuriser vos informations professionnelles.",
+    "user_accounts_title": "3. Comptes utilisateur",
+    "user_accounts_content": "Pour utiliser certaines fonctionnalités de notre service, il se peut que vous deviez créer un compte. Vous êtes responsable du maintien de la confidentialité de votre compte et de votre mot de passe. Vous acceptez d'assumer la responsabilité de toutes les activités qui se déroulent sous votre compte.",
+    "user_content_title": "4. Contenu de l'utilisateur",
+    "user_content_content_1": "Vous conservez tous les droits sur le contenu que vous soumettez à notre service. En soumettant du contenu, vous accordez à CV Mate une licence mondiale, non exclusive, libre de droits d'utilisation, reproduire, et afficher votre contenu dans le cadre de la fourniture et de l'amélioration de notre service.",
+    "user_content_content_2": "Vous êtes seul responsable du contenu que vous soumettez. Vous acceptez de ne pas soumettre d'informations fausses, trompeuses ou frauduleuses.",
+    "intellectual_property_title": "5. Propriété intellectuelle",
+    "intellectual_property_content": "Le service CV Mate, y compris son contenu original, ses fonctionnalités et ses fonctionnalités, est la propriété de CV Mate et est protégée par le droit d'auteur international, la marque de commerce, le brevet, le secret commercial et d'autres lois sur la propriété intellectuelle.",
+    "blockchain_verification_title": "6. Vérification de la Blockchain",
+    "blockchain_verification_content": "Notre service utilise la technologie blockchain pour vérifier certains aspects de votre CV. Vous comprenez et acceptez que les informations stockées sur une blockchain sont immuables et ne peuvent pas être supprimées. Nous stockerons uniquement les données de vérification nécessaires sur la blockchain, pas votre CV complet ou des informations personnelles détaillées.",
+    "ai_generated_content_title": "7. Contenu généré par IA",
+    "ai_generated_content_content": "Notre service utilise AI pour générer et optimiser le contenu du CV. Bien que nous nous efforcions d'obtenir l'exactitude, vous êtes responsable de vérifier et d'assurer l'exactitude de tout le contenu généré par l'IA avant de l'utiliser. Nous ne garantissons pas que les contenus générés par les AI seront exempts d'erreurs ou adaptés à toutes les fins.",
+    "limitation_of_liability_title": "8. Limitation de responsabilité",
+    "limitation_of_liability_content": "CV Mate ne sera pas responsable des dommages indirects, accessoires, spéciaux, consécutifs ou punitifs, y compris sans limitation, la perte de profits, les données, l’utilisation, la bonne volonté ou toute autre perte incorporelle, résultant de votre accès ou de votre incapacité à accéder ou à utiliser le service.",
+    "modifications_to_service_title": "9. Modifications au service",
+    "modifications_to_service_content": "Nous nous réservons le droit de modifier ou d'arrêter, temporairement ou définitivement, le service (ou toute partie de celui-ci) avec ou sans préavis. Nous ne serons pas responsables envers vous ou envers un tiers de toute modification, modification des prix, suspension ou interruption du service.",
+    "governing_law_title": "10. Droit applicable",
+    "governing_law_content": "Les présentes conditions sont régies et interprétées conformément aux lois du Royaume-Uni, sans égard à ses dispositions relatives aux conflits de lois.",
+    "changes_to_terms_title": "11. Modifications des conditions",
+    "changes_to_terms_content": "Nous nous réservons le droit, à notre entière discrétion, de modifier ou de remplacer ces conditions à tout moment. Si une révision est importante, nous essaierons de fournir au moins un avis de 30 jours avant que les nouvelles conditions ne prennent effet.",
+    "contact_us_title": "12. Contactez-nous",
+    "contact_us_content_1": "Si vous avez des questions au sujet de ces Conditions, veuillez nous contacter :",
+    "contact_us_content_2": "Par email:"
   }
 }
