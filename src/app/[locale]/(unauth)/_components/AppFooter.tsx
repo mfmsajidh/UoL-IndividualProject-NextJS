@@ -1,13 +1,10 @@
 import Link from 'next/link';
-import type { FC } from 'react';
+import { useTranslations } from 'next-intl';
 
 import { AppConfig } from '@/utils/AppConfig';
 
-interface AppFooterProps {
-  stringTranslation?: string;
-}
-
-export const AppFooter: FC<AppFooterProps> = () => {
+export const AppFooter = () => {
+  const t = useTranslations('AppFooter');
   return (
     <footer className="w-full bg-gray-900 py-6 text-gray-300">
       <div className="container mx-auto px-4 md:px-6">
@@ -16,49 +13,51 @@ export const AppFooter: FC<AppFooterProps> = () => {
             <h3 className="mb-4 text-lg font-semibold text-white">
               {AppConfig.name}
             </h3>
-            <p className="text-sm">
-              Revolutionising CV creation with AI and Blockchain
-            </p>
+            <p className="text-sm">{t('description')}</p>
           </div>
           <div>
             <h4 className="mb-4 text-lg font-semibold text-white">
-              Quick Links
+              {t('quick_links')}
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/#features" className="hover:text-blue-400">
-                  Features
+                  {t('features')}
                 </Link>
               </li>
               <li>
                 <Link href="/#pricing" className="hover:text-blue-400">
-                  Pricing
+                  {t('pricing')}
                 </Link>
               </li>
               <li>
                 <Link href="/#faq" className="hover:text-blue-400">
-                  FAQ
+                  {t('faq')}
                 </Link>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="mb-4 text-lg font-semibold text-white">Legal</h4>
+            <h4 className="mb-4 text-lg font-semibold text-white">
+              {t('legal')}
+            </h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/privacy-policy" className="hover:text-blue-400">
-                  Privacy Policy
+                  {t('privacy_policy')}
                 </Link>
               </li>
               <li>
                 <Link href="/terms-of-service" className="hover:text-blue-400">
-                  Terms of Service
+                  {t('terms_of_service')}
                 </Link>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="mb-4 text-lg font-semibold text-white">Connect</h4>
+            <h4 className="mb-4 text-lg font-semibold text-white">
+              {t('connect')}
+            </h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
@@ -66,7 +65,7 @@ export const AppFooter: FC<AppFooterProps> = () => {
                   className="hover:text-blue-400"
                   target="_blank"
                 >
-                  Github
+                  {t('github')}
                 </a>
               </li>
               <li>
@@ -75,7 +74,7 @@ export const AppFooter: FC<AppFooterProps> = () => {
                   className="hover:text-blue-400"
                   target="_blank"
                 >
-                  LinkedIn
+                  {t('linkedin')}
                 </a>
               </li>
               <li>
@@ -84,14 +83,14 @@ export const AppFooter: FC<AppFooterProps> = () => {
                   className="hover:text-blue-400"
                   target="_blank"
                 >
-                  Email
+                  {t('email')}
                 </a>
               </li>
             </ul>
           </div>
         </div>
         <div className="mt-8 text-center text-sm">
-          {`© ${new Date().getFullYear()} ${AppConfig.name}. All rights reserved.`}
+          {`© ${new Date().getFullYear()} ${AppConfig.name}. ${t('all_rights_reserved')}`}
         </div>
       </div>
     </footer>

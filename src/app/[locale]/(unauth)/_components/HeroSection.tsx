@@ -17,13 +17,7 @@ export const HeroSection = () => {
               </span>
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl">
-              Create, Validate, and Securely Share Your CV Powered by Machine
-              Learning and Decentralisation.
-              <br />
-              <br />
-              Automate Your CV creation, optimise it, and ensure its
-              authenticity with blockchain technology. Your career journey
-              begins here.
+              Create, Validate, and Securely Share Your Resume
             </p>
           </div>
           <div className="space-x-4">
@@ -33,10 +27,7 @@ export const HeroSection = () => {
               </Button>
             </Link>
             <Link href="/#features">
-              <Button
-                variant="outline"
-                className="text-black hover:bg-black hover:text-white"
-              >
+              <Button className="bg-gray-800 text-white hover:bg-gray-900">
                 Learn More
               </Button>
             </Link>

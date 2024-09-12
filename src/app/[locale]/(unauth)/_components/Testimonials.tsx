@@ -22,8 +22,8 @@ export const Testimonials = () => {
                 'The blockchain verification feature gave me an edge in a competitive job market.',
             },
             {
-              name: 'Shubhamommy Baruli',
-              role: 'Gay Housewife',
+              name: 'Sajidh Farook',
+              role: 'Senior Software Engineer',
               content:
                 'The skill gap analysis provided invaluable insights for my career development.',
             },

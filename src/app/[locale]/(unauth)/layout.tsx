@@ -1,4 +1,3 @@
-import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import type { ReactNode } from 'react';
 
@@ -10,7 +9,6 @@ export default function Layout(props: {
   params: { locale: string };
 }) {
   unstable_setRequestLocale(props.params.locale);
-  const t = useTranslations('RootLayout');
 
   return (
     <div className="flex min-h-screen flex-col bg-gray-950 text-gray-100">
@@ -20,7 +18,7 @@ export default function Layout(props: {
       {props.children}
 
       {/* Footer */}
-      <AppFooter stringTranslation={t('made_with')} />
+      <AppFooter />
     </div>
   );
 }
