@@ -1,9 +1,5 @@
 {
-  "RootLayout": {
-    "home_link": "Acasă",
-    "about_link": "Despre",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portofoliu",
+  "AppHeader": {
     "sign_in_link": "Autentificare",
     "sign_up_link": "Înscrie-te",
     "features_link": "Caracteristici",
@@ -122,7 +118,7 @@
     "contact_us_content_2": "prin e-mail:"
   },
   "TermsOfService": {
-    "meta_title": "Durata serviciului",
+    "meta_title": "Condiții de utilizare",
     "meta_description": "Revizuiește termenii și condițiile care guvernează utilizarea serviciilor CV Mate, inclusiv informații importante despre responsabilitățile utilizatorilor, drepturi și limitări",
     "acceptance_of_terms_title": "1. Acceptarea Termenilor",
     "acceptance_of_terms_content": "Prin accesarea sau utilizarea serviciului de pereche CV, sunteți de acord să respectați acești Termeni ai Serviciului și toate legile și reglementările aplicabile. Dacă nu sunteți de acord cu nicio parte a acestor termeni, este posibil să nu utilizați serviciul nostru.",
@@ -150,5 +146,33 @@
     "contact_us_title": "12. Contactează-ne",
     "contact_us_content_1": "Dacă aveți întrebări despre acești termeni, vă rugăm să ne contactați:",
     "contact_us_content_2": "prin e-mail:"
+  },
+  "FAQ": {
+    "title": "Întrebări frecvente",
+    "question_1_title": "Cum generează AI conținutul CV?",
+    "question_1_content": "AI noastră vă analizează intrările, tendințele din industrie și datele de pe piața muncii pentru a crea conținut personalizat, profesional pentru CV-ul dvs.",
+    "question_2_title": "Datele mele sunt sigure cu verificarea blockchain?",
+    "question_2_content": "Da, tehnologia blockchain asigură că datele dvs. de CV sunt stocate și verificabile în siguranță, protejându-se împotriva modificărilor neautorizate.",
+    "question_3_title": "Pot edita conţinutul generat de AI?",
+    "question_3_content": "În timp ce AI ne oferă o bază puternică, ai control deplin pentru a edita și personaliza conținutul CV.",
+    "question_4_title": "Cât de des pot actualiza CV-ul meu?",
+    "question_4_content": "Puteți să vă actualizați CV-ul cât de des doriți. Sistemul nostru permite actualizări în timp real și îmbunătățirea continuă a profilului dvs.",
+    "question_5_title": "Este CV-ul pereche compatibil cu sistemele de urmărire a solicitanţilor (ATS)?",
+    "question_5_content": "Da, AI noastră este instruită să vă optimizeze CV-ul pentru ATS, mărindu-vă șansele de a obține procese inițiale de verificare în trecut."
+  },
+  "Features": {
+    "title": "Caracteristici puternice",
+    "feature_1_title": "Generarea conţinutului cu AI",
+    "feature_1_description": "Algoritmii noștri de ML creează conținut adaptat pe baza experienței dvs. și a tendințelor industriale.",
+    "feature_2_title": "Verificare blockchain",
+    "feature_2_description": "Asigură-te de autenticitatea CV-ului tău cu sistemul nostru de verificare bazat pe blockchain.",
+    "feature_3_title": "Actualizări în timp real",
+    "feature_3_description": "CV-ul tău evoluează cu tine, actualizând automat pe măsură ce obții noi abilități și experiențe.",
+    "feature_4_title": "Export multi-format",
+    "feature_4_description": "Generează CV-ul tău în diferite formate, de la PDF-uri tradiționale la profiluri web interactive.",
+    "feature_5_title": "Optimizare ATS",
+    "feature_5_description": "AI noastră se asigură că CV-ul tău este optimizat pentru sistemele de urmărire a aplicatorilor, mărindu-ți șansele de a fi observat.",
+    "feature_6_title": "Analiza decalajului de abilități",
+    "feature_6_description": "Primiți recomandări personalizate privind abilitățile pentru a le dobândi pe baza obiectivelor tale de carieră."
   }
 }
