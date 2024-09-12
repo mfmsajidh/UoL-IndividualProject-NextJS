@@ -1,9 +1,5 @@
 {
-  "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
+  "AppHeader": {
     "sign_in_link": "Sign in",
     "sign_up_link": "Sign up",
     "features_link": "Features",
@@ -122,7 +118,7 @@
     "contact_us_content_2": "By email:"
   },
   "TermsOfService": {
-    "meta_title": "Term of Service",
+    "meta_title": "Terms of Service",
     "meta_description": "Review the terms and conditions governing your use of CV Mate’s services, including important information about user responsibilities, rights, and limitations",
     "acceptance_of_terms_title": "1. Acceptance of Terms",
     "acceptance_of_terms_content": "By accessing or using the CV Mate service, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not use our service.",
@@ -150,5 +146,33 @@
     "contact_us_title": "12. Contact Us",
     "contact_us_content_1": "If you have any questions about these Terms, please contact us:",
     "contact_us_content_2": "By email:"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "question_1_title": "How does the AI generate CV content?",
+    "question_1_content": "Our AI analyzes your input, industry trends, and job market data to create tailored, professional content for your CV.",
+    "question_2_title": "Is my data secure with blockchain verification?",
+    "question_2_content": "Yes, blockchain technology ensures that your CV data is securely stored and verifiable, protecting against unauthorized changes.",
+    "question_3_title": "Can I edit the AI-generated content?",
+    "question_3_content": "While our AI provides a strong foundation, you have full control to edit and personalize your CV content.",
+    "question_4_title": "How often can I update my CV?",
+    "question_4_content": "You can update your CV as often as you like. Our system allows for real-time updates and continuous improvement of your profile.",
+    "question_5_title": "Is CV Mate compatible with Applicant Tracking Systems (ATS)?",
+    "question_5_content": "Yes, our AI is trained to optimize your CV for ATS, increasing your chances of getting past initial screening processes."
+  },
+  "Features": {
+    "title": "Powerful Features",
+    "feature_1_title": "AI-Powered Content Generation",
+    "feature_1_description": "Our ML algorithms create tailored content based on your experience and industry trends.",
+    "feature_2_title": "Blockchain Verification",
+    "feature_2_description": "Ensure the authenticity of your CV with our blockchain-based verification system.",
+    "feature_3_title": "Real-time Updates",
+    "feature_3_description": "Your CV evolves with you, automatically updating as you gain new skills and experiences.",
+    "feature_4_title": "Multi-format Export",
+    "feature_4_description": "Generate your CV in various formats, from traditional PDFs to interactive web profiles.",
+    "feature_5_title": "ATS Optimization",
+    "feature_5_description": "Our AI ensures your CV is optimized for Applicant Tracking Systems, increasing your chances of getting noticed.",
+    "feature_6_title": "Skill Gap Analysis",
+    "feature_6_description": "Receive personalized recommendations on skills to acquire based on your career goals."
   }
 }
