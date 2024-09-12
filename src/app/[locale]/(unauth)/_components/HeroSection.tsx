@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { Button } from '@/components/ui/button';
 
 export const HeroSection = () => {
@@ -7,23 +9,34 @@ export const HeroSection = () => {
         <div className="flex flex-col items-center space-y-4 text-center">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl lg:text-6xl/none">
-              Revolutionary CV Generation with ML & Blockchain
+              Revolutionary CV Generation
+              <br />
+              powered by ML & Blockchain
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl">
-              Create cutting-edge resumes powered by machine learning and
-              secured by blockchain technology.
+              Create, Validate, and Securely Share Your CV Powered by Machine
+              Learning and Decentralisation.
+              <br />
+              <br />
+              Automate Your CV creation, optimise it, and ensure its
+              authenticity with blockchain technology. Your career journey
+              begins here.
             </p>
           </div>
           <div className="space-x-4">
-            <Button className="bg-blue-600 hover:bg-blue-700">
-              Get Started
-            </Button>
-            <Button
-              variant="outline"
-              className="border-gray-600 text-gray-300 hover:bg-gray-800"
-            >
-              Learn More
-            </Button>
+            <Link href="/sign-up">
+              <Button className="bg-blue-600 hover:bg-blue-700">
+                Get Started
+              </Button>
+            </Link>
+            <Link href="/#features">
+              <Button
+                variant="outline"
+                className="text-black hover:bg-black hover:text-white"
+              >
+                Learn More
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

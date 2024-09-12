@@ -1,4 +1,31 @@
+import type { StaticImageData } from 'next/image';
 import Image from 'next/image';
+import type { FC } from 'react';
+
+import Dominos_Logo from '@/public/assets/images/dominos_logo.png';
+import Harvard_logo from '@/public/assets/images/harvard_logo.png';
+import Oxford_Logo from '@/public/assets/images/oxford_logo.png';
+import Samsung_Logo from '@/public/assets/images/samsung_logo.png';
+import UoL_Logo from '@/public/assets/images/uol_logo.png';
+import UoN_Logo from '@/public/assets/images/uon_logo.png';
+
+interface ILogoCollectionProps {
+  image: StaticImageData;
+}
+
+const RenderLogo: FC<ILogoCollectionProps> = ({ image }) => {
+  return (
+    <div className="flex items-center justify-center">
+      <Image
+        src={image}
+        alt={`Logo ${image.src}`}
+        width={150}
+        height={40}
+        className="max-h-12 w-auto bg-white opacity-50 transition-opacity hover:opacity-100"
+      />
+    </div>
+  );
+};
 
 export const LogoCollection = () => {
   return (
@@ -8,17 +35,12 @@ export const LogoCollection = () => {
           Trusted by Industry Leaders
         </h2>
         <div className="grid grid-cols-2 items-center justify-center gap-8 md:grid-cols-3 lg:grid-cols-6">
-          {[1, 2, 3, 4, 5, 6].map((i) => (
-            <div key={i} className="flex items-center justify-center">
-              <Image
-                src="/placeholder.svg?height=40&width=150"
-                alt={`Logo ${i}`}
-                width={150}
-                height={40}
-                className="max-h-12 w-auto opacity-50 transition-opacity hover:opacity-100"
-              />
-            </div>
-          ))}
+          <RenderLogo image={UoL_Logo} />
+          <RenderLogo image={Harvard_logo} />
+          <RenderLogo image={Dominos_Logo} />
+          <RenderLogo image={UoN_Logo} />
+          <RenderLogo image={Samsung_Logo} />
+          <RenderLogo image={Oxford_Logo} />
         </div>
       </div>
     </section>
