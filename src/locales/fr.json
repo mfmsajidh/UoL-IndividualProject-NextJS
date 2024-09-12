@@ -1,9 +1,5 @@
 {
-  "RootLayout": {
-    "home_link": "Accueil",
-    "about_link": "A propos",
-    "guestbook_link": "Livre d'or",
-    "portfolio_link": "Portefeuille",
+  "AppHeader": {
     "sign_in_link": "Se connecter",
     "sign_up_link": "S'inscrire",
     "features_link": "Fonctionnalités",
@@ -150,5 +146,33 @@
     "contact_us_title": "12. Contactez-nous",
     "contact_us_content_1": "Si vous avez des questions au sujet de ces Conditions, veuillez nous contacter :",
     "contact_us_content_2": "Par email:"
+  },
+  "FAQ": {
+    "title": "Foire aux questions",
+    "question_1_title": "Comment l'IA génère-t-elle du contenu de CV ?",
+    "question_1_content": "Notre AI analyse vos intrants, vos tendances de l'industrie et vos données sur le marché du travail afin de créer un contenu professionnel et adapté à votre CV.",
+    "question_2_title": "Mes données sont-elles sécurisées avec la vérification de la blockchain ?",
+    "question_2_content": "Oui, la technologie blockchain veille à ce que vos données de CV soient stockées et vérifiées de façon sécurisée, protégeant ainsi contre les modifications non autorisées.",
+    "question_3_title": "Puis-je modifier le contenu généré par l'IA ?",
+    "question_3_content": "Alors que notre IA fournit une base solide, vous avez un contrôle total pour modifier et personnaliser le contenu de votre CV.",
+    "question_4_title": "À quelle fréquence puis-je mettre à jour mon CV ?",
+    "question_4_content": "Vous pouvez mettre à jour votre CV aussi souvent que vous le souhaitez. Notre système permet des mises à jour en temps réel et une amélioration continue de votre profil.",
+    "question_5_title": "Le CV Mate est-il compatible avec les systèmes de suivi des candidats (ATS)?",
+    "question_5_content": "Oui, notre IA est formée pour optimiser votre CV pour l’ATS, ce qui augmente vos chances de dépasser les processus de dépistage initial."
+  },
+  "Features": {
+    "title": "Fonctionnalités puissantes",
+    "feature_1_title": "Génération de contenu alimenté par l'IA",
+    "feature_1_description": "Nos algorithmes ML créent des contenus sur mesure en fonction de votre expérience et des tendances de l'industrie.",
+    "feature_2_title": "Vérification de la blockchain",
+    "feature_2_description": "Assurez l'authenticité de votre CV avec notre système de vérification basé sur la blockchain.",
+    "feature_3_title": "Mises à jour en temps réel",
+    "feature_3_description": "Votre CV évolue avec vous, se met à jour automatiquement au fur et à mesure que vous acquérez de nouvelles compétences et expériences.",
+    "feature_4_title": "Export multi-formats",
+    "feature_4_description": "Générez votre CV sous différents formats, des PDF traditionnels aux profils Web interactifs.",
+    "feature_5_title": "Optimisation ATS",
+    "feature_5_description": "Notre IA vous assure que votre CV est optimisé pour les systèmes de suivi des candidats, ce qui augmente vos chances de vous faire remarquer.",
+    "feature_6_title": "Analyse des écarts de compétences",
+    "feature_6_description": "Recevez des recommandations personnalisées sur les compétences à acquérir en fonction de vos objectifs de carrière."
   }
 }
