@@ -1,9 +1,5 @@
 {
-  "RootLayout": {
-    "home_link": "Startpagina",
-    "about_link": "Informatie",
-    "guestbook_link": "Gastenboek",
-    "portfolio_link": "Presentatie",
+  "AppHeader": {
     "sign_in_link": "Log in",
     "sign_up_link": "Registreer nu",
     "features_link": "Eigenschappen",
@@ -122,7 +118,7 @@
     "contact_us_content_2": "Per e-mail:"
   },
   "TermsOfService": {
-    "meta_title": "Servicevoorwaarden",
+    "meta_title": "Algemene gebruiksvoorwaarden",
     "meta_description": "Raadpleeg de algemene voorwaarden voor uw gebruik van CV Mates diensten, met inbegrip van belangrijke informatie over gebruikersprijzen, rechten en beperkingen",
     "acceptance_of_terms_title": "1. Accepteer de voorwaarden",
     "acceptance_of_terms_content": "Door toegang te krijgen tot of te gebruiken van de CV Mate service, gaat u akkoord om gebonden te zijn aan deze gebruiksvoorwaarden en alle van toepassing zijnde wetten en voorschriften. Als u het niet eens bent met een deel van deze voorwaarden, mag u onze service niet gebruiken.",
@@ -150,5 +146,33 @@
     "contact_us_title": "12. Contacteer ons",
     "contact_us_content_1": "Neem contact met ons op als je vragen hebt over deze voorwaarden:",
     "contact_us_content_2": "Per e-mail:"
+  },
+  "FAQ": {
+    "title": "Veelgestelde vragen (FAQ's)",
+    "question_1_title": "Hoe genereert de AI de CV inhoud?",
+    "question_1_content": "Onze AI analyseert uw input, branche trends en vacaturegegevens om aangepaste professionele content voor uw CVC te maken.",
+    "question_2_title": "Is mijn gegevens veilig met blockchain verificatie?",
+    "question_2_content": "Ja, blockchain-technologie zorgt ervoor dat uw CV-gegevens veilig worden opgeslagen en controleerbaar zijn, en beschermt tegen ongeoorloofde wijzigingen.",
+    "question_3_title": "Kan ik de AI-gegenereerde inhoud bewerken?",
+    "question_3_content": "Terwijl onze AI een sterke basis biedt, hebt u volledige controle om uw CV inhoud te bewerken en te personaliseren.",
+    "question_4_title": "Hoe vaak kan ik mijn CV bijwerken?",
+    "question_4_content": "Je kunt jouw CV zo vaak bijwerken. Ons systeem zorgt voor real-time updates en continue verbetering van je profiel.",
+    "question_5_title": "Is CV Mate compatibel met applicant Tracking Systems (ATS)?",
+    "question_5_content": "Ja, onze AI is getraind om uw CV te optimaliseren voor geldautomaten. Dit vergroot uw kansen om langs de eerste screeningsprocessen te komen."
+  },
+  "Features": {
+    "title": "Krachtige functies",
+    "feature_1_title": "AI-Powered Content Generatie",
+    "feature_1_description": "Onze ML-algoritmen maken op maat gemaakte inhoud op basis van uw ervaring en industrie trends.",
+    "feature_2_title": "Blockchain Verificatie",
+    "feature_2_description": "Zorg voor de authenticiteit van uw CV met ons op blockchain gebaseerde verificatiesysteem.",
+    "feature_3_title": "Realtime updates",
+    "feature_3_description": "Uw CV evolueert samen met u, wordt automatisch bijgewerkt terwijl u nieuwe vaardigheden en ervaringen verwerft.",
+    "feature_4_title": "Multi-formaat export",
+    "feature_4_description": "Genereer uw CV in verschillende formaten, van traditionele PDF's tot interactieve webprofielen.",
+    "feature_5_title": "ATS optimalisatie",
+    "feature_5_description": "Onze AI zorgt ervoor dat uw CV is geoptimaliseerd voor applicant Tracking Systems, waardoor u meer kansen krijgt om opgemerkt te worden.",
+    "feature_6_title": "Skill Gap Analyse",
+    "feature_6_description": "Ontvang gepersonaliseerde aanbevelingen over vaardigheden op basis van uw loopbaandoelen."
   }
 }
