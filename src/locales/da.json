@@ -1,9 +1,5 @@
 {
-  "RootLayout": {
-    "home_link": "Hjem",
-    "about_link": "Om",
-    "guestbook_link": "Gæstebog",
-    "portfolio_link": "Portefølje",
+  "AppHeader": {
     "sign_in_link": "Log ind",
     "sign_up_link": "Tilmeld dig",
     "features_link": "Funktioner",
@@ -122,7 +118,7 @@
     "contact_us_content_2": "Via e-mail:"
   },
   "TermsOfService": {
-    "meta_title": "Tjenestens varighed",
+    "meta_title": "Betingelser for brug",
     "meta_description": "Gennemgå vilkårene og betingelserne for din brug af CV Mates tjenester, herunder vigtige oplysninger om brugeransvar, rettigheder og begrænsninger",
     "acceptance_of_terms_title": "1. Accept af vilkår",
     "acceptance_of_terms_content": "Ved at få adgang til eller bruge CV Mate tjenesten accepterer du at være bundet af disse vilkår og alle gældende love og regler. Hvis du ikke er enig med nogen del af disse vilkår, kan du ikke bruge vores service.",
@@ -150,5 +146,33 @@
     "contact_us_title": "12. Kontakt Os",
     "contact_us_content_1": "Hvis du har spørgsmål til disse vilkår, bedes du kontakte os:",
     "contact_us_content_2": "Via e-mail:"
+  },
+  "FAQ": {
+    "title": "Ofte Stillede Spørgsmål",
+    "question_1_title": "Hvordan skaber AI CV indhold?",
+    "question_1_content": "Vores AI analyserer dine input, branche tendenser og jobmarkedsdata for at skabe skræddersyet, professionelt indhold til dit CV.",
+    "question_2_title": "Er mine data sikre med blockchain verifikation?",
+    "question_2_content": "Ja, blockchain teknologi sikrer, at dine CV-data er sikkert gemt og verificerbar, beskytter mod uautoriserede ændringer.",
+    "question_3_title": "Kan jeg redigere det AI-genererede indhold?",
+    "question_3_content": "Mens vores AI giver et stærkt fundament, du har fuld kontrol til at redigere og tilpasse dit CV indhold.",
+    "question_4_title": "Hvor ofte kan jeg opdatere mit CV?",
+    "question_4_content": "Du kan opdatere dit CV så ofte som du vil. Vores system giver mulighed for real-time opdateringer og løbende forbedring af din profil.",
+    "question_5_title": "Er CV Mate kompatibel med ansøgersporingssystemer (ATS)?",
+    "question_5_content": "Ja, vores AI er uddannet til at optimere dit CV til ATS, øge dine chancer for at få forbi indledende screeningsprocesser."
+  },
+  "Features": {
+    "title": "Kraftfulde Funktioner",
+    "feature_1_title": "Generering Af AI-Drevet Indhold",
+    "feature_1_description": "Vores ML-algoritmer skaber skræddersyet indhold baseret på din erfaring og branchens tendenser.",
+    "feature_2_title": "Verifikation Af Blokkæder",
+    "feature_2_description": "Sørg for ægtheden af dit CV med vores blockchain-baserede verifikationssystem.",
+    "feature_3_title": "Real-time Opdateringer",
+    "feature_3_description": "Dit CV udvikler sig med dig, opdaterer automatisk, når du får nye færdigheder og oplevelser.",
+    "feature_4_title": "Eksport i Multi-format",
+    "feature_4_description": "Generer dit CV i forskellige formater, fra traditionelle PDF-filer til interaktive webprofiler.",
+    "feature_5_title": "ATS Optimering",
+    "feature_5_description": "Vores AI sikrer, at dit CV er optimeret til ansøgersporingssystemer, hvilket øger dine chancer for at blive bemærket.",
+    "feature_6_title": "Analyse Af Dygtighedshjælp",
+    "feature_6_description": "Modtag personlige anbefalinger om færdigheder til at erhverve baseret på din karriere mål."
   }
 }
