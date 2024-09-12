@@ -13,17 +13,17 @@
   "AppFooter": {
     "description": "Crearea de CV-uri revoluționare cu AI și Blockchain",
     "quick_links": "Link-uri rapide",
-    "features": "Features",
+    "features": "Caracteristici",
     "pricing": "Prețuri",
     "faq": "Întrebări",
-    "legal": "Legal",
-    "privacy_policy": "Privacy Policy",
+    "legal": "Juridic",
+    "privacy_policy": "Politica de confidenţialitate",
     "terms_of_service": "Condiții de utilizare",
-    "connect": "Connect",
+    "connect": "Conectează-te",
     "github": "Github",
     "linkedin": "LinkedIn",
-    "email": "Email",
-    "all_rights_reserved": "All rights reserved."
+    "email": "E-mail",
+    "all_rights_reserved": "Toate drepturile rezervate."
   },
   "BaseTemplate": {
     "description": "Noi automatizăm crearea CV-ului tău conform descrierii jobului"
@@ -80,7 +80,7 @@
     "sign_out": "Deconectare"
   },
   "TermsLayout": {
-    "back_to_home_link": "Home"
+    "back_to_home_link": "Acasă"
   },
   "PrivacyPolicy": {
     "meta_title": "Politica de confidenţialitate",
@@ -122,33 +122,33 @@
     "contact_us_content_2": "prin e-mail:"
   },
   "TermsOfService": {
-    "meta_title": "Term of Service",
-    "meta_description": "Review the terms and conditions governing your use of CV Mate’s services, including important information about user responsibilities, rights, and limitations",
-    "acceptance_of_terms_title": "1. Acceptance of Terms",
-    "acceptance_of_terms_content": "By accessing or using the CV Mate service, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not use our service.",
-    "description_of_service_title": "2. Description of Service",
-    "description_of_service_content": "CV Mate provides an AI-powered CV generation and blockchain verification service. Our service uses machine learning algorithms to create and optimize your CV, and blockchain technology to verify and secure your professional information.",
-    "user_accounts_title": "3. User Accounts",
-    "user_accounts_content": "To use certain features of our service, you may be required to create an account. You are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account.",
-    "user_content_title": "4. User Content",
-    "user_content_content_1": "You retain all rights to the content you submit to our service. By submitting content, you grant CV Mate a worldwide, non-exclusive, royalty-free license to use, reproduce, and display your content in connection with providing and improving our service.",
-    "user_content_content_2": "You are solely responsible for the content you submit. You agree not to submit any false, misleading, or fraudulent information.",
-    "intellectual_property_title": "5. Intellectual Property",
-    "intellectual_property_content": "The CV Mate service, including its original content, features, and functionality, is owned by CV Mate and is protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.",
-    "blockchain_verification_title": "6. Blockchain Verification",
-    "blockchain_verification_content": "Our service uses blockchain technology to verify certain aspects of your CV. You understand and agree that information stored on a blockchain is immutable and cannot be deleted. We will only store necessary verification data on the blockchain, not your complete CV or detailed personal information.",
-    "ai_generated_content_title": "7. AI-Generated Content",
-    "ai_generated_content_content": "Our service uses AI to generate and optimize CV content. While we strive for accuracy, you are responsible for reviewing and ensuring the accuracy of all AI-generated content before using it. We do not guarantee that AI-generated content will be error-free or suitable for all purposes.",
-    "limitation_of_liability_title": "8. Limitation of Liability",
-    "limitation_of_liability_content": "CV Mate shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the service.",
-    "modifications_to_service_title": "9. Modifications to Service",
-    "modifications_to_service_content": "We reserve the right to modify or discontinue, temporarily or permanently, the service (or any part thereof) with or without notice. We shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the service.",
-    "governing_law_title": "10. Governing Law",
-    "governing_law_content": "These Terms shall be governed and construed in accordance with the laws of the United Kingdom, without regard to its conflict of law provisions.",
-    "changes_to_terms_title": "11. Changes to Terms",
-    "changes_to_terms_content": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect.",
-    "contact_us_title": "12. Contact Us",
-    "contact_us_content_1": "If you have any questions about these Terms, please contact us:",
-    "contact_us_content_2": "By email:"
+    "meta_title": "Durata serviciului",
+    "meta_description": "Revizuiește termenii și condițiile care guvernează utilizarea serviciilor CV Mate, inclusiv informații importante despre responsabilitățile utilizatorilor, drepturi și limitări",
+    "acceptance_of_terms_title": "1. Acceptarea Termenilor",
+    "acceptance_of_terms_content": "Prin accesarea sau utilizarea serviciului de pereche CV, sunteți de acord să respectați acești Termeni ai Serviciului și toate legile și reglementările aplicabile. Dacă nu sunteți de acord cu nicio parte a acestor termeni, este posibil să nu utilizați serviciul nostru.",
+    "description_of_service_title": "2. Descrierea serviciului",
+    "description_of_service_content": "CV Mate oferă o generație de CV-uri alimentate cu SIDA și un serviciu de verificare a blockchain. Serviciul nostru folosește algoritmi de învățare de mașină pentru a crea și optimiza CV-ul dvs., și tehnologia blockchain pentru a verifica și a vă securiza informațiile profesionale.",
+    "user_accounts_title": "3. Conturi de utilizator",
+    "user_accounts_content": "Pentru a utiliza anumite caracteristici ale serviciului nostru, vă poate fi necesar să creați un cont. Sunteţi responsabil pentru păstrarea confidenţialităţii contului şi parolei dumneavoastră. Sunteți de acord să acceptați responsabilitatea pentru toate activitățile care au loc în contul dvs.",
+    "user_content_title": "4. Conținut utilizator",
+    "user_content_content_1": "Vă păstrați toate drepturile asupra conținutului pe care îl trimiteți serviciului nostru. Prin trimiterea de conținut, acordați o licență de folosire de CV Mate la nivel mondial, neexclusivă, fără redevență, reproduce și afișează conținutul tău în legătură cu furnizarea și îmbunătățirea serviciului nostru.",
+    "user_content_content_2": "Sunteți singurul responsabil pentru conținutul pe care îl depuneți. Sunteți de acord să nu prezentați informații false, înșelătoare sau frauduloase.",
+    "intellectual_property_title": "(5) Proprietatea intelectuală",
+    "intellectual_property_content": "Serviciul CV Mate, inclusiv conținutul original, caracteristicile și funcționalitatea sa, este deținut de CV Mate și este protejat de drepturi de autor internaționale, de mărci comerciale, de brevete, de secrete comerciale și de alte legi privind proprietatea intelectuală.",
+    "blockchain_verification_title": "6. Verificare blockchain",
+    "blockchain_verification_content": "Serviciul nostru folosește tehnologia blockchain pentru a verifica anumite aspecte ale CV-ului dvs. Înțelegeți și sunteți de acord că informațiile stocate pe un blockchain sunt imutabile și nu pot fi șterse. Vom stoca doar datele de verificare necesare pe blockchain, nu CV-ul complet sau informațiile personale detaliate.",
+    "ai_generated_content_title": "7. Conţinut generat AI:",
+    "ai_generated_content_content": "Serviciul nostru folosește AI pentru a genera și optimiza conținutul CV. În timp ce ne străduim să obținem acuratețe, sunteți responsabil de revizuirea și asigurarea acurateței întregului conținut generat de AI, înainte de a-l utiliza. Nu garantăm că conținutul generat de AI-ul va fi incorect sau potrivit pentru toate scopurile.",
+    "limitation_of_liability_title": "8) Limitarea răspunderii",
+    "limitation_of_liability_content": "CV Mate nu răspunde pentru niciun fel de daune indirecte, accidentale, speciale, subsecvente sau punitive, inclusiv fără limitare, pierderea profitului; date, utilizare, bună-credință sau alte pierderi necorporale care rezultă din accesul sau utilizarea de către dumneavoastră a serviciului sau din incapacitatea de a accesa sau utiliza acest serviciu.",
+    "modifications_to_service_title": "9. Modificări în serviciu",
+    "modifications_to_service_content": "Ne rezervăm dreptul de a modifica sau întrerupe, temporar sau permanent, serviciul (sau orice parte a acestuia) cu sau fără preaviz. Nu vom fi responsabili față de dvs. sau față de terți pentru nicio modificare, modificare a prețului, suspendare sau întrerupere a serviciului.",
+    "governing_law_title": "10. Legea guvernatorilor",
+    "governing_law_content": "Aceşti termeni sunt reglementaţi şi interpretaţi în conformitate cu legislaţia Regatului Unit, fără a ţine seama de dispoziţiile sale privind conflictul de legi.",
+    "changes_to_terms_title": "11. Modificări la termeni",
+    "changes_to_terms_content": "Ne rezervăm dreptul, la discreția noastră, de a modifica sau înlocui acești Termeni în orice moment. Dacă revizuirea este semnificativă, vom încerca să oferim un preaviz de cel puțin 30 de zile înainte ca termenii noi să intre în vigoare.",
+    "contact_us_title": "12. Contactează-ne",
+    "contact_us_content_1": "Dacă aveți întrebări despre acești termeni, vă rugăm să ne contactați:",
+    "contact_us_content_2": "prin e-mail:"
   }
 }
