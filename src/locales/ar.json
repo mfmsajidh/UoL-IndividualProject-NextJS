@@ -13,17 +13,17 @@
   "AppFooter": {
     "description": "ثورة إنشاء السيرة الذاتية مع AI و Blockchain",
     "quick_links": "روابط سريعة",
-    "features": "Features",
+    "features": "الميزات",
     "pricing": "التسعير",
     "faq": "أسئلة متكررة",
-    "legal": "Legal",
-    "privacy_policy": "Privacy Policy",
+    "legal": "قانوني",
+    "privacy_policy": "سياسة الخصوصية",
     "terms_of_service": "شروط الخدمة",
-    "connect": "Connect",
+    "connect": "الاتصال",
     "github": "Github",
     "linkedin": "LinkedIn",
-    "email": "Email",
-    "all_rights_reserved": "All rights reserved."
+    "email": "البريد الإلكتروني",
+    "all_rights_reserved": "جميع الحقوق محفوظة.format@@0"
   },
   "BaseTemplate": {
     "description": "نحن نقوم بتأليف إنشاء السيرة الذاتية الخاصة بك وفقا لوصف الوظيفة"
@@ -80,7 +80,7 @@
     "sign_out": "تسجيل الخروج"
   },
   "TermsLayout": {
-    "back_to_home_link": "Home"
+    "back_to_home_link": "المنزل"
   },
   "PrivacyPolicy": {
     "meta_title": "سياسة الخصوصية",
@@ -122,33 +122,33 @@
     "contact_us_content_2": "بواسطة البريد الإلكتروني:"
   },
   "TermsOfService": {
-    "meta_title": "Term of Service",
-    "meta_description": "Review the terms and conditions governing your use of CV Mate’s services, including important information about user responsibilities, rights, and limitations",
-    "acceptance_of_terms_title": "1. Acceptance of Terms",
-    "acceptance_of_terms_content": "By accessing or using the CV Mate service, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not use our service.",
-    "description_of_service_title": "2. Description of Service",
-    "description_of_service_content": "CV Mate provides an AI-powered CV generation and blockchain verification service. Our service uses machine learning algorithms to create and optimize your CV, and blockchain technology to verify and secure your professional information.",
-    "user_accounts_title": "3. User Accounts",
-    "user_accounts_content": "To use certain features of our service, you may be required to create an account. You are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account.",
-    "user_content_title": "4. User Content",
-    "user_content_content_1": "You retain all rights to the content you submit to our service. By submitting content, you grant CV Mate a worldwide, non-exclusive, royalty-free license to use, reproduce, and display your content in connection with providing and improving our service.",
-    "user_content_content_2": "You are solely responsible for the content you submit. You agree not to submit any false, misleading, or fraudulent information.",
-    "intellectual_property_title": "5. Intellectual Property",
-    "intellectual_property_content": "The CV Mate service, including its original content, features, and functionality, is owned by CV Mate and is protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.",
-    "blockchain_verification_title": "6. Blockchain Verification",
-    "blockchain_verification_content": "Our service uses blockchain technology to verify certain aspects of your CV. You understand and agree that information stored on a blockchain is immutable and cannot be deleted. We will only store necessary verification data on the blockchain, not your complete CV or detailed personal information.",
-    "ai_generated_content_title": "7. AI-Generated Content",
-    "ai_generated_content_content": "Our service uses AI to generate and optimize CV content. While we strive for accuracy, you are responsible for reviewing and ensuring the accuracy of all AI-generated content before using it. We do not guarantee that AI-generated content will be error-free or suitable for all purposes.",
-    "limitation_of_liability_title": "8. Limitation of Liability",
-    "limitation_of_liability_content": "CV Mate shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the service.",
-    "modifications_to_service_title": "9. Modifications to Service",
-    "modifications_to_service_content": "We reserve the right to modify or discontinue, temporarily or permanently, the service (or any part thereof) with or without notice. We shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the service.",
-    "governing_law_title": "10. Governing Law",
-    "governing_law_content": "These Terms shall be governed and construed in accordance with the laws of the United Kingdom, without regard to its conflict of law provisions.",
-    "changes_to_terms_title": "11. Changes to Terms",
-    "changes_to_terms_content": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect.",
-    "contact_us_title": "12. Contact Us",
-    "contact_us_content_1": "If you have any questions about these Terms, please contact us:",
-    "contact_us_content_2": "By email:"
+    "meta_title": "مدة الخدمة",
+    "meta_description": "مراجعة الأحكام والشروط التي تحكم استخدامك لخدمات CV Mate، بما في ذلك معلومات مهمة عن مسؤوليات المستخدم وحقوقه وحدوده",
+    "acceptance_of_terms_title": "1. قبول الشروط",
+    "acceptance_of_terms_content": "بالوصول إلى خدمة زميل السيرة الذاتية أو استخدامها، فإنك توافق على الالتزام بشروط الخدمة هذه وجميع القوانين واللوائح المنطبقة. وإذا لم توافق على أي جزء من هذه الشروط، فلا يجوز أن تستخدم خدمتنا.",
+    "description_of_service_title": "2 - وصف الخدمة",
+    "description_of_service_content": "توفر CV Mate خدمة تحقق لتوليد السيرة الذاتية تعمل على AI، والبلوكشين. تستخدم خدمتنا خوارزميات التعلم الآلي لإنشاء السيرة الذاتية الخاصة بك وتحسينها، وتكنولوجيا البلوكشين للتحقق من معلوماتك المهنية وتأمينها.",
+    "user_accounts_title": "3. حسابات المستخدم",
+    "user_accounts_content": "لاستخدام بعض الميزات في خدمتنا، قد يكون مطلوبا منك إنشاء حساب. أنت مسؤول عن الحفاظ على سرية حسابك وكلمة المرور الخاصة بك. أنت توافق على قبول المسؤولية عن جميع الأنشطة التي تحدث تحت حسابك.",
+    "user_content_title": "4. محتوى المستخدم",
+    "user_content_content_1": "تحتفظ بجميع الحقوق في المحتوى الذي تقدمه لخدمتنا. من خلال تقديم المحتوى، فإنك تمنح CV Mate ترخيصا عالميا، غير حصري، معفاة من الإتاوات للاستخدام، قم بنسخ وعرض المحتوى الخاص بك فيما يتعلق بتوفير وتحسين خدمتنا.",
+    "user_content_content_2": "أنت فقط مسؤول عن المحتوى الذي تقدمه. أنت توافق على عدم تقديم أي معلومات خاطئة أو مضللة أو احتيالية.",
+    "intellectual_property_title": "5 - الملكية الفكرية",
+    "intellectual_property_content": "خدمة الرسائل السيرة الذاتية، بما في ذلك محتوياتها ومميزاتها ووظائفها الأصلية، وهي مملوكة لشركة CV Mate، وتحميها حقوق التأليف والنشر الدولية والعلامة التجارية وبراءات الاختراع والسر التجاري وغير ذلك من قوانين الملكية الفكرية.",
+    "blockchain_verification_title": "6. التحقق من سلسلة الكتل",
+    "blockchain_verification_content": "تستخدم خدمتنا تقنية البلوكشين للتحقق من بعض جوانب السيرة الذاتية الخاصة بك. أنت تفهم وتوافق على أن المعلومات المخزنة على بلوكشين غير قابلة للتغيير ولا يمكن حذفها. سوف نخزن فقط بيانات التحقق الضرورية على سلسلة الكتل، وليس السيرة الذاتية الكاملة أو المعلومات الشخصية التفصيلية.",
+    "ai_generated_content_title": "7. المحتويات المولدة من AI",
+    "ai_generated_content_content": "خدماتنا تستخدم الذكاء الاصطناعي لتوليد وتحسين محتوى السيرة الذاتية. بينما نسعى إلى الدقة، أنت مسؤول عن مراجعة وضمان دقة كل المحتوى الذي تم إنشاؤه من AI قبل استخدامه. ونحن لا نضمن أن يكون المحتوى الناشئ عن AI خاليا من الأخطاء أو مناسبا لجميع الأغراض.",
+    "limitation_of_liability_title": "8- حدود المسؤولية",
+    "limitation_of_liability_content": "CV لا يكون الوسيط مسؤولا عن أي أضرار غير مباشرة أو عرضية أو خاصة أو تبعية أو جزائية، بما في ذلك الخسائر في الأرباح دون حدود، البيانات أو الاستخدام أو الشهرة أو أي خسائر غير ملموسة أخرى ناجمة عن وصولك إلى الخدمة أو استخدامك لها أو عدم قدرتك على الوصول إليها أو استخدامها.",
+    "modifications_to_service_title": "9 - إدخال تعديلات على الخدمة",
+    "modifications_to_service_content": "ونحن نحتفظ بالحق في تعديل أو وقف الخدمة (أو أي جزء منها) بصورة مؤقتة أو دائمة، بإشعار أو بدونه. نحن لا نخضع لك أو لأي طرف ثالث لأي تعديل أو تغيير في السعر أو تعليق أو وقف الخدمة.",
+    "governing_law_title": "10 - القانون الناظم",
+    "governing_law_content": "وتنظم هذه الأحكام وتفسر وفقا لقوانين المملكة المتحدة، بصرف النظر عن أحكام تنازع القوانين فيها.",
+    "changes_to_terms_title": "11 - التغييرات المدخلة على الشروط",
+    "changes_to_terms_content": "نحن نحتفظ بالحق، حسب تقديرنا الوحيد، في تعديل أو استبدال هذه الشروط في أي وقت. وإذا كان التنقيح ماديا، فإننا نحاول تقديم إشعار قبل بدء نفاذ أي شروط جديدة بمدة 30 يوما على الأقل.",
+    "contact_us_title": "12. اتصل بنا",
+    "contact_us_content_1": "إذا كان لديك أي أسئلة حول هذه الشروط، يرجى الاتصال بنا:",
+    "contact_us_content_2": "بواسطة البريد الإلكتروني:"
   }
 }
