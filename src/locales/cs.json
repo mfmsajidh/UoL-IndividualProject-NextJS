@@ -1,9 +1,5 @@
 {
-  "RootLayout": {
-    "home_link": "Domů",
-    "about_link": "O aplikaci",
-    "guestbook_link": "Kniha návštěv",
-    "portfolio_link": "Portfolio",
+  "AppHeader": {
     "sign_in_link": "Přihlásit se",
     "sign_up_link": "Zaregistrovat se",
     "features_link": "Vlastnosti",
@@ -122,7 +118,7 @@
     "contact_us_content_2": "E-mailem:"
   },
   "TermsOfService": {
-    "meta_title": "Doba služby",
+    "meta_title": "Podmínky služby",
     "meta_description": "Zkontrolujte podmínky vašeho používání služeb CV Mate, včetně důležitých informací o odpovědnosti, právech a omezeních uživatelů",
     "acceptance_of_terms_title": "1. Přijímání termínů",
     "acceptance_of_terms_content": "Přístup ke službě CV Mate nebo používání souhlasíte s tím, že budete vázáni těmito obchodními podmínkami a všemi platnými zákony a předpisy. Pokud s žádnou částí těchto podmínek nesouhlasíte, nemůžete využívat naši službu.",
@@ -150,5 +146,33 @@
     "contact_us_title": "12. Kontaktujte nás",
     "contact_us_content_1": "Pokud máte jakékoliv dotazy k těmto podmínkám, kontaktujte nás:",
     "contact_us_content_2": "E-mailem:"
+  },
+  "FAQ": {
+    "title": "Často kladené otázky",
+    "question_1_title": "Jak AI generuje obsah CV?",
+    "question_1_content": "Naše AI analyzuje vaše vstupy, průmyslové trendy a data na trhu práce pro vytvoření individuálního, profesionálního obsahu pro vaši CV.",
+    "question_2_title": "Jsou moje data bezpečná s ověřováním blockchainu?",
+    "question_2_content": "Ano, technologie blockchainu zajišťuje, že vaše CV data jsou bezpečně uložena a ověřitelná, chrání před neoprávněnými změnami.",
+    "question_3_title": "Mohu upravit obsah generovaný AI?",
+    "question_3_content": "Zatímco naše AI poskytuje silné základy, máte plnou kontrolu nad editací a personalizací svého CV obsahu.",
+    "question_4_title": "Jak často mohu aktualizovat své CV?",
+    "question_4_content": "Váš CV můžete aktualizovat tak často, jak chcete. Náš systém umožňuje aktualizace v reálném čase a neustálé zlepšování vašeho profilu.",
+    "question_5_title": "Je CV Mate kompatibilní s žádajícími systémy sledování (ATS)?",
+    "question_5_content": "Ano, naše AI je vyškolena k optimalizaci Vašeho CV pro ATS, což zvyšuje vaše šance na minulé prvotní screeningové procesy."
+  },
+  "Features": {
+    "title": "Výkonné funkce",
+    "feature_1_title": "Generování obsahu pomocí AI",
+    "feature_1_description": "Naše algoritmy ML vytvářejí přizpůsobený obsah na základě vašich zkušeností a trendů v oboru.",
+    "feature_2_title": "Ověření blockchainu",
+    "feature_2_description": "Zajistěte pravost Vašeho CV pomocí našeho ověřovacího systému založeného na blockchainu.",
+    "feature_3_title": "Aktualizace v reálném čase",
+    "feature_3_description": "Vaše CV se vyvíjí s vámi, automaticky se aktualizuje při získávání nových dovedností a zkušeností.",
+    "feature_4_title": "Export více formátů",
+    "feature_4_description": "Generování CV v různých formátech, od tradičních PDF po interaktivní webové profily.",
+    "feature_5_title": "Optimalizace ATS",
+    "feature_5_description": "Naše AI zajišťuje, že vaše CV je optimalizována pro sledovací systémy žadatelů, což zvyšuje vaše šance na pozornost.",
+    "feature_6_title": "Analýza dovednostních mezer",
+    "feature_6_description": "Přijímat personalizovaná doporučení na dovednosti k získání na základě vašich kariérních cílů."
   }
 }
