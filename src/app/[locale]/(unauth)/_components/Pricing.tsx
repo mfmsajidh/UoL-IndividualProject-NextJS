@@ -1,4 +1,5 @@
 import { CheckCircle } from 'lucide-react';
+import Link from 'next/link';
 
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -18,7 +19,7 @@ export const Pricing = () => {
           {[
             {
               title: 'Basic',
-              price: '$9.99',
+              price: 'Free',
               features: [
                 'AI-generated content',
                 'PDF export',
@@ -27,7 +28,7 @@ export const Pricing = () => {
             },
             {
               title: 'Pro',
-              price: '$19.99',
+              price: '$9.99',
               features: [
                 'Everything in Basic',
                 'Multi-format export',
@@ -73,9 +74,11 @@ export const Pricing = () => {
                 </ul>
               </CardContent>
               <div className="p-6 pt-0">
-                <Button className="w-full bg-blue-600 hover:bg-blue-700">
-                  {index === 2 ? 'Contact Sales' : 'Get Started'}
-                </Button>
+                <Link href="/sign-up">
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700">
+                    {index === 2 ? 'Contact Sales' : 'Get Started'}
+                  </Button>
+                </Link>
               </div>
             </Card>
           ))}

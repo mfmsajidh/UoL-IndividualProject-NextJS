@@ -17,7 +17,7 @@ export const AppFooter: FC<AppFooterProps> = () => {
               {AppConfig.name}
             </h3>
             <p className="text-sm">
-              Revolutionizing CV creation with AI and Blockchain
+              Revolutionising CV creation with AI and Blockchain
             </p>
           </div>
           <div>
@@ -61,19 +61,31 @@ export const AppFooter: FC<AppFooterProps> = () => {
             <h4 className="mb-4 text-lg font-semibold text-white">Connect</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="www.twitter.com" className="hover:text-blue-400">
-                  Twitter
-                </Link>
+                <a
+                  href="https://github.com/mfmsajidh"
+                  className="hover:text-blue-400"
+                  target="_blank"
+                >
+                  Github
+                </a>
               </li>
               <li>
-                <Link href="linkedin.com" className="hover:text-blue-400">
+                <a
+                  href="https://www.linkedin.com/in/mfmsajidh/"
+                  className="hover:text-blue-400"
+                  target="_blank"
+                >
                   LinkedIn
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="email.com" className="hover:text-blue-400">
+                <a
+                  href="mailto:msmf2@student.le.ac.uk"
+                  className="hover:text-blue-400"
+                  target="_blank"
+                >
                   Email
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

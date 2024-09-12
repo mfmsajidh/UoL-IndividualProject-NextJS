@@ -40,7 +40,7 @@ export const FAQ = () => {
             },
             {
               question:
-                'Is ML-Block CV compatible with Applicant Tracking Systems (ATS)?',
+                'Is CV Mate compatible with Applicant Tracking Systems (ATS)?',
               answer:
                 'Yes, our AI is trained to optimize your CV for ATS, increasing your chances of getting past initial screening processes.',
             },

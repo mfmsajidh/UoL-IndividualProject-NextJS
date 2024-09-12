@@ -10,20 +10,20 @@ export const Testimonials = () => {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              name: 'Alex Johnson',
-              role: 'Software Engineer',
+              name: 'Sharon Elsa James',
+              role: 'Social Media Coordinator',
               content:
-                'ML-Block CV helped me land my dream job. The AI-generated content was spot-on!',
+                'CV Mate helped me land my dream job. The AI-generated content was spot-on!',
             },
             {
-              name: 'Sarah Lee',
-              role: 'Marketing Manager',
+              name: 'Trisha Venkat',
+              role: 'Research Assistant',
               content:
                 'The blockchain verification feature gave me an edge in a competitive job market.',
             },
             {
-              name: 'Michael Brown',
-              role: 'Data Scientist',
+              name: 'Shubhamommy Baruli',
+              role: 'Gay Housewife',
               content:
                 'The skill gap analysis provided invaluable insights for my career development.',
             },
@@ -40,7 +40,7 @@ export const Testimonials = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-300">
-                  `&quot;{testimonial.content}`&quot;
+                  &quot;{testimonial.content}&quot;
                 </p>
               </CardContent>
             </Card>
