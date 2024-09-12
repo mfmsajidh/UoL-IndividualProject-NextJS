@@ -13,17 +13,17 @@
   "AppFooter": {
     "description": "Επανάσταση δημιουργίας βιογραφικού με AI και Blockchain",
     "quick_links": "Γρήγοροι Σύνδεσμοι",
-    "features": "Features",
+    "features": "Χαρακτηριστικά",
     "pricing": "Τιμολόγηση",
     "faq": "Συχνές",
-    "legal": "Legal",
-    "privacy_policy": "Privacy Policy",
+    "legal": "Νομικά",
+    "privacy_policy": "Πολιτική Απορρήτου",
     "terms_of_service": "Όροι παροχής υπηρεσιών",
-    "connect": "Connect",
+    "connect": "Σύνδεση",
     "github": "Github",
     "linkedin": "LinkedIn",
-    "email": "Email",
-    "all_rights_reserved": "All rights reserved."
+    "email": "E-mail",
+    "all_rights_reserved": "Με επιφύλαξη παντός δικαιώματος."
   },
   "BaseTemplate": {
     "description": "Αυτοματοποιούμε τη δημιουργία του βιογραφικού σας σύμφωνα με την περιγραφή της εργασίας"
@@ -80,7 +80,7 @@
     "sign_out": "Αποσύνδεση"
   },
   "TermsLayout": {
-    "back_to_home_link": "Home"
+    "back_to_home_link": "Αρχική"
   },
   "PrivacyPolicy": {
     "meta_title": "Πολιτική Απορρήτου",
@@ -122,33 +122,33 @@
     "contact_us_content_2": "Μέσω email:"
   },
   "TermsOfService": {
-    "meta_title": "Term of Service",
-    "meta_description": "Review the terms and conditions governing your use of CV Mate’s services, including important information about user responsibilities, rights, and limitations",
-    "acceptance_of_terms_title": "1. Acceptance of Terms",
-    "acceptance_of_terms_content": "By accessing or using the CV Mate service, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not use our service.",
-    "description_of_service_title": "2. Description of Service",
-    "description_of_service_content": "CV Mate provides an AI-powered CV generation and blockchain verification service. Our service uses machine learning algorithms to create and optimize your CV, and blockchain technology to verify and secure your professional information.",
-    "user_accounts_title": "3. User Accounts",
-    "user_accounts_content": "To use certain features of our service, you may be required to create an account. You are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account.",
-    "user_content_title": "4. User Content",
-    "user_content_content_1": "You retain all rights to the content you submit to our service. By submitting content, you grant CV Mate a worldwide, non-exclusive, royalty-free license to use, reproduce, and display your content in connection with providing and improving our service.",
-    "user_content_content_2": "You are solely responsible for the content you submit. You agree not to submit any false, misleading, or fraudulent information.",
-    "intellectual_property_title": "5. Intellectual Property",
-    "intellectual_property_content": "The CV Mate service, including its original content, features, and functionality, is owned by CV Mate and is protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.",
-    "blockchain_verification_title": "6. Blockchain Verification",
-    "blockchain_verification_content": "Our service uses blockchain technology to verify certain aspects of your CV. You understand and agree that information stored on a blockchain is immutable and cannot be deleted. We will only store necessary verification data on the blockchain, not your complete CV or detailed personal information.",
-    "ai_generated_content_title": "7. AI-Generated Content",
-    "ai_generated_content_content": "Our service uses AI to generate and optimize CV content. While we strive for accuracy, you are responsible for reviewing and ensuring the accuracy of all AI-generated content before using it. We do not guarantee that AI-generated content will be error-free or suitable for all purposes.",
-    "limitation_of_liability_title": "8. Limitation of Liability",
-    "limitation_of_liability_content": "CV Mate shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the service.",
-    "modifications_to_service_title": "9. Modifications to Service",
-    "modifications_to_service_content": "We reserve the right to modify or discontinue, temporarily or permanently, the service (or any part thereof) with or without notice. We shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the service.",
-    "governing_law_title": "10. Governing Law",
-    "governing_law_content": "These Terms shall be governed and construed in accordance with the laws of the United Kingdom, without regard to its conflict of law provisions.",
-    "changes_to_terms_title": "11. Changes to Terms",
-    "changes_to_terms_content": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect.",
-    "contact_us_title": "12. Contact Us",
-    "contact_us_content_1": "If you have any questions about these Terms, please contact us:",
-    "contact_us_content_2": "By email:"
+    "meta_title": "Διάρκεια υπηρεσίας",
+    "meta_description": "Εξετάστε τους όρους και τις προϋποθέσεις που διέπουν τη χρήση των υπηρεσιών του CV Mate, συμπεριλαμβανομένων σημαντικών πληροφοριών σχετικά με τις ευθύνες των χρηστών, τα δικαιώματα και τους περιορισμούς",
+    "acceptance_of_terms_title": "1. Αποδοχή των Όρων",
+    "acceptance_of_terms_content": "Με την πρόσβαση ή τη χρήση της υπηρεσίας CV Mate, συμφωνείτε να δεσμεύεστε από αυτούς τους Όρους Χρήσης και όλους τους ισχύοντες νόμους και κανονισμούς. Εάν δεν συμφωνείτε με οποιοδήποτε μέρος αυτών των όρων, δεν μπορείτε να χρησιμοποιήσετε την υπηρεσία μας.",
+    "description_of_service_title": "2. Περιγραφή της υπηρεσίας",
+    "description_of_service_content": "Το CV Mate παρέχει μια υπηρεσία επαλήθευσης CV που τροφοδοτείται από AI-και την υπηρεσία επαλήθευσης blockchain. Η υπηρεσία μας χρησιμοποιεί αλγορίθμους μηχανικής μάθησης για να δημιουργήσει και να βελτιστοποιήσει το βιογραφικό σας και την τεχνολογία blockchain για να επαληθεύσει και να εξασφαλίσει τις επαγγελματικές σας πληροφορίες.",
+    "user_accounts_title": "3. Λογαριασμοί Χρήστη",
+    "user_accounts_content": "Για να χρησιμοποιήσετε ορισμένα χαρακτηριστικά της υπηρεσίας μας, μπορεί να σας ζητηθεί να δημιουργήσετε ένα λογαριασμό. Είστε υπεύθυνοι για τη διατήρηση της εμπιστευτικότητας του λογαριασμού και του κωδικού πρόσβασής σας. Συμφωνείτε να αποδεχθείτε την ευθύνη για όλες τις δραστηριότητες που συμβαίνουν στο λογαριασμό σας.",
+    "user_content_title": "4. Περιεχόμενο Χρήστη",
+    "user_content_content_1": "Διατηρείτε όλα τα δικαιώματα για το περιεχόμενο που υποβάλλετε στην υπηρεσία μας. Με την υποβολή περιεχομένου, χορηγείτε CV Mate μια παγκόσμια, μη αποκλειστική, ατελώς άδεια χρήσης, αναπαραγάγετε και εμφανίστε το περιεχόμενό σας σε σχέση με την παροχή και τη βελτίωση των υπηρεσιών μας.",
+    "user_content_content_2": "Είστε αποκλειστικά υπεύθυνοι για το περιεχόμενο που υποβάλλετε. Συμφωνείτε να μην υποβάλετε ψευδείς ή παραπλανητικές πληροφορίες.",
+    "intellectual_property_title": "5. Διανοητική Ιδιοκτησία",
+    "intellectual_property_content": "Η υπηρεσία CV Mate, συμπεριλαμβανομένου του αρχικού περιεχομένου της, τα χαρακτηριστικά και τη λειτουργικότητα, ανήκει σε CV Mate και προστατεύεται από διεθνή πνευματικά δικαιώματα, εμπορικό σήμα, πατέντα, εμπορικό μυστικό, και άλλους νόμους πνευματικής ιδιοκτησίας.",
+    "blockchain_verification_title": "6. Επαλήθευση Blockchain",
+    "blockchain_verification_content": "Η υπηρεσία μας χρησιμοποιεί τεχνολογία blockchain για να επαληθεύσει ορισμένες πτυχές του βιογραφικού σας. Κατανοείτε και συμφωνείτε ότι οι πληροφορίες που είναι αποθηκευμένες σε ένα blockchain είναι αμετάβλητες και δεν μπορούν να διαγραφούν. Θα αποθηκεύουμε μόνο τα απαραίτητα δεδομένα επαλήθευσης στο blockchain, όχι το πλήρες βιογραφικό σας ή τις λεπτομερείς προσωπικές σας πληροφορίες.",
+    "ai_generated_content_title": "7. AI-Παραγόμενο Περιεχόμενο",
+    "ai_generated_content_content": "Η υπηρεσία μας χρησιμοποιεί AI για να δημιουργήσει και να βελτιστοποιήσει το περιεχόμενο CV. Ενώ αγωνιζόμαστε για την ακρίβεια, είστε υπεύθυνοι για την αναθεώρηση και τη διασφάλιση της ακρίβειας όλων των περιεχομένων που παράγονται από AI πριν το χρησιμοποιήσετε. Δεν εγγυόμαστε ότι το περιεχόμενο της AI θα είναι απαλλαγμένο από σφάλματα ή κατάλληλο για όλους τους σκοπούς.",
+    "limitation_of_liability_title": "8. Περιορισμός ευθύνης",
+    "limitation_of_liability_content": "Το CV Mate δεν ευθύνεται για έμμεσες, παρεμπιπτόντως, ειδικές, επακόλουθες ή ποινικές ζημίες, συμπεριλαμβανομένων, χωρίς περιορισμό, της απώλειας κερδών, δεδομένα, χρήση, υπεραξία ή άλλες άυλες απώλειες, που προκύπτουν από την πρόσβαση ή τη χρήση ή την αδυναμία πρόσβασης ή χρήσης της υπηρεσίας.",
+    "modifications_to_service_title": "9. Τροποποιήσεις στην υπηρεσία",
+    "modifications_to_service_content": "Διατηρούμε το δικαίωμα να τροποποιήσουμε ή να διακόψουμε, προσωρινά ή μόνιμα, την υπηρεσία (ή οποιοδήποτε μέρος της) με ή χωρίς προειδοποίηση. Δεν θα είμαστε υπεύθυνοι σε εσάς ή σε οποιονδήποτε τρίτο για οποιαδήποτε τροποποίηση, αλλαγή τιμής, αναστολή ή διακοπή της υπηρεσίας.",
+    "governing_law_title": "10. Εφαρμοστέο Δίκαιο",
+    "governing_law_content": "Οι παρόντες Όροι διέπονται και ερμηνεύονται σύμφωνα με τους νόμους του Ηνωμένου Βασιλείου, χωρίς να λαμβάνονται υπόψη οι διατάξεις περί σύγκρουσης νόμων.",
+    "changes_to_terms_title": "11. Αλλαγές στους Όρους",
+    "changes_to_terms_content": "Διατηρούμε το δικαίωμα, κατά τη διακριτική μας ευχέρεια, να τροποποιήσουμε ή να αντικαταστήσουμε τους παρόντες Όρους ανά πάσα στιγμή. Εάν μια αναθεώρηση είναι υλικό, θα προσπαθήσουμε να παράσχουμε τουλάχιστον 30 ημέρες ειδοποίησης πριν από τυχόν νέους όρους που τίθενται σε ισχύ.",
+    "contact_us_title": "12. Επικοινωνήστε Μαζί Μας",
+    "contact_us_content_1": "Αν έχετε οποιεσδήποτε ερωτήσεις σχετικά με αυτούς τους Όρους, παρακαλούμε επικοινωνήστε μαζί μας:",
+    "contact_us_content_2": "Μέσω email:"
   }
 }
