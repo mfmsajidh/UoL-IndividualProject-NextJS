@@ -13,17 +13,17 @@
   "AppFooter": {
     "description": "Oppretting av Revolutionising CV med AI og Blockchain",
     "quick_links": "Raske lenker",
-    "features": "Features",
+    "features": "Funksjoner",
     "pricing": "Priser",
     "faq": "OSS",
-    "legal": "Legal",
-    "privacy_policy": "Privacy Policy",
+    "legal": "Juridisk",
+    "privacy_policy": "Retningslinjer for personvern",
     "terms_of_service": "Vilkår for bruk",
-    "connect": "Connect",
+    "connect": "Nettverk",
     "github": "Github",
     "linkedin": "LinkedIn",
-    "email": "Email",
-    "all_rights_reserved": "All rights reserved."
+    "email": "E-post",
+    "all_rights_reserved": "Med enerett."
   },
   "BaseTemplate": {
     "description": "Vi automatiserer ditt CV program automatisk i henhold til jobbeskrivelsen"
@@ -80,7 +80,7 @@
     "sign_out": "Logg ut"
   },
   "TermsLayout": {
-    "back_to_home_link": "Home"
+    "back_to_home_link": "Hjem"
   },
   "PrivacyPolicy": {
     "meta_title": "Retningslinjer for personvern",
@@ -122,33 +122,33 @@
     "contact_us_content_2": "Via e-post:"
   },
   "TermsOfService": {
-    "meta_title": "Term of Service",
-    "meta_description": "Review the terms and conditions governing your use of CV Mate’s services, including important information about user responsibilities, rights, and limitations",
-    "acceptance_of_terms_title": "1. Acceptance of Terms",
-    "acceptance_of_terms_content": "By accessing or using the CV Mate service, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not use our service.",
-    "description_of_service_title": "2. Description of Service",
-    "description_of_service_content": "CV Mate provides an AI-powered CV generation and blockchain verification service. Our service uses machine learning algorithms to create and optimize your CV, and blockchain technology to verify and secure your professional information.",
-    "user_accounts_title": "3. User Accounts",
-    "user_accounts_content": "To use certain features of our service, you may be required to create an account. You are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account.",
-    "user_content_title": "4. User Content",
-    "user_content_content_1": "You retain all rights to the content you submit to our service. By submitting content, you grant CV Mate a worldwide, non-exclusive, royalty-free license to use, reproduce, and display your content in connection with providing and improving our service.",
-    "user_content_content_2": "You are solely responsible for the content you submit. You agree not to submit any false, misleading, or fraudulent information.",
-    "intellectual_property_title": "5. Intellectual Property",
-    "intellectual_property_content": "The CV Mate service, including its original content, features, and functionality, is owned by CV Mate and is protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.",
-    "blockchain_verification_title": "6. Blockchain Verification",
-    "blockchain_verification_content": "Our service uses blockchain technology to verify certain aspects of your CV. You understand and agree that information stored on a blockchain is immutable and cannot be deleted. We will only store necessary verification data on the blockchain, not your complete CV or detailed personal information.",
-    "ai_generated_content_title": "7. AI-Generated Content",
-    "ai_generated_content_content": "Our service uses AI to generate and optimize CV content. While we strive for accuracy, you are responsible for reviewing and ensuring the accuracy of all AI-generated content before using it. We do not guarantee that AI-generated content will be error-free or suitable for all purposes.",
-    "limitation_of_liability_title": "8. Limitation of Liability",
-    "limitation_of_liability_content": "CV Mate shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the service.",
-    "modifications_to_service_title": "9. Modifications to Service",
-    "modifications_to_service_content": "We reserve the right to modify or discontinue, temporarily or permanently, the service (or any part thereof) with or without notice. We shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the service.",
-    "governing_law_title": "10. Governing Law",
-    "governing_law_content": "These Terms shall be governed and construed in accordance with the laws of the United Kingdom, without regard to its conflict of law provisions.",
-    "changes_to_terms_title": "11. Changes to Terms",
-    "changes_to_terms_content": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect.",
-    "contact_us_title": "12. Contact Us",
-    "contact_us_content_1": "If you have any questions about these Terms, please contact us:",
-    "contact_us_content_2": "By email:"
+    "meta_title": "Tjenestevilkårene",
+    "meta_description": "Gjennomgå vilkårene og betingelsene for bruk av CV Mates tjenester, inkludert viktig informasjon om brukeransvar, rettigheter og begrensninger",
+    "acceptance_of_terms_title": "1. Akseptering av vilkår",
+    "acceptance_of_terms_content": "Ved å få tilgang til eller bruke CV-satjenesten, samtykker du i å la seg binde av disse Tjenestevilkårene og alle gjeldende lover og forskrifter. Hvis du ikke er enig med noen av disse vilkårene, kan du ikke bruke tjenesten vår.",
+    "description_of_service_title": "2. Beskrivelse av Tjeneste",
+    "description_of_service_content": "CV mamma gir en AI-drevet CV-generering og blokkjedekverifiseringstjeneste. Vår tjeneste bruker algoritmer på å lære maskinen for å lage og optimalisere din CV-, og blokkjedeknologi for å verifisere og sikre din profesjonelle informasjon.",
+    "user_accounts_title": "3. Brukerkontoer",
+    "user_accounts_content": "For å bruke visse funksjoner i tjenesten vår, kan du være påkrevd for å opprette en konto. Du er ansvarlig for å beholde konfidensialiteten til kontoen og passordet ditt. Du godtar å ta ansvar for alle aktiviteter som skjer under din konto.",
+    "user_content_title": "4. Brukerinnhold",
+    "user_content_content_1": "Du beholder alle rettigheter til innholdet du sender til tjenesten vår. Ved å sende inn innhold gir du CV Mate en verdensomspennende lisens uten unntak å bruke royaltyfri lisens. reprodusere, og vis innholdet ditt i forbindelse med levering og forbedring av tjenesten.",
+    "user_content_content_2": "Du er alene ansvarlig for innholdet du sender inn. Du godtar ikke å sende inn falske, villedende eller svindelinformasjon.",
+    "intellectual_property_title": "5. Immaterielle egenskaper",
+    "intellectual_property_content": "Kardiovaskulærtjenesten, inkludert opprinnelig innhold, egenskaper og funksjonalitet, CV Matt eies av og beskyttes av internasjonal opphavsrett, varemerke, patent, trade secret, og andre immaterielle eiendomslover.",
+    "blockchain_verification_title": "6. Blockchain verifisering",
+    "blockchain_verification_content": "Tjenesten vår bruker blokjedeteknologi for å verifisere visse aspekter av TV-en din. Du forstår og samtykker i at informasjon som er lagret på en blokkjede, ikke kan slettes. Vi vil bare lagre nødvendige data om verifisering av blokkjeden, ikke fullstendig cv eller detaljert personlig informasjon.",
+    "ai_generated_content_title": "7. AI-generert innhold",
+    "ai_generated_content_content": "Tjenesten vår bruker AI til å generere og optimalisere CV-innholdet. Mens vi bestreber deg på nøyaktighet, er du ansvarlig for å gjennomgå og sikre at alt AI-generert innhold er nøyaktige, før du bruker det. Vi garanterer ikke at innhold fra AI-genererte vil være feilfri eller passende for alle formål.",
+    "limitation_of_liability_title": "8. Begrensning av gjeld",
+    "limitation_of_liability_content": "CV Mann skal ikke være ansvarlig for noen indirekte, tilfeldige, spesielle, resulterende eller entydige skader, herunder uten begrensning, tap av fortjeneste, data, bruk, goodwill, eller andre immaterielle tap som er et resultat av at du har tilgang til eller bruk av eller ikke har mulighet til å få tilgang til eller bruke tjenesten.",
+    "modifications_to_service_title": "9. Endringer for bruk",
+    "modifications_to_service_content": "Vi forbeholder oss retten til å endre eller seponere, midlertidig eller permanent, tjenesten (eller noen del av den med) med eller uten varsel. Vi skal ikke ha ansvar for deg eller noen tredjepart for endring, prisendring, suspensjon eller opphør av tjenesten.",
+    "governing_law_title": "10. Styrende lov",
+    "governing_law_content": "Disse Vilkårene skal styres og tolkes i samsvar med FN-reglenes lover, uten hensyn til dets konflikt om lovbestemmelser.",
+    "changes_to_terms_title": "11. Endringer i termer",
+    "changes_to_terms_content": "Vi forbeholder oss retten, etter eget skjønn, om vi vil endre eller bytte ut disse vilkårene når som helst. Hvis en revisjon er materiale, vil vi forsøke å gi minst 30 dagers varsel før nye vilkår trer i kraft.",
+    "contact_us_title": "12. Kontakt oss",
+    "contact_us_content_1": "Hvis du har noen spørsmål om disse vilkårene, vennligst kontakt oss:",
+    "contact_us_content_2": "Via e-post:"
   }
 }
