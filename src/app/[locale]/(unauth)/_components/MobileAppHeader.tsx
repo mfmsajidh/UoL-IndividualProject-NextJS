@@ -57,21 +57,21 @@ export const MobileAppHeader: FC<NavigationProps> = ({
             </div>
             <nav className="flex flex-col p-4">
               <Link
-                href="#features"
+                href="/#features"
                 className="py-2 text-lg hover:text-blue-400"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {featuresTranslation}
               </Link>
               <Link
-                href="#pricing"
+                href="/#pricing"
                 className="py-2 text-lg hover:text-blue-400"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {pricingTranslation}
               </Link>
               <Link
-                href="#faq"
+                href="/#faq"
                 className="py-2 text-lg hover:text-blue-400"
                 onClick={() => setIsMobileMenuOpen(false)}
               >

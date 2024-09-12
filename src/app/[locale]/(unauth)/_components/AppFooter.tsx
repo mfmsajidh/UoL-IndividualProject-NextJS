@@ -26,17 +26,17 @@ export const AppFooter: FC<AppFooterProps> = () => {
             </h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="#features" className="hover:text-blue-400">
+                <Link href="/#features" className="hover:text-blue-400">
                   Features
                 </Link>
               </li>
               <li>
-                <Link href="#pricing" className="hover:text-blue-400">
+                <Link href="/#pricing" className="hover:text-blue-400">
                   Pricing
                 </Link>
               </li>
               <li>
-                <Link href="#faq" className="hover:text-blue-400">
+                <Link href="/#faq" className="hover:text-blue-400">
                   FAQ
                 </Link>
               </li>

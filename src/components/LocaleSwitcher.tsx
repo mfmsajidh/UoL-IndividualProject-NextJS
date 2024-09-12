@@ -9,7 +9,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { usePathname, useRouter } from '@/libs/i18nNavigation';
+import { getLocaleName, usePathname, useRouter } from '@/libs/i18nNavigation';
 import { AppConfig } from '@/utils/AppConfig';
 
 export default function LocaleSwitcher() {
@@ -24,7 +24,7 @@ export default function LocaleSwitcher() {
 
   return (
     <Select defaultValue={locale} onValueChange={handleLocaleChange}>
-      <SelectTrigger className="w-[80px] border-gray-800 bg-gray-800 text-gray-300 hover:border-gray-900 hover:bg-gray-900">
+      <SelectTrigger className="w-auto border-gray-800 bg-gray-800 text-gray-300 hover:border-gray-900 hover:bg-gray-900">
         <SelectValue placeholder="Language" />
       </SelectTrigger>
       <SelectContent className="border-gray-800 bg-gray-800">
@@ -34,7 +34,7 @@ export default function LocaleSwitcher() {
             value={loc}
             className="text-gray-300 hover:bg-gray-700"
           >
-            {loc.toUpperCase()}
+            {getLocaleName(loc)}
           </SelectItem>
         ))}
       </SelectContent>

@@ -30,13 +30,13 @@ const DesktopNavigation: FC<NavigationProps> = ({
           <Image src={Logo} alt="Logo of CV Mate" className="w-28" />
         </Link>
         <nav className="flex items-center space-x-6 text-sm font-medium">
-          <Link href="#features" className="text-gray-300 hover:text-white">
+          <Link href="/#features" className="text-gray-300 hover:text-white">
             {featuresTranslation}
           </Link>
-          <Link href="#pricing" className="text-gray-300 hover:text-white">
+          <Link href="/#pricing" className="text-gray-300 hover:text-white">
             {pricingTranslation}
           </Link>
-          <Link href="#faq" className="text-gray-300 hover:text-white">
+          <Link href="/#faq" className="text-gray-300 hover:text-white">
             {faqTranslation}
           </Link>
         </nav>
