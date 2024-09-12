@@ -159,5 +159,20 @@
     "question_4_content": "You can update your CV as often as you like. Our system allows for real-time updates and continuous improvement of your profile.",
     "question_5_title": "Is CV Mate compatible with Applicant Tracking Systems (ATS)?",
     "question_5_content": "Yes, our AI is trained to optimize your CV for ATS, increasing your chances of getting past initial screening processes."
+  },
+  "Features": {
+    "title": "Powerful Features",
+    "feature_1_title": "AI-Powered Content Generation",
+    "feature_1_description": "Our ML algorithms create tailored content based on your experience and industry trends.",
+    "feature_2_title": "Blockchain Verification",
+    "feature_2_description": "Ensure the authenticity of your CV with our blockchain-based verification system.",
+    "feature_3_title": "Real-time Updates",
+    "feature_3_description": "Your CV evolves with you, automatically updating as you gain new skills and experiences.",
+    "feature_4_title": "Multi-format Export",
+    "feature_4_description": "Generate your CV in various formats, from traditional PDFs to interactive web profiles.",
+    "feature_5_title": "ATS Optimization",
+    "feature_5_description": "Our AI ensures your CV is optimized for Applicant Tracking Systems, increasing your chances of getting noticed.",
+    "feature_6_title": "Skill Gap Analysis",
+    "feature_6_description": "Receive personalized recommendations on skills to acquire based on your career goals."
   }
 }
