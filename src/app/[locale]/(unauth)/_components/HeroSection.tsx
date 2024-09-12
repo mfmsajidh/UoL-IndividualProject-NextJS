@@ -11,7 +11,10 @@ export const HeroSection = () => {
             <h1 className="text-3xl font-bold tracking-tighter text-white sm:text-4xl md:text-5xl lg:text-6xl/none">
               Revolutionary CV Generation
               <br />
-              powered by ML & Blockchain
+              <span className="text-blue-600">
+                {' '}
+                powered by AI & Blockchain{' '}
+              </span>
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-400 md:text-xl">
               Create, Validate, and Securely Share Your CV Powered by Machine
