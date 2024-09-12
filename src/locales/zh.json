@@ -1,41 +1,41 @@
 {
   "RootLayout": {
-    "home_link": "Home",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "Portfolio",
-    "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up",
-    "made_with": "Made with",
-    "features_link": "Features",
-    "pricing_link": "Pricing",
-    "faq_link": "FAQ"
+    "home_link": "首页",
+    "about_link": "关于",
+    "guestbook_link": "留言板",
+    "portfolio_link": "投资组合",
+    "sign_in_link": "登录",
+    "sign_up_link": "注册",
+    "made_with": "制作于",
+    "features_link": "功能",
+    "pricing_link": "定价",
+    "faq_link": "常见问题"
   },
   "BaseTemplate": {
-    "description": "We automate the creation of your CV as per the job description"
+    "description": "我们按照作业描述自动创建您的 CV"
   },
   "Index": {
     "meta_title": "CV Mate",
-    "meta_description": "We automate your CVs."
+    "meta_description": "我们自动化您的 CV。"
   },
   "Guestbook": {
-    "meta_title": "Guestbook",
-    "meta_description": "An example of CRUD operation",
-    "loading_guestbook": "Loading guestbook..."
+    "meta_title": "留言板",
+    "meta_description": "CRUD 操作示例",
+    "loading_guestbook": "正在加载留言板..."
   },
   "GuestbookForm": {
-    "username": "Username",
-    "body": "Body",
-    "save": "Save"
+    "username": "用户名",
+    "body": "正文内容",
+    "save": "保存"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to the About page! Passionate and dedicated to create amazing software."
+    "meta_title": "关于",
+    "meta_description": "关于页面描述",
+    "about_paragraph": "欢迎来到关于页面！充满热情并致力于创建惊人的软件。"
   },
   "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
+    "meta_title": "投资组合",
+    "meta_description": "欢迎来到我的组合页面！",
     "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
     "portfolio_name": "Portfolio {name}"
   },
@@ -46,23 +46,63 @@
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
   },
   "SignIn": {
-    "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_title": "登录",
+    "meta_description": "通过我们方便用户的登录过程无缝登录您的帐户。"
   },
   "SignUp": {
-    "meta_title": "Sign up",
-    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+    "meta_title": "注册",
+    "meta_description": "通过我们直观的注册过程无力创建一个帐户。"
   },
   "Dashboard": {
-    "meta_title": "Dashboard",
+    "meta_title": "仪表板",
     "hello_message": "Hello {email}!"
   },
   "UserProfile": {
-    "meta_title": "User Profile"
+    "meta_title": "用户资料"
   },
   "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
+    "dashboard_link": "仪表板",
+    "user_profile_link": "管理您的帐户",
+    "sign_out": "登出"
+  },
+  "PrivacyPolicy": {
+    "meta_title": "隐私政策",
+    "meta_description": "了解CV Mater如何收集、使用和保护您的个人信息。 阅读我们的隐私政策以了解您的权利以及我们如何确保数据隐私和安全。",
+    "back_to_home_link": "返回首页",
+    "introduction_title": "1. 导言",
+    "introduction_content_1": "欢迎来到CV Mate。我们致力于保护您的个人信息和隐私权。 此隐私政策解释了当您使用我们的服务时，我们如何收集、使用、披露和保护您的信息。",
+    "introduction_content_2": "通过使用我们的服务，您同意按照此政策收集和使用信息。 我们不会使用您的信息或与任何人分享您的信息，除非本隐私政策中作了说明。",
+    "information_we_collect_title": "2. 我们收集的信息",
+    "information_we_collect_content_1": "我们为了各种目的收集几种信息，以便为您提供和改进我们的服务：",
+    "information_we_collect_content_2": "个人数据：姓名、电子邮件地址、电话号码、专业历史记录。",
+    "information_we_collect_content_3": "使用数据：如何使用我们的服务的信息。",
+    "information_we_collect_content_4": "Cookie和跟踪数据：我们使用 cookie 和类似的跟踪技术。",
+    "how_we_use_your_information_title": "3. 我们如何使用您的信息",
+    "how_we_use_your_information_content_1": "我们将收集到的数据用于各种目的：",
+    "how_we_use_your_information_content_2": "To provide and maintain our service.",
+    "how_we_use_your_information_content_3": "To notify you about changes to our service.",
+    "how_we_use_your_information_content_4": "To provide customer support.",
+    "how_we_use_your_information_content_5": "To gather analysis or valuable information so that we can improve our service.",
+    "how_we_use_your_information_content_6": "监测我们服务的使用情况。",
+    "how_we_use_your_information_content_7": "发现、预防和解决技术问题。",
+    "blockchain_and_data_storage_title": "4. 区块链和数据存储",
+    "blockchain_and_data_storage_content": "Our service utilizes blockchain technology for CV verification. Please note that information stored on a blockchain is immutable and         cannot be deleted. We take care to store only necessary verification data on the blockchain, while keeping your detailed personal information off-chain.",
+    "data_security_title": "5. Data Security",
+    "data_security_content": "The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security.",
+    "your_data_protection_rights_title": "6. Your Data Protection Rights",
+    "your_data_protection_rights_content_1": "We aim to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Data. If you wish to be informed what Personal Data we hold about you and if you want it to be removed from our systems, please contact us.",
+    "your_data_protection_rights_content_2": "In certain circumstances, you have the following data protection rights:",
+    "your_data_protection_rights_content_3": "The right to access, update or to delete the information we have on you.",
+    "your_data_protection_rights_content_4": "The right of rectification.",
+    "your_data_protection_rights_content_5": "The right to object.",
+    "your_data_protection_rights_content_6": "The right of restriction.",
+    "your_data_protection_rights_content_7": "The right to data portability.",
+    "your_data_protection_rights_content_8": "The right to withdraw consent",
+    "changes_to_this_privacy_policy_title": "7. Changes to This Privacy Policy",
+    "changes_to_this_privacy_policy_content_1": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"effective date\" at the top of this Privacy Policy.",
+    "changes_to_this_privacy_policy_content_2": "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.",
+    "contact_us_title": "8. Contact Us",
+    "contact_us_content_1": "If you have any questions about this Privacy Policy, please contact us:",
+    "contact_us_content_2": "By email:"
   }
 }
