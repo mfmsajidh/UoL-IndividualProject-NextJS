@@ -1,6 +1,11 @@
 import { useTranslations } from 'next-intl';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
+import { Heading } from '@/app/[locale]/(unauth)/(terms)/_components/Heading';
+import { TitleContent } from '@/app/[locale]/(unauth)/(terms)/_components/TitleContent';
+import { TitleContentContact } from '@/app/[locale]/(unauth)/(terms)/_components/TitleContentContact';
+import { TitleTwoContent } from '@/app/[locale]/(unauth)/(terms)/_components/TitleTwoContent';
+
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
@@ -18,102 +23,77 @@ const TermsOfService = (props: { params: { locale: string } }) => {
   const t = useTranslations('TermsOfService');
 
   return (
-    <main className="container mx-auto flex-1 py-12 md:py-24 lg:py-32">
-      <h1 className="mb-8 text-4xl font-bold text-white">{t('meta_title')}</h1>
+    <>
+      <Heading title={t('meta_title')} />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('acceptance_of_terms_title')}
-        </h2>
-        <p className="mb-4">{t('acceptance_of_terms_content')}</p>
-      </section>
+      <TitleContent
+        title={t('acceptance_of_terms_title')}
+        content={t('acceptance_of_terms_content')}
+      />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('description_of_service_title')}
-        </h2>
-        <p className="mb-4">{t('description_of_service_content')}</p>
-      </section>
+      <TitleContent
+        title={t('description_of_service_title')}
+        content={t('description_of_service_content')}
+      />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('user_accounts_title')}
-        </h2>
-        <p className="mb-4">{t('user_accounts_content')}</p>
-      </section>
+      <TitleContent
+        title={t('user_accounts_title')}
+        content={t('user_accounts_content')}
+      />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('user_content_title')}
-        </h2>
-        <p className="mb-4">{t('user_content_content_1')}</p>
-        <p className="mb-4">{t('user_content_content_2')}</p>
-      </section>
+      <TitleTwoContent
+        title={t('user_content_title')}
+        content={t('user_content_content_1')}
+        content2={t('user_content_content_2')}
+      />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('intellectual_property_title')}
-        </h2>
-        <p className="mb-4">{t('intellectual_property_content')}</p>
-      </section>
+      <TitleContent
+        title={t('intellectual_property_title')}
+        content={t('intellectual_property_content')}
+      />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('blockchain_verification_title')}
-        </h2>
-        <p className="mb-4">{t('blockchain_verification_content')}</p>
-      </section>
+      <TitleContent
+        title={t('blockchain_verification_title')}
+        content={t('blockchain_verification_content')}
+      />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('ai_generated_content_title')}
-        </h2>
-        <p className="mb-4">{t('ai_generated_content_content')}</p>
-      </section>
+      <TitleContent
+        title={t('ai_generated_content_title')}
+        content={t('ai_generated_content_content')}
+      />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('limitation_of_liability_title')}
-        </h2>
-        <p className="mb-4">{t('limitation_of_liability_content')}</p>
-      </section>
+      <TitleContent
+        title={t('limitation_of_liability_title')}
+        content={t('limitation_of_liability_content')}
+      />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('modifications_to_service_title')}
-        </h2>
-        <p className="mb-4">{t('modifications_to_service_content')}</p>
-      </section>
+      <TitleContent
+        title={t('modifications_to_service_title')}
+        content={t('modifications_to_service_content')}
+      />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('governing_law_title')}
-        </h2>
-        <p className="mb-4">{t('governing_law_content')}</p>
-      </section>
+      <TitleContent
+        title={t('governing_law_title')}
+        content={t('governing_law_content')}
+      />
 
-      <section className="mb-12">
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('changes_to_terms_title')}
-        </h2>
-        <p className="mb-4">{t('changes_to_terms_content')}</p>
-      </section>
+      <TitleContent
+        title={t('changes_to_terms_title')}
+        content={t('changes_to_terms_content')}
+      />
 
-      <section>
-        <h2 className="mb-4 text-2xl font-semibold text-blue-400">
-          {t('contact_us_title')}
-        </h2>
-        <p className="mb-4">{t('contact_us_content_1')}</p>
-        <ul className="ml-4 list-inside list-disc space-y-2">
-          <li>
-            {t('contact_us_content_2')}{' '}
-            <a href="mailto:msmf2@student.le.ac.uk" className="hover:underline">
-              msmf2@student.le.ac.uk
-            </a>
-          </li>
-        </ul>
-      </section>
-    </main>
+      <TitleContentContact
+        title={t('contact_us_title')}
+        content={t('contact_us_content_1')}
+        contentList={[
+          {
+            name: t('contact_us_content_2'),
+            url: 'mailto:msmf2@student.le.ac.uk',
+            contact: 'msmf2@student.le.ac.uk',
+          },
+        ]}
+      />
+    </>
   );
 };
 
