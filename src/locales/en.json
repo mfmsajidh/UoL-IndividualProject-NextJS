@@ -146,5 +146,18 @@
     "contact_us_title": "12. Contact Us",
     "contact_us_content_1": "If you have any questions about these Terms, please contact us:",
     "contact_us_content_2": "By email:"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "question_1_title": "How does the AI generate CV content?",
+    "question_1_content": "Our AI analyzes your input, industry trends, and job market data to create tailored, professional content for your CV.",
+    "question_2_title": "Is my data secure with blockchain verification?",
+    "question_2_content": "Yes, blockchain technology ensures that your CV data is securely stored and verifiable, protecting against unauthorized changes.",
+    "question_3_title": "Can I edit the AI-generated content?",
+    "question_3_content": "While our AI provides a strong foundation, you have full control to edit and personalize your CV content.",
+    "question_4_title": "How often can I update my CV?",
+    "question_4_content": "You can update your CV as often as you like. Our system allows for real-time updates and continuous improvement of your profile.",
+    "question_5_title": "Is CV Mate compatible with Applicant Tracking Systems (ATS)?",
+    "question_5_content": "Yes, our AI is trained to optimize your CV for ATS, increasing your chances of getting past initial screening processes."
   }
 }

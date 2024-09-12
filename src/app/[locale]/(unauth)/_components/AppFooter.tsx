@@ -5,6 +5,7 @@ import { AppConfig } from '@/utils/AppConfig';
 
 export const AppFooter = () => {
   const t = useTranslations('AppFooter');
+
   return (
     <footer className="w-full bg-gray-900 py-6 text-gray-300">
       <div className="container mx-auto px-4 md:px-6">

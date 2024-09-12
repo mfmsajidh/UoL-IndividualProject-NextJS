@@ -1,3 +1,5 @@
+import { useTranslations } from 'next-intl';
+
 import {
   Accordion,
   AccordionContent,
@@ -6,11 +8,13 @@ import {
 } from '@/components/ui/accordion';
 
 export const FAQ = () => {
+  const t = useTranslations('FAQ');
+
   return (
     <section id="faq" className="w-full bg-gray-950 py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="mb-12 text-center text-3xl font-bold text-white">
-          Frequently Asked Questions
+          {t('title')}
         </h2>
         <Accordion
           type="single"
@@ -19,30 +23,24 @@ export const FAQ = () => {
         >
           {[
             {
-              question: 'How does the AI generate CV content?',
-              answer:
-                'Our AI analyzes your input, industry trends, and job market data to create tailored, professional content for your CV.',
+              question: t('question_1_title'),
+              answer: t('question_1_content'),
             },
             {
-              question: 'Is my data secure with blockchain verification?',
-              answer:
-                'Yes, blockchain technology ensures that your CV data is securely stored and verifiable, protecting against unauthorized changes.',
+              question: t('question_2_title'),
+              answer: t('question_2_content'),
             },
             {
-              question: 'Can I edit the AI-generated content?',
-              answer:
-                'While our AI provides a strong foundation, you have full control to edit and personalize your CV content.',
+              question: t('question_3_title'),
+              answer: t('question_3_content'),
             },
             {
-              question: 'How often can I update my CV?',
-              answer:
-                'You can update your CV as often as you like. Our system allows for real-time updates and continuous improvement of your profile.',
+              question: t('question_4_title'),
+              answer: t('question_4_content'),
             },
             {
-              question:
-                'Is CV Mate compatible with Applicant Tracking Systems (ATS)?',
-              answer:
-                'Yes, our AI is trained to optimize your CV for ATS, increasing your chances of getting past initial screening processes.',
+              question: t('question_5_title'),
+              answer: t('question_5_content'),
             },
           ].map((item, index) => (
             <AccordionItem
