@@ -1,9 +1,5 @@
 {
-  "RootLayout": {
-    "home_link": "Residencial",
-    "about_link": "SOBRE",
-    "guestbook_link": "Livro de Visitas",
-    "portfolio_link": "Portfólio",
+  "AppHeader": {
     "sign_in_link": "Iniciar sessão",
     "sign_up_link": "Criar conta",
     "features_link": "Funcionalidades",
@@ -122,7 +118,7 @@
     "contact_us_content_2": "Por e-mail:"
   },
   "TermsOfService": {
-    "meta_title": "Período de Serviço",
+    "meta_title": "Termos de Serviço",
     "meta_description": "Revise os termos e condições que regem o uso dos serviços do CV Mate, incluindo informações importantes sobre responsabilidades, direitos e limitações do usuário",
     "acceptance_of_terms_title": "1. Aceitação dos Termos",
     "acceptance_of_terms_content": "Ao acessar ou usar o serviço de Mate do CV, você concorda em estar vinculado a estes Termos de Serviço e a todas as leis e regulamentações aplicáveis. Se não concordar com nenhuma parte destes termos, não poderá utilizar o nosso serviço.",
@@ -150,5 +146,33 @@
     "contact_us_title": "12. Fale Conosco",
     "contact_us_content_1": "Se você tiver alguma dúvida sobre estes Termos, por favor, entre em contato conosco:",
     "contact_us_content_2": "Por e-mail:"
+  },
+  "FAQ": {
+    "title": "Perguntas Frequentes",
+    "question_1_title": "Como a AI gera conteúdo CV?",
+    "question_1_content": "Nossa IA analisa os seus inputs, tendências do setor e dados do mercado de trabalho para criar conteúdo personalizado e profissional para o seu CV.",
+    "question_2_title": "Meus dados são seguros com a verificação blockchain?",
+    "question_2_content": "Sim, a tecnologia blockchain garante que os seus dados de CV sejam armazenados com segurança e verificáveis, protegendo contra alterações não autorizadas.",
+    "question_3_title": "Posso editar o conteúdo gerado pela AI?",
+    "question_3_content": "Enquanto nossa IA fornece uma base sólida, você tem controle total para editar e personalizar o seu conteúdo de CV.",
+    "question_4_title": "Com que frequência posso atualizar meu CV?",
+    "question_4_content": "Você pode atualizar seu CV tão frequentemente quanto quiser. Nosso sistema permite atualizações em tempo real e melhoria contínua do seu perfil.",
+    "question_5_title": "O Mate CV é compatível com Sistemas de Rastreamento de Aplicativos (ATS)?",
+    "question_5_content": "Sim, nossa IA é treinada para otimizar seu CV para ATS, aumentando suas chances de obter processos iniciais de teste."
+  },
+  "Features": {
+    "title": "Recursos poderosos",
+    "feature_1_title": "Geração de conteúdo com AI-wered",
+    "feature_1_description": "Nossos algoritmos do ML criam conteúdo personalizado, baseado na sua experiência e nas tendências do setor.",
+    "feature_2_title": "Verificação de Blockchain",
+    "feature_2_description": "Assegure a autenticidade de seu CV com o nosso sistema de verificação baseado em blockchain.",
+    "feature_3_title": "Atualizações em tempo real",
+    "feature_3_description": "Seu CV evolui com você, atualizando automaticamente à medida que você ganha novas habilidades e experiências.",
+    "feature_4_title": "Exportação Multi-formato",
+    "feature_4_description": "Gere seu CV em vários formatos, de PDFs tradicionais a perfis da web interativos.",
+    "feature_5_title": "Otimização ATS",
+    "feature_5_description": "Nosso IA garante que seu CV seja otimizado para Sistemas de Rastreamento para Aplicativos, aumentando suas chances de ser notado.",
+    "feature_6_title": "Análise de Disparo",
+    "feature_6_description": "Receba recomendações personalizadas de habilidades para adquirir com base em suas metas de carreira."
   }
 }
