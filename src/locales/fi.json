@@ -1,9 +1,5 @@
 {
-  "RootLayout": {
-    "home_link": "Koti",
-    "about_link": "Tietoja",
-    "guestbook_link": "Vieraskirja",
-    "portfolio_link": "Salkku",
+  "AppHeader": {
     "sign_in_link": "Kirjaudu sisään",
     "sign_up_link": "Rekisteröidy nyt",
     "features_link": "Ominaisuudet",
@@ -122,7 +118,7 @@
     "contact_us_content_2": "Sähköposti:"
   },
   "TermsOfService": {
-    "meta_title": "Palvelun kesto",
+    "meta_title": "Palvelun ehdot",
     "meta_description": "Tarkastele CV Maten palvelujen käyttöä koskevia ehtoja ja ehtoja, mukaan lukien tärkeitä tietoja käyttäjien vastuista, oikeuksista ja rajoituksista",
     "acceptance_of_terms_title": "1. Termien hyväksyminen",
     "acceptance_of_terms_content": "Käyttämällä CV Mate -palvelua hyväksyt sen, että nämä käyttöehdot ja kaikki sovellettavat lait ja määräykset sitovat sinua. Jos et hyväksy mitään osaa näistä ehdoista, et voi käyttää palveluamme.",
@@ -150,5 +146,33 @@
     "contact_us_title": "12. Ota Yhteyttä",
     "contact_us_content_1": "Jos sinulla on kysyttävää näistä Ehtoista, ota yhteyttä:",
     "contact_us_content_2": "Sähköposti:"
+  },
+  "FAQ": {
+    "title": "Usein Kysytyt Kysymykset",
+    "question_1_title": "Miten tekoäly tuottaa CV sisältöä?",
+    "question_1_content": "Meidän tekoäly analysoi panoksesi, alan trendit ja työmarkkinatiedot luoda räätälöityä ja ammattitaitoista sisältöä CV:lle.",
+    "question_2_title": "Onko tietoni suojattu lohkoketjun todennuksella?",
+    "question_2_content": "Kyllä, blockchain tekniikka varmistaa, että CV tiedot on turvallisesti tallennettu ja todennettavissa, suojaavat luvattomilta muutoksilta.",
+    "question_3_title": "Voinko muokata tekoälyn tuottamaa sisältöä?",
+    "question_3_content": "Vaikka tekoälymme tarjoaa vahvan perustan, sinulla on täysi valta muokata ja muokata CV sisältöä.",
+    "question_4_title": "Kuinka usein voin päivittää CV:ni?",
+    "question_4_content": "Voit päivittää CV:si niin usein kuin haluat. Järjestelmämme mahdollistaa reaaliaikaiset päivitykset ja profiilisi jatkuvan parantamisen.",
+    "question_5_title": "Onko CV Mate yhteensopiva hakijan seurantajärjestelmien (ATS) kanssa?",
+    "question_5_content": "Kyllä, meidän tekoälyä on koulutettu optimoimaan CV ATS, mikä lisää mahdollisuuksia saada ohi alustava seulontaprosessit."
+  },
+  "Features": {
+    "title": "Tehokkaat Ominaisuudet",
+    "feature_1_title": "AI-Powered Content Generation",
+    "feature_1_description": "ML-algoritmit luovat räätälöityä sisältöä, joka perustuu kokemukseesi ja alan trendeihin.",
+    "feature_2_title": "Lohkoketjun Vahvistus",
+    "feature_2_description": "Varmista, että CV on autenttisuus meidän blockchain-pohjainen todentamisjärjestelmä.",
+    "feature_3_title": "Reaaliaikaiset Päivitykset",
+    "feature_3_description": "CV kehittyy kanssasi ja päivität automaattisesti kun saat uusia taitoja ja kokemuksia.",
+    "feature_4_title": "Monimuotoinen Vienti",
+    "feature_4_description": "Luo CV:si eri muodoissa, perinteisistä PDF:istä interaktiivisiin web-profiileihin.",
+    "feature_5_title": "ATS Optimointi",
+    "feature_5_description": "Meidän tekoälyä varmistaa, että CV on optimoitu hakijan seurantajärjestelmät, lisäävät mahdollisuuksiasi tulla huomaamaan.",
+    "feature_6_title": "Taitovajeiden Analyysi",
+    "feature_6_description": "Vastaanota henkilökohtaisia suosituksia taidoista hankkia perustuu urasi tavoitteisiin."
   }
 }
