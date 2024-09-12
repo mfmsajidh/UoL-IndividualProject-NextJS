@@ -1,9 +1,5 @@
 {
-  "RootLayout": {
-    "home_link": "Zuhause",
-    "about_link": "Über",
-    "guestbook_link": "Gästebuch",
-    "portfolio_link": "Portfolio",
+  "AppHeader": {
     "sign_in_link": "Anmelden",
     "sign_up_link": "Registrieren",
     "features_link": "Eigenschaften",
@@ -122,7 +118,7 @@
     "contact_us_content_2": "Per E-Mail:"
   },
   "TermsOfService": {
-    "meta_title": "Nutzungsdauer",
+    "meta_title": "Nutzungsbedingungen",
     "meta_description": "Überprüfen Sie die Nutzungsbedingungen für Ihre Nutzung der Dienste von CV Mate, einschließlich wichtiger Informationen über die Verantwortlichkeiten, Rechte und Einschränkungen der Nutzer",
     "acceptance_of_terms_title": "1. Annahme der Bedingungen",
     "acceptance_of_terms_content": "Durch den Zugriff auf oder die Nutzung des CV Mate Services erklären Sie sich mit diesen Nutzungsbedingungen und allen anwendbaren Gesetzen und Vorschriften einverstanden. Wenn Sie mit irgendeinem Teil dieser Bedingungen nicht einverstanden sind, dürfen Sie unseren Service nicht nutzen.",
@@ -150,5 +146,33 @@
     "contact_us_title": "12. Kontaktiere uns",
     "contact_us_content_1": "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte:",
     "contact_us_content_2": "Per E-Mail:"
+  },
+  "FAQ": {
+    "title": "Häufig gestellte Fragen",
+    "question_1_title": "Wie generiert die KI Lebenslaufinhalte?",
+    "question_1_content": "Unsere AI analysiert Ihre Input, Branchentrends und Arbeitsmarktdaten und erstellt maßgeschneiderte professionelle Inhalte für Ihren Lebenslauf.",
+    "question_2_title": "Sind meine Daten mit Blockchain Verifizierung sicher?",
+    "question_2_content": "Ja, die Blockchain-Technologie stellt sicher, dass Ihre Lebenslaufdaten sicher gespeichert und überprüfbar sind, und schützt vor unbefugten Änderungen.",
+    "question_3_title": "Kann ich den AI-generierten Inhalt bearbeiten?",
+    "question_3_content": "Während unsere KI eine starke Grundlage bietet, haben Sie die volle Kontrolle über die Bearbeitung und Personalisierung Ihrer Lebenslaufinhalte und -inhalten.",
+    "question_4_title": "Wie oft kann ich meinen Lebenslauf aktualisieren?",
+    "question_4_content": "Sie können Ihren Lebenslauf so oft Sie möchten aktualisieren.",
+    "question_5_title": "Ist Lebenslauf-Mate kompatibel mit Bewerber-Tracking-Systemen (ATS)?",
+    "question_5_content": "Ja, unsere KI ist dafür ausgebildet, Ihren Lebenslauf für ATS zu optimieren und Ihre Chancen zu steigern, erste Screening-Prozesse zu überstehen."
+  },
+  "Features": {
+    "title": "Mächtige Funktionen",
+    "feature_1_title": "KI-Powered Content Generierung",
+    "feature_1_description": "Unsere ML-Algorithmen erstellen maßgeschneiderte Inhalte basierend auf Ihren Erfahrungen und Branchentrends.",
+    "feature_2_title": "Blockchain Verifizierung",
+    "feature_2_description": "Stellen Sie sicher, dass Ihr Lebenslauf mit unserem blockchain-basierten Überprüfungssystem authentisch ist.",
+    "feature_3_title": "Echtzeit-Updates",
+    "feature_3_description": "Ihr Lebenslauf entwickelt sich mit Ihnen automatisch, sobald Sie neue Fähigkeiten und Erfahrungen erlangen.",
+    "feature_4_title": "Multi-Format-Export",
+    "feature_4_description": "Generieren Sie Ihren Lebenslauf in verschiedenen Formaten, von traditionellen PDFs bis hin zu interaktiven Webprofilen.",
+    "feature_5_title": "ATS-Optimierung",
+    "feature_5_description": "Unsere KI stellt sicher, dass Ihr Lebenslauf für Bewerber-Tracking Systeme optimiert wird und erhöht Ihre Chancen auf Auffälligkeit.",
+    "feature_6_title": "Fähigkeitslückenanalyse",
+    "feature_6_description": "Erhalten Sie personalisierte Empfehlungen zum Erwerb von Qualifikationen basierend auf Ihren beruflichen Zielen."
   }
 }
