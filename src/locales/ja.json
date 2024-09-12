@@ -1,9 +1,5 @@
 {
-  "RootLayout": {
-    "home_link": "ホーム",
-    "about_link": "About",
-    "guestbook_link": "Guestbook",
-    "portfolio_link": "ポートフォリオ",
+  "AppHeader": {
     "sign_in_link": "サインイン",
     "sign_up_link": "新規登録",
     "features_link": "特徴",
@@ -122,7 +118,7 @@
     "contact_us_content_2": "メールアドレス："
   },
   "TermsOfService": {
-    "meta_title": "サービス期間",
+    "meta_title": "利用規約",
     "meta_description": "CV Mateのサービスの利用に関する規約を確認します。これには、ユーザーの責任、権利、および制限に関する重要な情報が含まれます。",
     "acceptance_of_terms_title": "1. 利用規約の承認",
     "acceptance_of_terms_content": "CV Mateサービスにアクセスまたは使用することにより、お客様は本サービス規約および適用されるすべての法令に拘束されることに同意するものとします。 本規約のいかなる部分にも同意しない場合は、当社のサービスを利用することはできません。",
@@ -150,5 +146,33 @@
     "contact_us_title": "12.お問い合わせ",
     "contact_us_content_1": "本規約についてご質問がある場合は、以下までお問い合わせください:",
     "contact_us_content_2": "メールアドレス："
+  },
+  "FAQ": {
+    "title": "よく寄せられる質問",
+    "question_1_title": "AIはCVコンテンツをどのように生成するのでしょうか?",
+    "question_1_content": "当社のAIは、お客様の入力、業界トレンド、および求人市場のデータを分析し、CV用にカスタマイズされたプロフェッショナルなコンテンツを作成します。",
+    "question_2_title": "ブロックチェーンの検証でデータは安全ですか?",
+    "question_2_content": "はい、ブロックチェーン技術は、CVデータが安全に保存され検証可能であることを保証し、不正な変更から保護します。",
+    "question_3_title": "AI生成コンテンツを編集することはできますか?",
+    "question_3_content": "当社のAIは強力な基盤を提供していますが、CVコンテンツの編集とパーソナライズを完全にコントロールできます。",
+    "question_4_title": "どのくらいの頻度でCVを更新できますか？",
+    "question_4_content": "あなたの履歴書を好きなだけ更新することができます。私たちのシステムは、リアルタイムで更新し、プロフィールを継続的に改善することができます。",
+    "question_5_title": "CV Mateは申請者追跡システム(ATS)と互換性がありますか?",
+    "question_5_content": "はい、当社のAIはATS用にCVを最適化するように訓練されており、初期スクリーニングプロセスを通過する可能性が高まります。"
+  },
+  "Features": {
+    "title": "強力な機能",
+    "feature_1_title": "AIを使ったコンテンツ生成",
+    "feature_1_description": "当社のMLアルゴリズムは、お客様の経験と業界の動向に基づいてカスタマイズされたコンテンツを作成します。",
+    "feature_2_title": "ブロックチェーンの検証",
+    "feature_2_description": "当社のブロックチェーンベースの検証システムでCVの信頼性を確認してください。",
+    "feature_3_title": "リアルタイム更新",
+    "feature_3_description": "CVはあなたと共に進化し、新しいスキルや経験を得るたびに自動的に更新されます。",
+    "feature_4_title": "マルチフォーマットエクスポート",
+    "feature_4_description": "従来のPDFからインタラクティブなWebプロファイルまで、さまざまな形式でCVを生成します。",
+    "feature_5_title": "ATS最適化",
+    "feature_5_description": "当社のAIにより、アプリケーション追跡システムに最適化された履歴書が確実に表示されるようになり、気付かれる可能性が高まります。",
+    "feature_6_title": "スキルギャップ分析",
+    "feature_6_description": "あなたのキャリア目標に基づいて習得するスキルに関するパーソナライズされた推奨事項を受け取ります。"
   }
 }
