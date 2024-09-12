@@ -13,17 +13,17 @@
   "AppFooter": {
     "description": "Revoluční tvorba CVV s AI a Blockchainem",
     "quick_links": "Rychlé odkazy",
-    "features": "Features",
+    "features": "Vlastnosti",
     "pricing": "Ceník",
     "faq": "Nejčastější dotazy",
-    "legal": "Legal",
-    "privacy_policy": "Privacy Policy",
+    "legal": "Právní předpisy",
+    "privacy_policy": "Ochrana osobních údajů",
     "terms_of_service": "Podmínky služby",
-    "connect": "Connect",
+    "connect": "Připojit",
     "github": "Github",
     "linkedin": "LinkedIn",
-    "email": "Email",
-    "all_rights_reserved": "All rights reserved."
+    "email": "E-mailová adresa",
+    "all_rights_reserved": "Všechna práva vyhrazena."
   },
   "BaseTemplate": {
     "description": "Automatizujeme tvorbu tvého CV podle popisu úlohy"
@@ -80,7 +80,7 @@
     "sign_out": "Odhlásit se"
   },
   "TermsLayout": {
-    "back_to_home_link": "Home"
+    "back_to_home_link": "Domů"
   },
   "PrivacyPolicy": {
     "meta_title": "Ochrana osobních údajů",
@@ -122,33 +122,33 @@
     "contact_us_content_2": "E-mailem:"
   },
   "TermsOfService": {
-    "meta_title": "Term of Service",
-    "meta_description": "Review the terms and conditions governing your use of CV Mate’s services, including important information about user responsibilities, rights, and limitations",
-    "acceptance_of_terms_title": "1. Acceptance of Terms",
-    "acceptance_of_terms_content": "By accessing or using the CV Mate service, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not use our service.",
-    "description_of_service_title": "2. Description of Service",
-    "description_of_service_content": "CV Mate provides an AI-powered CV generation and blockchain verification service. Our service uses machine learning algorithms to create and optimize your CV, and blockchain technology to verify and secure your professional information.",
-    "user_accounts_title": "3. User Accounts",
-    "user_accounts_content": "To use certain features of our service, you may be required to create an account. You are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account.",
-    "user_content_title": "4. User Content",
-    "user_content_content_1": "You retain all rights to the content you submit to our service. By submitting content, you grant CV Mate a worldwide, non-exclusive, royalty-free license to use, reproduce, and display your content in connection with providing and improving our service.",
-    "user_content_content_2": "You are solely responsible for the content you submit. You agree not to submit any false, misleading, or fraudulent information.",
-    "intellectual_property_title": "5. Intellectual Property",
-    "intellectual_property_content": "The CV Mate service, including its original content, features, and functionality, is owned by CV Mate and is protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.",
-    "blockchain_verification_title": "6. Blockchain Verification",
-    "blockchain_verification_content": "Our service uses blockchain technology to verify certain aspects of your CV. You understand and agree that information stored on a blockchain is immutable and cannot be deleted. We will only store necessary verification data on the blockchain, not your complete CV or detailed personal information.",
-    "ai_generated_content_title": "7. AI-Generated Content",
-    "ai_generated_content_content": "Our service uses AI to generate and optimize CV content. While we strive for accuracy, you are responsible for reviewing and ensuring the accuracy of all AI-generated content before using it. We do not guarantee that AI-generated content will be error-free or suitable for all purposes.",
-    "limitation_of_liability_title": "8. Limitation of Liability",
-    "limitation_of_liability_content": "CV Mate shall not be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your access to or use of or inability to access or use the service.",
-    "modifications_to_service_title": "9. Modifications to Service",
-    "modifications_to_service_content": "We reserve the right to modify or discontinue, temporarily or permanently, the service (or any part thereof) with or without notice. We shall not be liable to you or to any third party for any modification, price change, suspension or discontinuance of the service.",
-    "governing_law_title": "10. Governing Law",
-    "governing_law_content": "These Terms shall be governed and construed in accordance with the laws of the United Kingdom, without regard to its conflict of law provisions.",
-    "changes_to_terms_title": "11. Changes to Terms",
-    "changes_to_terms_content": "We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect.",
-    "contact_us_title": "12. Contact Us",
-    "contact_us_content_1": "If you have any questions about these Terms, please contact us:",
-    "contact_us_content_2": "By email:"
+    "meta_title": "Doba služby",
+    "meta_description": "Zkontrolujte podmínky vašeho používání služeb CV Mate, včetně důležitých informací o odpovědnosti, právech a omezeních uživatelů",
+    "acceptance_of_terms_title": "1. Přijímání termínů",
+    "acceptance_of_terms_content": "Přístup ke službě CV Mate nebo používání souhlasíte s tím, že budete vázáni těmito obchodními podmínkami a všemi platnými zákony a předpisy. Pokud s žádnou částí těchto podmínek nesouhlasíte, nemůžete využívat naši službu.",
+    "description_of_service_title": "2. Popis služby",
+    "description_of_service_content": "CV Mate poskytuje službu pro ověřování cV napájeného AI a blockchainu. Naše služba využívá počítačové algoritmy pro tvorbu a optimalizaci vaší životopisu a blockchainové technologie pro ověření a zabezpečení Vašich profesionálních informací.",
+    "user_accounts_title": "3. Uživatelské účty",
+    "user_accounts_content": "Pro použití určitých funkcí naší služby můžete být nuceni založit účet. Jste zodpovědní za zachování důvěrnosti vašeho účtu a hesla. Souhlasíte s tím, že přijmete odpovědnost za všechny aktivity, které se vyskytují na vašem účtu.",
+    "user_content_title": "4. Uživatelský obsah",
+    "user_content_content_1": "Zachováváte všechna práva k obsahu, který odesíláte do naší služby. Odesláním obsahu udělujete CV Mate celosvětovou, neexkluzivní, bezplatnou licenci k používání, reprodukuje a zobrazuje váš obsah v souvislosti s poskytováním a zlepšováním našich služeb.",
+    "user_content_content_2": "Jste výhradně zodpovědní za obsah, který předložíte. Souhlasíte s tím, že nebudete odesílat žádné falešné, zavádějící nebo podvodné informace.",
+    "intellectual_property_title": "5. Duševní vlastnictví",
+    "intellectual_property_content": "služba CV Mate včetně jejího původního obsahu, funkcí a funkčnosti, je ve vlastnictví CV Mate a je chráněna mezinárodními autorskými právy, ochrannými známkami, patenty, obchodním tajemstvím a dalšími zákony o duševním vlastnictví.",
+    "blockchain_verification_title": "6. Ověření blockchainu",
+    "blockchain_verification_content": "Naše služba používá technologii blockchainu k ověření určitých aspektů vašeho životopisu. Chápete a souhlasíte s tím, že informace uložené na blockchainu jsou neměnné a nelze je odstranit. Budeme ukládat pouze potřebné ověřovací údaje do blockchainu, ne kompletní CV nebo podrobné osobní údaje.",
+    "ai_generated_content_title": "7. AI generovaný obsah",
+    "ai_generated_content_content": "Naše služba využívá AI k generování a optimalizaci obsahu CVV. Zatímco usilujeme o přesnost, jste zodpovědní za přezkum a zajištění správnosti veškerého obsahu generovaného AI před jeho použitím. Nezaručujeme, že obsah vytvořený AI bude bezchybný nebo vhodný pro všechny účely.",
+    "limitation_of_liability_title": "8. Omezení odpovědnosti",
+    "limitation_of_liability_content": "CV Mate neodpovídá za nepřímé, náhodné, zvláštní nebo represivní škody, včetně bez omezení, ztráty zisku, Data, používání, dobrá vůle nebo jiné nehmotné ztráty, které vyplývají z vašeho přístupu ke službě nebo z jejího používání nebo nemožnosti jejího přístupu.",
+    "modifications_to_service_title": "9. Úpravy na službu",
+    "modifications_to_service_content": "Vyhrazujeme si právo dočasně nebo trvale upravit nebo přerušit službu (nebo její část) s výpovědí nebo bez ní. Nebudeme vůči vám ani žádným třetím stranám odpovědni za jakékoli změny, změnu ceny, pozastavení nebo přerušení služby.",
+    "governing_law_title": "10. Zákon o správě nemovitostí",
+    "governing_law_content": "Tyto podmínky se řídí a vykládají v souladu s právními předpisy Spojeného království bez ohledu na jeho kolizní ustanovení.",
+    "changes_to_terms_title": "11. Změny výrazů",
+    "changes_to_terms_content": "Vyhrazujeme si právo podle našeho uvážení tyto Podmínky kdykoli upravit nebo nahradit. Pokud je revize podstatná, pokusíme se poskytnout alespoň 30 dní před tím, než vstoupí v platnost nové podmínky.",
+    "contact_us_title": "12. Kontaktujte nás",
+    "contact_us_content_1": "Pokud máte jakékoliv dotazy k těmto podmínkám, kontaktujte nás:",
+    "contact_us_content_2": "E-mailem:"
   }
 }
