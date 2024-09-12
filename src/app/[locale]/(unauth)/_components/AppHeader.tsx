@@ -63,7 +63,7 @@ const DesktopNavigation: FC<NavigationProps> = ({
 };
 
 const AppHeader = () => {
-  const t = useTranslations('RootLayout');
+  const t = useTranslations('AppHeader');
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-gray-950/95 backdrop-blur supports-[backdrop-filter]:bg-gray-950/60">
