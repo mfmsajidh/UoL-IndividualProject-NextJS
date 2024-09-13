@@ -38,11 +38,6 @@
     "body": "Message",
     "save": "Sauvegarder"
   },
-  "About": {
-    "meta_title": "A propos",
-    "meta_description": "A propos description",
-    "about_paragraph": "Bienvenue sur la page À propos ! Passionné et dédié à la création de logiciels incroyables."
-  },
   "Portfolio": {
     "meta_title": "Portefeuille",
     "meta_description": "Bienvenue sur la page de mon portfolio !",
