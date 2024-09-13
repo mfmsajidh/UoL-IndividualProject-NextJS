@@ -38,11 +38,6 @@
     "body": "Body",
     "save": "Save"
   },
-  "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
-    "about_paragraph": "Welcome to the About page! Passionate and dedicated to create amazing software."
-  },
   "Portfolio": {
     "meta_title": "Portfolio",
     "meta_description": "Welcome to my portfolio page!",
