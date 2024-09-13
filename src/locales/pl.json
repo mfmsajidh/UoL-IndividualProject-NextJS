@@ -181,5 +181,48 @@
     "content_3": "Utwórz, sprawdzaj poprawność i bezpiecznie udostępniaj swoje wznowienie",
     "get_started": "Zacznij",
     "learn_more": "Poznaj więcej"
+  },
+  "Highlights": {
+    "title": "Dlaczego wybrać Mateę CV?",
+    "highlight_1": "Nowoczesna technologia AI",
+    "highlight_2": "Weryfikacja zasilana przez blockchain”",
+    "highlight_3": "Uczenie się przez całe życie i doskonalenie",
+    "highlight_4": "Dopasowano do Twojej branży",
+    "highlight_5": "Automatyzacja oszczędzania czasu"
+  },
+  "LogoCollection": {
+    "title": "Zaufali liderzy branży"
+  },
+  "Pricing": {
+    "title": "Wybierz swój plan",
+    "pricing_1_title": "Podstawowe",
+    "pricing_1_price": "Darmowe",
+    "pricing_1_feature_1": "Zawartość generowana przez AI",
+    "pricing_1_feature_2": "Eksport PDF",
+    "pricing_1_feature_3": "Podstawowa weryfikacja łańcucha bloków",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Wszystko w Podstawowym",
+    "pricing_2_feature_2": "Eksport wieloformatowy",
+    "pricing_2_feature_3": "Zaawansowane dostosowywanie AI",
+    "pricing_2_feature_4": "Priorytetowe wsparcie",
+    "pricing_3_title": "Przedsiębiorstwo",
+    "pricing_3_price": "Własny",
+    "pricing_3_feature_1": "Wszystko w Pro",
+    "pricing_3_feature_2": "Dedykowany menedżer kont",
+    "pricing_3_feature_3": "Niestandardowe integracje",
+    "pricing_3_feature_4": "Zaawansowana analiza"
+  },
+  "Testimonials": {
+    "title": "Co mówią nasi użytkownicy",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "Koordynator mediów społecznościowych",
+    "testimonial_1_content": "CV Mate pomógł mi zrzucić moje marzenie pracy. Treści generowane przez AI były spot-onem!",
+    "testimonial_2_name": "Trisha Wenkat",
+    "testimonial_2_role": "Asystent Badań",
+    "testimonial_2_content": "Funkcja weryfikacji blockchain dała mi przewagę na konkurencyjnym rynku pracy",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Starszy inżynier oprogramowania",
+    "testimonial_3_content": "Analiza luk w umiejętnościach dostarczyła bezcennych informacji na temat rozwoju kariery"
   }
 }
