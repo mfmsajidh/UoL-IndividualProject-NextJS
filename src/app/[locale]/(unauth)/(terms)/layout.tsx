@@ -20,7 +20,9 @@ const TermsLayout = (props: {
             className="flex items-center space-x-2 hover:text-gray-400"
           >
             <ArrowLeft className="ml-2 size-6 text-blue-500" />
-            <span className="font-bold">{t('back_to_home_link')}</span>
+            <span className="font-bold text-gray-300 hover:text-white ">
+              {t('back_to_home_link')}
+            </span>
           </Link>
         </div>
       </header>
