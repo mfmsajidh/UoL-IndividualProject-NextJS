@@ -174,5 +174,12 @@
     "feature_5_description": "Our AI ensures your CV is optimized for Applicant Tracking Systems, increasing your chances of getting noticed.",
     "feature_6_title": "Skill Gap Analysis",
     "feature_6_description": "Receive personalized recommendations on skills to acquire based on your career goals."
+  },
+  "HeroSection": {
+    "content_1": "Revolutionary CV Generation",
+    "content_2": "powered by AI & Blockchain",
+    "content_3": "Create, Validate, and Securely Share Your Resume",
+    "get_started": "Get Started",
+    "learn_more": "Learn More"
   }
 }
