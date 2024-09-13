@@ -38,11 +38,6 @@
     "body": "Kropp",
     "save": "Spara"
   },
-  "About": {
-    "meta_title": "Om",
-    "meta_description": "Om sidan beskrivning",
-    "about_paragraph": "Välkommen till sidan om! Passionerad och dedikerad till att skapa fantastisk programvara."
-  },
   "Portfolio": {
     "meta_title": "Portfölj",
     "meta_description": "Välkommen till min portföljsida!",
