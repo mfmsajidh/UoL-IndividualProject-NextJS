@@ -181,5 +181,48 @@
     "content_3": "Criar, Validar e compartilhar com segurança seu currículo",
     "get_started": "Comece Agora",
     "learn_more": "Saber mais"
+  },
+  "Highlights": {
+    "title": "Por que escolher um temperamento CV?",
+    "highlight_1": "Tecnologia AI de ponta",
+    "highlight_2": "Verificação baseada em Blockchain",
+    "highlight_3": "Aprendizagem contínua e melhoria",
+    "highlight_4": "Personalizado para a sua indústria",
+    "highlight_5": "Automação de tempo-salvamento"
+  },
+  "LogoCollection": {
+    "title": "Confiável por líderes do setor"
+  },
+  "Pricing": {
+    "title": "Escolha Seu Plano",
+    "pricing_1_title": "Básico",
+    "pricing_1_price": "Gratuito",
+    "pricing_1_feature_1": "Conteúdo gerado pelo AR",
+    "pricing_1_feature_2": "Exportação de PDF",
+    "pricing_1_feature_3": "Verificação básica da blockchain",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Tudo no Básico",
+    "pricing_2_feature_2": "Exportação Multi-formato",
+    "pricing_2_feature_3": "Personalização de IA avançada",
+    "pricing_2_feature_4": "Suporte prioritário",
+    "pricing_3_title": "Empresa",
+    "pricing_3_price": "Personalizado",
+    "pricing_3_feature_1": "Tudo no Pro",
+    "pricing_3_feature_2": "Gerente de contas dedicado",
+    "pricing_3_feature_3": "Integrações personalizadas",
+    "pricing_3_feature_4": "Análise avançada"
+  },
+  "Testimonials": {
+    "title": "O que os nossos usuários dizem",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "Coordenador de Redes Sociais",
+    "testimonial_1_content": "CV Mate me ajudou a pousar o trabalho dos meus sonhos. O conteúdo gerado pela IA era spot-on!",
+    "testimonial_2_name": "Vênkat de Trisha",
+    "testimonial_2_role": "Assistente de Pesquisa",
+    "testimonial_2_content": "A funcionalidade de verificação de blockchain me deu uma vantagem em um mercado de trabalho competitivo",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Engenheiro de Software Sênior",
+    "testimonial_3_content": "A análise do desvio de habilidade forneceu informações valiosas para o desenvolvimento da minha carreira"
   }
 }
