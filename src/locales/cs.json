@@ -174,5 +174,12 @@
     "feature_5_description": "Naše AI zajišťuje, že vaše CV je optimalizována pro sledovací systémy žadatelů, což zvyšuje vaše šance na pozornost.",
     "feature_6_title": "Analýza dovednostních mezer",
     "feature_6_description": "Přijímat personalizovaná doporučení na dovednosti k získání na základě vašich kariérních cílů."
+  },
+  "HeroSection": {
+    "content_1": "Revoluční generace CV",
+    "content_2": "poháněno AI & Blockchainem",
+    "content_3": "Vytvořit, ověřit a bezpečně sdílet své pokračování.",
+    "get_started": "Začněte",
+    "learn_more": "Zjistit více"
   }
 }
