@@ -174,5 +174,12 @@
     "feature_5_description": "Vår AI ser till att ditt CV är optimerat för Sökande spårningssystem, vilket ökar dina chanser att bli uppmärksammade.",
     "feature_6_title": "Analys av skicklighet",
     "feature_6_description": "Få personliga rekommendationer om färdigheter att förvärva baserat på dina karriärmål."
+  },
+  "HeroSection": {
+    "content_1": "Revolutionerande CV Generation",
+    "content_2": "drivs av AI & Blockchain",
+    "content_3": "Skapa, validera och dela ditt CV på ett säkert sätt",
+    "get_started": "Kom igång",
+    "learn_more": "Läs mer"
   }
 }
