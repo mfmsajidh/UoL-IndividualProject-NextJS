@@ -181,5 +181,48 @@
     "content_3": "Erstellen, validieren und teilen Sie Ihren Lebenslauf sicher",
     "get_started": "Los geht's",
     "learn_more": "Mehr erfahren"
+  },
+  "Highlights": {
+    "title": "Warum CV Mate wählen?",
+    "highlight_1": "Modernste KI-Technologie",
+    "highlight_2": "Blockchain-basierte Verifizierung",
+    "highlight_3": "Kontinuierliches Lernen und Verbesserung",
+    "highlight_4": "Maßgeschneidert für Ihre Branche",
+    "highlight_5": "Zeitsparende Automatisierung"
+  },
+  "LogoCollection": {
+    "title": "Vertrauen von Branchenführern"
+  },
+  "Pricing": {
+    "title": "Wählen Sie Ihren Plan",
+    "pricing_1_title": "Einfache",
+    "pricing_1_price": "Kostenlos",
+    "pricing_1_feature_1": "KI-generierte Inhalte",
+    "pricing_1_feature_2": "PDF-Export",
+    "pricing_1_feature_3": "Grundlegende Blockchain-Überprüfung",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Alles in der Basis",
+    "pricing_2_feature_2": "Multi-Format-Export",
+    "pricing_2_feature_3": "Erweiterte KI-Anpassung",
+    "pricing_2_feature_4": "Prioritätsunterstützung",
+    "pricing_3_title": "Firma",
+    "pricing_3_price": "Eigene",
+    "pricing_3_feature_1": "Alles in Pro",
+    "pricing_3_feature_2": "Dedizierter Account-Manager",
+    "pricing_3_feature_3": "Benutzerdefinierte Integrationen",
+    "pricing_3_feature_4": "Erweiterte Analysen"
+  },
+  "Testimonials": {
+    "title": "Was unsere Benutzer sagen",
+    "testimonial_1_name": "Scharon Elsa",
+    "testimonial_1_role": "Social Media Koordinator",
+    "testimonial_1_content": "CV Mate hat mir geholfen, meinen Traumjob zu finden. Der AI generierte Inhalt war spot-on!",
+    "testimonial_2_name": "Trisha Venkat",
+    "testimonial_2_role": "Forschungsassistent",
+    "testimonial_2_content": "Die Überprüfung der Blockchain hat mir einen Vorsprung in einem wettbewerbsfähigen Arbeitsmarkt verschafft",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Senior Software-Ingenieur",
+    "testimonial_3_content": "Die Analyse des Kompetenzdefizits bot unschätzbare Einblicke in meine berufliche Entwicklung"
   }
 }
