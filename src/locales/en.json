@@ -192,5 +192,25 @@
   },
   "LogoCollection": {
     "title": "Trusted by Industry Leaders"
+  },
+  "Pricing": {
+    "title": "Choose Your Plan",
+    "pricing_1_title": "Basic",
+    "pricing_1_price": "Free",
+    "pricing_1_feature_1": "AI-generated content",
+    "pricing_1_feature_2": "PDF export",
+    "pricing_1_feature_3": "Basic blockchain verification",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Everything in Basic",
+    "pricing_2_feature_2": "Multi-format export",
+    "pricing_2_feature_3": "Advanced AI customization",
+    "pricing_2_feature_4": "Priority support",
+    "pricing_3_title": "Enterprise",
+    "pricing_3_price": "Custom",
+    "pricing_3_feature_1": "Everything in Pro",
+    "pricing_3_feature_2": "Dedicated account manager",
+    "pricing_3_feature_3": "Custom integrations",
+    "pricing_3_feature_4": "Advanced analytics"
   }
 }

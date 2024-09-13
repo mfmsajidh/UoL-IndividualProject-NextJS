@@ -1,11 +1,14 @@
 import { CheckCircle } from 'lucide-react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const Pricing = () => {
+  const t = useTranslations('Pricing');
+
   return (
     <section
       id="pricing"
@@ -13,37 +16,37 @@ export const Pricing = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="mb-12 text-center text-3xl font-bold text-white">
-          Choose Your Plan
+          {t('title')}
         </h2>
         <div className="grid gap-8 md:grid-cols-3">
           {[
             {
-              title: 'Basic',
-              price: 'Free',
+              title: t('pricing_1_title'),
+              price: t('pricing_1_price'),
               features: [
-                'AI-generated content',
-                'PDF export',
-                'Basic blockchain verification',
+                t('pricing_1_feature_1'),
+                t('pricing_1_feature_2'),
+                t('pricing_1_feature_3'),
               ],
             },
             {
-              title: 'Pro',
-              price: '$9.99',
+              title: t('pricing_2_title'),
+              price: t('pricing_2_price'),
               features: [
-                'Everything in Basic',
-                'Multi-format export',
-                'Advanced AI customization',
-                'Priority support',
+                t('pricing_2_feature_1'),
+                t('pricing_2_feature_2'),
+                t('pricing_2_feature_3'),
+                t('pricing_2_feature_4'),
               ],
             },
             {
-              title: 'Enterprise',
-              price: 'Custom',
+              title: t('pricing_3_title'),
+              price: t('pricing_3_price'),
               features: [
-                'Everything in Pro',
-                'Dedicated account manager',
-                'Custom integrations',
-                'Advanced analytics',
+                t('pricing_3_feature_1'),
+                t('pricing_3_feature_2'),
+                t('pricing_3_feature_3'),
+                t('pricing_3_feature_4'),
               ],
             },
           ].map((plan, index) => (
