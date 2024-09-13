@@ -181,5 +181,48 @@
     "content_3": "Opret, Validér og del sikkert dit Genoptag",
     "get_started": "Kom I Gang",
     "learn_more": "Lær Mere"
+  },
+  "Highlights": {
+    "title": "Hvorfor Vælge CV Mate?",
+    "highlight_1": "Avanceret AI-teknologi",
+    "highlight_2": "Verifikation drevet af blokkæde«",
+    "highlight_3": "Kontinuerlig læring og forbedring",
+    "highlight_4": "Skræddersyet til din branche",
+    "highlight_5": "Tidsbesparende automatisering"
+  },
+  "LogoCollection": {
+    "title": "Betroet af industriledere"
+  },
+  "Pricing": {
+    "title": "Vælg Dit Abonnement",
+    "pricing_1_title": "Grundlæggende",
+    "pricing_1_price": "Gratis",
+    "pricing_1_feature_1": "AI-genereret indhold",
+    "pricing_1_feature_2": "PDF eksport",
+    "pricing_1_feature_3": "Grundlæggende blockchain verifikation",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Alt i Basic",
+    "pricing_2_feature_2": "Eksport i flere formater",
+    "pricing_2_feature_3": "Avanceret AI tilpasning",
+    "pricing_2_feature_4": "Prioriteret støtte",
+    "pricing_3_title": "Virksomhed",
+    "pricing_3_price": "Tilpasset",
+    "pricing_3_feature_1": "Alt i Pro",
+    "pricing_3_feature_2": "Dedikeret kontoadministrator",
+    "pricing_3_feature_3": "Brugerdefinerede integrationer",
+    "pricing_3_feature_4": "Avancerede analyser"
+  },
+  "Testimonials": {
+    "title": "Hvad Vores Brugere Siger",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "Koordinator For Sociale Medier",
+    "testimonial_1_content": "CV Mate hjalp mig med at lande mit drømmejob. AI-genereret indhold var spot-on!",
+    "testimonial_2_name": "Trisha Venkat",
+    "testimonial_2_role": "Forskningsassistent",
+    "testimonial_2_content": "Funktionen til kontrol af blokkæden gav mig en fordel på et konkurrencepræget arbejdsmarked",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Senior Software Engineer",
+    "testimonial_3_content": "Den dygtighed kløft analyse gav uvurderlige indsigter for min karriere udvikling"
   }
 }
