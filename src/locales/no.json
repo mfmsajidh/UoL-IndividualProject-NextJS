@@ -181,5 +181,48 @@
     "content_3": "Opprette, bekrefte og Dele Resume Din",
     "get_started": "Kom i gang",
     "learn_more": "Finn ut mer"
+  },
+  "Highlights": {
+    "title": "Hvorfor velge CV-mat?",
+    "highlight_1": "Bøye-kantede AI-teknologi",
+    "highlight_2": "Blockchain-drevet verifikasjon'",
+    "highlight_3": "Kontinuerlig læring og forbedring",
+    "highlight_4": "Tilpasset til din bransje",
+    "highlight_5": "Tidslagring automatisering"
+  },
+  "LogoCollection": {
+    "title": "Betrodd av industriledere"
+  },
+  "Pricing": {
+    "title": "Velg din funksjonsplan",
+    "pricing_1_title": "Grunnleggende",
+    "pricing_1_price": "Gratis",
+    "pricing_1_feature_1": "AI-generert innhold",
+    "pricing_1_feature_2": "PDF eksport",
+    "pricing_1_feature_3": "Grunnleggende blokkjedekontroll",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Alt i Grunnleggende",
+    "pricing_2_feature_2": "Multi-format eksport",
+    "pricing_2_feature_3": "Avansert AI tilpasning",
+    "pricing_2_feature_4": "Prioritert støtte",
+    "pricing_3_title": "Bedrift",
+    "pricing_3_price": "Egendefinert",
+    "pricing_3_feature_1": "Alt i Pro",
+    "pricing_3_feature_2": "Dedikert kontobehandler",
+    "pricing_3_feature_3": "Egendefinerte integrasjoner",
+    "pricing_3_feature_4": "Avanserte analyser"
+  },
+  "Testimonials": {
+    "title": "Hva våre brukere sier",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "Koordinator for sosiale medier",
+    "testimonial_1_content": "CV mate hjalp meg å land drømmejobben min. Det AI-genererte innholdet ble flesk!",
+    "testimonial_2_name": "Trisha Venkat",
+    "testimonial_2_role": "Research Assistant",
+    "testimonial_2_content": "Bekreftelsesfunksjonen for blokkkjeden ga meg et kant i et konkurransedyktig jobbmarked",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Senior programvareingeniør",
+    "testimonial_3_content": "Faganalysen av ferdighetsgapet ga uvurderlig innsikt til min karrierutvikling"
   }
 }
