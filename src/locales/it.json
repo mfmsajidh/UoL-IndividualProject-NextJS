@@ -174,5 +174,12 @@
     "feature_5_description": "La nostra AI assicura che il vostro CV sia ottimizzato per i sistemi di monitoraggio del richiedente, aumentando le vostre probabilità di farsi notare.",
     "feature_6_title": "Analisi Del Gap Delle Abilità",
     "feature_6_description": "Ricevi raccomandazioni personalizzate sulle competenze da acquisire in base ai tuoi obiettivi di carriera."
+  },
+  "HeroSection": {
+    "content_1": "Generazione CV Rivoluzionaria",
+    "content_2": "powered by AI & Blockchain",
+    "content_3": "Crea, convalida e condividi in modo sicuro il tuo curriculum",
+    "get_started": "Per Iniziare",
+    "learn_more": "Scopri Di Più"
   }
 }
