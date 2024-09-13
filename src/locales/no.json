@@ -174,5 +174,12 @@
     "feature_5_description": "Vårt AI sikrer at CV blir optimalisert for søkersporingssystemer, noe som øker sjansene for å bli oppdaget.",
     "feature_6_title": "Analyse av ferdighetskart",
     "feature_6_description": "Motta personlige anbefalinger om ferdigheter for å tilegne seg basert på karrieremålene dine."
+  },
+  "HeroSection": {
+    "content_1": "Revolutionary CV-generasjon",
+    "content_2": "drives av AI & Blockchain",
+    "content_3": "Opprette, bekrefte og Dele Resume Din",
+    "get_started": "Kom i gang",
+    "learn_more": "Finn ut mer"
   }
 }
