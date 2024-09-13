@@ -181,5 +181,48 @@
     "content_3": "Creează, Validează și Partajează în siguranță Reluarea",
     "get_started": "Începeți",
     "learn_more": "Află mai multe"
+  },
+  "Highlights": {
+    "title": "De ce să alegeți Matul de CV?",
+    "highlight_1": "Tehnologia AI de ultimă oră",
+    "highlight_2": "Verificare alimentată de Blockchain”",
+    "highlight_3": "Învățare și îmbunătățire continuă",
+    "highlight_4": "Personalizat pentru industria ta",
+    "highlight_5": "Automatizarea economisirii timpului"
+  },
+  "LogoCollection": {
+    "title": "Încrederea liderilor industriei"
+  },
+  "Pricing": {
+    "title": "Alege-ți planul",
+    "pricing_1_title": "Baza",
+    "pricing_1_price": "Gratuit",
+    "pricing_1_feature_1": "Conținut generat AI:",
+    "pricing_1_feature_2": "Export PDF",
+    "pricing_1_feature_3": "Verificare de bază blockchain",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Totul în bază",
+    "pricing_2_feature_2": "Export în format multiplu",
+    "pricing_2_feature_3": "Personalizare AI avansată",
+    "pricing_2_feature_4": "Suport prioritar",
+    "pricing_3_title": "Întreprindere",
+    "pricing_3_price": "Personalizat",
+    "pricing_3_feature_1": "Totul în Pro",
+    "pricing_3_feature_2": "Manager de cont specific",
+    "pricing_3_feature_3": "Integrări personalizate",
+    "pricing_3_feature_4": "Statistici avansate"
+  },
+  "Testimonials": {
+    "title": "Ce spun utilizatorii noştri",
+    "testimonial_1_name": "dl Sharon Elsa James",
+    "testimonial_1_role": "Coordonator pentru rețelele sociale",
+    "testimonial_1_content": "CV Mate m-a ajutat să-mi întăresc slujba de vis. Conţinutul generat de AI-uri a fost pe loc!",
+    "testimonial_2_name": "Venkat Trisha",
+    "testimonial_2_role": "Asistent de cercetare",
+    "testimonial_2_content": "Verificarea blockchain mi-a oferit un avantaj pe o piață competitivă a locurilor de muncă",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Inginer software principal",
+    "testimonial_3_content": "Analiza lacunelor în materie de competențe a oferit perspective neprețuite pentru dezvoltarea carierei mele."
   }
 }
