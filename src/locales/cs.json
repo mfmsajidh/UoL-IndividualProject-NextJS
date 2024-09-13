@@ -181,5 +181,48 @@
     "content_3": "Vytvořit, ověřit a bezpečně sdílet své pokračování.",
     "get_started": "Začněte",
     "learn_more": "Zjistit více"
+  },
+  "Highlights": {
+    "title": "Proč vybrat CV shodu?",
+    "highlight_1": "Technologie odřezávání AI",
+    "highlight_2": "Ověření na základě blockchainu",
+    "highlight_3": "Průběžné vzdělávání a zlepšování",
+    "highlight_4": "Zkrácené tvému oboru",
+    "highlight_5": "Časově úsporná automatizace"
+  },
+  "LogoCollection": {
+    "title": "Důvěryhodná průmyslovými vůdci"
+  },
+  "Pricing": {
+    "title": "Vyberte si plán",
+    "pricing_1_title": "Základní",
+    "pricing_1_price": "Zdarma",
+    "pricing_1_feature_1": "Obsah generovaný AI",
+    "pricing_1_feature_2": "Export PDF",
+    "pricing_1_feature_3": "Základní ověření blockchainu",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Vše v Základní",
+    "pricing_2_feature_2": "Export více formátů",
+    "pricing_2_feature_3": "Pokročilé přizpůsobení AI",
+    "pricing_2_feature_4": "Prioritní podpora",
+    "pricing_3_title": "Podniky",
+    "pricing_3_price": "Vlastní",
+    "pricing_3_feature_1": "Vše v Pro",
+    "pricing_3_feature_2": "Správce vyhrazeného účtu",
+    "pricing_3_feature_3": "Vlastní integrace",
+    "pricing_3_feature_4": "Pokročilá analýza"
+  },
+  "Testimonials": {
+    "title": "Co říkají naši uživatelé",
+    "testimonial_1_name": "Šaron Elsa James",
+    "testimonial_1_role": "Koordinátor sociálních médií",
+    "testimonial_1_content": "CV Mate mi pomohl se stavět na mém snu. Obsah generovaný AI byl spot-on!",
+    "testimonial_2_name": "Trisha Venkat",
+    "testimonial_2_role": "Výzkumný asistent",
+    "testimonial_2_content": "Ověřovací prvek blockchainu mi poskytl výhodu na konkurenčním trhu práce",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Vyšší softwarový inženýr",
+    "testimonial_3_content": "Analýza kvalifikační mezery poskytla neocenitelné postřehy pro můj kariérní rozvoj"
   }
 }
