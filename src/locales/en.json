@@ -181,5 +181,13 @@
     "content_3": "Create, Validate, and Securely Share Your Resume",
     "get_started": "Get Started",
     "learn_more": "Learn More"
+  },
+  "Highlights": {
+    "title": "Why Choose CV Mate?",
+    "highlight_1": "Cutting-edge AI technology",
+    "highlight_2": "Blockchain-powered verification'",
+    "highlight_3": "Continuous learning and improvement",
+    "highlight_4": "Tailored to your industry",
+    "highlight_5": "Time-saving automation"
   }
 }
