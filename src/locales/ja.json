@@ -38,11 +38,6 @@
     "body": "本文",
     "save": "保存"
   },
-  "About": {
-    "meta_title": "About",
-    "meta_description": "ページの説明について",
-    "about_paragraph": "About ページへようこそ! 情熱と素晴らしいソフトウェアの作成に専念。"
-  },
   "Portfolio": {
     "meta_title": "ポートフォリオ",
     "meta_description": "ポートフォリオページへようこそ！",
