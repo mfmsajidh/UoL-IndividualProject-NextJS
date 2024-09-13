@@ -181,5 +181,48 @@
     "content_3": "Создавать, проверять и безопасно делиться Вашим Резюме",
     "get_started": "Начать работу",
     "learn_more": "Узнать больше"
+  },
+  "Highlights": {
+    "title": "Почему CV Mate?",
+    "highlight_1": "Режущая технология AI",
+    "highlight_2": "Проверка работы блокчейна",
+    "highlight_3": "Непрерывное обучение и совершенствование",
+    "highlight_4": "Привязывается к вашей отрасли",
+    "highlight_5": "Автоматизация экономии времени"
+  },
+  "LogoCollection": {
+    "title": "Доверие руководителей промышленности"
+  },
+  "Pricing": {
+    "title": "Выберите ваш план",
+    "pricing_1_title": "Базовый",
+    "pricing_1_price": "Бесплатно",
+    "pricing_1_feature_1": "Созданный AI контент",
+    "pricing_1_feature_2": "Экспорт PDF",
+    "pricing_1_feature_3": "Базовая проверка блокчейна",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Всё в Основном",
+    "pricing_2_feature_2": "Мультиформатный экспорт",
+    "pricing_2_feature_3": "Дополнительные настройки ИИ",
+    "pricing_2_feature_4": "Приоритетная поддержка",
+    "pricing_3_title": "Предприятие",
+    "pricing_3_price": "Свой",
+    "pricing_3_feature_1": "Всё в Pro",
+    "pricing_3_feature_2": "Менеджер выделенного аккаунта",
+    "pricing_3_feature_3": "Пользовательские интеграции",
+    "pricing_3_feature_4": "Расширенная аналитика"
+  },
+  "Testimonials": {
+    "title": "Что говорят наши пользователи",
+    "testimonial_1_name": "Шарон Эльса Джеймс",
+    "testimonial_1_role": "Координатор социальных медиа",
+    "testimonial_1_content": "CV Mate помогла мне приземлить работу моей мечты. Созданный AI контент был spoon!",
+    "testimonial_2_name": "Триша Венкат",
+    "testimonial_2_role": "Помощник по исследованиям",
+    "testimonial_2_content": "Функция проверки блокчейна дала мне преимущество на конкурентном рынке рабочих мест",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Старший программист",
+    "testimonial_3_content": "Анализ квалификационного отставания дал бесценное понимание моего карьерного роста"
   }
 }
