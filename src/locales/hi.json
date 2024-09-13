@@ -181,5 +181,48 @@
     "content_3": "Create, Validate, and Securely Share Your Resume",
     "get_started": "Get Started",
     "learn_more": "Learn More"
+  },
+  "Highlights": {
+    "title": "Why Choose CV Mate?",
+    "highlight_1": "Cutting-edge AI technology",
+    "highlight_2": "Blockchain-powered verification'",
+    "highlight_3": "Continuous learning and improvement",
+    "highlight_4": "Tailored to your industry",
+    "highlight_5": "Time-saving automation"
+  },
+  "LogoCollection": {
+    "title": "Trusted by Industry Leaders"
+  },
+  "Pricing": {
+    "title": "Choose Your Plan",
+    "pricing_1_title": "Basic",
+    "pricing_1_price": "Free",
+    "pricing_1_feature_1": "AI-generated content",
+    "pricing_1_feature_2": "PDF export",
+    "pricing_1_feature_3": "Basic blockchain verification",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Everything in Basic",
+    "pricing_2_feature_2": "Multi-format export",
+    "pricing_2_feature_3": "Advanced AI customization",
+    "pricing_2_feature_4": "Priority support",
+    "pricing_3_title": "Enterprise",
+    "pricing_3_price": "Custom",
+    "pricing_3_feature_1": "Everything in Pro",
+    "pricing_3_feature_2": "Dedicated account manager",
+    "pricing_3_feature_3": "Custom integrations",
+    "pricing_3_feature_4": "Advanced analytics"
+  },
+  "Testimonials": {
+    "title": "What Our Users Say",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "Social Media Coordinator",
+    "testimonial_1_content": "CV Mate helped me land my dream job. The AI-generated content was spot-on!",
+    "testimonial_2_name": "Trisha Venkat",
+    "testimonial_2_role": "Research Assistant",
+    "testimonial_2_content": "The blockchain verification feature gave me an edge in a competitive job market",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Senior Software Engineer",
+    "testimonial_3_content": "The skill gap analysis provided invaluable insights for my career development"
   }
 }
