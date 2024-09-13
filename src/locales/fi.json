@@ -174,5 +174,12 @@
     "feature_5_description": "Meidän tekoälyä varmistaa, että CV on optimoitu hakijan seurantajärjestelmät, lisäävät mahdollisuuksiasi tulla huomaamaan.",
     "feature_6_title": "Taitovajeiden Analyysi",
     "feature_6_description": "Vastaanota henkilökohtaisia suosituksia taidoista hankkia perustuu urasi tavoitteisiin."
+  },
+  "HeroSection": {
+    "content_1": "Vallankumouksellinen Cv-Luonti",
+    "content_2": "powered by AI & Blockchain",
+    "content_3": "Luo, Vahvista ja Jaa turvallisesti jatka",
+    "get_started": "Aloita Alusta",
+    "learn_more": "Lue Lisää"
   }
 }
