@@ -1,5 +1,6 @@
 import type { StaticImageData } from 'next/image';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import type { FC } from 'react';
 
 import Dominos_Logo from '@/public/assets/images/dominos_logo.png';
@@ -28,11 +29,13 @@ const RenderLogo: FC<ILogoCollectionProps> = ({ image }) => {
 };
 
 export const LogoCollection = () => {
+  const t = useTranslations('LogoCollection');
+
   return (
     <section className="w-full bg-gray-900 py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="mb-8 text-center text-2xl font-bold text-white">
-          Trusted by Industry Leaders
+          {t('title')}
         </h2>
         <div className="grid grid-cols-2 items-center justify-center gap-8 md:grid-cols-3 lg:grid-cols-6">
           <RenderLogo image={UoL_Logo} />
