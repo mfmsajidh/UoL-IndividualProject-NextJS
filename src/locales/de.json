@@ -174,5 +174,12 @@
     "feature_5_description": "Unsere KI stellt sicher, dass Ihr Lebenslauf für Bewerber-Tracking Systeme optimiert wird und erhöht Ihre Chancen auf Auffälligkeit.",
     "feature_6_title": "Fähigkeitslückenanalyse",
     "feature_6_description": "Erhalten Sie personalisierte Empfehlungen zum Erwerb von Qualifikationen basierend auf Ihren beruflichen Zielen."
+  },
+  "HeroSection": {
+    "content_1": "Revolutionäre Lebenslauf-Erzeugung",
+    "content_2": "betrieben von KI & Blockchain",
+    "content_3": "Erstellen, validieren und teilen Sie Ihren Lebenslauf sicher",
+    "get_started": "Los geht's",
+    "learn_more": "Mehr erfahren"
   }
 }
