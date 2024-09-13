@@ -181,5 +181,48 @@
     "content_3": "レジュームを作成、検証、安全に共有します",
     "get_started": "はじめよう",
     "learn_more": "もっと詳しく"
+  },
+  "Highlights": {
+    "title": "CVメイトを選ぶ理由?",
+    "highlight_1": "最先端のAI技術",
+    "highlight_2": "ブロックチェーンによる検証'",
+    "highlight_3": "継続的学習と改善",
+    "highlight_4": "あなたの業界に合わせて対応しています",
+    "highlight_5": "時間節約の自動化"
+  },
+  "LogoCollection": {
+    "title": "業界リーダーに信頼されています"
+  },
+  "Pricing": {
+    "title": "プランを選択",
+    "pricing_1_title": "基本",
+    "pricing_1_price": "無料",
+    "pricing_1_feature_1": "AI 生成コンテンツ",
+    "pricing_1_feature_2": "PDF エクスポート",
+    "pricing_1_feature_3": "基本的なブロックチェーン認証",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Basic のすべて",
+    "pricing_2_feature_2": "複数形式でエクスポート",
+    "pricing_2_feature_3": "高度な AI のカスタマイズ",
+    "pricing_2_feature_4": "優先サポート",
+    "pricing_3_title": "エンタープライズ",
+    "pricing_3_price": "カスタム",
+    "pricing_3_feature_1": "Pro版のすべてのもの",
+    "pricing_3_feature_2": "専用アカウントマネージャー",
+    "pricing_3_feature_3": "カスタム統合",
+    "pricing_3_feature_4": "高度な分析"
+  },
+  "Testimonials": {
+    "title": "ユーザーが言うこと",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "ソーシャルメディアコーディネータ",
+    "testimonial_1_content": "CV Mateは私の夢の仕事の着陸を助けてくれました。AIが生成したコンテンツはスポットオンでした！",
+    "testimonial_2_name": "トリシャ・ヴェンカット",
+    "testimonial_2_role": "研究アシスタント",
+    "testimonial_2_content": "ブロックチェーン検証機能は、競争力のある求人市場で優位に立っています",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "上級ソフトウェアエンジニア",
+    "testimonial_3_content": "スキルギャップ分析は、私のキャリア開発のために非常に貴重な洞察を提供しました。"
   }
 }
