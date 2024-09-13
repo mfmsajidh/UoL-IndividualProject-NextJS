@@ -174,5 +174,12 @@
     "feature_5_description": "AI noastră se asigură că CV-ul tău este optimizat pentru sistemele de urmărire a aplicatorilor, mărindu-ți șansele de a fi observat.",
     "feature_6_title": "Analiza decalajului de abilități",
     "feature_6_description": "Primiți recomandări personalizate privind abilitățile pentru a le dobândi pe baza obiectivelor tale de carieră."
+  },
+  "HeroSection": {
+    "content_1": "Generație de CV-uri revoluționare",
+    "content_2": "Alimentat de AI & Blockchain",
+    "content_3": "Creează, Validează și Partajează în siguranță Reluarea",
+    "get_started": "Începeți",
+    "learn_more": "Află mai multe"
   }
 }
