@@ -181,5 +181,48 @@
     "content_3": "Creëer, valideren en veilig delen van uw Hervatten",
     "get_started": "Nu inschrijven",
     "learn_more": "Meer informatie"
+  },
+  "Highlights": {
+    "title": "Waarom kiezen voor CV Mate?",
+    "highlight_1": "Knipselende geavanceerde AI technologie",
+    "highlight_2": "Verificatie met Blockchain-aanvoerder",
+    "highlight_3": "Continue leren en verbetering",
+    "highlight_4": "Gericht op uw branche",
+    "highlight_5": "Tijdbesparende automatisering"
+  },
+  "LogoCollection": {
+    "title": "Vertrouwd door toonaangevende industrieleiders"
+  },
+  "Pricing": {
+    "title": "Kies uw abonnement",
+    "pricing_1_title": "Eenvoudig",
+    "pricing_1_price": "Vrij",
+    "pricing_1_feature_1": "AI-gegenereerde inhoud",
+    "pricing_1_feature_2": "PDF export",
+    "pricing_1_feature_3": "Basis blockchain verificatie",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Alles in de basis",
+    "pricing_2_feature_2": "Multi-formaat export",
+    "pricing_2_feature_3": "Geavanceerde AI aanpassing",
+    "pricing_2_feature_4": "Ondersteuning met hoge prioriteit",
+    "pricing_3_title": "Onderneming",
+    "pricing_3_price": "Aangepaste",
+    "pricing_3_feature_1": "Alles in Pro",
+    "pricing_3_feature_2": "Toegewijde accountmanager",
+    "pricing_3_feature_3": "Aangepaste integraties",
+    "pricing_3_feature_4": "Geavanceerde analytics"
+  },
+  "Testimonials": {
+    "title": "Wat onze gebruikers zeggen",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "Coördinator Sociale Media",
+    "testimonial_1_content": "CV Mate hielp me mijn droomtaak land te maken. De AI-gegenereerde inhoud was stip!",
+    "testimonial_2_name": "Grafiek aankopen",
+    "testimonial_2_role": "Onderzoek Assistent",
+    "testimonial_2_content": "De blockchainverificatie functie gaf me een voorsprong in een competitieve arbeidsmarkt",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Senior Software Ontwikkelaar",
+    "testimonial_3_content": "De analyse van vaardigheidskloof gaf waardevolle inzichten voor mijn carrièreontwikkeling"
   }
 }
