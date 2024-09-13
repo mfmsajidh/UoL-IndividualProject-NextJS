@@ -174,5 +174,12 @@
     "feature_5_description": "Nuestra IA asegura que su CV está optimizado para sistemas de seguimiento de aplicaciones, aumentando sus posibilidades de ser notado.",
     "feature_6_title": "Análisis del hueco",
     "feature_6_description": "Reciba recomendaciones personalizadas sobre habilidades para adquirir en base a sus metas profesionales."
+  },
+  "HeroSection": {
+    "content_1": "Generación Revolutiva de CV",
+    "content_2": "alimentado por AI & Blockchain",
+    "content_3": "Crear, validar y compartir de forma segura tu Resumen",
+    "get_started": "Empezar",
+    "learn_more": "Más información"
   }
 }
