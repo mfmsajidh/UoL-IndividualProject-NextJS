@@ -174,5 +174,12 @@
     "feature_5_description": "当社のAIにより、アプリケーション追跡システムに最適化された履歴書が確実に表示されるようになり、気付かれる可能性が高まります。",
     "feature_6_title": "スキルギャップ分析",
     "feature_6_description": "あなたのキャリア目標に基づいて習得するスキルに関するパーソナライズされた推奨事項を受け取ります。"
+  },
+  "HeroSection": {
+    "content_1": "革新的なCV生成",
+    "content_2": "Powered by AI & Blockchain",
+    "content_3": "レジュームを作成、検証、安全に共有します",
+    "get_started": "はじめよう",
+    "learn_more": "もっと詳しく"
   }
 }
