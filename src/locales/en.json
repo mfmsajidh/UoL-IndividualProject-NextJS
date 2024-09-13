@@ -212,5 +212,17 @@
     "pricing_3_feature_2": "Dedicated account manager",
     "pricing_3_feature_3": "Custom integrations",
     "pricing_3_feature_4": "Advanced analytics"
+  },
+  "Testimonials": {
+    "title": "What Our Users Say",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "Social Media Coordinator",
+    "testimonial_1_content": "CV Mate helped me land my dream job. The AI-generated content was spot-on!",
+    "testimonial_2_name": "Trisha Venkat",
+    "testimonial_2_role": "Research Assistant",
+    "testimonial_2_content": "The blockchain verification feature gave me an edge in a competitive job market",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Senior Software Engineer",
+    "testimonial_3_content": "The skill gap analysis provided invaluable insights for my career development"
   }
 }

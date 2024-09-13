@@ -1,31 +1,32 @@
+import { useTranslations } from 'next-intl';
+
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export const Testimonials = () => {
+  const t = useTranslations('Testimonials');
+
   return (
     <section className="w-full bg-gray-900 py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <h2 className="mb-12 text-center text-3xl font-bold text-white">
-          What Our Users Say
+          {t('title')}
         </h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              name: 'Sharon Elsa James',
-              role: 'Social Media Coordinator',
-              content:
-                'CV Mate helped me land my dream job. The AI-generated content was spot-on!',
+              name: t('testimonial_1_name'),
+              role: t('testimonial_1_role'),
+              content: t('testimonial_1_content'),
             },
             {
-              name: 'Trisha Venkat',
-              role: 'Research Assistant',
-              content:
-                'The blockchain verification feature gave me an edge in a competitive job market.',
+              name: t('testimonial_2_name'),
+              role: t('testimonial_2_role'),
+              content: t('testimonial_2_content'),
             },
             {
-              name: 'Sajidh Farook',
-              role: 'Senior Software Engineer',
-              content:
-                'The skill gap analysis provided invaluable insights for my career development.',
+              name: t('testimonial_3_name'),
+              role: t('testimonial_3_role'),
+              content: t('testimonial_3_content'),
             },
           ].map((testimonial) => (
             <Card
