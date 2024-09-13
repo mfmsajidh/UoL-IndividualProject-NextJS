@@ -174,5 +174,12 @@
     "feature_5_description": "Notre IA vous assure que votre CV est optimisé pour les systèmes de suivi des candidats, ce qui augmente vos chances de vous faire remarquer.",
     "feature_6_title": "Analyse des écarts de compétences",
     "feature_6_description": "Recevez des recommandations personnalisées sur les compétences à acquérir en fonction de vos objectifs de carrière."
+  },
+  "HeroSection": {
+    "content_1": "Génération de CV révolutionnaire",
+    "content_2": "propulsé par AI & Blockchain",
+    "content_3": "Créer, valider et partager votre reprise en toute sécurité",
+    "get_started": "Commencer",
+    "learn_more": "En savoir plus"
   }
 }
