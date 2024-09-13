@@ -174,5 +174,12 @@
     "feature_5_description": "Vores AI sikrer, at dit CV er optimeret til ansøgersporingssystemer, hvilket øger dine chancer for at blive bemærket.",
     "feature_6_title": "Analyse Af Dygtighedshjælp",
     "feature_6_description": "Modtag personlige anbefalinger om færdigheder til at erhverve baseret på din karriere mål."
+  },
+  "HeroSection": {
+    "content_1": "Revolutionær Cv-Generation",
+    "content_2": "drevet af AI & Blockchain",
+    "content_3": "Opret, Validér og del sikkert dit Genoptag",
+    "get_started": "Kom I Gang",
+    "learn_more": "Lær Mere"
   }
 }
