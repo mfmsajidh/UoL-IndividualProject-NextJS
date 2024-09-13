@@ -181,5 +181,48 @@
     "content_3": "Luo, Vahvista ja Jaa turvallisesti jatka",
     "get_started": "Aloita Alusta",
     "learn_more": "Lue Lisää"
+  },
+  "Highlights": {
+    "title": "Miksi Valitse CV Mate?",
+    "highlight_1": "Leikkausluokan tekoälyn teknologia",
+    "highlight_2": "Blockchain-powered verification”",
+    "highlight_3": "Jatkuva oppiminen ja parantaminen",
+    "highlight_4": "Räätälöity teollisuudellesi",
+    "highlight_5": "Aikaa säästävä automaatio"
+  },
+  "LogoCollection": {
+    "title": "Teollisuuden johtajien luottama"
+  },
+  "Pricing": {
+    "title": "Valitse Tilauksesi",
+    "pricing_1_title": "Perus",
+    "pricing_1_price": "Ilmainen",
+    "pricing_1_feature_1": "AI-muotoinen sisältö",
+    "pricing_1_feature_2": "PDF vienti",
+    "pricing_1_feature_3": "Perus lohkoketjun verifiointi",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Kaikki perus",
+    "pricing_2_feature_2": "Monimuotoinen vienti",
+    "pricing_2_feature_3": "Kehittynyt tekoälyn muokkaus",
+    "pricing_2_feature_4": "Ensisijainen tuki",
+    "pricing_3_title": "Yritys",
+    "pricing_3_price": "Mukautettu",
+    "pricing_3_feature_1": "Kaikki Prossa",
+    "pricing_3_feature_2": "Omistettu tilinhallinta",
+    "pricing_3_feature_3": "Mukautetut integraatiot",
+    "pricing_3_feature_4": "Edistynyt analytiikka"
+  },
+  "Testimonials": {
+    "title": "Mitä Käyttäjät Sanovat",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "Sosiaalisen Median Koordinaattori",
+    "testimonial_1_content": "CV Mate auttoi minua lunastamaan unelmani. AI-luodun sisällön oli paikallista!",
+    "testimonial_2_name": "Trisha Venkat",
+    "testimonial_2_role": "Tutkimusassistentti",
+    "testimonial_2_content": "Lohkoketjun todentamiseen liittyvä piirre antoi minulle etumatkan kilpailluilla työmarkkinoilla",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Vanhempi Ohjelmistoinsinööri",
+    "testimonial_3_content": "Taitojen puutteiden analysointi tarjosi korvaamattomia oivalluksia urakehitykseeni"
   }
 }
