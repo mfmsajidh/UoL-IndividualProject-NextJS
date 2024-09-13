@@ -38,11 +38,6 @@
     "body": "Runko",
     "save": "Tallenna"
   },
-  "About": {
-    "meta_title": "Tietoja",
-    "meta_description": "Tietoja sivun kuvauksesta",
-    "about_paragraph": "Tervetuloa Tietoja sivulle! Intohimoinen ja omistettu luoda hämmästyttävä ohjelmisto."
-  },
   "Portfolio": {
     "meta_title": "Salkku",
     "meta_description": "Tervetuloa minun salkuni sivulle!",
