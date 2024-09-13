@@ -181,5 +181,48 @@
     "content_3": "Skapa, validera och dela ditt CV på ett säkert sätt",
     "get_started": "Kom igång",
     "learn_more": "Läs mer"
+  },
+  "Highlights": {
+    "title": "Varför välja CV Mate?",
+    "highlight_1": "Cutting-edge AI-teknik",
+    "highlight_2": "Blockchain-driven verifiering",
+    "highlight_3": "Kontinuerligt lärande och förbättring",
+    "highlight_4": "Skräddarsydd till din bransch",
+    "highlight_5": "Tidsbesparande automatisering"
+  },
+  "LogoCollection": {
+    "title": "Betrodd av branschledare"
+  },
+  "Pricing": {
+    "title": "Välj din plan",
+    "pricing_1_title": "Grundläggande",
+    "pricing_1_price": "Gratis",
+    "pricing_1_feature_1": "AI-genererat innehåll",
+    "pricing_1_feature_2": "Exportera PDF",
+    "pricing_1_feature_3": "Grundläggande verifiering av blockkedjan",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Allt i Basic",
+    "pricing_2_feature_2": "Exportera flera format",
+    "pricing_2_feature_3": "Avancerad AI-anpassning",
+    "pricing_2_feature_4": "Prioriterat stöd",
+    "pricing_3_title": "Företag",
+    "pricing_3_price": "Anpassad",
+    "pricing_3_feature_1": "Allt i Pro",
+    "pricing_3_feature_2": "Dedikerad kontohanterare",
+    "pricing_3_feature_3": "Anpassade integrationer",
+    "pricing_3_feature_4": "Avancerad analys"
+  },
+  "Testimonials": {
+    "title": "Vad våra användare säger",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "Koordinator för sociala medier",
+    "testimonial_1_content": "CV Mate hjälpte mig att landa mitt drömjobb. Det AI-genererade innehållet var spot-on!",
+    "testimonial_2_name": "Trisha Venkat",
+    "testimonial_2_role": "Forskningsassistent",
+    "testimonial_2_content": "Blockchain-verifieringsfunktionen gav mig en fördel på en konkurrenskraftig arbetsmarknad",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Senior programvaruingenjör",
+    "testimonial_3_content": "Kompetensgapsanalysen gav ovärderliga insikter för min karriärutveckling"
   }
 }
