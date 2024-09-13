@@ -174,5 +174,12 @@
     "feature_5_description": "Nosso IA garante que seu CV seja otimizado para Sistemas de Rastreamento para Aplicativos, aumentando suas chances de ser notado.",
     "feature_6_title": "Análise de Disparo",
     "feature_6_description": "Receba recomendações personalizadas de habilidades para adquirir com base em suas metas de carreira."
+  },
+  "HeroSection": {
+    "content_1": "Geração CV Revolucionária",
+    "content_2": "desenvolvido por IA & Blockchain",
+    "content_3": "Criar, Validar e compartilhar com segurança seu currículo",
+    "get_started": "Comece Agora",
+    "learn_more": "Saber mais"
   }
 }
