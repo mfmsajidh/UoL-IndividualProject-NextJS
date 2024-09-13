@@ -174,5 +174,12 @@
     "feature_5_description": "Nasz AI zapewnia, że Twój CV jest zoptymalizowany dla systemów śledzenia wnioskodawców, zwiększając szanse na zauważenie.",
     "feature_6_title": "Analiza luki umiejętności",
     "feature_6_description": "Otrzymuj spersonalizowane zalecenia dotyczące umiejętności do zdobycia w oparciu o Twoje cele zawodowe."
+  },
+  "HeroSection": {
+    "content_1": "Generacja rewolucyjnej CV",
+    "content_2": "napędzane przez AI i Blockchain",
+    "content_3": "Utwórz, sprawdzaj poprawność i bezpiecznie udostępniaj swoje wznowienie",
+    "get_started": "Zacznij",
+    "learn_more": "Poznaj więcej"
   }
 }
