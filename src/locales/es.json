@@ -38,11 +38,6 @@
     "body": "Cuerpo",
     "save": "Guardar"
   },
-  "About": {
-    "meta_title": "Acerca de",
-    "meta_description": "Descripción de la página",
-    "about_paragraph": "¡Bienvenidos a la página Acerca de la página! Apasionado y dedicado a crear software increíble."
-  },
   "Portfolio": {
     "meta_title": "Portafolio",
     "meta_description": "¡Bienvenido a mi página de portafolio!",
