@@ -181,5 +181,48 @@
     "content_3": "إنشاء, التحقق و مشاركة مستأنفك بأمان",
     "get_started": "ابدأ",
     "learn_more": "اعرف المزيد"
+  },
+  "Highlights": {
+    "title": "لماذا إختيار سيارة الذاكرة؟",
+    "highlight_1": "تكنولوجيا AI القاطع",
+    "highlight_2": "التحقق بواسطة Blockchain'",
+    "highlight_3": "باء - التعلم والتحسين المستمرين",
+    "highlight_4": "مكيف مع الصناعة الخاصة بك",
+    "highlight_5": "أتمتة توفير الوقت"
+  },
+  "LogoCollection": {
+    "title": "موثوق به من قبل قادة الصناعة"
+  },
+  "Pricing": {
+    "title": "اختر خطتك",
+    "pricing_1_title": "اساسي",
+    "pricing_1_price": "مجاني",
+    "pricing_1_feature_1": "محتوى تم إنشاؤه AI",
+    "pricing_1_feature_2": "تصدير PDF",
+    "pricing_1_feature_3": "التحقق الأساسي من سلسلة الكتل",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "كل شيء في الأساس",
+    "pricing_2_feature_2": "تصدير متعدد الأشكال",
+    "pricing_2_feature_3": "تخصيص AI متقدم",
+    "pricing_2_feature_4": "أولوية الدعم",
+    "pricing_3_title": "المؤسسة",
+    "pricing_3_price": "مخصص",
+    "pricing_3_feature_1": "كل شيء في المحترف",
+    "pricing_3_feature_2": "مدير حساب مخصص",
+    "pricing_3_feature_3": "تكاملات مخصصة",
+    "pricing_3_feature_4": "تحليلات متقدمة"
+  },
+  "Testimonials": {
+    "title": "ما يقوله مستخدموننا",
+    "testimonial_1_name": "شارون إلسا جيمس",
+    "testimonial_1_role": "منسق وسائل الإعلام الاجتماعية",
+    "testimonial_1_content": "وساعدني سيف ميت في تبديد عملي في الحلم. المحتوى الذي تولده آي آي كان في موقع محدد!",
+    "testimonial_2_name": "تريشا فنكات",
+    "testimonial_2_role": "مساعد بحوث",
+    "testimonial_2_content": "خاصية التحقق من سلسلة الكتل أعطتني ميزة في سوق عمل تنافسي",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "مهندس برامجيات أقدم",
+    "testimonial_3_content": "لقد وفر تحليل الفجوة في المهارات رؤى لا تقدر بثمن لتطوري الوظيفي"
   }
 }
