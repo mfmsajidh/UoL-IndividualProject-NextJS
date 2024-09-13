@@ -181,5 +181,48 @@
     "content_3": "Crear, validar y compartir de forma segura tu Resumen",
     "get_started": "Empezar",
     "learn_more": "Más información"
+  },
+  "Highlights": {
+    "title": "¿Por qué elegir CV Mate?",
+    "highlight_1": "Tecnología IA de corte",
+    "highlight_2": "Verificación de Blockchain-powered",
+    "highlight_3": "Aprendizaje continuo y mejora",
+    "highlight_4": "Navegado a su industria",
+    "highlight_5": "Automatización de ahorro de tiempo"
+  },
+  "LogoCollection": {
+    "title": "Confiado por los líderes de la industria"
+  },
+  "Pricing": {
+    "title": "Elige tu plan",
+    "pricing_1_title": "Básico",
+    "pricing_1_price": "Gratis",
+    "pricing_1_feature_1": "Contenido generado por IA",
+    "pricing_1_feature_2": "Exportar PDF",
+    "pricing_1_feature_3": "Verificación básica de blockchain",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Todo en Básico",
+    "pricing_2_feature_2": "Exportación multiformato",
+    "pricing_2_feature_3": "Personalización avanzada de IA",
+    "pricing_2_feature_4": "Soporte prioritario",
+    "pricing_3_title": "Empresa",
+    "pricing_3_price": "Personalizado",
+    "pricing_3_feature_1": "Todo en Pro",
+    "pricing_3_feature_2": "Gestor de cuentas dedicado",
+    "pricing_3_feature_3": "Integraciones personalizadas",
+    "pricing_3_feature_4": "Analíticas avanzadas"
+  },
+  "Testimonials": {
+    "title": "Lo que dicen nuestros usuarios",
+    "testimonial_1_name": "James Sharon Elsa",
+    "testimonial_1_role": "Coordinador de redes sociales",
+    "testimonial_1_content": "CV Mate me ayudó a conseguir mi trabajo de ensueño. El contenido generado por AI!",
+    "testimonial_2_name": "Trisha Venkat",
+    "testimonial_2_role": "Asistente de investigación",
+    "testimonial_2_content": "La función de verificación de blockchain me dio una ventaja en un mercado de trabajo competitivo",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Ingeniero de Software Senior",
+    "testimonial_3_content": "El análisis de la brecha de habilidades proporcionó puntos de vista invaluables para mi desarrollo profesional"
   }
 }
