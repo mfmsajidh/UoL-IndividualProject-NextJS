@@ -181,5 +181,48 @@
     "content_3": "Δημιουργήστε, επικυρώστε και μοιραστείτε με ασφάλεια το βιογραφικό σας",
     "get_started": "Ας Αρχίσουμε",
     "learn_more": "Μάθετε Περισσότερα"
+  },
+  "Highlights": {
+    "title": "Γιατί Να Επιλέξετε Cv Mate?",
+    "highlight_1": "Τεχνολογία αιχμής τεχνητής νοημοσύνης",
+    "highlight_2": "Εξουσιοδότηση Blockchain»",
+    "highlight_3": "Συνεχής μάθηση και βελτίωση",
+    "highlight_4": "Προσαρμοσμένο στη βιομηχανία σας",
+    "highlight_5": "Αυτοματισμός εξοικονόμησης χρόνου"
+  },
+  "LogoCollection": {
+    "title": "Αξιόπιστο από τους Βιομηχανικούς Ηγέτες"
+  },
+  "Pricing": {
+    "title": "Επιλέξτε Το Πλάνο Σας",
+    "pricing_1_title": "Βασικό",
+    "pricing_1_price": "Δωρεάν",
+    "pricing_1_feature_1": "Περιεχόμενο που παράγεται από AI",
+    "pricing_1_feature_2": "Εξαγωγή σε PDF",
+    "pricing_1_feature_3": "Βασική επαλήθευση blockchain",
+    "pricing_2_title": "Pro",
+    "pricing_2_price": "£9.99",
+    "pricing_2_feature_1": "Τα πάντα στο βασικό",
+    "pricing_2_feature_2": "Εξαγωγή πολλαπλών μορφών",
+    "pricing_2_feature_3": "Προσαρμογή τεχνητής νοημοσύνης",
+    "pricing_2_feature_4": "Υποστήριξη προτεραιότητας",
+    "pricing_3_title": "Επιχείρηση",
+    "pricing_3_price": "Προσαρμοσμένο",
+    "pricing_3_feature_1": "Όλα στο Pro",
+    "pricing_3_feature_2": "Αφιερωμένος διαχειριστής λογαριασμού",
+    "pricing_3_feature_3": "Προσαρμοσμένες ενοποιήσεις",
+    "pricing_3_feature_4": "Προηγμένες αναλύσεις"
+  },
+  "Testimonials": {
+    "title": "Τι Λένε Οι Χρήστες Μας",
+    "testimonial_1_name": "Sharon Elsa James",
+    "testimonial_1_role": "Συντονιστής Κοινωνικών Μέσων",
+    "testimonial_1_content": "Το CV Mate με βοήθησε να προσγειώσω τη δουλειά των ονείρων μου. Το περιεχόμενο AI-generated ήταν spot-on!",
+    "testimonial_2_name": "Trisha Venkat",
+    "testimonial_2_role": "Βοηθός Έρευνας",
+    "testimonial_2_content": "Το χαρακτηριστικό επαλήθευσης blockchain μου έδωσε ένα πλεονέκτημα σε μια ανταγωνιστική αγορά εργασίας",
+    "testimonial_3_name": "Sajidh Farook",
+    "testimonial_3_role": "Ανώτερος Μηχανικός Λογισμικού",
+    "testimonial_3_content": "Η ανάλυση του κενού δεξιοτήτων παρείχε πολύτιμες ιδέες για την εξέλιξη της σταδιοδρομίας μου"
   }
 }
