@@ -222,9 +222,9 @@
   },
   "DashboardHeader": {
     "title": "لوحة التحكم",
-    "cv_generator_link": "Create CV",
+    "cv_generator_link": "إنشاء السيرة الذاتية",
     "profile_link": "الملف الشخصي",
-    "settings_link": "Settings",
+    "settings_link": "الإعدادات",
     "sign_out_link": "تسجيل الخروج"
   }
 }

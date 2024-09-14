@@ -222,9 +222,9 @@
   },
   "DashboardHeader": {
     "title": "Tablero",
-    "cv_generator_link": "Create CV",
+    "cv_generator_link": "Crear CV",
     "profile_link": "Perfil",
-    "settings_link": "Settings",
+    "settings_link": "Ajustes",
     "sign_out_link": "Cerrar sesión"
   }
 }
