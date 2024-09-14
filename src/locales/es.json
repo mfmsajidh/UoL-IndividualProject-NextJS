@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Ingeniero de Software Senior",
     "testimonial_3_content": "El análisis de la brecha de habilidades proporcionó puntos de vista invaluables para mi desarrollo profesional"
+  },
+  "DashboardHeader": {
+    "title": "Tablero",
+    "cv_generator_link": "Create CV",
+    "profile_link": "Perfil",
+    "settings_link": "Settings",
+    "sign_out_link": "Cerrar sesión"
   }
 }
