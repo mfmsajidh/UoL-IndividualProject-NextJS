@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Senior Software Ontwikkelaar",
     "testimonial_3_content": "De analyse van vaardigheidskloof gaf waardevolle inzichten voor mijn carrièreontwikkeling"
+  },
+  "DashboardHeader": {
+    "title": "Dashboard",
+    "cv_generator_link": "CV aanmaken",
+    "profile_link": "Profiel",
+    "settings_link": "Instellingen",
+    "sign_out_link": "Log uit"
   }
 }
