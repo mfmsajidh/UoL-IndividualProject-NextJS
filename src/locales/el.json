@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Ανώτερος Μηχανικός Λογισμικού",
     "testimonial_3_content": "Η ανάλυση του κενού δεξιοτήτων παρείχε πολύτιμες ιδέες για την εξέλιξη της σταδιοδρομίας μου"
+  },
+  "DashboardHeader": {
+    "title": "Ταμπλό",
+    "cv_generator_link": "Δημιουργία Βιογραφικού",
+    "profile_link": "Προφίλ",
+    "settings_link": "Ρυθμίσεις",
+    "sign_out_link": "Αποσύνδεση"
   }
 }
