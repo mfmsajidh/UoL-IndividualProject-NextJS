@@ -19,7 +19,7 @@ const SettingsPage = (props: { params: { locale: string } }) => (
   <div className="flex min-h-screen flex-col items-center">
     <div className="my-6 grow">
       <UserProfile
-        path={getI18nPath('/new-dashboard/settings', props.params.locale)}
+        path={getI18nPath('/dashboard/settings', props.params.locale)}
         appearance={{
           baseTheme: dark,
         }}

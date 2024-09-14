@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import type { FC } from 'react';
 
 import { LogOutButton } from '@/app/[locale]/_components/LogOutButton';
-import { MobileDashboardHeader } from '@/app/[locale]/(auth)/new-dashboard/_components/MobileDashboardHeader';
+import { MobileDashboardHeader } from '@/app/[locale]/(auth)/dashboard/_components/MobileDashboardHeader';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { Button } from '@/components/ui/button';
 import Logo from '@/public/assets/images/cv_mate_logo.svg';
@@ -27,20 +27,20 @@ const DesktopNavigation: FC<DashboardNavigationProps> = ({
       <div className="mr-4 hidden md:flex">
         <Link
           className="mr-6 flex items-center hover:opacity-75 "
-          href="/new-dashboard/cv-generator"
+          href="/dashboard/cv-generator"
         >
           <Image src={Logo} alt="Logo of CV Mate" className="w-28" />
           <span className="text-xl font-bold text-[#FFA857]">{title}</span>
         </Link>
         <nav className="flex items-center space-x-6 text-sm font-medium">
           <Link
-            href="/new-dashboard/cv-generator"
+            href="/dashboard/cv-generator"
             className="text-gray-300 hover:text-white"
           >
             {cvGeneratorTranslation}
           </Link>
           <Link
-            href="/new-dashboard/profile"
+            href="/dashboard/profile"
             className="text-gray-300 hover:text-white"
           >
             {profileLinkTranslation}
@@ -52,7 +52,7 @@ const DesktopNavigation: FC<DashboardNavigationProps> = ({
           <div className="hidden md:inline-flex">
             <LocaleSwitcher />
           </div>
-          <Link href="/new-dashboard/settings">
+          <Link href="/dashboard/settings">
             <Button className="hidden bg-gray-800 hover:bg-gray-900 md:inline-flex">
               {settingsTranslation}
             </Button>

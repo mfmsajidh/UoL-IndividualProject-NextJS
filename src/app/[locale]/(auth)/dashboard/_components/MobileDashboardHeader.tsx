@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { type FC, useState } from 'react';
 
 import { LogOutButton } from '@/app/[locale]/_components/LogOutButton';
-import type { DashboardNavigationProps } from '@/app/[locale]/(auth)/new-dashboard/_components/DashboardHeader';
+import type { DashboardNavigationProps } from '@/app/[locale]/(auth)/dashboard/_components/DashboardHeader';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -22,7 +22,7 @@ export const MobileDashboardHeader: FC<DashboardNavigationProps> = ({
   return (
     <>
       <Link
-        href="/new-dashboard/cv-generator"
+        href="/dashboard/cv-generator"
         className="flex items-center space-x-2 md:hidden"
         onClick={() => setIsMobileMenuOpen(false)}
       >
@@ -56,14 +56,14 @@ export const MobileDashboardHeader: FC<DashboardNavigationProps> = ({
             </div>
             <nav className="flex flex-col p-4">
               <Link
-                href="/new-dashboard/cv-generator"
+                href="/dashboard/cv-generator"
                 className="py-2 text-lg hover:text-blue-400"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {cvGeneratorTranslation}
               </Link>
               <Link
-                href="/new-dashboard/profile"
+                href="/dashboard/profile"
                 className="py-2 text-lg hover:text-blue-400"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -71,7 +71,7 @@ export const MobileDashboardHeader: FC<DashboardNavigationProps> = ({
               </Link>
             </nav>
             <div className="mt-auto p-4">
-              <Link href="/new-dashboard/settings">
+              <Link href="/dashboard/settings">
                 <Button
                   className="mb-2 w-full bg-gray-800 hover:bg-gray-700"
                   onClick={() => setIsMobileMenuOpen(false)}

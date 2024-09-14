@@ -17,6 +17,8 @@ import {
 } from '@/components/ui/select';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Textarea } from '@/components/ui/textarea';
+import { useWallet } from '@/hooks/useWallet';
+import { storeHashOnStellar, submitTransaction } from '@/libs/Stellar';
 
 export default function NewProfilePage() {
   const [experiences, setExperiences] = useState([{ id: 1 }]);
@@ -41,6 +43,34 @@ export default function NewProfilePage() {
   const removeLanguage = (id: number) =>
     setLanguages(languages.filter((lang) => lang.id !== id));
 
+  const [loading, setLoading] = useState(false);
+  const { isLoading, publicKey, account, network, connectWallet, signXDR } =
+    useWallet();
+
+  const handleSubmit = async () => {
+    try {
+      if (!publicKey) {
+        return;
+      }
+      setLoading(true);
+      // Call the API to mint the asset
+      const xdr = await storeHashOnStellar('ipfsHash', publicKey);
+
+      // We need to submit the signed XDR to the Horizon API
+      const signedXDR = await signXDR(xdr);
+      // console.log('signedXDR: string', signedXDR);
+
+      // Submit signed XDR to Horizon API
+      if (signedXDR) {
+        await submitTransaction(signedXDR.signedTxXdr);
+      }
+    } catch (err) {
+      // console.error(err); // Failed to mint asset
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="flex min-h-screen flex-col bg-gray-950 text-gray-100">
       <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-gray-950/95 backdrop-blur supports-[backdrop-filter]:bg-gray-950/60">
@@ -52,6 +82,28 @@ export default function NewProfilePage() {
       </header>
 
       <main className="container flex-1 py-6">
+        <div className="[&_p]:my-6">
+          {/* <Hello /> */}
+          asd {loading}
+          <button
+            className="h-8 rounded-md border-black bg-black px-2 py-1 text-white"
+            onClick={handleSubmit}
+            type="button"
+          >
+            Handle Submit
+          </button>
+          asd {isLoading}
+          <button
+            className="h-8 rounded-md border-black bg-black px-2 py-1 text-white"
+            onClick={connectWallet}
+            type="button"
+          >
+            Connect Wallet
+          </button>
+          Connected to {network} publicKey {publicKey} account{' '}
+          {JSON.stringify(account)}
+        </div>
+
         <h1 className="mb-6 text-3xl font-bold">Your Profile</h1>
 
         <Tabs defaultValue="about" className="space-y-4">

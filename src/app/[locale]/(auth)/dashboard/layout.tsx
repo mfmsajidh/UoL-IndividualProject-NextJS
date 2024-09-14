@@ -1,11 +1,8 @@
-import Link from 'next/link';
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import type { ReactNode } from 'react';
 
-import { LogOutButton } from '@/app/[locale]/_components/LogOutButton';
-import LocaleSwitcher from '@/components/LocaleSwitcher';
-import { BaseTemplate } from '@/templates/BaseTemplate';
+import { DashboardFooter } from '@/app/[locale]/(auth)/dashboard/_components/DashboardFooter';
+import { DashboardHeader } from '@/app/[locale]/(auth)/dashboard/_components/DashboardHeader';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -19,44 +16,14 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 }
 
 export default function DashboardLayout(props: { children: ReactNode }) {
-  const t = useTranslations('DashboardLayout');
-
   return (
-    <BaseTemplate
-      leftNav={
-        <>
-          <li>
-            <Link
-              href="/dashboard/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('dashboard_link')}
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/dashboard/user-profile/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('user_profile_link')}
-            </Link>
-          </li>
-        </>
-      }
-      rightNav={
-        <>
-          <li>
-            <LogOutButton />
-          </li>
+    <div className="flex min-h-screen flex-col bg-gray-950 text-gray-100">
+      <DashboardHeader />
 
-          <li>
-            <LocaleSwitcher />
-          </li>
-        </>
-      }
-    >
-      {props.children}
-    </BaseTemplate>
+      <main className="container mx-auto flex-1 py-6">{props.children}</main>
+
+      <DashboardFooter />
+    </div>
   );
 }
 
