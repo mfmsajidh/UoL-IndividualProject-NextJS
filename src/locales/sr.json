@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Senior Software Engineer",
     "testimonial_3_content": "The skill gap analysis provided invaluable insights for my career development"
+  },
+  "DashboardHeader": {
+    "title": "Dashboard",
+    "cv_generator_link": "Create CV",
+    "profile_link": "Profile",
+    "settings_link": "Settings",
+    "sign_out_link": "Sign out"
   }
 }
