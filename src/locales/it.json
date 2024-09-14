@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Senior Software Engineer",
     "testimonial_3_content": "L'analisi del divario di competenze ha fornito informazioni preziose per lo sviluppo della mia carriera"
+  },
+  "DashboardHeader": {
+    "title": "Dashboard",
+    "cv_generator_link": "Crea CV",
+    "profile_link": "Profilo",
+    "settings_link": "Impostazioni",
+    "sign_out_link": "Esci"
   }
 }

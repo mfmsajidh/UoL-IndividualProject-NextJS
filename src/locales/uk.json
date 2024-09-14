@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Старший програмний інженер",
     "testimonial_3_content": "Аналіз між навичками надає безцінне уявлення про мій розвиток кар’єри"
+  },
+  "DashboardHeader": {
+    "title": "Приладна дошка",
+    "cv_generator_link": "Створити CV",
+    "profile_link": "Анкета",
+    "settings_link": "Налаштування",
+    "sign_out_link": "Вийти"
   }
 }

@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Senior Software-Ingenieur",
     "testimonial_3_content": "Die Analyse des Kompetenzdefizits bot unschätzbare Einblicke in meine berufliche Entwicklung"
+  },
+  "DashboardHeader": {
+    "title": "Dashboard",
+    "cv_generator_link": "Lebenslauf erstellen",
+    "profile_link": "Profil",
+    "settings_link": "Einstellungen",
+    "sign_out_link": "Abmelden"
   }
 }

@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Engenheiro de Software Sênior",
     "testimonial_3_content": "A análise do desvio de habilidade forneceu informações valiosas para o desenvolvimento da minha carreira"
+  },
+  "DashboardHeader": {
+    "title": "Painel",
+    "cv_generator_link": "Criar CV",
+    "profile_link": "Perfil",
+    "settings_link": "Confirgurações",
+    "sign_out_link": "Encerrar sessão"
   }
 }

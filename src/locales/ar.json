@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "مهندس برامجيات أقدم",
     "testimonial_3_content": "لقد وفر تحليل الفجوة في المهارات رؤى لا تقدر بثمن لتطوري الوظيفي"
+  },
+  "DashboardHeader": {
+    "title": "لوحة التحكم",
+    "cv_generator_link": "Create CV",
+    "profile_link": "الملف الشخصي",
+    "settings_link": "Settings",
+    "sign_out_link": "تسجيل الخروج"
   }
 }

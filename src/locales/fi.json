@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Vanhempi Ohjelmistoinsinööri",
     "testimonial_3_content": "Taitojen puutteiden analysointi tarjosi korvaamattomia oivalluksia urakehitykseeni"
+  },
+  "DashboardHeader": {
+    "title": "Hallintapaneeli",
+    "cv_generator_link": "Luo CV",
+    "profile_link": "Profiili",
+    "settings_link": "Asetukset",
+    "sign_out_link": "Kirjaudu ulos"
   }
 }

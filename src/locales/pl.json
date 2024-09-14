@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Starszy inżynier oprogramowania",
     "testimonial_3_content": "Analiza luk w umiejętnościach dostarczyła bezcennych informacji na temat rozwoju kariery"
+  },
+  "DashboardHeader": {
+    "title": "Pulpit",
+    "cv_generator_link": "Utwórz CV",
+    "profile_link": "Profil",
+    "settings_link": "Ustawienia",
+    "sign_out_link": "Wyloguj się"
   }
 }

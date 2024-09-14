@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Senior programvareingeniør",
     "testimonial_3_content": "Faganalysen av ferdighetsgapet ga uvurderlig innsikt til min karrierutvikling"
+  },
+  "DashboardHeader": {
+    "title": "Kontrollpanel",
+    "cv_generator_link": "Opprett CV",
+    "profile_link": "Profil",
+    "settings_link": "Innstillinger",
+    "sign_out_link": "Logg ut"
   }
 }

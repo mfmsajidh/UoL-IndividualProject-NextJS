@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Vyšší softwarový inženýr",
     "testimonial_3_content": "Analýza kvalifikační mezery poskytla neocenitelné postřehy pro můj kariérní rozvoj"
+  },
+  "DashboardHeader": {
+    "title": "Nástěnka",
+    "cv_generator_link": "Vytvořit CV",
+    "profile_link": "Profil",
+    "settings_link": "Nastavení",
+    "sign_out_link": "Odhlásit se"
   }
 }

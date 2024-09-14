@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Ingénieur logiciel senior",
     "testimonial_3_content": "L'analyse des écarts de compétences a fourni des informations précieuses pour mon développement de carrière"
+  },
+  "DashboardHeader": {
+    "title": "Tableau de bord",
+    "cv_generator_link": "Create CV",
+    "profile_link": "Profil",
+    "settings_link": "Settings",
+    "sign_out_link": "Se déconnecter"
   }
 }

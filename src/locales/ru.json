@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Старший программист",
     "testimonial_3_content": "Анализ квалификационного отставания дал бесценное понимание моего карьерного роста"
+  },
+  "DashboardHeader": {
+    "title": "Панель",
+    "cv_generator_link": "Создать CV",
+    "profile_link": "Профиль",
+    "settings_link": "Настройки",
+    "sign_out_link": "Выйти"
   }
 }
