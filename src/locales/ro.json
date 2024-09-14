@@ -222,9 +222,9 @@
   },
   "DashboardHeader": {
     "title": "Panou",
-    "cv_generator_link": "Create CV",
+    "cv_generator_link": "Creare CV",
     "profile_link": "Profil",
-    "settings_link": "Settings",
+    "settings_link": "Setări",
     "sign_out_link": "Deconectare"
   }
 }
