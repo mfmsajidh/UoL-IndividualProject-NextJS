@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { type FC, useState } from 'react';
 
+import { LogOutButton } from '@/app/[locale]/_components/LogOutButton';
 import type { DashboardNavigationProps } from '@/app/[locale]/(auth)/new-dashboard/_components/DashboardHeader';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { Button } from '@/components/ui/button';
@@ -15,7 +16,6 @@ export const MobileDashboardHeader: FC<DashboardNavigationProps> = ({
   cvGeneratorTranslation,
   profileLinkTranslation,
   settingsTranslation,
-  signOutTranslation,
 }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -79,11 +79,7 @@ export const MobileDashboardHeader: FC<DashboardNavigationProps> = ({
                   {settingsTranslation}
                 </Button>
               </Link>
-              <Link href="/sign-up">
-                <Button className="w-full bg-blue-600 hover:bg-blue-700">
-                  {signOutTranslation}
-                </Button>
-              </Link>
+              <LogOutButton isMobile />
             </div>
           </div>
         </SheetContent>

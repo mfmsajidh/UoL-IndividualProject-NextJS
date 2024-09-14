@@ -3,8 +3,8 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import type { ReactNode } from 'react';
 
+import { LogOutButton } from '@/app/[locale]/_components/LogOutButton';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
-import { LogOutButton } from '@/components/LogOutButton';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
 export async function generateMetadata(props: { params: { locale: string } }) {

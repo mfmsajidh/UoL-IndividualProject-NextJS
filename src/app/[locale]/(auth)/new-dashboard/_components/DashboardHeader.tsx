@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import type { FC } from 'react';
 
+import { LogOutButton } from '@/app/[locale]/_components/LogOutButton';
 import { MobileDashboardHeader } from '@/app/[locale]/(auth)/new-dashboard/_components/MobileDashboardHeader';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { Button } from '@/components/ui/button';
@@ -13,7 +14,6 @@ interface DashboardNavigationProps {
   cvGeneratorTranslation: string;
   profileLinkTranslation: string;
   settingsTranslation: string;
-  signOutTranslation: string;
 }
 
 const DesktopNavigation: FC<DashboardNavigationProps> = ({
@@ -21,7 +21,6 @@ const DesktopNavigation: FC<DashboardNavigationProps> = ({
   cvGeneratorTranslation,
   profileLinkTranslation,
   settingsTranslation,
-  signOutTranslation,
 }) => {
   return (
     <>
@@ -58,11 +57,7 @@ const DesktopNavigation: FC<DashboardNavigationProps> = ({
               {settingsTranslation}
             </Button>
           </Link>
-          <Link href="/sign-up">
-            <Button className="hidden bg-blue-600 hover:bg-blue-700 md:inline-flex">
-              {signOutTranslation}
-            </Button>
-          </Link>
+          <LogOutButton />
         </div>
       </div>
     </>
@@ -80,14 +75,12 @@ const DashboardHeader = () => {
           cvGeneratorTranslation={t('cv_generator_link')}
           profileLinkTranslation={t('profile_link')}
           settingsTranslation={t('settings_link')}
-          signOutTranslation={t('sign_out_link')}
         />
 
         <MobileDashboardHeader
           cvGeneratorTranslation={t('cv_generator_link')}
           profileLinkTranslation={t('profile_link')}
           settingsTranslation={t('settings_link')}
-          signOutTranslation={t('sign_out_link')}
         />
       </div>
     </header>
