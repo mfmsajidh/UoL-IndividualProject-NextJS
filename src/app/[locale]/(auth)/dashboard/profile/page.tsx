@@ -1,7 +1,6 @@
 'use client';
 
 import { PlusCircle, Trash2 } from 'lucide-react';
-import Link from 'next/link';
 import { useState } from 'react';
 
 import { Button } from '@/components/ui/button';
@@ -72,15 +71,7 @@ export default function NewProfilePage() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col bg-gray-950 text-gray-100">
-      <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-gray-950/95 backdrop-blur supports-[backdrop-filter]:bg-gray-950/60">
-        <div className="container flex h-14 items-center">
-          <Link href="/" className="flex items-center space-x-2">
-            <span className="font-bold">ML-Block CV Profile</span>
-          </Link>
-        </div>
-      </header>
-
+    <div>
       <main className="container flex-1 py-6">
         <div className="[&_p]:my-6">
           {/* <Hello /> */}

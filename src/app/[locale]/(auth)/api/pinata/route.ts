@@ -5,22 +5,7 @@ import type { SignedUrlOptions } from 'pinata';
 import { logger } from '@/libs/Logger';
 import { pinata } from '@/libs/Pinata';
 
-export const POST = async (request: NextRequest) => {
-  try {
-    const data = await request.formData();
-    const uploadData = await pinata.upload.json(data);
-
-    return NextResponse.json(uploadData, { status: 200 });
-  } catch (error) {
-    logger.error(error, 'An error occurred while creating a Pinata content');
-    return NextResponse.json(
-      { error: 'Internal Server Error' },
-      { status: 500 },
-    );
-  }
-};
-
-export const GET = async (request: NextRequest) => {
+const GET = async (request: NextRequest) => {
   try {
     const { searchParams } = request.nextUrl;
     const cid = searchParams.get('cid');
@@ -34,7 +19,7 @@ export const GET = async (request: NextRequest) => {
       expires: 3600, // URL expires in 1 hour
     });
 
-    return NextResponse.json({ url }, { status: 200 });
+    return NextResponse.json(url, { status: 200 });
   } catch (error) {
     logger.error(error, 'An error occurred while retrieving a Pinata content');
     return NextResponse.json(
@@ -43,3 +28,20 @@ export const GET = async (request: NextRequest) => {
     );
   }
 };
+
+const POST = async (request: NextRequest) => {
+  try {
+    const data = await request.json();
+    const uploadData = await pinata.upload.json(data);
+
+    return NextResponse.json(uploadData, { status: 200 });
+  } catch (error) {
+    logger.error(error, 'An error occurred while creating a Pinata content');
+    return NextResponse.json(
+      { error: 'Internal Server Error' },
+      { status: 500 },
+    );
+  }
+};
+
+export { GET, POST };
