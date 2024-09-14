@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Senior Software Engineer",
     "testimonial_3_content": "Den dygtighed kløft analyse gav uvurderlige indsigter for min karriere udvikling"
+  },
+  "DashboardHeader": {
+    "title": "Instrumentbræt",
+    "cv_generator_link": "Opret CV",
+    "profile_link": "Profil",
+    "settings_link": "Indstillinger",
+    "sign_out_link": "Log ud"
   }
 }
