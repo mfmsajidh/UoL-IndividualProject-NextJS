@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Inginer software principal",
     "testimonial_3_content": "Analiza lacunelor în materie de competențe a oferit perspective neprețuite pentru dezvoltarea carierei mele."
+  },
+  "DashboardHeader": {
+    "title": "Panou",
+    "cv_generator_link": "Create CV",
+    "profile_link": "Profil",
+    "settings_link": "Settings",
+    "sign_out_link": "Deconectare"
   }
 }
