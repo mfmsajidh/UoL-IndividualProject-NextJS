@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "Senior programvaruingenjör",
     "testimonial_3_content": "Kompetensgapsanalysen gav ovärderliga insikter för min karriärutveckling"
+  },
+  "DashboardHeader": {
+    "title": "Instrumentpanel",
+    "cv_generator_link": "Skapa cv",
+    "profile_link": "Profil",
+    "settings_link": "Inställningar",
+    "sign_out_link": "Logga ut"
   }
 }
