@@ -11,8 +11,10 @@ import {
   User,
 } from 'lucide-react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 
+import { DashboardFooter } from '@/app/[locale]/(auth)/new-dashboard/_components/DashboardFooter';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -21,6 +23,8 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Tabs, TabsContent } from '@/components/ui/tabs';
 
 export default function Dashboard() {
+  const t = useTranslations('Dashboard');
+
   const [activeTab, setActiveTab] = useState('overview');
 
   return (
@@ -68,7 +72,7 @@ export default function Dashboard() {
           </Sheet>
           <Link href="/" className="flex items-center space-x-2">
             <LineChart className="size-6 text-blue-500" />
-            <span className="font-bold">ML-Block CV Dashboard</span>
+            <span className="font-bold">{t('meta_title')}</span>
           </Link>
           <nav className="mx-6 hidden items-center space-x-4 md:flex lg:space-x-6">
             <Button
@@ -275,11 +279,7 @@ export default function Dashboard() {
         </div>
       </main>
 
-      <footer className="w-full bg-gray-900 py-6 text-gray-300">
-        <div className="container mx-auto text-center text-sm">
-          © {new Date().getFullYear()} ML-Block CV. All rights reserved.
-        </div>
-      </footer>
+      <DashboardFooter />
     </div>
   );
 }
