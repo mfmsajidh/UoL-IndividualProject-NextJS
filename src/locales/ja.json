@@ -219,5 +219,12 @@
     "testimonial_3_name": "Sajidh Farook",
     "testimonial_3_role": "上級ソフトウェアエンジニア",
     "testimonial_3_content": "スキルギャップ分析は、私のキャリア開発のために非常に貴重な洞察を提供しました。"
+  },
+  "DashboardHeader": {
+    "title": "ダッシュボード",
+    "cv_generator_link": "CV を作成",
+    "profile_link": "プロフィール",
+    "settings_link": "設定",
+    "sign_out_link": "サインアウト"
   }
 }
