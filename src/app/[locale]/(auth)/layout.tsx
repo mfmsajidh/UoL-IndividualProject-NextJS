@@ -23,13 +23,14 @@ import {
   zhCN,
 } from '@clerk/localizations';
 import { ClerkProvider } from '@clerk/nextjs';
+import type { LocalizationResource } from '@clerk/types';
 import type { ReactNode } from 'react';
 
 export default function AuthLayout(props: {
   children: ReactNode;
   params: { locale: string };
 }) {
-  let clerkLocale = enUS;
+  let clerkLocale: LocalizationResource;
   let signInUrl = '/sign-in';
   let signUpUrl = '/sign-up';
   let dashboardUrl = '/dashboard';
