@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { type FC, useState } from 'react';
 
-import type { NavigationProps } from '@/app/[locale]/(unauth)/_components/AppHeader';
+import type { NavigationProps } from '@/app/[locale]/_components/AppHeader';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';

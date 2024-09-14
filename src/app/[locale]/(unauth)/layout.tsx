@@ -1,8 +1,8 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 import type { ReactNode } from 'react';
 
-import { AppFooter } from '@/app/[locale]/(unauth)/_components/AppFooter';
-import { AppHeader } from '@/app/[locale]/(unauth)/_components/AppHeader';
+import { AppFooter } from '@/app/[locale]/_components/AppFooter';
+import { AppHeader } from '@/app/[locale]/_components/AppHeader';
 
 export default function Layout(props: {
   children: ReactNode;
