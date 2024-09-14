@@ -1,4 +1,5 @@
 import { UserProfile } from '@clerk/nextjs';
+import { dark } from '@clerk/themes';
 import { getTranslations } from 'next-intl/server';
 
 import { getI18nPath } from '@/utils/Helpers';
@@ -15,10 +16,15 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 }
 
 const SettingsPage = (props: { params: { locale: string } }) => (
-  <div className="my-6 -ml-16">
-    <UserProfile
-      path={getI18nPath('/new-dashboard/settings', props.params.locale)}
-    />
+  <div className="flex min-h-screen flex-col items-center">
+    <div className="my-6 grow">
+      <UserProfile
+        path={getI18nPath('/new-dashboard/settings', props.params.locale)}
+        appearance={{
+          baseTheme: dark,
+        }}
+      />
+    </div>
   </div>
 );
 

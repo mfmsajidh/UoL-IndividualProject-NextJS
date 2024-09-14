@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import type { FC } from 'react';
 
-import { MobileAppHeader } from '@/app/[locale]/(unauth)/_components/MobileAppHeader';
+import { MobileAppHeader } from '@/app/[locale]/_components/MobileAppHeader';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { Button } from '@/components/ui/button';
 import Logo from '@/public/assets/images/cv_mate_logo.svg';
