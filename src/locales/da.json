@@ -295,7 +295,7 @@
     "remove_experience": "Fjern Erfaring",
     "add_experience": "Tilføj Erfaring",
     "save": "Gemmer...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Gem Erfaringer"
   },
   "ProfileEducation": {
     "school": "Skole",
@@ -323,29 +323,29 @@
     "save_profile": "Gem Uddannelser"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Indtast en færdighed",
     "skill_validation": "Færdighed er påkrævet",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Mindst én færdighed er påkrævet",
     "add_skill": "Tilføj Færdighed",
     "save": "Gemmer...",
     "save_profile": "Gem Færdigheder"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Sprog",
+    "language_placeholder": "Navn på sproget",
+    "language_validation_1": "Sprog er påkrævet",
+    "language_validation_2": "Sprog skal være mindre end 50 tegn",
     "proficiency": "Præstationsevne",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Vælg duelighedsniveau",
+    "proficiency_value_native": "Indfødte eller tosprogede færdigheder",
+    "proficiency_value_full": "Fuld professionel duelighed",
+    "proficiency_value_professional": "Faglig arbejdsdygtighed",
+    "proficiency_value_limited": "Begrænset arbejdsdygtighed",
     "proficiency_value_elementary": "Elementær duelighed",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Kvalitet er påkrævet",
+    "remove_language": "Fjern Sprog",
     "add_language": "Tilføj Sprog",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Gemmer...",
+    "save_profile": "Gem Sprog"
   }
 }
