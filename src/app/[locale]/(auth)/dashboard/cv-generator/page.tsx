@@ -4,6 +4,7 @@ import JsPDF from 'jspdf';
 import { Loader2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
+import { StellarConnectCard } from '@/app/[locale]/(auth)/dashboard/_components/StellarConnectCard';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Textarea } from '@/components/ui/textarea';
@@ -152,7 +153,7 @@ export default function CVGeneratorPage() {
     doc.save('profile.pdf');
   };
 
-  return (
+  return publicKey ? (
     <>
       <h1 className="mb-6 text-3xl font-bold text-white">CV Generator</h1>
       <div className="grid gap-6 lg:grid-cols-2">
@@ -207,5 +208,7 @@ export default function CVGeneratorPage() {
         </Card>
       </div>
     </>
+  ) : (
+    <StellarConnectCard />
   );
 }
