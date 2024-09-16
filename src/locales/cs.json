@@ -295,7 +295,7 @@
     "remove_experience": "Odstranit zkušenosti",
     "add_experience": "Přidat zkušenosti",
     "save": "Ukládání...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Uložit zkušenosti"
   },
   "ProfileEducation": {
     "school": "Ústav",
@@ -323,29 +323,29 @@
     "save_profile": "Uložit vzdělávání"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Zadejte dovednost",
     "skill_validation": "Dovednost je vyžadována",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Je vyžadována alespoň jedna dovednost",
     "add_skill": "Přidat dovednost",
     "save": "Ukládání...",
     "save_profile": "Uložit dovednosti"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Jazyk",
+    "language_placeholder": "Název jazyka",
+    "language_validation_1": "Jazyk je povinný",
+    "language_validation_2": "Jazyk musí mít méně než 50 znaků",
     "proficiency": "Odbornost",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Vyberte úroveň odborné způsobilosti",
+    "proficiency_value_native": "Rodné nebo dvojjazyčné odborné znalosti",
+    "proficiency_value_full": "Úplná odborná způsobilost",
+    "proficiency_value_professional": "Odborná pracovní způsobilost",
+    "proficiency_value_limited": "Omezená pracovní způsobilost",
     "proficiency_value_elementary": "Základní odborná způsobilost",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Vyžaduje se odborná způsobilost.",
+    "remove_language": "Odstranit jazyk",
     "add_language": "Přidat jazyk",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Ukládání...",
+    "save_profile": "Uložit jazyky"
   }
 }
