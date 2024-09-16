@@ -7,19 +7,15 @@ import {
   enUS,
   esES,
   frFR,
-  heIL,
   itIT,
   jaJP,
-  koKR,
   nbNO,
   nlNL,
   plPL,
   ptPT,
   ruRU,
   svSE,
-  trTR,
   ukUA,
-  viVN,
   zhCN,
 } from '@clerk/localizations';
 import { ClerkProvider } from '@clerk/nextjs';
@@ -57,17 +53,11 @@ export default function AuthLayout(props: {
     case 'fr':
       clerkLocale = frFR;
       break;
-    case 'he':
-      clerkLocale = heIL;
-      break;
     case 'it':
       clerkLocale = itIT;
       break;
     case 'ja':
       clerkLocale = jaJP;
-      break;
-    case 'ko':
-      clerkLocale = koKR;
       break;
     case 'nl':
       clerkLocale = nlNL;
@@ -87,14 +77,8 @@ export default function AuthLayout(props: {
     case 'sv':
       clerkLocale = svSE;
       break;
-    case 'tr':
-      clerkLocale = trTR;
-      break;
     case 'uk':
       clerkLocale = ukUA;
-      break;
-    case 'vi':
-      clerkLocale = viVN;
       break;
     case 'zh':
       clerkLocale = zhCN;

@@ -1,11 +1,10 @@
 import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
-import type { SignedUrlOptions } from 'pinata';
 
 import { logger } from '@/libs/Logger';
 import { pinata } from '@/libs/Pinata';
 
-const GET = async (request: NextRequest) => {
+export const GET = async (request: NextRequest) => {
   try {
     const { searchParams } = request.nextUrl;
     const cid = searchParams.get('cid');
@@ -14,14 +13,18 @@ const GET = async (request: NextRequest) => {
       return NextResponse.json({ error: 'CID is required' }, { status: 400 });
     }
 
-    const url = await pinata.gateways.createSignedURL(<SignedUrlOptions>{
-      cid,
-      expires: 3600, // URL expires in 1 hour
+    const response = await fetch(`https://gateway.pinata.cloud/ipfs/${cid}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
     });
 
-    return NextResponse.json(url, { status: 200 });
+    const file = await response.json();
+
+    return NextResponse.json(file, { status: 200 });
   } catch (error) {
-    logger.error(error, 'An error occurred while retrieving a Pinata content');
+    logger.error(error, 'An error occurred while retrieving Pinata content');
     return NextResponse.json(
       { error: 'Internal Server Error' },
       { status: 500 },
@@ -29,12 +32,12 @@ const GET = async (request: NextRequest) => {
   }
 };
 
-const POST = async (request: NextRequest) => {
+export const POST = async (request: NextRequest) => {
   try {
     const data = await request.json();
     const uploadData = await pinata.upload.json(data);
 
-    return NextResponse.json(uploadData, { status: 200 });
+    return NextResponse.json({ cid: uploadData.IpfsHash }, { status: 200 });
   } catch (error) {
     logger.error(error, 'An error occurred while creating a Pinata content');
     return NextResponse.json(
@@ -43,5 +46,3 @@ const POST = async (request: NextRequest) => {
     );
   }
 };
-
-export { GET, POST };

@@ -14,7 +14,7 @@ export const Env = createEnv({
     NEXT_PUBLIC_APP_URL: z.string().optional(),
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().min(1),
     NEXT_PUBLIC_CLERK_SIGN_IN_URL: z.string().min(1),
-    NEXT_PUBLIC_PINATA_GATEWAY_URL: z.string().url(),
+    NEXT_PUBLIC_PINATA_GATEWAY_URL: z.string().min(1),
     NEXT_PUBLIC_STELLAR_SERVER_URL: z.string().url(),
     NEXT_PUBLIC_STELLAR_NETWORK: z.enum(
       Object.keys(Networks) as [string, ...string[]],

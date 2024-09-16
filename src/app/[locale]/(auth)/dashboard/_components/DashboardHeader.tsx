@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/button';
 import Logo from '@/public/assets/images/cv_mate_logo.svg';
 
 interface DashboardNavigationProps {
-  title?: string;
+  title: string;
   cvGeneratorTranslation: string;
   profileLinkTranslation: string;
   settingsTranslation: string;
@@ -78,6 +78,7 @@ const DashboardHeader = () => {
         />
 
         <MobileDashboardHeader
+          title={t('title')}
           cvGeneratorTranslation={t('cv_generator_link')}
           profileLinkTranslation={t('profile_link')}
           settingsTranslation={t('settings_link')}

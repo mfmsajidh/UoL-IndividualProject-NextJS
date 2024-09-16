@@ -20,7 +20,9 @@ export default function DashboardLayout(props: { children: ReactNode }) {
     <div className="flex min-h-screen flex-col bg-gray-950 text-gray-100">
       <DashboardHeader />
 
-      <main className="container mx-auto flex-1 py-6">{props.children}</main>
+      <main className="container mx-auto flex-1 px-4 py-12 sm:px-1">
+        {props.children}
+      </main>
 
       <DashboardFooter />
     </div>

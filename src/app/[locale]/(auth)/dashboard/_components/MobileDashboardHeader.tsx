@@ -13,6 +13,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import Logo from '@/public/assets/images/cv_mate_logo.svg';
 
 export const MobileDashboardHeader: FC<DashboardNavigationProps> = ({
+  title,
   cvGeneratorTranslation,
   profileLinkTranslation,
   settingsTranslation,
@@ -27,6 +28,7 @@ export const MobileDashboardHeader: FC<DashboardNavigationProps> = ({
         onClick={() => setIsMobileMenuOpen(false)}
       >
         <Image src={Logo} alt="Logo of CV Mate" className="w-28" />
+        <span className="text-xl font-bold text-[#FFA857]">{title}</span>
       </Link>
       <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
         <SheetTrigger asChild>

@@ -76,7 +76,7 @@ const POST = async (request: NextRequest) => {
 
     return NextResponse.json({}, { status: 200 });
   } catch (error) {
-    console.error('Error updating metadata:', error);
+    logger.error('Error updating metadata:', error);
     return NextResponse.json(
       { error: 'Internal Server Error' },
       { status: 500 },
