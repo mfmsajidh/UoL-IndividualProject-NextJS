@@ -295,7 +295,7 @@
     "remove_experience": "Fjern erfaring",
     "add_experience": "Legg til erfaring",
     "save": "Lagrer...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Lagre erfaringer."
   },
   "ProfileEducation": {
     "school": "Skole",
@@ -323,29 +323,29 @@
     "save_profile": "Lagre Leksjoner"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Angi en ferdighet",
     "skill_validation": "Ferdighet er nødvendig",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Minst en ferdighet kreves",
     "add_skill": "Legg til ferdighet",
     "save": "Lagrer...",
     "save_profile": "Lagre ferdighetene"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Språk",
+    "language_placeholder": "Navnet på språket",
+    "language_validation_1": "Språk er påkrevd",
+    "language_validation_2": "Språket må være mindre enn 50 tegn",
     "proficiency": "Kompetanse",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Velg ferdigheter nivå",
+    "proficiency_value_native": "Nativ eller tospråklig ferdigheter",
+    "proficiency_value_full": "Full profesjonell dyktighet",
+    "proficiency_value_professional": "Profesjonell arbeidskompetanse",
+    "proficiency_value_limited": "Begrenset arbeidsdyktighet",
     "proficiency_value_elementary": "Valgfri dyktighet",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Kompetanse kreves",
+    "remove_language": "Fjern språk",
     "add_language": "Legg til språk",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Lagrer...",
+    "save_profile": "Lagre språk"
   }
 }
