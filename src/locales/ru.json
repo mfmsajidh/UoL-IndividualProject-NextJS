@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Подключиться к Stellar Кошелёку",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Безопасно подключите ваш Stellar кошелек для доступа к функциям блокчейна",
+    "loading_connect": "Подключить кошелек",
+    "loading_connecting": "Подключение...",
+    "loading_connected": "Подключено к",
+    "wallet": "Кошелек",
+    "you_have": "У вас есть",
     "learn_more": "Узнайте больше о Stellar"
+  },
+  "Loading": {
+    "loading": "Загрузка",
+    "description": "Подготовка вашего опыта, основанного на AI,"
+  },
+  "Profile": {
+    "title": "Ваш профиль",
+    "about": "О программе",
+    "experience": "Опыт работы",
+    "education": "Образование",
+    "skills": "Навыки",
+    "languages": "Языки"
   },
   "CVGenerator": {
     "title": "Сгенерировать резюме",
-    "job_description": "Job Description",
+    "job_description": "Описание задания",
     "paste_your_description": "Вставьте здесь описание вашей работы...",
     "generating": "Создание...",
     "generate_document": "Создать документ",
-    "generated_document": "Generated Document",
+    "generated_document": "Сгенерированный документ",
     "loading_profile_data": "Загрузка данных профиля...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Здесь появится созданный вами документ...",
+    "export_pdf": "Экспорт в PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Полное имя",
+    "full_name_placeholder": "Введите ваше полное имя",
+    "full_name_validation": "Полное имя обязательно",
+    "headline": "Заголовок профессионала",
+    "headline_placeholder": "например, старший программист",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Расскажите нам о себе",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Сохранение...",
+    "save_profile": "Save Profile"
   }
 }
