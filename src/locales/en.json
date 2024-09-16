@@ -262,7 +262,7 @@
     "about_placeholder": "Tell us about yourself",
     "about_validation": "About must be at least 10 characters long",
     "save": "Saving...",
-    "save_profile": "Save Profile"
+    "save_profile": "Save About"
   },
   "ProfileExperience": {
     "title": "Title",
@@ -295,7 +295,7 @@
     "remove_experience": "Remove Experience",
     "add_experience": "Add Experience",
     "save": "Saving...",
-    "save_profile": "Save Profile"
+    "save_profile": "Save Experiences"
   },
   "ProfileEducation": {
     "school": "School",
@@ -320,7 +320,7 @@
     "remove_education": "Remove Education",
     "add_education": "Add Education",
     "save": "Saving...",
-    "save_profile": "Save Profile"
+    "save_profile": "Save Educations"
   },
   "ProfileSkills": {
     "placeholder": "Enter a skill",
@@ -328,6 +328,24 @@
     "skills_validation": "At least one skill is required",
     "add_skill": "Add Skill",
     "save": "Saving...",
-    "save_profile": "Save Profile"
+    "save_profile": "Save Skills"
+  },
+  "ProfileLanguages": {
+    "language": "Language",
+    "language_placeholder": "Name of the Language",
+    "language_validation_1": "Language is required",
+    "language_validation_2": "Language must be less than 50 characters",
+    "proficiency": "Proficiency",
+    "proficiency_placeholder": "Select proficiency level",
+    "proficiency_value_native": "Native or bilingual proficiency",
+    "proficiency_value_full": "Full professional proficiency",
+    "proficiency_value_professional": "Professional working proficiency",
+    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_value_elementary": "Elementary proficiency",
+    "proficiency_validation": "Proficiency is required",
+    "remove_language": "Remove Language",
+    "add_language": "Add Language",
+    "save": "Saving...",
+    "save_profile": "Save Languages"
   }
 }

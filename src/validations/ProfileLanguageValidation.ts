@@ -1,14 +1,20 @@
+import type { useTranslations } from 'next-intl';
 import { z } from 'zod';
 
-// Validation for the languages section
-export const ProfileLanguageValidation = z.object({
-  languages: z.array(
-    z.object({
-      language: z
-        .string()
-        .min(1, { message: 'Language is required' })
-        .max(50, { message: 'Language must be less than 50 characters' }),
-      proficiency: z.string().min(1, { message: 'Proficiency is required' }),
-    }),
-  ),
-});
+export const ProfileLanguageValidation = (
+  t: ReturnType<typeof useTranslations>,
+) => {
+  return z.object({
+    languages: z.array(
+      z.object({
+        language: z
+          .string()
+          .min(1, { message: t('language_validation_1') })
+          .max(50, { message: t('language_validation_2') }),
+        proficiency: z
+          .string()
+          .min(1, { message: t('proficiency_validation') }),
+      }),
+    ),
+  });
+};
