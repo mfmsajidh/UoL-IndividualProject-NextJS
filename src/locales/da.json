@@ -58,17 +58,8 @@
     "meta_title": "Tilmeld dig",
     "meta_description": "Opret ubesværet en konto gennem vores intuitive tilmeldingsproces."
   },
-  "Dashboard": {
-    "meta_title": "Instrumentbræt",
-    "hello_message": "Hej {email}!"
-  },
   "UserProfile": {
     "meta_title": "Bruger Profil"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Instrumentbræt",
-    "user_profile_link": "Administrer din konto",
-    "sign_out": "Log ud"
   },
   "TermsLayout": {
     "back_to_home_link": "Hjem"
@@ -226,5 +217,26 @@
     "profile_link": "Profil",
     "settings_link": "Indstillinger",
     "sign_out_link": "Log ud"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "Opret forbindelse til Stellar Wallet",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "Læs mere om Stellar"
+  },
+  "CVGenerator": {
+    "title": "Generer dit CV",
+    "job_description": "Job Description",
+    "paste_your_description": "Indsæt din jobbeskrivelse her...",
+    "generating": "Genererer...",
+    "generate_document": "Generer Dokument",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "Indlæser profildata...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }
