@@ -65,7 +65,7 @@ export const MobileDashboardHeader: FC<DashboardNavigationProps> = ({
                 {cvGeneratorTranslation}
               </Link>
               <Link
-                href="/dashboard/profile"
+                href="/dashboard/profile/about"
                 className="py-2 text-lg hover:text-blue-400"
                 onClick={() => setIsMobileMenuOpen(false)}
               >

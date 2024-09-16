@@ -40,7 +40,7 @@ const DesktopNavigation: FC<DashboardNavigationProps> = ({
             {cvGeneratorTranslation}
           </Link>
           <Link
-            href="/dashboard/profile"
+            href="/dashboard/profile/about"
             className="text-gray-300 hover:text-white"
           >
             {profileLinkTranslation}
