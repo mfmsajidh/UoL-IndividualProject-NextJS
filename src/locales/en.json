@@ -217,5 +217,15 @@
     "profile_link": "Profile",
     "settings_link": "Settings",
     "sign_out_link": "Sign out"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "Connect to Stellar Wallet",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "Learn more about Stellar"
   }
 }

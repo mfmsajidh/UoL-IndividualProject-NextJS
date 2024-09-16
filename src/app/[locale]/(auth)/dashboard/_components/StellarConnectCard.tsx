@@ -1,6 +1,7 @@
 'use client';
 
 import { ExternalLink, Link as LinkIcon, Wallet } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 import { Button } from '@/components/ui/button';
 import {
@@ -15,6 +16,7 @@ import { useWallet } from '@/hooks/useWallet';
 import { shortenStellarAddress } from '@/utils/StellarUtil';
 
 export const StellarConnectCard = () => {
+  const t = useTranslations('StellarConnectCard');
   const { publicKey, account, network, connectWallet, isLoading } = useWallet();
 
   const nativeBalance =
@@ -22,11 +24,11 @@ export const StellarConnectCard = () => {
 
   let loadingText;
   if (isLoading) {
-    loadingText = 'Connecting...';
+    loadingText = t('loading_connecting');
   } else if (publicKey) {
-    loadingText = `Connected to ${network}`;
+    loadingText = `${t('loading_connected')}  ${network}`;
   } else {
-    loadingText = 'Connect Wallet';
+    loadingText = t('loading_connect');
   }
 
   return (
@@ -34,10 +36,10 @@ export const StellarConnectCard = () => {
       <Card className="w-full max-w-md border-gray-700 bg-gray-800">
         <CardHeader className="text-center">
           <CardTitle className="text-2xl font-bold text-white">
-            Connect to Stellar Wallet
+            {t('connect_to_wallet')}
           </CardTitle>
           <CardDescription className="text-gray-400">
-            Securely connect your Stellar wallet to access blockchain features
+            {t('connect_to_wallet_description')}
           </CardDescription>
         </CardHeader>
         <CardContent className="flex justify-center">
@@ -57,10 +59,10 @@ export const StellarConnectCard = () => {
             <>
               <p className="flex items-center text-green-400">
                 <LinkIcon className="mr-2 size-4" />
-                {`Wallet ${shortenStellarAddress(publicKey)}`}
+                {`${t('wallet')} ${shortenStellarAddress(publicKey)}`}
               </p>
               <p className="flex items-center text-green-400">
-                {`You have ${nativeBalance} XLMs`}
+                {`${t('you_have')} ${nativeBalance} XLMs`}
               </p>
             </>
           )}
@@ -70,7 +72,7 @@ export const StellarConnectCard = () => {
             rel="noopener noreferrer"
             className="flex items-center text-blue-400 hover:text-blue-300"
           >
-            Learn more about Stellar
+            {t('learn_more')}
             <ExternalLink className="ml-1 size-4" />
           </a>
         </CardFooter>
