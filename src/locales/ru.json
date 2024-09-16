@@ -295,7 +295,7 @@
     "remove_experience": "Удалить опыт",
     "add_experience": "Добавить опыт",
     "save": "Сохранение...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Сохранить опыт"
   },
   "ProfileEducation": {
     "school": "Школа",
@@ -323,29 +323,29 @@
     "save_profile": "Сохранить образование"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Войти в навык",
     "skill_validation": "Навык необходим",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Требуется хотя бы один навык",
     "add_skill": "Добавить навык",
     "save": "Сохранение...",
     "save_profile": "Сохранить навыки"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Язык",
+    "language_placeholder": "Название языка",
+    "language_validation_1": "Требуется язык",
+    "language_validation_2": "Язык должен быть меньше 50 символов",
     "proficiency": "Опыт",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Выберите уровень мастерства",
+    "proficiency_value_native": "Родной или двуязычный уровень",
+    "proficiency_value_full": "Полное профессиональное мастерство",
+    "proficiency_value_professional": "Профессиональная квалификация",
+    "proficiency_value_limited": "Ограниченное мастерство работы",
     "proficiency_value_elementary": "Простое мастерство",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Необходима квалификация",
+    "remove_language": "Удалить язык",
     "add_language": "Добавить язык",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Сохранение...",
+    "save_profile": "Сохранить языки"
   }
 }
