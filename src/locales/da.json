@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Opret forbindelse til Stellar Wallet",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Forbind din Stellar tegnebog sikkert for at få adgang til blockchain funktioner",
+    "loading_connect": "Forbind Tegnebog",
+    "loading_connecting": "Forbinder...",
+    "loading_connected": "Forbundet til",
+    "wallet": "Tegnebog",
+    "you_have": "Du har",
     "learn_more": "Læs mere om Stellar"
+  },
+  "Loading": {
+    "loading": "Indlæser",
+    "description": "Forbereder din AI-drevne CV-oplevelse"
+  },
+  "Profile": {
+    "title": "Din Profil",
+    "about": "Om",
+    "experience": "Erfaring",
+    "education": "Uddannelse",
+    "skills": "Færdigheder",
+    "languages": "Sprog"
   },
   "CVGenerator": {
     "title": "Generer dit CV",
-    "job_description": "Job Description",
+    "job_description": "Jobbeskrivelse",
     "paste_your_description": "Indsæt din jobbeskrivelse her...",
     "generating": "Genererer...",
     "generate_document": "Generer Dokument",
-    "generated_document": "Generated Document",
+    "generated_document": "Genereret Dokument",
     "loading_profile_data": "Indlæser profildata...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Dit genererede dokument vil blive vist her...",
+    "export_pdf": "Eksporter som PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Fulde Navn",
+    "full_name_placeholder": "Indtast dit fulde navn",
+    "full_name_validation": "Fuldt navn er påkrævet",
+    "headline": "Professionel Overskrift",
+    "headline_placeholder": "f.eks. Senior Software Engineer",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Fortæl os om dig selv",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Gemmer...",
+    "save_profile": "Save Profile"
   }
 }

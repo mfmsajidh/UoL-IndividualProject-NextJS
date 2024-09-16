@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Σύνδεση στο Stellar Wallet",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Συνδέστε με ασφάλεια το Stellar πορτοφόλι σας για να αποκτήσετε πρόσβαση σε δυνατότητες blockchain",
+    "loading_connect": "Σύνδεση Πορτοφολιού",
+    "loading_connecting": "Σύνδεση...",
+    "loading_connected": "Συνδεδεμένο σε",
+    "wallet": "Πορτοφόλι",
+    "you_have": "Έχετε",
     "learn_more": "Μάθετε περισσότερα για το Stellar"
+  },
+  "Loading": {
+    "loading": "Φόρτωση",
+    "description": "Προετοιμάζοντας την AI-powered εμπειρία σας στο βιογραφικό"
+  },
+  "Profile": {
+    "title": "Το Προφίλ Σας",
+    "about": "Σχετικά",
+    "experience": "Εμπειρία",
+    "education": "Εκπαίδευση",
+    "skills": "Δεξιότητες",
+    "languages": "Γλώσσες"
   },
   "CVGenerator": {
     "title": "Δημιουργήστε το βιογραφικό σας",
-    "job_description": "Job Description",
+    "job_description": "Περιγραφή Εργασίας",
     "paste_your_description": "Επικολλήστε την περιγραφή της εργασίας σας εδώ...",
     "generating": "Δημιουργία...",
     "generate_document": "Δημιουργία Εγγράφου",
-    "generated_document": "Generated Document",
+    "generated_document": "Δημιουργημένο Έγγραφο",
     "loading_profile_data": "Φόρτωση δεδομένων προφίλ...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Το έγγραφο που δημιουργήσατε θα εμφανιστεί εδώ...",
+    "export_pdf": "Εξαγωγή ως PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Πλήρες Όνομα",
+    "full_name_placeholder": "Εισάγετε το πλήρες όνομά σας",
+    "full_name_validation": "Το πλήρες όνομα απαιτείται",
+    "headline": "Επαγγελματικός Επικεφαλίδα",
+    "headline_placeholder": "π.χ., Ανώτερος Μηχανικός Λογισμικού",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Πείτε μας για τον εαυτό σας",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Αποθηκεύεται...",
+    "save_profile": "Save Profile"
   }
 }

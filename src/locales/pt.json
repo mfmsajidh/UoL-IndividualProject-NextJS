@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Conectar à Carteira Estelar",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Conecte com segurança sua carteira Stellar para acessar as funcionalidades do blockchain",
+    "loading_connect": "Conectar Carteira",
+    "loading_connecting": "Conectandochar@@0",
+    "loading_connected": "Conectado a",
+    "wallet": "Carteira",
+    "you_have": "Você tem",
     "learn_more": "Saiba mais sobre Stellar"
+  },
+  "Loading": {
+    "loading": "Carregando...",
+    "description": "Preparando sua experiência CV fortalecida com IU"
+  },
+  "Profile": {
+    "title": "Seu perfil",
+    "about": "SOBRE",
+    "experience": "Experiência",
+    "education": "Educação",
+    "skills": "Habilidades",
+    "languages": "Idiomas"
   },
   "CVGenerator": {
     "title": "Gerar seu CV",
-    "job_description": "Job Description",
+    "job_description": "Descrição do Trabalho",
     "paste_your_description": "Cole a descrição do seu trabalho aqui...",
     "generating": "Gerando...",
     "generate_document": "Gerar Documento",
-    "generated_document": "Generated Document",
+    "generated_document": "Documento gerado",
     "loading_profile_data": "Carregando dados de perfil...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Seu documento gerado aparecerá aqui...",
+    "export_pdf": "Exportar como PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Nome Completo",
+    "full_name_placeholder": "Digite seu nome completo",
+    "full_name_validation": "Nome Completo é necessário",
+    "headline": "Cabeçalho Profissional",
+    "headline_placeholder": "ex.: Engenheiro de Software Sênior",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Conte-nos sobre você",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Salvando...",
+    "save_profile": "Save Profile"
   }
 }

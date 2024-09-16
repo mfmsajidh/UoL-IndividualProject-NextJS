@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "连接到Stellar Wallet",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "安全地连接您的 Stellar 钱包以访问 blockchain 功能",
+    "loading_connect": "连接钱包",
+    "loading_connecting": "正在连接...",
+    "loading_connected": "连接到",
+    "wallet": "钱包",
+    "you_have": "你有",
     "learn_more": "了解更多关于恒星的信息"
+  },
+  "Loading": {
+    "loading": "正在加载",
+    "description": "正在准备您的 AI功率 CV 体验"
+  },
+  "Profile": {
+    "title": "您的个人资料",
+    "about": "关于",
+    "experience": "经历",
+    "education": "教育",
+    "skills": "技能",
+    "languages": "语文"
   },
   "CVGenerator": {
     "title": "生成您的 CV",
-    "job_description": "Job Description",
+    "job_description": "作业描述",
     "paste_your_description": "在这里粘贴您的作业描述...",
     "generating": "正在生成...",
     "generate_document": "生成文档",
-    "generated_document": "Generated Document",
+    "generated_document": "生成的文档",
     "loading_profile_data": "正在加载配置文件数据...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "您生成的文档将出现在这里...",
+    "export_pdf": "导出为 PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "全名",
+    "full_name_placeholder": "输入您的全名",
+    "full_name_validation": "必须填写全名",
+    "headline": "专业标题",
+    "headline_placeholder": "例如，高级软件Engineer",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "告诉我们自己的信息",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "保存中...",
+    "save_profile": "Save Profile"
   }
 }

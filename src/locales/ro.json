@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Conectează-te la Portofelul Stellar",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Conectați în siguranță portofelul Stellar pentru a accesa funcțiile blockchain",
+    "loading_connect": "Conectează Portofel",
+    "loading_connecting": "Conectare...",
+    "loading_connected": "Conectat la",
+    "wallet": "Portofel",
+    "you_have": "Ai",
     "learn_more": "Află mai multe despre Stellar"
+  },
+  "Loading": {
+    "loading": "Încărcare",
+    "description": "Pregătirea experienței CV cu AI"
+  },
+  "Profile": {
+    "title": "Profilul tău",
+    "about": "Despre",
+    "experience": "Experiență",
+    "education": "Educaţia",
+    "skills": "Competențe",
+    "languages": "Limbi"
   },
   "CVGenerator": {
     "title": "Generează CV-ul tău",
-    "job_description": "Job Description",
+    "job_description": "Descriere job",
     "paste_your_description": "Lipiți descrierea postului aici...",
     "generating": "Generare...",
     "generate_document": "Generează Document",
-    "generated_document": "Generated Document",
+    "generated_document": "Document generat",
     "loading_profile_data": "Se încarcă datele profilului...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Documentul generat va apărea aici...",
+    "export_pdf": "Exportă ca PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Nume complet",
+    "full_name_placeholder": "Introduceți numele complet",
+    "full_name_validation": "Numele complet este necesar",
+    "headline": "Titlu profesional",
+    "headline_placeholder": "de ex. inginer software principal",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Spune-ne despre tine",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Salvare...",
+    "save_profile": "Save Profile"
   }
 }

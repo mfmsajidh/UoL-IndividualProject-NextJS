@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "الاتصال بمحفظة Stellar",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "قم بتوصيل محفظة Stellar الخاصة بك بالوصول إلى ميزات سلسلة الكتل",
+    "loading_connect": "توصيل المحفظة",
+    "loading_connecting": "جاري الاتصال...",
+    "loading_connected": "متصل بـ",
+    "wallet": "المحفظة",
+    "you_have": "لديك",
     "learn_more": "تعرف على المزيد حول Stellar"
+  },
+  "Loading": {
+    "loading": "جاري التحميل",
+    "description": "إعداد خبرة السيرة الذاتية الخاصة بك في AI"
+  },
+  "Profile": {
+    "title": "ملفك الشخصي",
+    "about": "حول",
+    "experience": "الخبرة",
+    "education": "التعليم",
+    "skills": "المهارات",
+    "languages": "اللغات"
   },
   "CVGenerator": {
     "title": "توليد السيرة الذاتية",
-    "job_description": "Job Description",
+    "job_description": "وصف الوظيفة",
     "paste_your_description": "لصق توصيف العمل الخاص بك هنا...",
     "generating": "توليد ...",
     "generate_document": "إنشاء وثيقة",
-    "generated_document": "Generated Document",
+    "generated_document": "وثيقة مولدة",
     "loading_profile_data": "جاري تحميل بيانات الملف الشخصي...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "ستظهر هنا الوثيقة التي تم إنشاؤها...",
+    "export_pdf": "تصدير كملف PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "الاسم الكامل",
+    "full_name_placeholder": "أدخل اسمك الكامل",
+    "full_name_validation": "الاسم الكامل مطلوب",
+    "headline": "العنوان المهني",
+    "headline_placeholder": "على سبيل المثال، كبير مهندسي البرمجيات",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "أخبرنا عن نفسك",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "حفظ...",
+    "save_profile": "Save Profile"
   }
 }

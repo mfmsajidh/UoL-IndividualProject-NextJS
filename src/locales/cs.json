@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Připojit ke Stellar Wallet",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Bezpečně připojte vaši peněženku Stellar pro přístup k funkcím blockchainu",
+    "loading_connect": "Připojit peněženku",
+    "loading_connecting": "Připojování...",
+    "loading_connected": "Připojeno k",
+    "wallet": "Peněženka",
+    "you_have": "Máte",
     "learn_more": "Zjistěte více o Stellar"
+  },
+  "Loading": {
+    "loading": "Načítání",
+    "description": "Příprava vašeho ultrafialového záření"
+  },
+  "Profile": {
+    "title": "Váš profil",
+    "about": "O aplikaci",
+    "experience": "Zkušenosti",
+    "education": "Vzdělávání",
+    "skills": "Dovednosti",
+    "languages": "Jazyky"
   },
   "CVGenerator": {
     "title": "Generovat CV",
-    "job_description": "Job Description",
+    "job_description": "Popis zakázky",
     "paste_your_description": "Zde vložte popis pracovní pozice...",
     "generating": "Generování",
     "generate_document": "Vygenerovat dokument",
-    "generated_document": "Generated Document",
+    "generated_document": "Vygenerovaný dokument",
     "loading_profile_data": "Načítání dat profilu...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Vygenerovaný doklad se objeví zde...",
+    "export_pdf": "Exportovat do PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Celé jméno",
+    "full_name_placeholder": "Zadejte celé jméno",
+    "full_name_validation": "Celé jméno je povinné",
+    "headline": "Profesní titulek",
+    "headline_placeholder": "Např. špičkový software inženýr",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Řekněte nám o sobě",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Ukládání...",
+    "save_profile": "Save Profile"
   }
 }
