@@ -295,7 +295,7 @@
     "remove_experience": "Usuń doświadczenie",
     "add_experience": "Dodaj doświadczenie",
     "save": "Zapisywanie...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Zapisz doświadczenia"
   },
   "ProfileEducation": {
     "school": "Szkoła",
@@ -323,29 +323,29 @@
     "save_profile": "Zapisz edukacje"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Wprowadź umiejętność",
     "skill_validation": "Umiejętność jest wymagana",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Wymagana jest co najmniej jedna umiejętność",
     "add_skill": "Dodaj Umiejętność",
     "save": "Zapisywanie...",
     "save_profile": "Zapisz umiejętności"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Język",
+    "language_placeholder": "Nazwa języka",
+    "language_validation_1": "Język jest wymagany",
+    "language_validation_2": "Język musi mieć mniej niż 50 znaków",
     "proficiency": "Umiejętność",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Wybierz poziom biegłości",
+    "proficiency_value_native": "Umiejętność rodzima lub dwujęzyczna",
+    "proficiency_value_full": "Pełna umiejętność zawodowa",
+    "proficiency_value_professional": "Wydajność zawodowa",
+    "proficiency_value_limited": "Ograniczona biegłość robocza",
     "proficiency_value_elementary": "Skuteczność podstawowa",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Wymagana jest umiejętność",
+    "remove_language": "Usuń język",
     "add_language": "Dodaj język",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Zapisywanie...",
+    "save_profile": "Zapisz języki"
   }
 }
