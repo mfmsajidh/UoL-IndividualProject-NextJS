@@ -228,6 +228,18 @@
     "you_have": "You have",
     "learn_more": "Learn more about Stellar"
   },
+  "Loading": {
+    "loading": "Loading",
+    "description": "Preparing your AI-powered CV experience"
+  },
+  "Profile": {
+    "title": "Your Profile",
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "languages": "Languages"
+  },
   "CVGenerator": {
     "title": "Generate your CV",
     "job_description": "Job Description",
@@ -238,5 +250,18 @@
     "loading_profile_data": "Loading profile data...",
     "generated_document_placeholder": "Your generated document will appear here...",
     "export_pdf": "Export as PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Full Name",
+    "full_name_placeholder": "Enter your full name",
+    "full_name_validation": "Full Name is required",
+    "headline": "Professional Headline",
+    "headline_placeholder": "e.g., Senior Software Engineer",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Tell us about yourself",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Saving...",
+    "save_profile": "Save Profile"
   }
 }

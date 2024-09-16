@@ -1,11 +1,13 @@
 'use client';
 
 import { zodResolver } from '@hookform/resolvers/zod';
+import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 import type { SubmitHandler } from 'react-hook-form';
 import { useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
+import Loading from '@/app/[locale]/(auth)/dashboard/profile/_components/Loading';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -21,9 +23,12 @@ import {
 import { ProfileAboutValidation } from '@/validations/ProfileAboutValidation';
 
 // Zod validation schema for the about section
-type ProfileAboutFormValues = z.infer<typeof ProfileAboutValidation>;
+type ProfileAboutFormValues = z.infer<
+  ReturnType<typeof ProfileAboutValidation>
+>;
 
 const ProfileAboutPage = () => {
+  const t = useTranslations('ProfileAbout');
   const { publicKey, signXDR } = useWallet();
   const [latestVersion, setLatestVersion] = useState<number>(0); // Track the latest version
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -36,7 +41,7 @@ const ProfileAboutPage = () => {
     setValue, // Hook to set form values dynamically
     formState: { errors },
   } = useForm<ProfileAboutFormValues>({
-    resolver: zodResolver(ProfileAboutValidation),
+    resolver: zodResolver(ProfileAboutValidation(t)),
     defaultValues: {
       name: '', // Set default empty values
       headline: '', // Set default empty values
@@ -119,79 +124,76 @@ const ProfileAboutPage = () => {
   };
 
   // Render form UI with loading and error handling
-  return (
+  return isLoading ? (
+    <Loading />
+  ) : (
     <form onSubmit={handleSubmit(onSubmit)}>
       <Card className="border-gray-700 bg-gray-800">
         <CardContent className="mt-6">
-          {isLoading ? (
-            <p>Loading...</p>
-          ) : (
-            <div className="space-y-4">
-              {/* Full Name */}
-              <div className="space-y-2">
-                <Label htmlFor="name" className="text-gray-200">
-                  Full Name
-                </Label>
-                <Input
-                  id="name"
-                  placeholder="Enter your full name"
-                  className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
-                  {...register('name')}
-                />
-                {errors.name?.message && (
-                  <div className="my-2 text-xs italic text-red-500">
-                    {errors.name.message}
-                  </div>
-                )}
-              </div>
-
-              {/* Professional Headline */}
-              <div className="space-y-2">
-                <Label htmlFor="headline" className="text-gray-200">
-                  Professional Headline
-                </Label>
-                <Input
-                  id="headline"
-                  placeholder="e.g., Senior Software Engineer"
-                  className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
-                  {...register('headline')}
-                />
-                {errors.headline?.message && (
-                  <div className="my-2 text-xs italic text-red-500">
-                    {errors.headline.message}
-                  </div>
-                )}
-              </div>
-
-              {/* About */}
-              <div className="space-y-2">
-                <Label htmlFor="about" className="text-gray-200">
-                  About
-                </Label>
-                <Textarea
-                  id="about"
-                  placeholder="Tell us about yourself"
-                  className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
-                  {...register('about')}
-                />
-                {errors.about?.message && (
-                  <div className="my-2 text-xs italic text-red-500">
-                    {errors.about.message}
-                  </div>
-                )}
-              </div>
+          <div className="space-y-4">
+            {/* Full Name */}
+            <div className="space-y-2">
+              <Label htmlFor="name" className="text-gray-200">
+                {t('full_name')}
+              </Label>
+              <Input
+                id="name"
+                placeholder={t('full_name_placeholder')}
+                className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
+                {...register('name')}
+              />
+              {errors.name?.message && (
+                <div className="my-2 text-xs italic text-red-500">
+                  {errors.name.message}
+                </div>
+              )}
             </div>
-          )}
+
+            {/* Professional Headline */}
+            <div className="space-y-2">
+              <Label htmlFor="headline" className="text-gray-200">
+                {t('headline')}
+              </Label>
+              <Input
+                id="headline"
+                placeholder={t('headline_placeholder')}
+                className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
+                {...register('headline')}
+              />
+              {errors.headline?.message && (
+                <div className="my-2 text-xs italic text-red-500">
+                  {errors.headline.message}
+                </div>
+              )}
+            </div>
+
+            {/* About */}
+            <div className="space-y-2">
+              <Label htmlFor="about" className="text-gray-200">
+                {t('about')}
+              </Label>
+              <Textarea
+                id="about"
+                placeholder={t('about_placeholder')}
+                className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
+                {...register('about')}
+              />
+              {errors.about?.message && (
+                <div className="my-2 text-xs italic text-red-500">
+                  {errors.about.message}
+                </div>
+              )}
+            </div>
+          </div>
         </CardContent>
       </Card>
-
       <div className="mt-8">
         <Button
           type="submit"
           className="bg-blue-600 text-white hover:bg-blue-700"
           disabled={isSubmitting}
         >
-          {isSubmitting ? 'Saving...' : 'Save Profile'}
+          {isSubmitting ? t('save') : t('save_profile')}
         </Button>
       </div>
     </form>
