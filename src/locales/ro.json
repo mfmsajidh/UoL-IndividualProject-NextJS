@@ -58,17 +58,8 @@
     "meta_title": "Înscrie-te",
     "meta_description": "Creează fără efort un cont prin procesul nostru intuitiv de înscriere."
   },
-  "Dashboard": {
-    "meta_title": "Panou",
-    "hello_message": "Salut, {email}!"
-  },
   "UserProfile": {
     "meta_title": "Profil utilizator"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Panou",
-    "user_profile_link": "Gestionează-ți contul",
-    "sign_out": "Deconectare"
   },
   "TermsLayout": {
     "back_to_home_link": "Acasă"
@@ -226,5 +217,26 @@
     "profile_link": "Profil",
     "settings_link": "Setări",
     "sign_out_link": "Deconectare"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "Conectează-te la Portofelul Stellar",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "Află mai multe despre Stellar"
+  },
+  "CVGenerator": {
+    "title": "Generează CV-ul tău",
+    "job_description": "Job Description",
+    "paste_your_description": "Lipiți descrierea postului aici...",
+    "generating": "Generare...",
+    "generate_document": "Generează Document",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "Se încarcă datele profilului...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }
