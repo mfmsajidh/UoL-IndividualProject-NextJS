@@ -58,17 +58,8 @@
     "meta_title": "Регистрация",
     "meta_description": "Усилия по созданию учетной записи через интуитивно понятный процесс регистрации."
   },
-  "Dashboard": {
-    "meta_title": "Панель",
-    "hello_message": "Здравствуйте, {email}!"
-  },
   "UserProfile": {
     "meta_title": "Профиль пользователя"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Панель",
-    "user_profile_link": "Управление аккаунтом",
-    "sign_out": "Выйти"
   },
   "TermsLayout": {
     "back_to_home_link": "Домашний"
@@ -226,5 +217,26 @@
     "profile_link": "Профиль",
     "settings_link": "Настройки",
     "sign_out_link": "Выйти"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "Подключиться к Stellar Кошелёку",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "Узнайте больше о Stellar"
+  },
+  "CVGenerator": {
+    "title": "Сгенерировать резюме",
+    "job_description": "Job Description",
+    "paste_your_description": "Вставьте здесь описание вашей работы...",
+    "generating": "Создание...",
+    "generate_document": "Создать документ",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "Загрузка данных профиля...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }
