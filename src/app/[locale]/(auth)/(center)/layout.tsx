@@ -16,7 +16,7 @@ export default function CenteredLayout(props: { children: React.ReactNode }) {
       {/* App Bar */}
       <AppHeader />
 
-      <div className="grow content-center">{props.children}</div>
+      <div className="grow content-center py-6">{props.children}</div>
 
       {/* Footer */}
       <AppFooter />
