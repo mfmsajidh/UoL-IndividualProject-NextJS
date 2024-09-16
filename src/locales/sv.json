@@ -295,7 +295,7 @@
     "remove_experience": "Ta bort erfarenhet",
     "add_experience": "Lägg till upplevelse",
     "save": "Sparar...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Spara erfarenheter"
   },
   "ProfileEducation": {
     "school": "Skolan",
@@ -323,29 +323,29 @@
     "save_profile": "Spara utbildningar"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Ange en färdighet",
     "skill_validation": "Färdighet krävs",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Minst en färdighet krävs",
     "add_skill": "Lägg till Färdighet",
     "save": "Sparar...",
     "save_profile": "Spara förmågor"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Språk",
+    "language_placeholder": "Namnet på språket",
+    "language_validation_1": "Språk måste fyllas i.",
+    "language_validation_2": "Språket måste vara mindre än 50 tecken",
     "proficiency": "Färdighet",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Välj kunskapsnivå",
+    "proficiency_value_native": "Inhemsk eller tvåspråkig skicklighet",
+    "proficiency_value_full": "Fullständiga yrkeskunskaper",
+    "proficiency_value_professional": "Professionell arbetsskicklighet",
+    "proficiency_value_limited": "Begränsad arbetsförmåga",
     "proficiency_value_elementary": "Grundläggande skicklighet",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Färdighet krävs",
+    "remove_language": "Ta bort språk",
     "add_language": "Lägg till språk",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Sparar...",
+    "save_profile": "Spara språk"
   }
 }
