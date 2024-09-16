@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Stellar Walletに接続",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Stellarウォレットを安全に接続してブロックチェーン機能にアクセスしましょう",
+    "loading_connect": "ウォレットに接続",
+    "loading_connecting": "接続中...",
+    "loading_connected": "接続しました",
+    "wallet": "ウォレット",
+    "you_have": "持っている",
     "learn_more": "ステラーについてもっと詳しく"
+  },
+  "Loading": {
+    "loading": "読み込み中",
+    "description": "AIを搭載したCV体験を準備する"
+  },
+  "Profile": {
+    "title": "プロフィール",
+    "about": "About",
+    "experience": "経験",
+    "education": "教育",
+    "skills": "スキル",
+    "languages": "言語"
   },
   "CVGenerator": {
     "title": "CV を生成",
-    "job_description": "Job Description",
+    "job_description": "作業の説明",
     "paste_your_description": "ここにジョブの説明を貼り付けてください...",
     "generating": "生成中...",
     "generate_document": "ドキュメントの生成",
-    "generated_document": "Generated Document",
+    "generated_document": "生成された文書",
     "loading_profile_data": "プロファイルデータを読み込んでいます...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "生成されたドキュメントがここに表示されます...",
+    "export_pdf": "PDF としてエクスポート"
+  },
+  "ProfileAbout": {
+    "full_name": "フルネーム",
+    "full_name_placeholder": "フルネームを入力してください",
+    "full_name_validation": "氏名が必要です",
+    "headline": "専門的な見出し",
+    "headline_placeholder": "例：シニアソフトウェアエンジニア",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "あなたについて教えてください",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "保存中...",
+    "save_profile": "Save Profile"
   }
 }
