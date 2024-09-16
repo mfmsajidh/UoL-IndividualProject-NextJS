@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Anslut till Stellar Wallet",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Anslut din Stellar-plånbok på ett säkert sätt för att komma åt blockkedjefunktioner",
+    "loading_connect": "Anslut plånbok",
+    "loading_connecting": "Ansluter...",
+    "loading_connected": "Ansluten till",
+    "wallet": "Plånbok",
+    "you_have": "Du har",
     "learn_more": "Läs mer om Stellar"
+  },
+  "Loading": {
+    "loading": "Laddar",
+    "description": "Förbered din AI-drivna CV-upplevelse"
+  },
+  "Profile": {
+    "title": "Din profil",
+    "about": "Om",
+    "experience": "Erfarenhet",
+    "education": "Utbildning",
+    "skills": "Färdigheter",
+    "languages": "Språk"
   },
   "CVGenerator": {
     "title": "Skapa ditt CV",
-    "job_description": "Job Description",
+    "job_description": "Arbetsbeskrivning",
     "paste_your_description": "Klistra in din arbetsbeskrivning här...",
     "generating": "Genererar...",
     "generate_document": "Generera dokument",
-    "generated_document": "Generated Document",
+    "generated_document": "Genererat dokument",
     "loading_profile_data": "Laddar profildata...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Ditt genererade dokument visas här...",
+    "export_pdf": "Exportera som PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Fullständigt namn",
+    "full_name_placeholder": "Ange ditt fullständiga namn",
+    "full_name_validation": "Fullständigt namn krävs",
+    "headline": "Professionell rubrik",
+    "headline_placeholder": "Exempelvis Senior Software Engineer",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Berätta om dig själv",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Sparar...",
+    "save_profile": "Save Profile"
   }
 }
