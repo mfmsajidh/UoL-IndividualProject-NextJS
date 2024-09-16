@@ -58,17 +58,8 @@
     "meta_title": "Registreer nu",
     "meta_description": "Maak zonder problemen een account aan via onze intuïtieve aanmeldingsprocedure."
   },
-  "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hallo {email}!"
-  },
   "UserProfile": {
     "meta_title": "Gebruikers Profiel"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Beheer je account",
-    "sign_out": "Log uit"
   },
   "TermsLayout": {
     "back_to_home_link": "Startpagina"
@@ -226,5 +217,26 @@
     "profile_link": "Profiel",
     "settings_link": "Instellingen",
     "sign_out_link": "Log uit"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "Verbind met Stellar Wallet",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "Meer informatie over Stellar"
+  },
+  "CVGenerator": {
+    "title": "Genereer uw CV",
+    "job_description": "Job Description",
+    "paste_your_description": "Plak uw job omschrijving hier ...",
+    "generating": "Genereren...",
+    "generate_document": "Document aanmaken",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "Profielgegevens laden...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }
