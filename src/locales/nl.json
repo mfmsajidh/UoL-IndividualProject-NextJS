@@ -295,7 +295,7 @@
     "remove_experience": "Ervaring verwijderen",
     "add_experience": "Ervaring toevoegen",
     "save": "Opslaan...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Ervaringen opslaan"
   },
   "ProfileEducation": {
     "school": "School",
@@ -323,29 +323,29 @@
     "save_profile": "Onderwijs opslaan"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Voer een vaardigheid in",
     "skill_validation": "Vaardigheid is vereist",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Ten minste één vaardigheid is vereist",
     "add_skill": "Vaardigheid toevoegen",
     "save": "Opslaan...",
     "save_profile": "Bespaar vaardigheden"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Taal",
+    "language_placeholder": "Naam van de taal",
+    "language_validation_1": "Taal is vereist",
+    "language_validation_2": "Taal moet minder dan 50 tekens bevatten",
     "proficiency": "Vaardigheid",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Selecteer bekwaamheidsniveau",
+    "proficiency_value_native": "Oorspronkelijke of tweetalige bekwaamheid",
+    "proficiency_value_full": "Volledige professionele bekwaamheid",
+    "proficiency_value_professional": "Professionele werkvaardigheid",
+    "proficiency_value_limited": "Beperkte werkvaardigheid",
     "proficiency_value_elementary": "Basiskennis",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Vaardigheid is vereist",
+    "remove_language": "Taal verwijderen",
     "add_language": "Taal toevoegen",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Opslaan...",
+    "save_profile": "Talen opslaan"
   }
 }
