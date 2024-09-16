@@ -58,17 +58,8 @@
     "meta_title": "Zarejestruj",
     "meta_description": "Bezproblemowo utwórz konto dzięki intuicyjnemu procesowi rejestracji."
   },
-  "Dashboard": {
-    "meta_title": "Pulpit",
-    "hello_message": "Witaj {email}!"
-  },
   "UserProfile": {
     "meta_title": "Profil użytkownika"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Pulpit",
-    "user_profile_link": "Zarządzaj kontem",
-    "sign_out": "Wyloguj się"
   },
   "TermsLayout": {
     "back_to_home_link": "Strona główna"
@@ -226,5 +217,26 @@
     "profile_link": "Profil",
     "settings_link": "Ustawienia",
     "sign_out_link": "Wyloguj się"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "Połącz się z portfelem Stellar",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "Dowiedz się więcej o Stellar"
+  },
+  "CVGenerator": {
+    "title": "Wygeneruj swoje CV",
+    "job_description": "Job Description",
+    "paste_your_description": "Wklej swój opis pracy tutaj...",
+    "generating": "Generowanie...",
+    "generate_document": "Wygeneruj dokument",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "Ładowanie danych profilu...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }
