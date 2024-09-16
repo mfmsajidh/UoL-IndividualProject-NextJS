@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Підключитися до гаманця Stellar",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Безпечно підключіть ваш гаманець Stellar для доступу до функцій blockchain",
+    "loading_connect": "Підключіть Wallet",
+    "loading_connecting": "З’єднання...",
+    "loading_connected": "Підключено до",
+    "wallet": "Гаманець",
+    "you_have": "У вас є",
     "learn_more": "Дізнатися більше про Stellar"
+  },
+  "Loading": {
+    "loading": "Завантаження",
+    "description": "Підготовка до роботи з AI-потужним СВ"
+  },
+  "Profile": {
+    "title": "Ваш профіль",
+    "about": "Про програму",
+    "experience": "Досвід",
+    "education": "Освіта",
+    "skills": "Навики",
+    "languages": "Мови"
   },
   "CVGenerator": {
     "title": "Згенерувати CV",
-    "job_description": "Job Description",
+    "job_description": "Опис роботи",
     "paste_your_description": "Вставте опис завдання тут...",
     "generating": "Створення...",
     "generate_document": "Створити документ",
-    "generated_document": "Generated Document",
+    "generated_document": "Згенерований документ",
     "loading_profile_data": "Завантаження даних профілю...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Ваш згенерований документ з'явиться тут...",
+    "export_pdf": "Експорт в PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Ім’я і прізвище",
+    "full_name_placeholder": "Введіть своє повне ім'я",
+    "full_name_validation": "Потрібне повне ім'я",
+    "headline": "Професійний заголовок",
+    "headline_placeholder": "наприклад, Старший Інженер Програмерів",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Розкажіть нам про себе",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Збереження...",
+    "save_profile": "Save Profile"
   }
 }
