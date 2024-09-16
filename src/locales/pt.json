@@ -295,7 +295,7 @@
     "remove_experience": "Remover experiência",
     "add_experience": "Adicionar experiência",
     "save": "Salvando...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Salve experiências"
   },
   "ProfileEducation": {
     "school": "Instituição",
@@ -323,29 +323,29 @@
     "save_profile": "Salvar educações"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Insira uma habilidade",
     "skill_validation": "É necessária habilidade",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Pelo menos uma habilidade é necessária",
     "add_skill": "Adicionar Habilidade",
     "save": "Salvando...",
     "save_profile": "Salvar habilidades"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "IDIOMA",
+    "language_placeholder": "Nome do idioma",
+    "language_validation_1": "O idioma é obrigatório",
+    "language_validation_2": "Idioma deve ter menos de 50 caracteres",
     "proficiency": "Proficiência",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Selecionar nível de proficiência",
+    "proficiency_value_native": "Proficiência nativa ou bilíngue",
+    "proficiency_value_full": "Proficiência profissional completa",
+    "proficiency_value_professional": "Profissional proficiência de trabalho",
+    "proficiency_value_limited": "Proficiência de trabalho limitada",
     "proficiency_value_elementary": "Proficiência fundamental",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Proficiência é necessária",
+    "remove_language": "Remover Idioma",
     "add_language": "Adicionar Idioma",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Salvando...",
+    "save_profile": "Salvar Idiomas"
   }
 }
