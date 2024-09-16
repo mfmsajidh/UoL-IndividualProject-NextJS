@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Koble til stjernelommebok",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Fest lommeboken din på en sikker måte for å få tilgang til blokkjede-funksjoner",
+    "loading_connect": "Koble til lommebok",
+    "loading_connecting": "Tilkobler...",
+    "loading_connected": "Koblet til",
+    "wallet": "Lommebok",
+    "you_have": "Du har",
     "learn_more": "Lær mer om Stellar"
+  },
+  "Loading": {
+    "loading": "Laster",
+    "description": "Klargjøre din opplevelse med AI-basert CV"
+  },
+  "Profile": {
+    "title": "Din profil",
+    "about": "Om",
+    "experience": "Erfaring",
+    "education": "Utdanning",
+    "skills": "Ferdigheter",
+    "languages": "Språk"
   },
   "CVGenerator": {
     "title": "Generer din CV",
-    "job_description": "Job Description",
+    "job_description": "Jobb beskrivelse",
     "paste_your_description": "Lim inn jobbbeskrivelsen her...",
     "generating": "Genererer...",
     "generate_document": "Generer dokument",
-    "generated_document": "Generated Document",
+    "generated_document": "Generert dokument",
     "loading_profile_data": "Laster profildata...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Det genererte dokumentet vises her...",
+    "export_pdf": "Eksporter som PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Fullt navn",
+    "full_name_placeholder": "Skriv inn fullt navn",
+    "full_name_validation": "Fullt navn er påkrevd",
+    "headline": "Profesjonell topptekst",
+    "headline_placeholder": "f.eks. Senior programvareingeniør",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Fortell oss om deg selv",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Lagrer...",
+    "save_profile": "Save Profile"
   }
 }
