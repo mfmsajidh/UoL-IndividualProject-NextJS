@@ -1,8 +1,7 @@
 'use client';
 
 import JsPDF from 'jspdf';
-import { FileText, Loader2 } from 'lucide-react';
-import Link from 'next/link';
+import { Loader2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 import { Button } from '@/components/ui/button';
@@ -154,72 +153,59 @@ export default function CVGeneratorPage() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col bg-gray-950 text-gray-100">
-      <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-gray-950/95 backdrop-blur supports-[backdrop-filter]:bg-gray-950/60">
-        <div className="container flex h-14 items-center">
-          <Link href="/" className="flex items-center space-x-2">
-            <FileText className="size-6 text-blue-500" />
-            <span className="font-bold">Job Description Analyzer</span>
-          </Link>
-        </div>
-      </header>
-
-      <main className="container flex-1 py-6">
-        <h1 className="mb-6 text-3xl font-bold text-white">
-          Analyze Job Description
-        </h1>
-        <div className="grid gap-6 lg:grid-cols-2">
-          <Card className="border-gray-700 bg-gray-800">
-            <CardHeader>
-              <CardTitle className="text-white">Job Description</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <Textarea
-                placeholder="Paste your job description here..."
-                className="min-h-[300px] border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
-                value={jobDescription}
-                onChange={(e) => setJobDescription(e.target.value)}
-              />
-              <Button
-                className="mt-4 bg-blue-600 text-white hover:bg-blue-700"
-                onClick={handleGenerate}
-                disabled={isGenerating || !jobDescription.trim()}
-              >
-                {isGenerating ? (
-                  <>
-                    <Loader2 className="mr-2 size-4 animate-spin" />
-                    Generating...
-                  </>
-                ) : (
-                  'Generate Document'
-                )}
-              </Button>
-            </CardContent>
-          </Card>
-
-          <Card className="border-gray-700 bg-gray-800">
-            <CardHeader>
-              <CardTitle className="text-white">Generated Document</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="min-h-[300px] overflow-y-auto whitespace-pre-wrap rounded-md border border-gray-600 bg-gray-700 p-4 text-white">
-                {isLoading
-                  ? 'Loading profile data...'
-                  : generatedDocument ||
-                    'Your generated document will appear here...'}
-              </div>
-              {generatedDocument && (
-                <Button
-                  className="mt-4 bg-green-600 hover:bg-green-700"
-                  onClick={handleExportPDF}
-                >
-                  Export as PDF
-                </Button>
+    <>
+      <h1 className="mb-6 text-3xl font-bold text-white">CV Generator</h1>
+      <div className="grid gap-6 lg:grid-cols-2">
+        <Card className="border-gray-700 bg-gray-800">
+          <CardHeader>
+            <CardTitle className="text-white">Job Description</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <Textarea
+              placeholder="Paste your job description here..."
+              className="min-h-[300px] border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
+              value={jobDescription}
+              onChange={(e) => setJobDescription(e.target.value)}
+            />
+            <Button
+              className="mt-4 bg-blue-600 text-white hover:bg-blue-700"
+              onClick={handleGenerate}
+              disabled={isGenerating || !jobDescription.trim()}
+            >
+              {isGenerating ? (
+                <>
+                  <Loader2 className="mr-2 size-4 animate-spin" />
+                  Generating...
+                </>
+              ) : (
+                'Generate Document'
               )}
-            </CardContent>
-          </Card>
-        </div>
-      </main>
-    </div>
+            </Button>
+          </CardContent>
+        </Card>
+
+        <Card className="border-gray-700 bg-gray-800">
+          <CardHeader>
+            <CardTitle className="text-white">Generated Document</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="min-h-[300px] overflow-y-auto whitespace-pre-wrap rounded-md border border-gray-600 bg-gray-700 p-4 text-white">
+              {isLoading
+                ? 'Loading profile data...'
+                : generatedDocument ||
+                  'Your generated document will appear here...'}
+            </div>
+            {generatedDocument && (
+              <Button
+                className="mt-4 bg-green-600 hover:bg-green-700"
+                onClick={handleExportPDF}
+              >
+                Export as PDF
+              </Button>
+            )}
+          </CardContent>
+        </Card>
+      </div>
+    </>
   );
 }
