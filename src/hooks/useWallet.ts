@@ -47,12 +47,11 @@ export const useWallet = () => {
   // Fetch account details based on public key
   useEffect(() => {
     const fetchAccount = async () => {
-      if (!publicKey) return;
-
-      setIsLoading(true);
-      setError(null);
-
       try {
+        if (!publicKey) return;
+
+        setIsLoading(true);
+        setError(null);
         const accountData = await getAccount(publicKey);
         setAccount(accountData);
       } catch (err) {
@@ -95,6 +94,7 @@ export const useWallet = () => {
 
   const connectWallet = async () => {
     try {
+      setIsLoading(true);
       const isAllowedRes = await setAllowed();
       setIsFreighterAllowed(isAllowedRes.isAllowed);
 
@@ -103,6 +103,8 @@ export const useWallet = () => {
       }
     } catch (err) {
       setError('Error requesting access to Freighter');
+    } finally {
+      setIsLoading(false);
     }
   };
 
