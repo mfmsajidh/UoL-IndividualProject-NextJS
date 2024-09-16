@@ -58,17 +58,8 @@
     "meta_title": "Εγγραφείτε",
     "meta_description": "Δημιουργία λογαριασμού χωρίς προσπάθεια μέσω της διαισθητικής διαδικασίας εγγραφής μας."
   },
-  "Dashboard": {
-    "meta_title": "Ταμπλό",
-    "hello_message": "Γεια {email}!"
-  },
   "UserProfile": {
     "meta_title": "Προφίλ Χρήστη"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Ταμπλό",
-    "user_profile_link": "Διαχείριση του λογαριασμού σας",
-    "sign_out": "Αποσύνδεση"
   },
   "TermsLayout": {
     "back_to_home_link": "Αρχική"
@@ -226,5 +217,26 @@
     "profile_link": "Προφίλ",
     "settings_link": "Ρυθμίσεις",
     "sign_out_link": "Αποσύνδεση"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "Σύνδεση στο Stellar Wallet",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "Μάθετε περισσότερα για το Stellar"
+  },
+  "CVGenerator": {
+    "title": "Δημιουργήστε το βιογραφικό σας",
+    "job_description": "Job Description",
+    "paste_your_description": "Επικολλήστε την περιγραφή της εργασίας σας εδώ...",
+    "generating": "Δημιουργία...",
+    "generate_document": "Δημιουργία Εγγράφου",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "Φόρτωση δεδομένων προφίλ...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }

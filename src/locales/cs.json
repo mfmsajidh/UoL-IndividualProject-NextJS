@@ -58,17 +58,8 @@
     "meta_title": "Zaregistrovat se",
     "meta_description": "Snažíme se vytvořit účet prostřednictvím intuitivního registračního procesu."
   },
-  "Dashboard": {
-    "meta_title": "Nástěnka",
-    "hello_message": "Ahoj {email}!"
-  },
   "UserProfile": {
     "meta_title": "Profil uživatele"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Nástěnka",
-    "user_profile_link": "Spravovat svůj účet",
-    "sign_out": "Odhlásit se"
   },
   "TermsLayout": {
     "back_to_home_link": "Domů"
@@ -226,5 +217,26 @@
     "profile_link": "Profil",
     "settings_link": "Nastavení",
     "sign_out_link": "Odhlásit se"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "Připojit ke Stellar Wallet",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "Zjistěte více o Stellar"
+  },
+  "CVGenerator": {
+    "title": "Generovat CV",
+    "job_description": "Job Description",
+    "paste_your_description": "Zde vložte popis pracovní pozice...",
+    "generating": "Generování",
+    "generate_document": "Vygenerovat dokument",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "Načítání dat profilu...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }
