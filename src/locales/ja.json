@@ -295,7 +295,7 @@
     "remove_experience": "経験値を削除",
     "add_experience": "経験値を追加",
     "save": "保存中...",
-    "save_profile": "Save Experiences"
+    "save_profile": "経験値を保存"
   },
   "ProfileEducation": {
     "school": "学校",
@@ -323,29 +323,29 @@
     "save_profile": "教育を保存"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "スキルを入力してください",
     "skill_validation": "スキルが必要です",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "少なくとも 1 つのスキルが必要です。",
     "add_skill": "スキルを追加",
     "save": "保存中...",
     "save_profile": "スキルを保存"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "言語",
+    "language_placeholder": "言語の名前",
+    "language_validation_1": "言語が必要です",
+    "language_validation_2": "言語は50文字未満でなければなりません",
     "proficiency": "熟練度",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "熟練度を選択",
+    "proficiency_value_native": "ネイティブまたはバイリンガルの熟練度",
+    "proficiency_value_full": "完全な専門能力",
+    "proficiency_value_professional": "専門的な作業能力",
+    "proficiency_value_limited": "作業能力の制限",
     "proficiency_value_elementary": "初級熟練度",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "熟練度が必要です",
+    "remove_language": "言語を削除",
     "add_language": "言語を追加",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "保存中...",
+    "save_profile": "言語を保存"
   }
 }
