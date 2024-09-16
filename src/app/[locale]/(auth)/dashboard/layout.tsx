@@ -7,11 +7,11 @@ import { DashboardHeader } from '@/app/[locale]/(auth)/dashboard/_components/Das
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
     locale: props.params.locale,
-    namespace: 'Dashboard',
+    namespace: 'DashboardHeader',
   });
 
   return {
-    title: t('meta_title'),
+    title: t('title'),
   };
 }
 

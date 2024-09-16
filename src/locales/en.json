@@ -58,17 +58,8 @@
     "meta_title": "Sign up",
     "meta_description": "Effortlessly create an account through our intuitive sign-up process."
   },
-  "Dashboard": {
-    "meta_title": "Dashboard",
-    "hello_message": "Hello {email}!"
-  },
   "UserProfile": {
     "meta_title": "User Profile"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Dashboard",
-    "user_profile_link": "Manage your account",
-    "sign_out": "Sign out"
   },
   "TermsLayout": {
     "back_to_home_link": "Home"
