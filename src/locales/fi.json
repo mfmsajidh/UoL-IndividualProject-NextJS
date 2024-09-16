@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Yhdistä tähtilompakkoon",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Yhdistä Stellar lompakko turvallisesti päästäksesi käsiksi lohkoketjun ominaisuuksiin",
+    "loading_connect": "Yhdistä Lompakko",
+    "loading_connecting": "Yhdistetään...",
+    "loading_connected": "Yhdistetty kohteeseen",
+    "wallet": "Lompakko",
+    "you_have": "Sinulla on",
     "learn_more": "Lue lisää Stellarista"
+  },
+  "Loading": {
+    "loading": "Ladataan",
+    "description": "AI-virtaa käyttävän CV-kokemuksen valmistelu"
+  },
+  "Profile": {
+    "title": "Sinun Profiilisi",
+    "about": "Tietoja",
+    "experience": "Kokemus",
+    "education": "Koulutus",
+    "skills": "Taidot",
+    "languages": "Kielet"
   },
   "CVGenerator": {
     "title": "Luo CV:si",
-    "job_description": "Job Description",
+    "job_description": "Työn Kuvaus",
     "paste_your_description": "Liitä tehtäväsi kuvaus tähän...",
     "generating": "Luodaan...",
     "generate_document": "Luo Asiakirja",
-    "generated_document": "Generated Document",
+    "generated_document": "Luotu Asiakirja",
     "loading_profile_data": "Ladataan profiilin tietoja...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Luotu asiakirjasi näkyy täällä...",
+    "export_pdf": "Vie PDF:nä"
+  },
+  "ProfileAbout": {
+    "full_name": "Koko Nimi",
+    "full_name_placeholder": "Syötä koko nimesi",
+    "full_name_validation": "Koko nimi vaaditaan",
+    "headline": "Ammatillinen Otsikko",
+    "headline_placeholder": "esim., Senior Software Engineer",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Kerro meille itsestäsi",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Tallennetaan...",
+    "save_profile": "Save Profile"
   }
 }
