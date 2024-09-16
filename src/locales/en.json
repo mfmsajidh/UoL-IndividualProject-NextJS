@@ -296,5 +296,30 @@
     "add_experience": "Add Experience",
     "save": "Saving...",
     "save_profile": "Save Profile"
+  },
+  "ProfileEducation": {
+    "school": "School",
+    "school_placeholder": "School Name",
+    "school_validation": "School is required",
+    "start_date": "Start Date",
+    "start_date_validation": "Start Date is required",
+    "end_date": "End Date",
+    "end_date_validation": "End Date is required",
+    "degree": "Degree",
+    "degree_placeholder": "Name of Degree",
+    "degree_validation": "Degree is required",
+    "field_of_study": "Field of Study",
+    "field_of_study_placeholder": "Name for the Field of Study",
+    "field_of_study_validation": "Field of Study is required",
+    "grade": "Grade",
+    "grade_placeholder": "Grade of Degree",
+    "activities_societies": "Activities & Societies",
+    "activities_societies_placeholder": "Details of Activities & Societies",
+    "description": "Description",
+    "description_placeholder": "Education Description",
+    "remove_education": "Remove Education",
+    "add_education": "Add Education",
+    "save": "Saving...",
+    "save_profile": "Save Profile"
   }
 }

@@ -19,10 +19,9 @@ import {
   fetchLatestSectionCIDs,
   storeSectionHashOnStellar,
   submitTransaction,
-} from '@/libs/Stellar'; // Stellar SDK functions
+} from '@/libs/Stellar';
 import { ProfileAboutValidation } from '@/validations/ProfileAboutValidation';
 
-// Zod validation schema for the about section
 type ProfileAboutFormValues = z.infer<
   ReturnType<typeof ProfileAboutValidation>
 >;
