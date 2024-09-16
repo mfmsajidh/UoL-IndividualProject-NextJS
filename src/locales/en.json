@@ -321,5 +321,13 @@
     "add_education": "Add Education",
     "save": "Saving...",
     "save_profile": "Save Profile"
+  },
+  "ProfileSkills": {
+    "placeholder": "Enter a skill",
+    "skill_validation": "Skill is required",
+    "skills_validation": "At least one skill is required",
+    "add_skill": "Add Skill",
+    "save": "Saving...",
+    "save_profile": "Save Profile"
   }
 }

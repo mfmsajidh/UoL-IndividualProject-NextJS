@@ -2,11 +2,13 @@
 
 import { zodResolver } from '@hookform/resolvers/zod';
 import { PlusCircle, Trash2 } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 import type { SubmitHandler } from 'react-hook-form';
 import { useFieldArray, useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
+import Loading from '@/app/[locale]/(auth)/dashboard/profile/_components/Loading';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -19,35 +21,35 @@ import {
 } from '@/libs/Stellar';
 import { ProfileSkillsValidation } from '@/validations/ProfileSkillsValidation';
 
-// Define the form type using zod
-type ProfileSkillsFormValues = z.infer<typeof ProfileSkillsValidation>;
+type ProfileSkillsFormValues = z.infer<
+  ReturnType<typeof ProfileSkillsValidation>
+>;
 
 const ProfileSkillsPage = () => {
+  const t = useTranslations('ProfileSkills');
   const { publicKey, signXDR } = useWallet();
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
-  const [latestVersion, setLatestVersion] = useState<number>(0); // Track the latest version
+  const [latestVersion, setLatestVersion] = useState<number>(0);
 
-  // Initialize the form with zod validation
   const {
     control,
     handleSubmit,
     register,
-    setValue, // Hook to set form values dynamically
+    setValue,
     formState: { errors },
   } = useForm<ProfileSkillsFormValues>({
-    resolver: zodResolver(ProfileSkillsValidation),
+    resolver: zodResolver(ProfileSkillsValidation(t)),
     defaultValues: {
-      skills: [{ name: '' }], // Initialize with a single empty skill object
+      skills: [{ name: '' }],
     },
   });
 
   const { fields, append, remove } = useFieldArray({
     control,
-    name: 'skills', // The name must match the 'skills' array in your validation schema
+    name: 'skills',
   });
 
-  // Fetch the latest version of the skills section on page load
   useEffect(() => {
     const fetchLatestSkillsVersion = async () => {
       if (!publicKey) return;
@@ -64,7 +66,6 @@ const ProfileSkillsPage = () => {
           if (latestCIDs.skills.latestCID) {
             const data = await fetchFromIPFS(latestCIDs.skills.latestCID);
 
-            // Set form values with fetched data
             setValue('skills', data.skills || [{ name: '' }]);
           }
         }
@@ -84,7 +85,6 @@ const ProfileSkillsPage = () => {
     try {
       setIsSubmitting(true);
 
-      // Save the skills data to Pinata
       const response = await fetch('/api/pinata', {
         method: 'POST',
         headers: {
@@ -97,7 +97,6 @@ const ProfileSkillsPage = () => {
       if (response.ok) {
         const ipfsHash = uploadResult.cid;
 
-        // Store the IPFS hash on Stellar with the incremented version
         const newVersion = latestVersion + 1;
         const signedXDR = await storeSectionHashOnStellar(
           ipfsHash,
@@ -109,7 +108,7 @@ const ProfileSkillsPage = () => {
 
         if (signedTransaction) {
           await submitTransaction(signedTransaction.signedTxXdr);
-          setLatestVersion(newVersion); // Update the version locally after success
+          setLatestVersion(newVersion);
         }
       }
     } catch (error) {
@@ -119,45 +118,39 @@ const ProfileSkillsPage = () => {
     }
   };
 
-  return (
+  return isLoading ? (
+    <Loading />
+  ) : (
     <form onSubmit={handleSubmit(onSubmit)}>
       <Card className="border-gray-700 bg-gray-800">
         <CardContent className="mt-6">
-          {isLoading ? (
-            <p>Loading...</p>
-          ) : (
-            <>
-              {fields.map((field, index) => (
-                <div
-                  key={field.id}
-                  className="mb-2 flex items-center space-x-2"
-                >
-                  <Input
-                    {...register(`skills.${index}.name`)}
-                    placeholder="Enter a skill"
-                    className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
-                  />
-                  {errors.skills?.[index]?.name && (
-                    <p className="text-xs text-red-500">
-                      {errors.skills[index]?.name?.message}
-                    </p>
-                  )}
-                  {fields.length > 1 && (
-                    <Button variant="destructive" onClick={() => remove(index)}>
-                      <Trash2 className="size-4" />
-                    </Button>
-                  )}
-                </div>
-              ))}
+          {fields.map((field, index) => (
+            <div key={field.id} className="mb-2 flex items-center space-x-2">
+              <Input
+                {...register(`skills.${index}.name`)}
+                placeholder={t('placeholder')}
+                className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
+              />
+              {errors.skills?.[index]?.name && (
+                <p className="text-xs text-red-500">
+                  {errors.skills[index]?.name?.message}
+                </p>
+              )}
+              {fields.length > 1 && (
+                <Button variant="destructive" onClick={() => remove(index)}>
+                  <Trash2 className="size-4" />
+                </Button>
+              )}
+            </div>
+          ))}
 
-              <Button
-                onClick={() => append({ name: '' })}
-                className="mt-2 bg-blue-600 text-white hover:bg-blue-700"
-              >
-                <PlusCircle className="mr-2 size-4" /> Add Skill
-              </Button>
-            </>
-          )}
+          <Button
+            onClick={() => append({ name: '' })}
+            className="mt-2 bg-blue-600 text-white hover:bg-blue-700"
+          >
+            <PlusCircle className="mr-2 size-4" />
+            {t('add_skill')}
+          </Button>
         </CardContent>
       </Card>
 
@@ -167,7 +160,7 @@ const ProfileSkillsPage = () => {
           className="bg-blue-600 text-white hover:bg-blue-700"
           disabled={isSubmitting}
         >
-          {isSubmitting ? 'Saving...' : 'Save Profile'}
+          {isSubmitting ? t('save') : t('save_profile')}
         </Button>
       </div>
     </form>
