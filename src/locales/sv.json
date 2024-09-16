@@ -58,17 +58,8 @@
     "meta_title": "Registrera dig",
     "meta_description": "Skapa ett konto genom vår intuitiva registreringsprocess."
   },
-  "Dashboard": {
-    "meta_title": "Instrumentpanel",
-    "hello_message": "Hej {email}!"
-  },
   "UserProfile": {
     "meta_title": "Användarprofil"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Instrumentpanel",
-    "user_profile_link": "Hantera ditt konto",
-    "sign_out": "Logga ut"
   },
   "TermsLayout": {
     "back_to_home_link": "Hem"
@@ -226,5 +217,26 @@
     "profile_link": "Profil",
     "settings_link": "Inställningar",
     "sign_out_link": "Logga ut"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "Anslut till Stellar Wallet",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "Läs mer om Stellar"
+  },
+  "CVGenerator": {
+    "title": "Skapa ditt CV",
+    "job_description": "Job Description",
+    "paste_your_description": "Klistra in din arbetsbeskrivning här...",
+    "generating": "Genererar...",
+    "generate_document": "Generera dokument",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "Laddar profildata...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }
