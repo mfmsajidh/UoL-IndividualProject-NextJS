@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Mit Stellar Wallet verbinden",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
+    "connect_to_wallet_description": "Schließen Sie Ihre Stellar Wallet sicher an, um auf die Blockchain-Funktionen zuzugreifen",
+    "loading_connect": "Wallet verbinden",
+    "loading_connecting": "Verbinden...",
+    "loading_connected": "Verbunden mit",
     "wallet": "Wallet",
-    "you_have": "You have",
+    "you_have": "Du hast",
     "learn_more": "Erfahren Sie mehr über Stellar"
+  },
+  "Loading": {
+    "loading": "Lädt",
+    "description": "Vorbereitung Ihres AI-gestützten Lebenslaufs"
+  },
+  "Profile": {
+    "title": "Dein Profil",
+    "about": "Über",
+    "experience": "Erfahrung",
+    "education": "Bildung",
+    "skills": "Fertigkeiten",
+    "languages": "Sprachen"
   },
   "CVGenerator": {
     "title": "Generieren Sie Ihren Lebenslauf",
-    "job_description": "Job Description",
+    "job_description": "Jobbeschreibung",
     "paste_your_description": "Fügen Sie hier Ihre Jobbeschreibung ein...",
     "generating": "Erstellen...",
     "generate_document": "Dokument generieren",
-    "generated_document": "Generated Document",
+    "generated_document": "Generiertes Dokument",
     "loading_profile_data": "Profildaten werden geladen...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Ihr generiertes Dokument wird hier erscheinen...",
+    "export_pdf": "Als PDF exportieren"
+  },
+  "ProfileAbout": {
+    "full_name": "Voller Name",
+    "full_name_placeholder": "Geben Sie Ihren vollständigen Namen ein",
+    "full_name_validation": "Vollständiger Name ist erforderlich",
+    "headline": "Professionelle Überschrift",
+    "headline_placeholder": "z. B. Senior Software Engineer",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Erzählen Sie uns über sich selbst",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Speichern...",
+    "save_profile": "Save Profile"
   }
 }
