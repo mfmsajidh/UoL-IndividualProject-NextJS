@@ -58,17 +58,8 @@
     "meta_title": "تسجيل الدخول",
     "meta_description": "إنشاء حساب بلا هوادة من خلال عملية التسجيل البديهية."
   },
-  "Dashboard": {
-    "meta_title": "لوحة التحكم",
-    "hello_message": "مرحبا {email}!"
-  },
   "UserProfile": {
     "meta_title": "الملف الشخصي للمستخدم"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "لوحة التحكم",
-    "user_profile_link": "إدارة حسابك",
-    "sign_out": "تسجيل الخروج"
   },
   "TermsLayout": {
     "back_to_home_link": "المنزل"
@@ -226,5 +217,26 @@
     "profile_link": "الملف الشخصي",
     "settings_link": "الإعدادات",
     "sign_out_link": "تسجيل الخروج"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "الاتصال بمحفظة Stellar",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "تعرف على المزيد حول Stellar"
+  },
+  "CVGenerator": {
+    "title": "توليد السيرة الذاتية",
+    "job_description": "Job Description",
+    "paste_your_description": "لصق توصيف العمل الخاص بك هنا...",
+    "generating": "توليد ...",
+    "generate_document": "إنشاء وثيقة",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "جاري تحميل بيانات الملف الشخصي...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }
