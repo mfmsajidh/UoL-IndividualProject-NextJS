@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Verbind met Stellar Wallet",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Verbind veilig uw Stellar wallet om toegang te krijgen tot blockchain-functies",
+    "loading_connect": "Verbind Portemonnee",
+    "loading_connecting": "Verbinden...",
+    "loading_connected": "Verbonden met",
+    "wallet": "Portemonnee",
+    "you_have": "Je hebt",
     "learn_more": "Meer informatie over Stellar"
+  },
+  "Loading": {
+    "loading": "Laden...",
+    "description": "Voorbereiden van je AI-aangedreven CV ervaring"
+  },
+  "Profile": {
+    "title": "Uw profiel",
+    "about": "Informatie",
+    "experience": "Ervaring",
+    "education": "Opleiding",
+    "skills": "Vaardigheden",
+    "languages": "Leren"
   },
   "CVGenerator": {
     "title": "Genereer uw CV",
-    "job_description": "Job Description",
+    "job_description": "Job omschrijving",
     "paste_your_description": "Plak uw job omschrijving hier ...",
     "generating": "Genereren...",
     "generate_document": "Document aanmaken",
-    "generated_document": "Generated Document",
+    "generated_document": "Gegenereerd document",
     "loading_profile_data": "Profielgegevens laden...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Uw gegenereerde document verschijnt hier...",
+    "export_pdf": "Exporteren als PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Volledige naam",
+    "full_name_placeholder": "Voer uw volledige naam in",
+    "full_name_validation": "Volledige naam is vereist",
+    "headline": "Professionele headline",
+    "headline_placeholder": "bijv. Senior Software Engineer",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Vertel ons over jezelf",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Opslaan...",
+    "save_profile": "Save Profile"
   }
 }
