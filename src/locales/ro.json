@@ -295,7 +295,7 @@
     "remove_experience": "Eliminați experiența",
     "add_experience": "Adaugă experiență",
     "save": "Salvare...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Salvează experiențele"
   },
   "ProfileEducation": {
     "school": "Școală",
@@ -323,29 +323,29 @@
     "save_profile": "Salvați educația"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Introdu o abilitate",
     "skill_validation": "Abilitatea este necesară",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Cel puțin o abilitate este necesară",
     "add_skill": "Adaugă Abilitate",
     "save": "Salvare...",
     "save_profile": "Salvează Abilitățile"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Limba",
+    "language_placeholder": "Denumirea limbii",
+    "language_validation_1": "Limba este necesară",
+    "language_validation_2": "Limba trebuie să fie mai mică de 50 de caractere",
     "proficiency": "Competențe",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Selectați nivelul de competență",
+    "proficiency_value_native": "Competența nativă sau bilingvă",
+    "proficiency_value_full": "Competența profesională deplină",
+    "proficiency_value_professional": "Competența profesională",
+    "proficiency_value_limited": "Competența de lucru limitată",
     "proficiency_value_elementary": "Competența elementară",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Competența este necesară",
+    "remove_language": "Elimină limba",
     "add_language": "Adaugă Limbă",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Salvare...",
+    "save_profile": "Salvează Limbile"
   }
 }
