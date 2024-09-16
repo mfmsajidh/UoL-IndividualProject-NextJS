@@ -220,23 +220,48 @@
   },
   "StellarConnectCard": {
     "connect_to_wallet": "Se connecter au portefeuille Stellar",
-    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
-    "loading_connect": "Connect Wallet",
-    "loading_connecting": "Connecting...",
-    "loading_connected": "Connected to",
-    "wallet": "Wallet",
-    "you_have": "You have",
+    "connect_to_wallet_description": "Connectez votre portefeuille Stellar en toute sécurité pour accéder aux fonctionnalités de la blockchain",
+    "loading_connect": "Connecter le portefeuille",
+    "loading_connecting": "Connexion en cours...",
+    "loading_connected": "Connecté à",
+    "wallet": "Portefeuille",
+    "you_have": "Vous avez",
     "learn_more": "En savoir plus sur Stellar"
+  },
+  "Loading": {
+    "loading": "En cours de chargement",
+    "description": "Préparation de votre expérience de CV alimentée par l'IA"
+  },
+  "Profile": {
+    "title": "Votre profil",
+    "about": "À propos de",
+    "experience": "Expérience",
+    "education": "Éducation",
+    "skills": "Compétences",
+    "languages": "Langues"
   },
   "CVGenerator": {
     "title": "Générer votre CV",
-    "job_description": "Job Description",
+    "job_description": "Description du poste",
     "paste_your_description": "Collez votre description de poste ici...",
     "generating": "Génération en cours...",
     "generate_document": "Générer un document",
-    "generated_document": "Generated Document",
+    "generated_document": "Document généré",
     "loading_profile_data": "Chargement des données du profil...",
-    "generated_document_placeholder": "Your generated document will appear here...",
-    "export_pdf": "Export as PDF"
+    "generated_document_placeholder": "Votre document généré apparaîtra ici...",
+    "export_pdf": "Exporter en PDF"
+  },
+  "ProfileAbout": {
+    "full_name": "Nom complet",
+    "full_name_placeholder": "Entrez votre nom complet",
+    "full_name_validation": "Le nom complet est requis",
+    "headline": "Titre professionnel",
+    "headline_placeholder": "ex: Ingénieur logiciel senior",
+    "headline_validation": "Professional Headline is required",
+    "about": "About",
+    "about_placeholder": "Parlez-nous de vous-même",
+    "about_validation": "About must be at least 10 characters long",
+    "save": "Sauvegarde en cours...",
+    "save_profile": "Save Profile"
   }
 }
