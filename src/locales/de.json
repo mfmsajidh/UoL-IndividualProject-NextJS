@@ -295,7 +295,7 @@
     "remove_experience": "Erfahrung entfernen",
     "add_experience": "Erfahrung hinzufügen",
     "save": "Speichern...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Erfahrungen speichern"
   },
   "ProfileEducation": {
     "school": "Schule",
@@ -323,29 +323,29 @@
     "save_profile": "Erziehung speichern"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Gib eine Fertigkeit ein",
     "skill_validation": "Fertigkeit ist erforderlich",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Mindestens eine Fähigkeit ist erforderlich",
     "add_skill": "Fertigkeit hinzufügen",
     "save": "Speichern...",
     "save_profile": "Fähigkeiten speichern"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Sprache",
+    "language_placeholder": "Name der Sprache",
+    "language_validation_1": "Sprache ist erforderlich",
+    "language_validation_2": "Sprache muss weniger als 50 Zeichen lang sein",
     "proficiency": "Sachkenntnis",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Fähigkeitslevel auswählen",
+    "proficiency_value_native": "Native oder zweisprachige Kenntnisse",
+    "proficiency_value_full": "Vollständige Professionalität",
+    "proficiency_value_professional": "Professionelle Arbeitsfähigkeit",
+    "proficiency_value_limited": "Begrenzte Arbeitsfähigkeit",
     "proficiency_value_elementary": "Grundkenntnisse",
     "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "remove_language": "Sprache entfernen",
     "add_language": "Sprache hinzufügen",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Speichern...",
+    "save_profile": "Sprachen speichern"
   }
 }
