@@ -19,12 +19,13 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { useWallet } from '@/hooks/useWallet';
+import { fetchFromIPFS } from '@/libs/Pinata'; // Validation schema
 import {
   fetchLatestSectionCIDs,
   storeSectionHashOnStellar,
   submitTransaction,
 } from '@/libs/Stellar';
-import { ProfileLanguageValidation } from '@/validations/ProfileLanguageValidation'; // Validation schema
+import { ProfileLanguageValidation } from '@/validations/ProfileLanguageValidation';
 
 // Define the form type using zod
 type ProfileLanguageFormValues = z.infer<typeof ProfileLanguageValidation>;
@@ -73,17 +74,9 @@ const ProfileLanguagePage = () => {
           }
 
           if (latestCIDs.languages.latestCID) {
-            // Fetch the languages data from Pinata
-            const response = await fetch(
-              `/api/pinata?cid=${latestCIDs.languages.latestCID}`,
-            );
+            const data = await fetchFromIPFS(latestCIDs.languages.latestCID);
 
-            if (response.ok) {
-              const data = await response.json();
-
-              // Set form values with fetched data
-              setValue('languages', data.languages || []);
-            }
+            setValue('languages', data.languages || []);
           }
         }
       } catch (error) {

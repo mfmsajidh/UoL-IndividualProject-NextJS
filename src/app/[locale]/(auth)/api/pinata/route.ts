@@ -13,12 +13,7 @@ export const GET = async (request: NextRequest) => {
       return NextResponse.json({ error: 'CID is required' }, { status: 400 });
     }
 
-    const response = await fetch(`https://gateway.pinata.cloud/ipfs/${cid}`, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    });
+    const response = await fetch(`https://gateway.pinata.cloud/ipfs/${cid}`);
 
     const file = await response.json();
 

@@ -11,6 +11,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { useWallet } from '@/hooks/useWallet';
+import { fetchFromIPFS } from '@/libs/Pinata';
 import {
   fetchLatestSectionCIDs,
   storeSectionHashOnStellar,
@@ -61,17 +62,10 @@ const ProfileSkillsPage = () => {
           }
 
           if (latestCIDs.skills.latestCID) {
-            // Fetch the skills data from Pinata
-            const response = await fetch(
-              `/api/pinata?cid=${latestCIDs.skills.latestCID}`,
-            );
+            const data = await fetchFromIPFS(latestCIDs.skills.latestCID);
 
-            if (response.ok) {
-              const data = await response.json();
-
-              // Set form values with fetched data
-              setValue('skills', data.skills || [{ name: '' }]);
-            }
+            // Set form values with fetched data
+            setValue('skills', data.skills || [{ name: '' }]);
           }
         }
       } catch (error) {

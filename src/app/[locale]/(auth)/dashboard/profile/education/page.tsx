@@ -13,6 +13,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useWallet } from '@/hooks/useWallet';
+import { fetchFromIPFS } from '@/libs/Pinata';
 import {
   fetchLatestSectionCIDs,
   storeSectionHashOnStellar,
@@ -76,21 +77,12 @@ const ProfileEducationPage = () => {
           }
 
           if (latestCIDs.education.latestCID) {
-            // Fetch the education data from Pinata using the CID
-            const response = await fetch(
-              `/api/pinata?cid=${latestCIDs.education.latestCID}`,
-            );
-
-            if (response.ok) {
-              const data = await response.json();
-
-              // Populate the form with the fetched data
-              setValue('educations', data.educations || []);
-            }
+            const data = await fetchFromIPFS(latestCIDs.education.latestCID);
+            setValue('educations', data.educations || []);
           }
         }
       } catch (error) {
-        console.error('Error fetching latest education section:', error);
+        throw new Error('Error fetching latest education section');
       } finally {
         setIsLoading(false);
       }
@@ -135,7 +127,7 @@ const ProfileEducationPage = () => {
         }
       }
     } catch (error) {
-      console.error('Error submitting education form:', error);
+      throw new Error('Error submitting education form');
     } finally {
       setIsSubmitting(false);
     }

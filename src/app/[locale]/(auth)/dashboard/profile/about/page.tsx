@@ -12,6 +12,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useWallet } from '@/hooks/useWallet';
+import { fetchFromIPFS } from '@/libs/Pinata';
 import {
   fetchLatestSectionCIDs,
   storeSectionHashOnStellar,
@@ -59,19 +60,10 @@ const ProfileAboutPage = () => {
           }
 
           if (latestCIDs.about.latestCID) {
-            // Fetch the about data from Pinata
-            const response = await fetch(
-              `/api/pinata?cid=${latestCIDs.about.latestCID}`,
-            );
-
-            if (response.ok) {
-              const data = await response.json();
-
-              // Set form values with fetched data
-              setValue('name', data.name);
-              setValue('headline', data.headline);
-              setValue('about', data.about);
-            }
+            const data = await fetchFromIPFS(latestCIDs.about.latestCID);
+            setValue('name', data.name);
+            setValue('headline', data.headline);
+            setValue('about', data.about);
           }
         }
       } catch (error) {

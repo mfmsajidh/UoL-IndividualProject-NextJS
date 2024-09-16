@@ -20,6 +20,7 @@ import {
 } from '@/components/ui/select';
 import { Textarea } from '@/components/ui/textarea';
 import { useWallet } from '@/hooks/useWallet';
+import { fetchFromIPFS } from '@/libs/Pinata';
 import {
   fetchLatestSectionCIDs,
   storeSectionHashOnStellar,
@@ -77,14 +78,8 @@ const ProfileExperiencePage = () => {
           }
 
           if (latestCIDs.experience.latestCID) {
-            // Fetch experience data from Pinata using the CID
-            const response = await fetch(
-              `/api/pinata?cid=${latestCIDs.experience.latestCID}`,
-            );
-            if (response.ok) {
-              const data = await response.json();
-              setValue('experiences', data.experiences || []); // Set experiences field
-            }
+            const data = await fetchFromIPFS(latestCIDs.experience.latestCID);
+            setValue('experiences', data.experiences || []);
           }
         }
       } catch (error) {

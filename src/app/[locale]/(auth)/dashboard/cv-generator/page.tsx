@@ -1,56 +1,162 @@
 'use client';
 
+import JsPDF from 'jspdf';
 import { FileText, Loader2 } from 'lucide-react';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Textarea } from '@/components/ui/textarea';
+import { useWallet } from '@/hooks/useWallet';
+import { fetchFromIPFS } from '@/libs/Pinata';
+import { fetchLatestSectionCIDs } from '@/libs/Stellar';
+
+interface ProfileData {
+  about: any;
+  education: any;
+  experience: any;
+  skills: any[];
+  languages: any;
+}
 
 export default function CVGeneratorPage() {
-  const [jobDescription, setJobDescription] = useState('');
-  const [generatedDocument, setGeneratedDocument] = useState('');
-  const [isGenerating, setIsGenerating] = useState(false);
+  const { publicKey } = useWallet();
 
+  const [jobDescription, setJobDescription] = useState('');
+  const [generatedDocument, setGeneratedDocument] = useState<string>('');
+  const [isGenerating, setIsGenerating] = useState(false);
+  const [profileData, setProfileData] = useState<ProfileData>({
+    about: null,
+    education: null,
+    experience: null,
+    skills: [],
+    languages: null,
+  });
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Fetch the latest profile data from Stellar and IPFS on page load
+  useEffect(() => {
+    const fetchProfileData = async () => {
+      if (!publicKey) return;
+
+      try {
+        setIsLoading(true);
+
+        const latestCIDs = await fetchLatestSectionCIDs(publicKey);
+
+        // Fetch each section's data from IPFS using the CID
+        const aboutData = latestCIDs.about
+          ? await fetchFromIPFS(latestCIDs.about.latestCID)
+          : null;
+        const educationData = latestCIDs.education
+          ? await fetchFromIPFS(latestCIDs.education.latestCID)
+          : null;
+        const experienceData = latestCIDs.experience
+          ? await fetchFromIPFS(latestCIDs.experience.latestCID)
+          : null;
+        const skillsData = latestCIDs.skills
+          ? await fetchFromIPFS(latestCIDs.skills.latestCID)
+          : null;
+        const languagesData = latestCIDs.languages
+          ? await fetchFromIPFS(latestCIDs.languages.latestCID)
+          : null;
+
+        // Set the fetched profile data
+        setProfileData({
+          about: aboutData,
+          education: educationData,
+          experience: experienceData,
+          skills:
+            skillsData?.skills.map((item: { name: string }) => item.name) || [],
+          languages: languagesData,
+        });
+
+        setIsLoading(false);
+      } catch (error) {
+        throw new Error('Error fetching profile data');
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchProfileData();
+  }, [publicKey]);
+
+  // Format the fetched profile data
+  const formatProfileData = (): string => {
+    const { about, education, experience, skills, languages } = profileData;
+
+    return `
+      Name: ${about?.name || 'N/A'}
+      Headline: ${about?.headline || 'N/A'}
+      About: ${about?.about || 'N/A'}
+
+      Education:
+      ${
+        education?.educations
+          ?.map(
+            (edu: any) => `
+        School: ${edu.school}, Degree: ${edu.degree}
+        Field of Study: ${edu.fieldOfStudy}, Grade: ${edu.grade}
+        Start Date: ${edu.startDate}, End Date: ${edu.endDate}
+      `,
+          )
+          .join('\n') || 'N/A'
+      }
+
+      Experience:
+      ${
+        experience?.experiences
+          ?.map(
+            (exp: any) => `
+        Job Title: ${exp.title}, Company: ${exp.company}
+        Location: ${exp.location}, Employment Type: ${exp.employmentType}
+        Start Date: ${exp.startDate}, End Date: ${exp.endDate}
+        Description: ${exp.description}
+      `,
+          )
+          .join('\n') || 'N/A'
+      }
+
+      Skills: ${skills?.join(', ') || 'N/A'}
+
+      Languages:
+      ${
+        languages?.languages
+          ?.map(
+            (lang: any) => `
+        Language: ${lang.language}, Proficiency: ${lang.proficiency}
+      `,
+          )
+          .join('\n') || 'N/A'
+      }
+    `;
+  };
+
+  // Function to handle document generation
   const handleGenerate = () => {
     setIsGenerating(true);
-    // Simulating document generation
+    const profileContent = formatProfileData();
+
     setTimeout(() => {
-      setGeneratedDocument(`Generated document based on the job description:
-
-Job Title: Software Engineer
-
-Key Requirements:
-1. Strong proficiency in JavaScript and TypeScript
-2. Experience with React and Next.js
-3. Familiarity with RESTful APIs and GraphQL
-4. Understanding of version control systems (Git)
-5. Knowledge of cloud platforms (preferably AWS or Azure)
-
-Responsibilities:
-- Develop and maintain web applications using React and Next.js
-- Collaborate with cross-functional teams to define and implement new features
-- Optimize application for maximum speed and scalability
-- Write clean, maintainable, and efficient code
-- Participate in code reviews and contribute to team's best practices
-
-Qualifications:
-- Bachelor's degree in Computer Science or related field
-- 3+ years of experience in web development
-- Strong problem-solving skills and attention to detail
-- Excellent communication and teamwork abilities
-- Continuous learner, keeping up with the latest web technologies
-
-This job requires a skilled developer with a strong foundation in modern web technologies, particularly in the React ecosystem. The ideal candidate should be able to write efficient, scalable code and work collaboratively in a team environment.`);
+      setGeneratedDocument(profileContent);
       setIsGenerating(false);
     }, 2000);
+  };
+
+  // Function to export the document as a PDF
+  const handleExportPDF = () => {
+    const doc = new JsPDF();
+    doc.text(generatedDocument, 10, 10);
+    doc.save('profile.pdf');
   };
 
   return (
     <div className="flex min-h-screen flex-col bg-gray-950 text-gray-100">
       <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-gray-950/95 backdrop-blur supports-[backdrop-filter]:bg-gray-950/60">
-        <div className="container mx-auto flex h-14 items-center">
+        <div className="container flex h-14 items-center">
           <Link href="/" className="flex items-center space-x-2">
             <FileText className="size-6 text-blue-500" />
             <span className="font-bold">Job Description Analyzer</span>
@@ -58,21 +164,24 @@ This job requires a skilled developer with a strong foundation in modern web tec
         </div>
       </header>
 
-      <main className="container mx-auto flex-1 py-6">
-        <div className="flex flex-col gap-6 lg:flex-row">
-          <Card className="flex-1 border-gray-700 bg-gray-800">
+      <main className="container flex-1 py-6">
+        <h1 className="mb-6 text-3xl font-bold text-white">
+          Analyze Job Description
+        </h1>
+        <div className="grid gap-6 lg:grid-cols-2">
+          <Card className="border-gray-700 bg-gray-800">
             <CardHeader>
-              <CardTitle>Job Description</CardTitle>
+              <CardTitle className="text-white">Job Description</CardTitle>
             </CardHeader>
-            <CardContent className="flex h-full flex-col">
+            <CardContent>
               <Textarea
                 placeholder="Paste your job description here..."
-                className="min-h-[300px] grow border-gray-600 bg-gray-700 lg:min-h-[500px]"
+                className="min-h-[300px] border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
                 value={jobDescription}
                 onChange={(e) => setJobDescription(e.target.value)}
               />
               <Button
-                className="mt-4 self-start bg-blue-600 hover:bg-blue-700"
+                className="mt-4 bg-blue-600 text-white hover:bg-blue-700"
                 onClick={handleGenerate}
                 disabled={isGenerating || !jobDescription.trim()}
               >
@@ -88,15 +197,25 @@ This job requires a skilled developer with a strong foundation in modern web tec
             </CardContent>
           </Card>
 
-          <Card className="flex-1 border-gray-700 bg-gray-800">
+          <Card className="border-gray-700 bg-gray-800">
             <CardHeader>
-              <CardTitle>Generated Document</CardTitle>
+              <CardTitle className="text-white">Generated Document</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="min-h-[300px] overflow-y-auto whitespace-pre-wrap rounded-md border border-gray-600 bg-gray-700 p-4 lg:min-h-[500px]">
-                {generatedDocument ||
-                  'Your generated document will appear here...'}
+              <div className="min-h-[300px] overflow-y-auto whitespace-pre-wrap rounded-md border border-gray-600 bg-gray-700 p-4 text-white">
+                {isLoading
+                  ? 'Loading profile data...'
+                  : generatedDocument ||
+                    'Your generated document will appear here...'}
               </div>
+              {generatedDocument && (
+                <Button
+                  className="mt-4 bg-green-600 hover:bg-green-700"
+                  onClick={handleExportPDF}
+                >
+                  Export as PDF
+                </Button>
+              )}
             </CardContent>
           </Card>
         </div>
