@@ -2,6 +2,7 @@
 
 import JsPDF from 'jspdf';
 import { Loader2 } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 
 import { StellarConnectCard } from '@/app/[locale]/(auth)/dashboard/_components/StellarConnectCard';
@@ -21,6 +22,7 @@ interface ProfileData {
 }
 
 export default function CVGeneratorPage() {
+  const t = useTranslations('CVGenerator');
   const { publicKey } = useWallet();
 
   const [jobDescription, setJobDescription] = useState('');
@@ -155,15 +157,15 @@ export default function CVGeneratorPage() {
 
   return publicKey ? (
     <>
-      <h1 className="mb-6 text-3xl font-bold text-white">CV Generator</h1>
+      <h1 className="mb-6 text-3xl font-bold text-white">{t('title')}</h1>
       <div className="grid gap-6 lg:grid-cols-2">
         <Card className="border-gray-700 bg-gray-800">
           <CardHeader>
-            <CardTitle className="text-white">Job Description</CardTitle>
+            <CardTitle className="text-white">{t('job_description')}</CardTitle>
           </CardHeader>
           <CardContent>
             <Textarea
-              placeholder="Paste your job description here..."
+              placeholder={t('paste_your_description')}
               className="min-h-[300px] border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
               value={jobDescription}
               onChange={(e) => setJobDescription(e.target.value)}
@@ -176,10 +178,10 @@ export default function CVGeneratorPage() {
               {isGenerating ? (
                 <>
                   <Loader2 className="mr-2 size-4 animate-spin" />
-                  Generating...
+                  {t('generating')}
                 </>
               ) : (
-                'Generate Document'
+                t('generate_document')
               )}
             </Button>
           </CardContent>
@@ -187,21 +189,22 @@ export default function CVGeneratorPage() {
 
         <Card className="border-gray-700 bg-gray-800">
           <CardHeader>
-            <CardTitle className="text-white">Generated Document</CardTitle>
+            <CardTitle className="text-white">
+              {t('generated_document')}
+            </CardTitle>
           </CardHeader>
           <CardContent>
             <div className="min-h-[300px] overflow-y-auto whitespace-pre-wrap rounded-md border border-gray-600 bg-gray-700 p-4 text-white">
               {isLoading
-                ? 'Loading profile data...'
-                : generatedDocument ||
-                  'Your generated document will appear here...'}
+                ? t('loading_profile_data')
+                : generatedDocument || t('generated_document_placeholder')}
             </div>
             {generatedDocument && (
               <Button
                 className="mt-4 bg-green-600 hover:bg-green-700"
                 onClick={handleExportPDF}
               >
-                Export as PDF
+                {t('export_pdf')}
               </Button>
             )}
           </CardContent>

@@ -26,7 +26,7 @@ export const StellarConnectCard = () => {
   if (isLoading) {
     loadingText = t('loading_connecting');
   } else if (publicKey) {
-    loadingText = `${t('loading_connected')}  ${network}`;
+    loadingText = `${t('loading_connected')} ${network}`;
   } else {
     loadingText = t('loading_connect');
   }

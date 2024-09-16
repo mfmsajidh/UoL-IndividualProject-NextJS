@@ -227,5 +227,16 @@
     "wallet": "Wallet",
     "you_have": "You have",
     "learn_more": "Learn more about Stellar"
+  },
+  "CVGenerator": {
+    "title": "Generate your CV",
+    "job_description": "Job Description",
+    "paste_your_description": "Paste your job description here...",
+    "generating": "Generating...",
+    "generate_document": "Generate Document",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "Loading profile data...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }
