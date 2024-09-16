@@ -58,17 +58,8 @@
     "meta_title": "Зареєструватися",
     "meta_description": "Повторно створити рахунок через інтуїтивний процес реєстрації."
   },
-  "Dashboard": {
-    "meta_title": "Приладна дошка",
-    "hello_message": "Доброго дня, {email}!"
-  },
   "UserProfile": {
     "meta_title": "Профіль користувача"
-  },
-  "DashboardLayout": {
-    "dashboard_link": "Приладна дошка",
-    "user_profile_link": "Керувати вашим профілем",
-    "sign_out": "Вийти"
   },
   "TermsLayout": {
     "back_to_home_link": "Домашній екран"
@@ -226,5 +217,26 @@
     "profile_link": "Анкета",
     "settings_link": "Налаштування",
     "sign_out_link": "Вийти"
+  },
+  "StellarConnectCard": {
+    "connect_to_wallet": "Підключитися до гаманця Stellar",
+    "connect_to_wallet_description": "Securely connect your Stellar wallet to access blockchain features",
+    "loading_connect": "Connect Wallet",
+    "loading_connecting": "Connecting...",
+    "loading_connected": "Connected to",
+    "wallet": "Wallet",
+    "you_have": "You have",
+    "learn_more": "Дізнатися більше про Stellar"
+  },
+  "CVGenerator": {
+    "title": "Згенерувати CV",
+    "job_description": "Job Description",
+    "paste_your_description": "Вставте опис завдання тут...",
+    "generating": "Створення...",
+    "generate_document": "Створити документ",
+    "generated_document": "Generated Document",
+    "loading_profile_data": "Завантаження даних профілю...",
+    "generated_document_placeholder": "Your generated document will appear here...",
+    "export_pdf": "Export as PDF"
   }
 }
