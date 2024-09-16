@@ -27,7 +27,7 @@ const DesktopNavigation: FC<DashboardNavigationProps> = ({
       <div className="mr-4 hidden md:flex">
         <Link
           className="mr-6 flex items-center hover:opacity-75 "
-          href="/dashboard/cv-generator"
+          href="/dashboard/"
         >
           <Image src={Logo} alt="Logo of CV Mate" className="w-28" />
           <span className="text-xl font-bold text-[#FFA857]">{title}</span>

@@ -23,7 +23,7 @@ export const MobileDashboardHeader: FC<DashboardNavigationProps> = ({
   return (
     <>
       <Link
-        href="/dashboard/cv-generator"
+        href="/dashboard/"
         className="flex items-center space-x-2 md:hidden"
         onClick={() => setIsMobileMenuOpen(false)}
       >

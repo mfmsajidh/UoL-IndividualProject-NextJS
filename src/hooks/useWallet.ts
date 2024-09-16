@@ -13,12 +13,21 @@ import { useEffect, useState } from 'react';
 import { Env } from '@/libs/Env';
 import { getAccount } from '@/libs/Stellar';
 
+interface Balance {
+  balance: string;
+  asset_type: string;
+}
+
+interface ExtendedAccount extends Account {
+  balances?: Balance[];
+}
+
 export const useWallet = () => {
   const [hasFreighter, setHasFreighter] = useState<boolean>(false);
   const [isFreighterAllowed, setIsFreighterAllowed] = useState<boolean>(false);
   const [publicKey, setPublicKey] = useState<string | undefined>();
   const [network, setNetwork] = useState<string | undefined>();
-  const [account, setAccount] = useState<Account | null>(null);
+  const [account, setAccount] = useState<ExtendedAccount | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 

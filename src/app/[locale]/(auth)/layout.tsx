@@ -29,7 +29,7 @@ export default function AuthLayout(props: {
   let clerkLocale: LocalizationResource;
   let signInUrl = '/sign-in';
   let signUpUrl = '/sign-up';
-  let dashboardUrl = '/dashboard/cv-generator';
+  let dashboardUrl = '/dashboard/';
 
   switch (props.params.locale) {
     case 'ar':
