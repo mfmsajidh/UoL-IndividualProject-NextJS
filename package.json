@@ -27,6 +27,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^0.0.60",
     "@clerk/localizations": "^2.8.1",
     "@clerk/nextjs": "^5.5.3",
     "@clerk/themes": "^2.1.30",
