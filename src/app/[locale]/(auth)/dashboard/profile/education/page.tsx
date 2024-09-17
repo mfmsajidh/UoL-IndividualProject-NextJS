@@ -8,6 +8,7 @@ import type { SubmitHandler } from 'react-hook-form';
 import { useFieldArray, useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
+import { Hint } from '@/app/[locale]/(auth)/dashboard/profile/_components/Hint';
 import Loading from '@/app/[locale]/(auth)/dashboard/profile/_components/Loading';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -145,12 +146,15 @@ const ProfileEducationPage = () => {
               <div className="space-y-4">
                 {/* School */}
                 <div className="space-y-2">
-                  <Label
-                    htmlFor={`educations.${index}.school`}
-                    className="text-gray-200"
-                  >
-                    {t('school')}
-                  </Label>
+                  <div className="flex items-center space-x-2">
+                    <Label
+                      htmlFor={`educations.${index}.school`}
+                      className="text-gray-200"
+                    >
+                      {t('school')}
+                    </Label>
+                    <Hint text={t('school_hint')} />
+                  </div>
                   <Input
                     id={`educations.${index}.school`}
                     placeholder={t('school_placeholder')}
@@ -252,12 +256,15 @@ const ProfileEducationPage = () => {
 
                 {/* Grade */}
                 <div className="space-y-2">
-                  <Label
-                    htmlFor={`educations.${index}.grade`}
-                    className="text-gray-200"
-                  >
-                    {t('grade')}
-                  </Label>
+                  <div className="flex items-center space-x-2">
+                    <Label
+                      htmlFor={`educations.${index}.grade`}
+                      className="text-gray-200"
+                    >
+                      {t('grade')}
+                    </Label>
+                    <Hint text={t('grade_hint')} />
+                  </div>
                   <Input
                     id={`educations.${index}.grade`}
                     placeholder={t('grade_placeholder')}

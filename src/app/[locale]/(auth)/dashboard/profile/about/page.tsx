@@ -29,26 +29,27 @@ type ProfileAboutFormValues = z.infer<
 const ProfileAboutPage = () => {
   const t = useTranslations('ProfileAbout');
   const { publicKey, signXDR } = useWallet();
-  const [latestVersion, setLatestVersion] = useState<number>(0); // Track the latest version
+  const [latestVersion, setLatestVersion] = useState<number>(0);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
 
-  // Initialize react-hook-form with Zod validation
   const {
     register,
     handleSubmit,
-    setValue, // Hook to set form values dynamically
+    setValue,
     formState: { errors },
   } = useForm<ProfileAboutFormValues>({
     resolver: zodResolver(ProfileAboutValidation(t)),
     defaultValues: {
-      name: '', // Set default empty values
-      headline: '', // Set default empty values
-      about: '', // Set default empty values
+      name: '',
+      headline: '',
+      about: '',
+      address: '',
+      email: '',
+      phoneNumber: '',
     },
   });
 
-  // Fetch the latest version of the about section on page load
   useEffect(() => {
     const fetchLatestAboutVersion = async () => {
       if (!publicKey) return;
@@ -57,7 +58,6 @@ const ProfileAboutPage = () => {
         setIsLoading(true);
         const latestCIDs = await fetchLatestSectionCIDs(publicKey);
 
-        // Check if about section exists before accessing properties
         if (latestCIDs?.about) {
           if (latestCIDs.about.latestVersion) {
             setLatestVersion(latestCIDs.about.latestVersion);
@@ -68,6 +68,9 @@ const ProfileAboutPage = () => {
             setValue('name', data.name);
             setValue('headline', data.headline);
             setValue('about', data.about);
+            setValue('address', data.address);
+            setValue('email', data.email);
+            setValue('phoneNumber', data.phoneNumber);
           }
         }
       } catch (error) {
@@ -80,7 +83,6 @@ const ProfileAboutPage = () => {
     fetchLatestAboutVersion();
   }, [publicKey, setValue]);
 
-  // Function to handle form submission
   const onSubmit: SubmitHandler<ProfileAboutFormValues> = async (data) => {
     if (!publicKey) return;
 
@@ -180,6 +182,60 @@ const ProfileAboutPage = () => {
               {errors.about?.message && (
                 <div className="my-2 text-xs italic text-red-500">
                   {errors.about.message}
+                </div>
+              )}
+            </div>
+
+            {/* Address */}
+            <div className="space-y-2">
+              <Label htmlFor="address" className="text-gray-200">
+                {t('address')}
+              </Label>
+              <Input
+                id="address"
+                placeholder={t('address_placeholder')}
+                className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
+                {...register('address')}
+              />
+              {errors.address?.message && (
+                <div className="my-2 text-xs italic text-red-500">
+                  {errors.address.message}
+                </div>
+              )}
+            </div>
+
+            {/* Email */}
+            <div className="space-y-2">
+              <Label htmlFor="email" className="text-gray-200">
+                {t('email')}
+              </Label>
+              <Input
+                id="email"
+                placeholder={t('email_placeholder')}
+                className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
+                {...register('email')}
+              />
+              {errors.email?.message && (
+                <div className="my-2 text-xs italic text-red-500">
+                  {errors.email.message}
+                </div>
+              )}
+            </div>
+
+            {/* Phone Number */}
+            <div className="space-y-2">
+              <Label htmlFor="phoneNumber" className="text-gray-200">
+                {t('phone_number')}
+              </Label>
+              <Input
+                id="phoneNumber"
+                placeholder={t('phone_number_placeholder')}
+                className="border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
+                {...register('phoneNumber')}
+              />
+              {errors.phoneNumber?.message && (
+                <div className="my-2 text-xs italic text-red-500">
+                  {errors.phoneNumber.message}
                 </div>
               )}
             </div>

@@ -8,6 +8,7 @@ import type { SubmitHandler } from 'react-hook-form';
 import { useFieldArray, useForm } from 'react-hook-form';
 import type { z } from 'zod';
 
+import { Hint } from '@/app/[locale]/(auth)/dashboard/profile/_components/Hint';
 import Loading from '@/app/[locale]/(auth)/dashboard/profile/_components/Loading';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -237,12 +238,15 @@ const ProfileExperiencePage = () => {
 
                 {/* Job Description */}
                 <div className="space-y-2">
-                  <Label
-                    htmlFor={`experiences.${index}.description`}
-                    className="text-gray-200"
-                  >
-                    {t('description')}
-                  </Label>
+                  <div className="flex items-center space-x-2">
+                    <Label
+                      htmlFor={`experiences.${index}.description`}
+                      className="text-gray-200"
+                    >
+                      {t('description')}
+                    </Label>
+                    <Hint text={t('description_hint')} />
+                  </div>
                   <Textarea
                     id={`experiences.${index}.description`}
                     placeholder={t('description_placeholder')}

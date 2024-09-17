@@ -17,7 +17,7 @@ export default function Loading() {
     }, 500);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [t]);
 
   return (
     <div className="flex min-h-96 flex-col items-center justify-center bg-gray-950 text-gray-100">
