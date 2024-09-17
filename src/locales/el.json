@@ -22,11 +22,11 @@
     "all_rights_reserved": "Με επιφύλαξη παντός δικαιώματος."
   },
   "BaseTemplate": {
-    "description": "Αυτοματοποιούμε τη δημιουργία του βιογραφικού σας σύμφωνα με την περιγραφή της εργασίας"
+    "description": "Κώδικας εκκίνησης για το Nextjs Boilerplate σας με Tailwind CSS"
   },
   "Index": {
     "meta_title": "Συντελεστής CV",
-    "meta_description": "Αυτοματοποιούμε τα βιογραφικά σας."
+    "meta_description": "Επόμενο js Boilerplate είναι ο τέλειος κώδικας εκκίνησης για το έργο σας. Δημιουργήστε την εφαρμογή React με το πλαίσιο Next.js."
   },
   "Guestbook": {
     "meta_title": "Βιβλίο Επισκεπτών",
@@ -41,14 +41,14 @@
   "Portfolio": {
     "meta_title": "Χαρτοφυλάκιο",
     "meta_description": "Καλώς ήρθατε στη σελίδα χαρτοφυλακίου μου!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Καλώς ήρθατε στη σελίδα χαρτοφυλακίου μου! Εδώ θα βρείτε μια προσεκτικά επιμελημένη συλλογή από το έργο και τα επιτεύγματά μου. Μέσα από αυτό το χαρτοφυλάκιο, θα παρουσιάσω την τεχνογνωσία μου, τη δημιουργικότητα και την αξία που μπορώ να φέρω στα έργα σας.",
     "portfolio_name": "Portfolio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
     "meta_description": "Portfolio {slug} description",
     "header": "Portfolio {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Δημιουργήθηκε ένα σύνολο διαφημιστικών υλικών και στοιχείων branding για μια εταιρική εκδήλωση. Κατασκευάστηκε ένα οπτικά ενοποιημένο θέμα, που περιλαμβάνει ένα λογότυπο, αφίσες, πανό και ψηφιακά περιουσιακά στοιχεία. Ολοκληρώθηκε η ταυτότητα της μάρκας του πελάτη, ενώ παράλληλα εμπλουτίζεται με μια σύγχρονη και καινοτόμο προσέγγιση. Garnered ευνοϊκές απαντήσεις από τους συμμετέχοντες της εκδήλωσης, με αποτέλεσμα μια επιτυχημένη εκδήλωση με αυξημένη συμμετοχή των συμμετεχόντων και αυξημένη προβολή της μάρκας."
   },
   "SignIn": {
     "meta_title": "Σύνδεση",

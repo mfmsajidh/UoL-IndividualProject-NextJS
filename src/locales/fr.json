@@ -22,11 +22,11 @@
     "all_rights_reserved": "Tous droits réservés."
   },
   "BaseTemplate": {
-    "description": "Nous automatisons la création de votre CV selon la description de l'emploi"
+    "description": "Code de démarrage pour votre Nextjs Boilerplate avec Tailwind CSS"
   },
   "Index": {
     "meta_title": "CV Mate",
-    "meta_description": "Nous automatisons vos CVs."
+    "meta_description": "Next js Boilerplate est le code de démarrage parfait pour votre projet. Construisez votre application React avec le framework Next.js."
   },
   "Guestbook": {
     "meta_title": "Livre d'or",
@@ -41,14 +41,14 @@
   "Portfolio": {
     "meta_title": "Portefeuille",
     "meta_description": "Bienvenue sur la page de mon portfolio !",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Bienvenue sur ma page portfolio ! Vous trouverez ici une collection soigneusement organisée de mon travail et de mes réalisations. À travers ce portfolio, je mets en valeur mon expertise, ma créativité et la valeur que je peux apporter à vos projets.",
     "portfolio_name": "Portefeuille {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portefeuille {slug}",
     "meta_description": "Description du Portfolio {slug}",
     "header": "Portefeuille {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Créé un ensemble de matériel promotionnel et d'éléments de marquage pour un événement d'entreprise. Conçu un thème visuellement unifié, englobant un logo, des affiches, des bannières et des actifs numériques. Intégrer l'identité de marque du client tout en l'insufflant à une approche contemporaine et innovante. Des réponses favorables de la part des participants ont été obtenues, ce qui a donné lieu à un événement réussi avec un engagement accru des participants et une meilleure visibilité de la marque."
   },
   "SignIn": {
     "meta_title": "Se connecter",

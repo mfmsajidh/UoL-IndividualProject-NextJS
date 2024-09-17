@@ -22,11 +22,11 @@
     "all_rights_reserved": "Todos los derechos reservados."
   },
   "BaseTemplate": {
-    "description": "Automatizamos la creación de su currículum según la descripción del trabajo"
+    "description": "Inicio de código para su Boilerplate de Nextjs con CSS"
   },
   "Index": {
     "meta_title": "Mate de CV",
-    "meta_description": "Automatizamos sus currículos."
+    "meta_description": "Siguiente js Boilerplate es el código de inicio perfecto para tu proyecto. Construye tu aplicación React con el framework Next.js."
   },
   "Guestbook": {
     "meta_title": "Libro de visitas",
@@ -41,14 +41,14 @@
   "Portfolio": {
     "meta_title": "Portafolio",
     "meta_description": "¡Bienvenido a mi página de portafolio!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Bienvenidos a mi página de portafolio! A través de este portafolio, voy a mostrar mi experiencia, creatividad y el valor que puedo aportar a sus proyectos.",
     "portfolio_name": "Portafolio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portafolio {slug}",
     "meta_description": "Descripción del portafolio {slug}",
     "header": "Portafolio {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Creó un conjunto de materiales promocionales y elementos de marca para un evento corporativo. Creó un tema visualmente unificado, que engloba un logotipo, carteles, pancartas y activos digitales. Integró la identidad de la marca del cliente mientras le infundió un enfoque contemporáneo e innovador. Respuestas favorables garantizadas de los asistentes al evento, resultando en un evento exitoso con un mayor compromiso de los participantes y una mayor visibilidad de la marca."
   },
   "SignIn": {
     "meta_title": "Iniciar sesión",

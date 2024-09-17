@@ -22,11 +22,11 @@
     "all_rights_reserved": "Tutti i diritti riservati."
   },
   "BaseTemplate": {
-    "description": "automatizziamo la creazione del tuo CV secondo la descrizione del lavoro"
+    "description": "Codice di avvio per il tuo Nextjs Boilerplate con Tailwind CSS"
   },
   "Index": {
     "meta_title": "CV Mate",
-    "meta_description": "automatizziamo i tuoi CV."
+    "meta_description": "Il prossimo Js Boilerplate è il codice di partenza perfetto per il tuo progetto. Costruisci l'applicazione React con il framework Next.js."
   },
   "Guestbook": {
     "meta_title": "Guestbook",
@@ -41,14 +41,14 @@
   "Portfolio": {
     "meta_title": "Portafoglio",
     "meta_description": "Benvenuto nella pagina del mio portafoglio!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Benvenuto nella mia pagina del portafoglio! Qui troverai una collezione curata con cura del mio lavoro e delle mie realizzazioni. Attraverso questo portafoglio, mostrerò la mia competenza, la mia creatività e il valore che posso portare ai vostri progetti.",
     "portfolio_name": "Portafoglio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portafoglio {slug}",
     "meta_description": "Portfolio {slug} description",
     "header": "Portafoglio {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Creato un set di materiali promozionali ed elementi di branding per un evento aziendale. Realizzato un tema visivamente unificato, che comprende un logo, poster, banner e beni digitali. Integrato l'identità del marchio del cliente infondendolo con un approccio contemporaneo e innovativo. Ottenuto risposte favorevoli dai partecipanti all'evento, con conseguente evento di successo con un maggiore coinvolgimento dei partecipanti e una maggiore visibilità del marchio."
   },
   "SignIn": {
     "meta_title": "Accedi",

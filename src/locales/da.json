@@ -22,11 +22,11 @@
     "all_rights_reserved": "Alle rettigheder forbeholdt."
   },
   "BaseTemplate": {
-    "description": "Vi automatiserer oprettelsen af dit CV i henhold til jobbeskrivelsen"
+    "description": "Startkode til din Nextjs kedelplade med Tailwind CSS"
   },
   "Index": {
     "meta_title": "CV Mate",
-    "meta_description": "Vi automatiserer dine CV'er."
+    "meta_description": "Næste js Boilerplate er den perfekte startkode til dit projekt. Byg din React applikation med Next.js framework."
   },
   "Guestbook": {
     "meta_title": "Gæstebog",
@@ -41,14 +41,14 @@
   "Portfolio": {
     "meta_title": "Portefølje",
     "meta_description": "Velkommen til min porteføljeside!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Velkommen til min portefølje side! Her vil du finde en omhyggeligt kurateret samling af mit arbejde og resultater. Gennem denne portefølje vil jeg fremvise min ekspertise, kreativitet, og den værdi, jeg kan bringe til dine projekter.",
     "portfolio_name": "Portefølje {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portefølje {slug}",
     "meta_description": "Portefølje {slug} beskrivelse",
     "header": "Portefølje {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Oprettet et sæt af salgsfremmende materialer og branding elementer til en corporate event. Udformet en visuelt forenet tema, der omfatter et logo, plakater, bannere og digitale aktiver. Integrerede kundens brand identitet, mens det infunderes med en moderne og innovativ tilgang. Garnered gunstige svar fra event deltagere, hvilket resulterer i en vellykket begivenhed med øget deltagelse engagement og øget brand synlighed."
   },
   "SignIn": {
     "meta_title": "Log ind",
