@@ -135,8 +135,6 @@ export default function CVGeneratorPage() {
   const formatProfileData = (): string => {
     const { about, educations, experiences, skills, languages } = profileData;
 
-    console.log(JSON.stringify(profileData));
-
     return `
       Name: ${about?.name || 'N/A'}
       Headline: ${about?.headline || 'N/A'}

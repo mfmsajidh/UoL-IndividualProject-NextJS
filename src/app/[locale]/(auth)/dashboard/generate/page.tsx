@@ -1,84 +1,123 @@
-// @ts-nocheck
-/* eslint-disable */
 'use client';
 
-import React from 'react';
 import Docxtemplater from 'docxtemplater';
-import PizZip from 'pizzip';
 import { saveAs } from 'file-saver';
-let PizZipUtils = null;
-if (typeof window !== 'undefined') {
-  import('pizzip/utils/index.js').then(function (r) {
-    PizZipUtils = r;
-  });
+import PizZip from 'pizzip';
+import PizZipUtils from 'pizzip/utils/index.js';
+import React from 'react';
+
+interface Education {
+  school: string;
+  startDate: string;
+  endDate: string;
+  degree: string;
+  fieldOfStudy: string;
+  grade: string;
+  activities: string;
+  description: string;
 }
 
-function loadFile(url, callback) {
-  PizZipUtils.getBinaryContent(url, callback);
+interface Experience {
+  title: string;
+  company: string;
+  startDate: string;
+  endDate: string;
+  description: string;
+  location: string;
+  employmentType: string;
 }
 
-const profileContent = {
-  "about": {
-    "name": "Sajidh",
-    "headline": "Head",
-    "about": "Abpurasdkbhajksdhka",
-    "address": "adddress",
-    "email": "email@email.com",
-    "phoneNumber": "phone"
+interface Language {
+  language: string;
+  proficiency: string;
+}
+
+interface ProfileContent {
+  about: {
+    name: string;
+    headline: string;
+    about: string;
+    address: string;
+    email: string;
+    phoneNumber: string;
+  };
+  educations: Education[];
+  experiences: Experience[];
+  skills: string[];
+  languages: Language[];
+}
+
+const profileContent: ProfileContent = {
+  about: {
+    name: 'Sajidh',
+    headline: 'Head',
+    about: 'Abpurasdkbhajksdhka',
+    address: 'adddress',
+    email: 'email@email.com',
+    phoneNumber: 'phone',
   },
-  "educations": [
+  educations: [
     {
-      "school": "Zahirq",
-      "startDate": "2024-09-05",
-      "endDate": "2024-09-05",
-      "degree": "asd",
-      "fieldOfStudy": "asdsad",
-      "grade": "",
-      "activities": "asdasd",
-      "description": "asdasd"
+      school: 'Zahirq',
+      startDate: '2024-09-05',
+      endDate: '2024-09-05',
+      degree: 'asd',
+      fieldOfStudy: 'asdsad',
+      grade: '',
+      activities: 'asdasd',
+      description: 'asdasd',
     },
     {
-      "school": "dd",
-      "startDate": "2024-08-29",
-      "endDate": "2024-09-04",
-      "degree": "asd",
-      "fieldOfStudy": "asd",
-      "grade": "",
-      "activities": "",
-      "description": ""
-    }
+      school: 'dd',
+      startDate: '2024-08-29',
+      endDate: '2024-09-04',
+      degree: 'asd',
+      fieldOfStudy: 'asd',
+      grade: '',
+      activities: '',
+      description: '',
+    },
   ],
-  "experiences": [
+  experiences: [
     {
-      "title": "asd",
-      "company": "asd",
-      "startDate": "2024-09-12",
-      "endDate": "",
-      "description": "",
-      "location": "asdasd",
-      "employmentType": "part-time"
-    }
+      title: 'asd',
+      company: 'asd',
+      startDate: '2024-09-12',
+      endDate: '',
+      description: '',
+      location: 'asdasd',
+      employmentType: 'part-time',
+    },
   ],
-  "skills": [
-    "wait",
-    "brother",
-    "ui/ux backend",
-    "ai"
-  ],
-  "languages": [
+  skills: ['wait', 'brother', 'ui/ux backend', 'ai'],
+  languages: [
     {
-      "language": "English",
-      "proficiency": "native"
+      language: 'English',
+      proficiency: 'native',
+    },
+  ],
+};
+
+const loadFile = (
+  url: string,
+  callback: (error: Error | null, content: string | null) => void,
+) => {
+  PizZipUtils.getBinaryContent(url, (error, content) => {
+    if (error) {
+      callback(error, null);
+    } else {
+      callback(null, content);
     }
-  ]
-}
+  });
+};
 
 const generateDocument = () => {
-  loadFile('/api/document', function (error, content) {
+  loadFile('/api/document', (error, content) => {
     if (error) {
-      throw error;
+      return;
     }
-    const zip = new PizZip(content);
+
+    const zip = new PizZip(content as string);
     const doc = new Docxtemplater(zip, {
       linebreaks: true,
       paragraphLoop: true,
@@ -105,15 +144,17 @@ const generateDocument = () => {
   });
 };
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <main>
       <div>
         <div>
           <h1> Test Docxtemplater</h1>
         </div>
-        <button onClick={generateDocument}>Generate document</button>
-        <p>Click the button above to generate a document using NextJS</p>
+        <button type="button" onClick={generateDocument}>
+          Generate document
+        </button>
+        <p>Click the button above to generate a document using Next.js</p>
         <p>
           You can edit the data in your code in this example. In your app, the
           data would come from your database for example.
@@ -121,4 +162,6 @@ export default function Home() {
       </div>
     </main>
   );
-}
+};
+
+export default Home;
