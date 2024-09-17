@@ -3,6 +3,7 @@
 import Docxtemplater from 'docxtemplater';
 import { saveAs } from 'file-saver';
 import { Loader2 } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import PizZip from 'pizzip';
 import PizZipUtils from 'pizzip/utils';
@@ -111,6 +112,7 @@ const generateDocument = (profileContent: ProfileContent) => {
 };
 
 export default function CVGeneratorPage() {
+  const router = useRouter();
   const t = useTranslations('CVGenerator');
   const { publicKey } = useWallet();
 
@@ -142,6 +144,27 @@ export default function CVGeneratorPage() {
         setIsLoading(true);
 
         const latestCIDs = await fetchLatestSectionCIDs(publicKey);
+
+        if (latestCIDs.about?.latestVersion === 0) {
+          router.push('/dashboard/profile/about');
+          return;
+        }
+        if (latestCIDs.education?.latestVersion === 0) {
+          router.push('/dashboard/profile/education');
+          return;
+        }
+        if (latestCIDs.experience?.latestVersion === 0) {
+          router.push('/dashboard/profile/experience');
+          return;
+        }
+        if (latestCIDs.skills?.latestVersion === 0) {
+          router.push('/dashboard/profile/skills');
+          return;
+        }
+        if (latestCIDs.languages?.latestVersion === 0) {
+          router.push('/dashboard/profile/languages');
+          return;
+        }
 
         const aboutData = latestCIDs.about
           ? await fetchFromIPFS(latestCIDs.about.latestCID)
