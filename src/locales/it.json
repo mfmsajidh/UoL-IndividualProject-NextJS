@@ -262,7 +262,7 @@
     "about_placeholder": "Raccontaci di te",
     "about_validation": "Le informazioni devono essere lunghe almeno 10 caratteri",
     "address": "Indirizzo",
-    "address_placeholder": "Inserisci il tuo indirizzo",
+    "address_placeholder": "Città, Paese",
     "address_validation": "L'indirizzo è obbligatorio",
     "email": "Email",
     "email_placeholder": "Inserisci la tua email",

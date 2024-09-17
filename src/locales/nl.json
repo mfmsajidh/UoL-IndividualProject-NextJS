@@ -262,7 +262,7 @@
     "about_placeholder": "Vertel ons over jezelf",
     "about_validation": "Over moet minstens 10 tekens lang zijn",
     "address": "Adres:",
-    "address_placeholder": "Voer uw adres in",
+    "address_placeholder": "Stad, Land",
     "address_validation": "Adres is vereist",
     "email": "E-mailadres",
     "email_placeholder": "Voer je e-mailadres in",

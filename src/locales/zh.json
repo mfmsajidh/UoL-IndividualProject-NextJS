@@ -262,7 +262,7 @@
     "about_placeholder": "告诉我们自己的信息",
     "about_validation": "关于必须至少 10 个字符长",
     "address": "地址",
-    "address_placeholder": "输入您的地址",
+    "address_placeholder": "城市，国家",
     "address_validation": "地址是必填项",
     "email": "电子邮件地址",
     "email_placeholder": "输入您的电子邮件",

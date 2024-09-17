@@ -262,7 +262,7 @@
     "about_placeholder": "أخبرنا عن نفسك",
     "about_validation": "حول يجب أن يكون على الأقل 10 أحرف",
     "address": "العنوان",
-    "address_placeholder": "أدخل عنوانك",
+    "address_placeholder": "المدينة، البلد",
     "address_validation": "العنوان مطلوب",
     "email": "البريد الإلكتروني",
     "email_placeholder": "أدخل بريدك الإلكتروني",

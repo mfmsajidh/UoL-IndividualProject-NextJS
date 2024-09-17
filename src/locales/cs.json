@@ -262,7 +262,7 @@
     "about_placeholder": "Řekněte nám o sobě",
     "about_validation": "O něm musí být alespoň 10 znaků dlouhé",
     "address": "Adresa",
-    "address_placeholder": "Zadejte svou adresu",
+    "address_placeholder": "Město, země",
     "address_validation": "Adresa je povinná",
     "email": "E-mailová adresa",
     "email_placeholder": "Zadejte svůj e-mail",
