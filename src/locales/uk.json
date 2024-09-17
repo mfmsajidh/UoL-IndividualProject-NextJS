@@ -262,7 +262,7 @@
     "about_placeholder": "Розкажіть нам про себе",
     "about_validation": "Довжина повинно бути щонайменше 10 символів",
     "address": "Адреса",
-    "address_placeholder": "Введіть адресу",
+    "address_placeholder": "Місто, Країна",
     "address_validation": "Потрібна адреса",
     "email": "Ел. пошта",
     "email_placeholder": "Введіть адресу електронної пошти",

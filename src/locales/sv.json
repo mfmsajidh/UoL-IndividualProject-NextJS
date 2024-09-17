@@ -262,7 +262,7 @@
     "about_placeholder": "Berätta om dig själv",
     "about_validation": "Om måste vara minst 10 tecken långt",
     "address": "Adress",
-    "address_placeholder": "Ange din adress",
+    "address_placeholder": "Stad, Land",
     "address_validation": "Adress krävs",
     "email": "E-post",
     "email_placeholder": "Ange din e-postadress",

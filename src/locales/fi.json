@@ -262,7 +262,7 @@
     "about_placeholder": "Kerro meille itsestäsi",
     "about_validation": "Tietoja on oltava vähintään 10 merkkiä pitkä",
     "address": "Osoite",
-    "address_placeholder": "Syötä osoitteesi",
+    "address_placeholder": "Kaupunki, Maa",
     "address_validation": "Osoite vaaditaan",
     "email": "Sähköposti",
     "email_placeholder": "Syötä sähköpostiosoitteesi",

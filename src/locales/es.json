@@ -262,7 +262,7 @@
     "about_placeholder": "Cuéntanos acerca de ti",
     "about_validation": "Acerca debe tener al menos 10 caracteres de longitud",
     "address": "Dirección",
-    "address_placeholder": "Introduzca su dirección",
+    "address_placeholder": "Ciudad, País",
     "address_validation": "Dirección requerida",
     "email": "E-mail",
     "email_placeholder": "Introduce tu email",

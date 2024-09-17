@@ -262,7 +262,7 @@
     "about_placeholder": "Erzählen Sie uns über sich selbst",
     "about_validation": "Über das Thema muss mindestens 10 Zeichen lang sein",
     "address": "Adresse",
-    "address_placeholder": "Geben Sie Ihre Adresse ein",
+    "address_placeholder": "Stadt, Land",
     "address_validation": "Adresse ist erforderlich",
     "email": "E-Mail",
     "email_placeholder": "E-Mail eingeben",
