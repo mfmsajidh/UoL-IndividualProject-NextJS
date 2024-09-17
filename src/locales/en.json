@@ -262,7 +262,7 @@
     "about_placeholder": "Tell us about yourself",
     "about_validation": "About must be at least 10 characters long",
     "address": "Address",
-    "address_placeholder": "Enter your address",
+    "address_placeholder": "City, Country",
     "address_validation": "Address is required",
     "email": "Email",
     "email_placeholder": "Enter your email",

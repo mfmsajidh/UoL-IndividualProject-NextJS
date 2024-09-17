@@ -53,3 +53,6 @@ local
 # Sentry Config File
 .sentryclirc
 .env.sentry-build-plugin
+
+# Temporary word document
+~$cv.docx

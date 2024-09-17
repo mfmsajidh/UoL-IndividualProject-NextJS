@@ -1,6 +1,5 @@
 // @ts-nocheck
 /* eslint-disable */
-
 'use client';
 
 import React from 'react';
@@ -18,6 +17,62 @@ function loadFile(url, callback) {
   PizZipUtils.getBinaryContent(url, callback);
 }
 
+const profileContent = {
+  "about": {
+    "name": "Sajidh",
+    "headline": "Head",
+    "about": "Abpurasdkbhajksdhka",
+    "address": "adddress",
+    "email": "email@email.com",
+    "phoneNumber": "phone"
+  },
+  "educations": [
+    {
+      "school": "Zahirq",
+      "startDate": "2024-09-05",
+      "endDate": "2024-09-05",
+      "degree": "asd",
+      "fieldOfStudy": "asdsad",
+      "grade": "",
+      "activities": "asdasd",
+      "description": "asdasd"
+    },
+    {
+      "school": "dd",
+      "startDate": "2024-08-29",
+      "endDate": "2024-09-04",
+      "degree": "asd",
+      "fieldOfStudy": "asd",
+      "grade": "",
+      "activities": "",
+      "description": ""
+    }
+  ],
+  "experiences": [
+    {
+      "title": "asd",
+      "company": "asd",
+      "startDate": "2024-09-12",
+      "endDate": "",
+      "description": "",
+      "location": "asdasd",
+      "employmentType": "part-time"
+    }
+  ],
+  "skills": [
+    "wait",
+    "brother",
+    "ui/ux backend",
+    "ai"
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "native"
+    }
+  ]
+}
+
 const generateDocument = () => {
   loadFile('/api/document', function (error, content) {
     if (error) {
@@ -28,19 +83,24 @@ const generateDocument = () => {
       linebreaks: true,
       paragraphLoop: true,
     });
-    // render the document (replace all occurences of {first_name} by John, {last_name} by Doe, ...)
+
     doc.render({
-      name: 'John',
-      address: 'Doe',
-      email_address: '0652455478',
-      phone_number: 'New Website',
+      name: profileContent.about.name,
+      address: profileContent.about.address,
+      email_address: profileContent.about.email,
+      phone_number: profileContent.about.phoneNumber,
+      educations: profileContent.educations,
+      experiences: profileContent.experiences,
+      skills: profileContent.skills,
+      languages: profileContent.languages,
     });
+
     const blob = doc.getZip().generate({
       type: 'blob',
       mimeType:
         'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
     });
-    // Output the document using Data-URI
+
     saveAs(blob, 'output.docx');
   });
 };

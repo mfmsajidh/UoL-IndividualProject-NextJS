@@ -13,13 +13,55 @@ import { useWallet } from '@/hooks/useWallet';
 import { fetchFromIPFS } from '@/libs/Pinata';
 import { fetchLatestSectionCIDs } from '@/libs/Stellar';
 
-interface ProfileData {
-  about: any;
-  education: any;
-  experience: any;
-  skills: any[];
-  languages: any;
-}
+type About = {
+  name: string;
+  headline: string;
+  about: string;
+  address: string;
+  email: string;
+  phoneNumber: string;
+};
+
+type Education = {
+  school: string;
+  startDate: string;
+  endDate: string;
+  degree: string;
+  fieldOfStudy: string;
+  grade?: string;
+  activities?: string;
+  description?: string;
+};
+
+type Experience = {
+  title: string;
+  company: string;
+  startDate: string;
+  endDate?: string;
+  description?: string;
+  location: string;
+  employmentType:
+    | 'full-time'
+    | 'part-time'
+    | 'contract'
+    | 'freelance'
+    | 'internship';
+};
+
+type Skill = string;
+
+type Language = {
+  language: string;
+  proficiency: 'native' | 'fluent' | 'intermediate' | 'basic';
+};
+
+type UserProfile = {
+  about: About;
+  educations: Education[];
+  experiences: Experience[];
+  skills: Skill[];
+  languages: Language[];
+};
 
 export default function CVGeneratorPage() {
   const t = useTranslations('CVGenerator');
@@ -28,17 +70,23 @@ export default function CVGeneratorPage() {
   const [jobDescription, setJobDescription] = useState('');
   const [generatedDocument, setGeneratedDocument] = useState<string>('');
   const [isGenerating, setIsGenerating] = useState(false);
-  const [profileData, setProfileData] = useState<ProfileData>({
-    about: null,
-    education: null,
-    experience: null,
+  const [profileData, setProfileData] = useState<UserProfile>({
+    about: {
+      name: '',
+      headline: '',
+      about: '',
+      address: '',
+      email: '',
+      phoneNumber: '',
+    },
+    educations: [],
+    experiences: [],
     skills: [],
-    languages: null,
+    languages: [],
   });
 
   const [isLoading, setIsLoading] = useState(true);
 
-  // Fetch the latest profile data from Stellar and IPFS on page load
   useEffect(() => {
     const fetchProfileData = async () => {
       if (!publicKey) return;
@@ -48,7 +96,6 @@ export default function CVGeneratorPage() {
 
         const latestCIDs = await fetchLatestSectionCIDs(publicKey);
 
-        // Fetch each section's data from IPFS using the CID
         const aboutData = latestCIDs.about
           ? await fetchFromIPFS(latestCIDs.about.latestCID)
           : null;
@@ -65,14 +112,13 @@ export default function CVGeneratorPage() {
           ? await fetchFromIPFS(latestCIDs.languages.latestCID)
           : null;
 
-        // Set the fetched profile data
         setProfileData({
           about: aboutData,
-          education: educationData,
-          experience: experienceData,
+          educations: educationData.educations,
+          experiences: experienceData.experiences,
           skills:
             skillsData?.skills.map((item: { name: string }) => item.name) || [],
-          languages: languagesData,
+          languages: languagesData.languages,
         });
 
         setIsLoading(false);
@@ -86,9 +132,10 @@ export default function CVGeneratorPage() {
     fetchProfileData();
   }, [publicKey]);
 
-  // Format the fetched profile data
   const formatProfileData = (): string => {
-    const { about, education, experience, skills, languages } = profileData;
+    const { about, educations, experiences, skills, languages } = profileData;
+
+    console.log(JSON.stringify(profileData));
 
     return `
       Name: ${about?.name || 'N/A'}
@@ -97,7 +144,7 @@ export default function CVGeneratorPage() {
 
       Education:
       ${
-        education?.educations
+        educations
           ?.map(
             (edu: any) => `
         School: ${edu.school}, Degree: ${edu.degree}
@@ -110,7 +157,7 @@ export default function CVGeneratorPage() {
 
       Experience:
       ${
-        experience?.experiences
+        experiences
           ?.map(
             (exp: any) => `
         Job Title: ${exp.title}, Company: ${exp.company}
@@ -126,7 +173,7 @@ export default function CVGeneratorPage() {
 
       Languages:
       ${
-        languages?.languages
+        languages
           ?.map(
             (lang: any) => `
         Language: ${lang.language}, Proficiency: ${lang.proficiency}
@@ -148,7 +195,6 @@ export default function CVGeneratorPage() {
     }, 2000);
   };
 
-  // Function to export the document as a PDF
   const handleExportPDF = () => {
     const doc = new JsPDF();
     doc.text(generatedDocument, 10, 10);
