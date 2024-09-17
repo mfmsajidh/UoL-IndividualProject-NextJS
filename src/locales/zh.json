@@ -295,7 +295,7 @@
     "remove_experience": "移除体验",
     "add_experience": "添加经验",
     "save": "保存中...",
-    "save_profile": "Save Experiences"
+    "save_profile": "保存经验"
   },
   "ProfileEducation": {
     "school": "学校",
@@ -323,29 +323,29 @@
     "save_profile": "保存教育"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "输入技能",
     "skill_validation": "技能是必需的",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "至少需要一种技能",
     "add_skill": "添加技能",
     "save": "保存中...",
     "save_profile": "保存技能"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "语言",
+    "language_placeholder": "语言名称",
+    "language_validation_1": "语言是必填项",
+    "language_validation_2": "语言必须小于 50 个字符",
     "proficiency": "熟练度",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "选择熟练程度",
+    "proficiency_value_native": "本土或双语熟练度",
+    "proficiency_value_full": "完全专业熟练度",
+    "proficiency_value_professional": "专业工作能力",
+    "proficiency_value_limited": "工作能力不足",
     "proficiency_value_elementary": "小学熟练度",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "需要熟练度",
+    "remove_language": "删除语言",
     "add_language": "添加语言",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "保存中...",
+    "save_profile": "保存语言"
   }
 }

@@ -295,7 +295,7 @@
     "remove_experience": "Αφαίρεση Εμπειρίας",
     "add_experience": "Προσθήκη Εμπειρίας",
     "save": "Αποθηκεύεται...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Αποθήκευση Εμπειριών"
   },
   "ProfileEducation": {
     "school": "Σχολείο",
@@ -323,29 +323,29 @@
     "save_profile": "Αποθήκευση Εκπαιδευτικών Σπουδών"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Εισάγετε μια δεξιότητα",
     "skill_validation": "Απαιτείται δεξιότητα",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Απαιτείται τουλάχιστον μία δεξιότητα",
     "add_skill": "Προσθήκη Δεξιότητας",
     "save": "Αποθηκεύεται...",
     "save_profile": "Αποθήκευση Δεξιοτήτων"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Γλώσσα",
+    "language_placeholder": "Όνομα της γλώσσας",
+    "language_validation_1": "Η γλώσσα απαιτείται",
+    "language_validation_2": "Η γλώσσα πρέπει να είναι μικρότερη από 50 χαρακτήρες",
     "proficiency": "Ικανότητα",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Επιλογή επιπέδου επάρκειας",
+    "proficiency_value_native": "Εγγενής ή δίγλωσση επάρκεια",
+    "proficiency_value_full": "Πλήρης επαγγελματική επάρκεια",
+    "proficiency_value_professional": "Επαγγελματική επάρκεια εργασίας",
+    "proficiency_value_limited": "Περιορισμένη επαγγελματική επάρκεια",
     "proficiency_value_elementary": "Στοιχειώδης επάρκεια",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Απαιτείται επάρκεια",
+    "remove_language": "Αφαίρεση Γλώσσας",
     "add_language": "Προσθήκη Γλώσσας",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Αποθηκεύεται...",
+    "save_profile": "Αποθήκευση Γλωσσών"
   }
 }

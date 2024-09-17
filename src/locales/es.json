@@ -295,7 +295,7 @@
     "remove_experience": "Eliminar experiencia",
     "add_experience": "Añadir experiencia",
     "save": "Guardando...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Guardar experiencias"
   },
   "ProfileEducation": {
     "school": "Escuela",
@@ -323,29 +323,29 @@
     "save_profile": "Guardar Educaciones"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Introduce una habilidad",
     "skill_validation": "Habilidad requerida",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Se requiere al menos una habilidad",
     "add_skill": "Añadir Habilidad",
     "save": "Guardando...",
     "save_profile": "Guardar habilidades"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Idioma",
+    "language_placeholder": "Nombre del idioma",
+    "language_validation_1": "Idioma requerido",
+    "language_validation_2": "El idioma debe tener menos de 50 caracteres",
     "proficiency": "Competencia",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Seleccionar nivel de competencia",
+    "proficiency_value_native": "Competencia nativa o bilingüe",
+    "proficiency_value_full": "Competencia profesional completa",
+    "proficiency_value_professional": "Competencia de trabajo profesional",
+    "proficiency_value_limited": "Competencia de trabajo limitada",
     "proficiency_value_elementary": "Capacidad Elemental",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "La competencia es necesaria",
+    "remove_language": "Eliminar Idioma",
     "add_language": "Añadir Idioma",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Guardando...",
+    "save_profile": "Guardar idiomas"
   }
 }

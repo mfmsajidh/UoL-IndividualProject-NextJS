@@ -295,7 +295,7 @@
     "remove_experience": "Видалити досвід",
     "add_experience": "Додати досвід",
     "save": "Збереження...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Зберегти досвід"
   },
   "ProfileEducation": {
     "school": "Школа",
@@ -323,29 +323,29 @@
     "save_profile": "Зберегти освіту"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Введіть навичку",
     "skill_validation": "Необхідний рівень навички",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Принаймні один навик обов'язковий",
     "add_skill": "Додати Вміння",
     "save": "Збереження...",
     "save_profile": "Зберегти навички"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Мова:",
+    "language_placeholder": "Назва мови",
+    "language_validation_1": "Мова необхідна",
+    "language_validation_2": "Мова повинна бути менше 50 символів",
     "proficiency": "Майстерність",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Вибрати рівень майстерності",
+    "proficiency_value_native": "Рідна або двомовна здібність",
+    "proficiency_value_full": "Всі професійні здібності",
+    "proficiency_value_professional": "Професійна робоча майстерність",
+    "proficiency_value_limited": "Обмежена робоча майстерність",
     "proficiency_value_elementary": "Елементарні здібності",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Потрібно мати підтвердження",
+    "remove_language": "Видалити мову",
     "add_language": "Додати мову",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Збереження...",
+    "save_profile": "Зберегти мови"
   }
 }

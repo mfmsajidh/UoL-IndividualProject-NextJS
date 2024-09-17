@@ -295,7 +295,7 @@
     "remove_experience": "Poista Kokemus",
     "add_experience": "Lisää Kokemus",
     "save": "Tallennetaan...",
-    "save_profile": "Save Experiences"
+    "save_profile": "Tallenna Kokemukset"
   },
   "ProfileEducation": {
     "school": "Koulu",
@@ -323,29 +323,29 @@
     "save_profile": "Tallenna Koulutukset"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "Syötä taito",
     "skill_validation": "Taito vaaditaan",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "Vähintään yksi taito vaaditaan",
     "add_skill": "Lisää Taito",
     "save": "Tallennetaan...",
     "save_profile": "Tallenna Taidot"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "Kieli",
+    "language_placeholder": "Kielen nimi",
+    "language_validation_1": "Kieli on pakollinen",
+    "language_validation_2": "Kielen on oltava alle 50 merkkiä",
     "proficiency": "Taito",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "Valitse taitotaso",
+    "proficiency_value_native": "Natiivi tai kaksikielinen taito",
+    "proficiency_value_full": "Täysi ammattitaito",
+    "proficiency_value_professional": "Ammattimainen työtaito",
+    "proficiency_value_limited": "Vähäinen työtaito",
     "proficiency_value_elementary": "Elementary proficiency",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "Vaatii pätevyyttä",
+    "remove_language": "Poista Kieli",
     "add_language": "Lisää Kieli",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "Tallennetaan...",
+    "save_profile": "Tallenna Kielet"
   }
 }

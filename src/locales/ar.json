@@ -295,7 +295,7 @@
     "remove_experience": "إزالة التجربة",
     "add_experience": "إضافة تجربة",
     "save": "حفظ...",
-    "save_profile": "Save Experiences"
+    "save_profile": "حفظ الخبرات"
   },
   "ProfileEducation": {
     "school": "المدرسة",
@@ -323,29 +323,29 @@
     "save_profile": "حفظ التعليم"
   },
   "ProfileSkills": {
-    "placeholder": "Enter a skill",
+    "placeholder": "ادخل مهارة",
     "skill_validation": "المهارة مطلوبة",
-    "skills_validation": "At least one skill is required",
+    "skills_validation": "مهارة واحدة على الأقل مطلوبة",
     "add_skill": "إضافة مهارة",
     "save": "حفظ...",
     "save_profile": "حفظ المهارات"
   },
   "ProfileLanguages": {
-    "language": "Language",
-    "language_placeholder": "Name of the Language",
-    "language_validation_1": "Language is required",
-    "language_validation_2": "Language must be less than 50 characters",
+    "language": "اللغة",
+    "language_placeholder": "اسم اللغة",
+    "language_validation_1": "اللغة مطلوبة",
+    "language_validation_2": "اللغة يجب أن تكون أقل من 50 حرفاً",
     "proficiency": "الكفاءة",
-    "proficiency_placeholder": "Select proficiency level",
-    "proficiency_value_native": "Native or bilingual proficiency",
-    "proficiency_value_full": "Full professional proficiency",
-    "proficiency_value_professional": "Professional working proficiency",
-    "proficiency_value_limited": "Limited working proficiency",
+    "proficiency_placeholder": "حدد مستوى الكفاءة",
+    "proficiency_value_native": "إتقان اللغة الأصلية أو ثنائية اللغة",
+    "proficiency_value_full": "الكفاءة المهنية الكاملة",
+    "proficiency_value_professional": "إتقان العمل المهني",
+    "proficiency_value_limited": "كفاءة العمل المحدودة",
     "proficiency_value_elementary": "الكفاءة الأولية",
-    "proficiency_validation": "Proficiency is required",
-    "remove_language": "Remove Language",
+    "proficiency_validation": "الكفاءة مطلوبة",
+    "remove_language": "إزالة اللغة",
     "add_language": "إضافة لغة",
-    "save": "Saving...",
-    "save_profile": "Save Languages"
+    "save": "حفظ...",
+    "save_profile": "حفظ اللغات"
   }
 }
