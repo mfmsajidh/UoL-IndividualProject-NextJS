@@ -204,7 +204,7 @@ const ProfileExperiencePage = () => {
                     </Label>
                     <Input
                       id={`experiences.${index}.startDate`}
-                      type="date"
+                      type="month"
                       className="border-gray-600 bg-gray-700 text-white"
                       {...register(`experiences.${index}.startDate`)}
                     />
@@ -224,7 +224,7 @@ const ProfileExperiencePage = () => {
                     </Label>
                     <Input
                       id={`experiences.${index}.endDate`}
-                      type="date"
+                      type="month"
                       className="border-gray-600 bg-gray-700 text-white"
                       {...register(`experiences.${index}.endDate`)}
                     />

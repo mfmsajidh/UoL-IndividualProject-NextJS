@@ -179,7 +179,7 @@ const ProfileEducationPage = () => {
                     </Label>
                     <Input
                       id={`educations.${index}.startDate`}
-                      type="date"
+                      type="month"
                       className="border-gray-600 bg-gray-700 text-white"
                       {...register(`educations.${index}.startDate`)}
                     />
@@ -200,7 +200,7 @@ const ProfileEducationPage = () => {
                     </Label>
                     <Input
                       id={`educations.${index}.endDate`}
-                      type="date"
+                      type="month"
                       className="border-gray-600 bg-gray-700 text-white"
                       {...register(`educations.${index}.endDate`)}
                     />
