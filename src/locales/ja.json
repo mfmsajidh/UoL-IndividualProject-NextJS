@@ -262,7 +262,7 @@
     "about_placeholder": "あなたについて教えてください",
     "about_validation": "少なくとも10文字以上にしてください",
     "address": "住所",
-    "address_placeholder": "住所を入力してください",
+    "address_placeholder": "都道府県（市）",
     "address_validation": "住所が必要です",
     "email": "Eメールアドレス",
     "email_placeholder": "メールアドレスを入力してください",
