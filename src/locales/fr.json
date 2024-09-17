@@ -262,7 +262,7 @@
     "about_placeholder": "Parlez-nous de vous-même",
     "about_validation": "À propos doit être d'au moins 10 caractères",
     "address": "Adresses",
-    "address_placeholder": "Entrez votre adresse",
+    "address_placeholder": "Ville, Pays",
     "address_validation": "L'adresse est requise",
     "email": "Courriel",
     "email_placeholder": "Entrez votre adresse e-mail",
