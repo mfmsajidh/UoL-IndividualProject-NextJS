@@ -22,11 +22,11 @@
     "all_rights_reserved": "Wszystkie prawa zastrzeżone."
   },
   "BaseTemplate": {
-    "description": "Zautomatyzujemy tworzenie Twojego CV w opisie pracy"
+    "description": "Kod startowy dla twojego Boilerplate Nextjs z CSS Tailwind"
   },
   "Index": {
     "meta_title": "Mat CV",
-    "meta_description": "Zautomatyzujemy Twoje CV."
+    "meta_description": "Next js Boilerplate to idealny kod startowy dla twojego projektu. Zbuduj swoją aplikację React za pomocą frameworka Next.js."
   },
   "Guestbook": {
     "meta_title": "Książka gości",
@@ -41,14 +41,14 @@
   "Portfolio": {
     "meta_title": "Portfel",
     "meta_description": "Witaj na mojej stronie portfolio",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Witaj na mojej stronie portfolio! Tutaj znajdziesz starannie przygotowaną kolekcję mojej pracy i osiągnięć. Za pomocą tego portfolio pokazuję moją wiedzę fachową, kreatywność i wartość, jaką mogę wnieść do Twoich projektów.",
     "portfolio_name": "Portfolio {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio {slug}",
     "meta_description": "Opis portfolio {slug}",
     "header": "Portfolio {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Stworzono zestaw materiałów promocyjnych i elementów marki przeznaczonych na imprezę korporacyjną. Stworzono zjednoczony wizualnie motyw, obejmujący logo, plakaty, banery i zasoby cyfrowe. Zintegrowano tożsamość marki klienta, podając ją współczesnym i innowacyjnym podejściem. Otrzymano korzystne odpowiedzi od uczestników wydarzenia, co doprowadziło do udanego wydarzenia z podwyższonym zaangażowaniem uczestników i większą widocznością marki."
   },
   "SignIn": {
     "meta_title": "Zaloguj się",

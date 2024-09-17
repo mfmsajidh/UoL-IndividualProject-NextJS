@@ -22,11 +22,11 @@
     "all_rights_reserved": "Alle Rechte vorbehalten."
   },
   "BaseTemplate": {
-    "description": "Wir automatisieren die Erstellung Ihres Lebenslaufs gemäß der Jobbeschreibung"
+    "description": "Starter Code für Ihre Nextjs Boilerplate mit maßgeschneidertem CSS"
   },
   "Index": {
     "meta_title": "Lebenslauf-Mate",
-    "meta_description": "Wir automatisieren Ihre Lebensläufe."
+    "meta_description": "Nächste js Boilerplate ist der perfekte Startercode für Ihr Projekt. Erstellen Sie Ihre React-Anwendung mit dem Next.js Framework."
   },
   "Guestbook": {
     "meta_title": "Gästebuch",
@@ -41,14 +41,14 @@
   "Portfolio": {
     "meta_title": "Portfolio",
     "meta_description": "Willkommen auf meiner Portfolio-Seite!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Willkommen auf meiner Portfolio-Seite! Hier finden Sie eine sorgfältig kuratierte Sammlung meiner Arbeit und Leistungen. Mit diesem Portfolio werde ich meine Kompetenz, Kreativität und den Wert, den ich für Ihre Projekte bringen kann, demonstrieren.",
     "portfolio_name": "Portfolio- {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portfolio- {slug}",
     "meta_description": "Portfolio- {slug} Beschreibung",
     "header": "Portfolio- {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Erstellen Sie eine Reihe von Werbematerialien und Branding-Elementen für eine Firmenveranstaltung. Hergestellt ein visuell vereinheitlichtes Thema, das ein Logo, Plakate, Banner und digitale Vermögenswerte umfasst. Integriert die Markenidentität des Kunden und mit einem modernen und innovativen Ansatz. Garnered vorteilhafte Reaktionen von Veranstaltungsteilnehmern, die zu einem erfolgreichen Event mit gesteigertem Teilnehmerengagement und erhöhter Markensichtbarkeit führten."
   },
   "SignIn": {
     "meta_title": "Anmelden",

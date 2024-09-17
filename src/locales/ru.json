@@ -41,14 +41,14 @@
   "Portfolio": {
     "meta_title": "Портфолио",
     "meta_description": "Добро пожаловать на мою страницу портфолио!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Добро пожаловать на мою страницу портфолио! С помощью этого портфолио, я вижу свои знания, творческие способности и ценность, которую я могу принести вашим проектам.",
     "portfolio_name": "Портфолио {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Портфолио {slug}",
     "meta_description": "Описание портфолио {slug}",
     "header": "Портфолио {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Создан набор рекламных материалов и элементов брендинга для корпоративного мероприятия. Создана единая визуально тема, включающая в себя логотип, плакаты, баннеры и цифровые активы. Интегрируйте фирменный знак клиента в сочетании с современным инновационным подходом. Оборот положительных отзывов участников события, что привело к успешному мероприятию с повышенной вовлеченностью участников и повышенной привлекательностью бренда."
   },
   "SignIn": {
     "meta_title": "Войти",
