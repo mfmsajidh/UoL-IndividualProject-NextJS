@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.4.0...v1.4.1) (2024-09-17)
+
+
+### Bug Fixes
+
+* added validation to check if no profile data is available ([69fcfa3](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/69fcfa3550c194dee19f1adbbe989bdc4bb89d41))
+
 # [1.4.0](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.3.0...v1.4.0) (2024-09-17)
 
 
