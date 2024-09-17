@@ -46,6 +46,7 @@
     "@stellar/freighter-api": "^3.0.0",
     "@stellar/stellar-sdk": "^12.3.0",
     "@t3-oss/env-nextjs": "^0.11.1",
+    "ai": "^3.3.39",
     "axios": "^1.7.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
