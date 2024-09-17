@@ -8,23 +8,23 @@ test.describe('Visual testing', () => {
 
       await expect(
         page.getByRole('heading', {
-          name: 'We automate the creation of your CV as per the job description',
+          name: 'Revolutionary CV Generation',
         }),
       ).toBeVisible();
 
       await percySnapshot(page, 'Homepage');
     });
 
-    test('should take screenshot of the about page', async ({ page }) => {
-      await page.goto('/about');
+    test('should take screenshot of the Privacy Policy page', async ({
+      page,
+    }) => {
+      await page.goto('/privacy-policy');
 
       await expect(
-        page.getByRole('link', {
-          name: 'About',
-        }),
+        page.getByText('Welcome to CV Mate. We are', { exact: false }),
       ).toBeVisible();
 
-      await percySnapshot(page, 'About');
+      await percySnapshot(page, 'Privacy Policy');
     });
   });
 });

@@ -22,36 +22,33 @@ test.describe('Sanity', () => {
 
       await expect(
         page.getByRole('heading', {
-          name: 'We automate the creation of your CV as per the job description',
+          name: 'Revolutionary CV Generation',
         }),
       ).toBeVisible();
     });
 
-    test('should navigate to the about page', async ({ page }) => {
+    test('should navigate to the Privacy Policy page', async ({ page }) => {
       await page.goto(targetUrl);
 
-      await page.getByRole('link', { name: 'About' }).click();
-      await expect(page).toHaveURL(/about$/);
+      await page.getByRole('link', { name: 'Privacy Policy' }).click();
+      await expect(page).toHaveURL(/privacy-policy$/);
 
       await expect(
-        page.getByText(
-          'Welcome to the About page! Passionate and dedicated to create amazing software.',
-          { exact: false },
-        ),
+        page.getByText('Welcome to CV Mate. We are', { exact: false }),
       ).toBeVisible();
     });
 
-    test('should navigate to the portfolio page', async ({ page }) => {
+    test('should navigate to the Terms of Service page', async ({ page }) => {
       await page.goto(targetUrl);
 
-      await page.getByRole('link', { name: 'Portfolio' }).click();
-      await expect(page).toHaveURL(/portfolio$/);
+      await page.getByRole('link', { name: 'Terms of Service' }).click();
+      await expect(page).toHaveURL(/terms-of-service$/);
 
       await expect(
-        page.locator('main').getByRole('link', {
-          name: /^Portfolio/,
+        page.getByText('By accessing or using the CV Mate service', {
+          exact: false,
         }),
-      ).toHaveCount(6);
+      ).toBeVisible();
     });
   });
 });
