@@ -1,3 +1,12 @@
+## [1.4.2](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.4.1...v1.4.2) (2024-09-17)
+
+
+### Bug Fixes
+
+* add tab stop ([81a9f0c](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/81a9f0ccca09a2e018f45d5cb295c275e05376ce))
+* added validation to check if no profile data is available ([bbc5238](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/bbc52381d56a84df96567d9f99502844cc6bb55b))
+* improved styling ([ee21fc4](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/ee21fc45619147d3bbc442866c1790a5b777af31))
+
 ## [1.4.1](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.4.0...v1.4.1) (2024-09-17)
 
 
