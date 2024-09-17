@@ -1,8 +1,11 @@
 'use client';
 
-import JsPDF from 'jspdf';
+import Docxtemplater from 'docxtemplater';
+import { saveAs } from 'file-saver';
 import { Loader2 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import PizZip from 'pizzip';
+import PizZipUtils from 'pizzip/utils';
 import { useEffect, useState } from 'react';
 
 import { StellarConnectCard } from '@/app/[locale]/(auth)/dashboard/_components/StellarConnectCard';
@@ -13,54 +16,98 @@ import { useWallet } from '@/hooks/useWallet';
 import { fetchFromIPFS } from '@/libs/Pinata';
 import { fetchLatestSectionCIDs } from '@/libs/Stellar';
 
-type About = {
-  name: string;
-  headline: string;
-  about: string;
-  address: string;
-  email: string;
-  phoneNumber: string;
-};
-
-type Education = {
+interface Education {
   school: string;
   startDate: string;
   endDate: string;
   degree: string;
   fieldOfStudy: string;
-  grade?: string;
-  activities?: string;
-  description?: string;
-};
+  grade: string;
+  activities: string;
+  description: string;
+}
 
-type Experience = {
+interface Experience {
   title: string;
   company: string;
   startDate: string;
-  endDate?: string;
-  description?: string;
+  endDate: string;
+  description: string;
   location: string;
-  employmentType:
-    | 'full-time'
-    | 'part-time'
-    | 'contract'
-    | 'freelance'
-    | 'internship';
-};
+  employmentType: string;
+}
 
-type Skill = string;
-
-type Language = {
+interface Language {
   language: string;
-  proficiency: 'native' | 'fluent' | 'intermediate' | 'basic';
-};
+  proficiency: string;
+}
 
-type UserProfile = {
-  about: About;
+interface ProfileContent {
+  about: {
+    name: string;
+    headline: string;
+    about: string;
+    address: string;
+    email: string;
+    phoneNumber: string;
+  };
   educations: Education[];
   experiences: Experience[];
-  skills: Skill[];
+  skills: string[];
   languages: Language[];
+}
+
+const replaceWhitespaceWithUnderscore = (str: string) => {
+  return str.replace(/\s+/g, '_');
+};
+
+const loadFile = (
+  url: string,
+  callback: (error: Error | null, content: string | null) => void,
+) => {
+  PizZipUtils.getBinaryContent(url, (error, content) => {
+    if (error) {
+      callback(error, null);
+    } else {
+      callback(null, content);
+    }
+  });
+};
+
+const generateDocument = (profileContent: ProfileContent) => {
+  loadFile('/api/document', (error, content) => {
+    if (error) {
+      return;
+    }
+
+    const zip = new PizZip(content as string);
+    const doc = new Docxtemplater(zip, {
+      linebreaks: true,
+      paragraphLoop: true,
+    });
+
+    doc.render({
+      name: profileContent.about.name,
+      address: profileContent.about.address,
+      email_address: profileContent.about.email,
+      phone_number: profileContent.about.phoneNumber,
+      educations: profileContent.educations,
+      experiences: profileContent.experiences,
+      skills: profileContent.skills,
+      languages: profileContent.languages,
+    });
+
+    const blob = doc.getZip().generate({
+      type: 'blob',
+      mimeType:
+        'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+    });
+
+    saveAs(
+      blob,
+      `${replaceWhitespaceWithUnderscore(profileContent.about.name)}_CV.docx`,
+    );
+  });
 };
 
 export default function CVGeneratorPage() {
@@ -70,7 +117,7 @@ export default function CVGeneratorPage() {
   const [jobDescription, setJobDescription] = useState('');
   const [generatedDocument, setGeneratedDocument] = useState<string>('');
   const [isGenerating, setIsGenerating] = useState(false);
-  const [profileData, setProfileData] = useState<UserProfile>({
+  const [profileData, setProfileData] = useState<ProfileContent>({
     about: {
       name: '',
       headline: '',
@@ -182,21 +229,18 @@ export default function CVGeneratorPage() {
     `;
   };
 
-  // Function to handle document generation
   const handleGenerate = () => {
-    setIsGenerating(true);
-    const profileContent = formatProfileData();
-
-    setTimeout(() => {
+    try {
+      setIsGenerating(true);
+      const profileContent = formatProfileData();
       setGeneratedDocument(profileContent);
+    } finally {
       setIsGenerating(false);
-    }, 2000);
+    }
   };
 
-  const handleExportPDF = () => {
-    const doc = new JsPDF();
-    doc.text(generatedDocument, 10, 10);
-    doc.save('profile.pdf');
+  const handleExport = () => {
+    generateDocument(profileData);
   };
 
   return publicKey ? (
@@ -246,7 +290,7 @@ export default function CVGeneratorPage() {
             {generatedDocument && (
               <Button
                 className="mt-4 bg-green-600 hover:bg-green-700"
-                onClick={handleExportPDF}
+                onClick={handleExport}
               >
                 {t('export_pdf')}
               </Button>
