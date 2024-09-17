@@ -22,11 +22,11 @@
     "all_rights_reserved": "جميع الحقوق محفوظة.format@@0"
   },
   "BaseTemplate": {
-    "description": "نحن نقوم بتأليف إنشاء السيرة الذاتية الخاصة بك وفقا لوصف الوظيفة"
+    "description": "كود البدء لـ Nextjs Boilerplate الخاص بك مع Tailwind CSS"
   },
   "Index": {
     "meta_title": "السيرة الذاتية",
-    "meta_description": "نحن أتمتة السيرة الذاتية الخاصة بك."
+    "meta_description": "js Boilerplate التالي هو الكود المبدئي المثالي لمشروعك. أنشئ تطبيق React الخاص بك مع إطار Next.js."
   },
   "Guestbook": {
     "meta_title": "سجل الزوار",
@@ -41,14 +41,14 @@
   "Portfolio": {
     "meta_title": "الحافظة",
     "meta_description": "مرحبا بكم في صفحة حقيبتي!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "مرحبا بكم في صفحة حقيبتي! هنا سوف تجد مجموعة محكومة بعناية من عملي وإنجازاتي. من خلال هذه الحافظة، أنا أقوم بعرض خبرتي وإبداعي والقيمة التي يمكنني جلبها لمشاريعك.",
     "portfolio_name": "الحافظة {name}"
   },
   "PortfolioSlug": {
     "meta_title": "الحافظة {slug}",
     "meta_description": "وصف الحافظة {slug}",
     "header": "الحافظة {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "• وضع مجموعة من المواد الترويجية وعناصر العلامات التجارية لحدث من أحداث الشركات. صنعت موضوعا موحدا بصريا، يشمل شعارا وملصقات وشعارات وأصولا رقمية. دمج هوية العميل التجارية مع إشراكه في نهج معاصر ومبتكر. وحشدت استجابات إيجابية من المشاركين في الحدث، مما أسفر عن حدث ناجح مع زيادة مشاركة المشاركين وزيادة إبراز العلامة التجارية."
   },
   "SignIn": {
     "meta_title": "تسجيل الدخول",

@@ -22,11 +22,11 @@
     "all_rights_reserved": "Med enerett."
   },
   "BaseTemplate": {
-    "description": "Vi automatiserer ditt CV program automatisk i henhold til jobbeskrivelsen"
+    "description": "Begynnerkode til Nextjs Boilerplate med Tailwind CSS"
   },
   "Index": {
     "meta_title": "CV Matt",
-    "meta_description": "Vi automatiserer din CV."
+    "meta_description": "Neste js trykkplate er den perfekte startkoden for prosjektet. Bygg din React applikasjon med Next.js rammeverket."
   },
   "Guestbook": {
     "meta_title": "Gjestebok",
@@ -41,14 +41,14 @@
   "Portfolio": {
     "meta_title": "Portefølje",
     "meta_description": "Velkommen til siden for portefølje min!",
-    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.",
+    "presentation": "Velkommen til siden for porteføljen min! Her finner du en omhyggelig samling av mitt arbeid og gjennomføring av dette. Jeg vil gjennom denne porteføljen vise min kompetanse, kreativitet, og verdien jeg kan ta med i prosjektene dine.",
     "portfolio_name": "Portefølje {name}"
   },
   "PortfolioSlug": {
     "meta_title": "Portefølje {slug}",
     "meta_description": "Portefølje {slug} beskrivelse",
     "header": "Portefølje {slug}",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac."
+    "content": "Opprettet et sett av markedsføringsmateriell og merkelapper til et selskapsarrangement. Laget et visuelt enhetlig tema, som omfatter en logo, plakater, bannere og digitale eiendeler. Integrer klientens merkevareidentitet mens den smitter med en samtid og nyskapende tilnærming. Garnered favorable responser fra event attendees, resulterende i en vellykket hendelse med økt deltakerengasjement og økt merkevaresynlighet."
   },
   "SignIn": {
     "meta_title": "Logg inn",
