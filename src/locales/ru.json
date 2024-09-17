@@ -262,7 +262,7 @@
     "about_placeholder": "Расскажите нам о себе",
     "about_validation": "Должно быть не менее 10 символов",
     "address": "Адрес",
-    "address_placeholder": "Введите ваш адрес",
+    "address_placeholder": "Город, страна",
     "address_validation": "Требуется адрес",
     "email": "Почта",
     "email_placeholder": "Введите ваш email",
