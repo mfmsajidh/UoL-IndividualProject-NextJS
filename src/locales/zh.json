@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "生成您的 CV",
     "job_description": "作业描述",
-    "paste_your_description": "在这里粘贴您的作业描述...",
+    "paste_your_description": "作业描述在这里...",
     "generating": "正在生成...",
     "generate_document": "生成文档",
     "generated_document": "生成的文档",
     "generated_document_placeholder": "生成的 JSON 结构将出现在这里...",
-    "export_pdf": "下载 .DOCX"
+    "export_pdf": "下载 .DOCX",
+    "paste_toast_title": "从剪贴板粘贴",
+    "paste_toast_description": "作业描述已成功粘贴。",
+    "paste_toast_undo": "撤消操作",
+    "failed_paste_toast_title": "粘贴失败",
+    "failed_paste_toast_description": "无法从剪贴板读取。请手动粘贴。",
+    "paste_from_clipboard": "从剪贴板粘贴"
   },
   "ProfileAbout": {
     "full_name": "全名",
