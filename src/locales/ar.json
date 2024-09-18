@@ -247,8 +247,7 @@
     "generating": "توليد ...",
     "generate_document": "إنشاء وثيقة",
     "generated_document": "وثيقة مولدة",
-    "loading_profile_data": "جاري تحميل بيانات الملف الشخصي...",
-    "generated_document_placeholder": "ستظهر هنا الوثيقة التي تم إنشاؤها...",
+    "generated_document_placeholder": "سيظهر هنا هيكل JSON الذي تم إنشاؤه...",
     "export_pdf": "تحميل .DOCX"
   },
   "ProfileAbout": {
