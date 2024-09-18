@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.6.0...v1.6.1) (2024-09-18)
+
+
+### Bug Fixes
+
+* minor padding fix ([74eb430](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/74eb43037d4aba9c290980939283d34b390cb7fa))
+
 # [1.6.0](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.5.1...v1.6.0) (2024-09-18)
 
 
