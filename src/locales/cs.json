@@ -247,9 +247,8 @@
     "generating": "Generování",
     "generate_document": "Vygenerovat dokument",
     "generated_document": "Vygenerovaný dokument",
-    "loading_profile_data": "Načítání dat profilu...",
-    "generated_document_placeholder": "Vygenerovaný doklad se objeví zde...",
-    "export_pdf": "Exportovat do PDF"
+    "generated_document_placeholder": "Vygenerovaná JSON struktura se zobrazí zde...",
+    "export_pdf": "Stáhnout .DOCX"
   },
   "ProfileAbout": {
     "full_name": "Celé jméno",

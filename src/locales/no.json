@@ -247,9 +247,8 @@
     "generating": "Genererer...",
     "generate_document": "Generer dokument",
     "generated_document": "Generert dokument",
-    "loading_profile_data": "Laster profildata...",
-    "generated_document_placeholder": "Det genererte dokumentet vises her...",
-    "export_pdf": "Eksporter som PDF"
+    "generated_document_placeholder": "Det genererte JSON-strukturen vil vises her...",
+    "export_pdf": "Last ned .DOCX"
   },
   "ProfileAbout": {
     "full_name": "Fullt navn",

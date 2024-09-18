@@ -247,9 +247,8 @@
     "generating": "Generare...",
     "generate_document": "Generează Document",
     "generated_document": "Document generat",
-    "loading_profile_data": "Se încarcă datele profilului...",
-    "generated_document_placeholder": "Documentul generat va apărea aici...",
-    "export_pdf": "Exportă ca PDF"
+    "generated_document_placeholder": "Structura JSON generată va apărea aici...",
+    "export_pdf": "Descarcă .DOCX"
   },
   "ProfileAbout": {
     "full_name": "Nume complet",
