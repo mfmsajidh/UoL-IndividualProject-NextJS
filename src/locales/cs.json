@@ -249,7 +249,7 @@
     "generated_document": "Vygenerovaný dokument",
     "loading_profile_data": "Načítání dat profilu...",
     "generated_document_placeholder": "Vygenerovaný doklad se objeví zde...",
-    "export_pdf": "Exportovat do PDF"
+    "export_pdf": "Stáhnout .DOCX"
   },
   "ProfileAbout": {
     "full_name": "Celé jméno",
