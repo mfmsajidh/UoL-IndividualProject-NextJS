@@ -247,8 +247,7 @@
     "generating": "Δημιουργία...",
     "generate_document": "Δημιουργία Εγγράφου",
     "generated_document": "Δημιουργημένο Έγγραφο",
-    "loading_profile_data": "Φόρτωση δεδομένων προφίλ...",
-    "generated_document_placeholder": "Το έγγραφο που δημιουργήσατε θα εμφανιστεί εδώ...",
+    "generated_document_placeholder": "Η κατασκευασμένη JSON δομή θα εμφανιστεί εδώ...",
     "export_pdf": "Λήψη .DOCX"
   },
   "ProfileAbout": {
