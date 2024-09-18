@@ -247,8 +247,7 @@
     "generating": "Luodaan...",
     "generate_document": "Luo Asiakirja",
     "generated_document": "Luotu Asiakirja",
-    "loading_profile_data": "Ladataan profiilin tietoja...",
-    "generated_document_placeholder": "Luotu asiakirjasi näkyy täällä...",
+    "generated_document_placeholder": "Luotu JSON rakenne näkyy täällä...",
     "export_pdf": "Lataa .DOCX"
   },
   "ProfileAbout": {
