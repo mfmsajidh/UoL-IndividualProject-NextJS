@@ -249,7 +249,7 @@
     "generated_document": "Wygenerowany dokument",
     "loading_profile_data": "Ładowanie danych profilu...",
     "generated_document_placeholder": "Twój wygenerowany dokument pojawi się tutaj...",
-    "export_pdf": "Eksportuj jako PDF"
+    "export_pdf": "Pobierz .DOCX"
   },
   "ProfileAbout": {
     "full_name": "Pełna nazwa",
