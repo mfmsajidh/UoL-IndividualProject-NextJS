@@ -247,8 +247,7 @@
     "generating": "生成中...",
     "generate_document": "ドキュメントの生成",
     "generated_document": "生成された文書",
-    "loading_profile_data": "プロファイルデータを読み込んでいます...",
-    "generated_document_placeholder": "生成されたドキュメントがここに表示されます...",
+    "generated_document_placeholder": "生成された JSON 構造がここに表示されます。",
     "export_pdf": ".DOCXをダウンロード"
   },
   "ProfileAbout": {
