@@ -2,7 +2,7 @@
 
 import Docxtemplater from 'docxtemplater';
 import { saveAs } from 'file-saver';
-import { Loader2 } from 'lucide-react';
+import { Clipboard, Download, Loader2 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import PizZip from 'pizzip';
@@ -11,8 +11,10 @@ import { useEffect, useState } from 'react';
 
 import { StellarConnectCard } from '@/app/[locale]/(auth)/dashboard/_components/StellarConnectCard';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { Textarea } from '@/components/ui/textarea';
+import { ToastAction } from '@/components/ui/toast';
+import { useToast } from '@/hooks/use-toast';
 import { useWallet } from '@/hooks/useWallet';
 import { fetchFromIPFS } from '@/libs/Pinata';
 import { fetchLatestSectionCIDs } from '@/libs/Stellar';
@@ -117,6 +119,7 @@ export default function CVGeneratorPage() {
   const router = useRouter();
   const t = useTranslations('CVGenerator');
   const { publicKey } = useWallet();
+  const { toast } = useToast();
 
   const [jobDescription, setJobDescription] = useState('');
   const [generatedDocument, setGeneratedDocument] = useState<
@@ -225,23 +228,62 @@ export default function CVGeneratorPage() {
     }
   };
 
+  const handleDownload = () => {
+    if (generatedDocument) {
+      generateDocument(generatedDocument);
+    }
+  };
+
+  const handlePasteFromClipboard = async () => {
+    try {
+      const text = await navigator.clipboard.readText();
+      setJobDescription(text);
+      toast({
+        title: t('paste_toast_title'),
+        description: t('paste_toast_description'),
+        duration: 3000,
+        action: (
+          <ToastAction
+            altText={t('paste_toast_undo')}
+            onClick={() => setJobDescription('')}
+          >
+            {t('paste_toast_undo')}
+          </ToastAction>
+        ),
+      });
+    } catch (err) {
+      toast({
+        title: t('failed_paste_toast_title'),
+        description: t('failed_paste_toast_description'),
+        variant: 'destructive',
+        duration: 3000,
+      });
+    }
+  };
+
   return publicKey ? (
     <>
       <h1 className="mb-6 text-3xl font-bold text-white">{t('title')}</h1>
-      <div className="grid gap-6 lg:grid-cols-2">
-        <Card className="border-gray-700 bg-gray-800">
-          <CardHeader>
-            <CardTitle className="text-white">{t('job_description')}</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <Textarea
-              placeholder={t('paste_your_description')}
-              className="min-h-[300px] border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
-              value={jobDescription}
-              onChange={(e) => setJobDescription(e.target.value)}
-            />
+      <Card className="border-gray-700 bg-gray-800">
+        <CardContent className="space-y-4 pt-6">
+          <Textarea
+            placeholder={t('paste_your_description')}
+            className="min-h-[200px] border-gray-600 bg-gray-700 text-white placeholder:text-gray-400"
+            value={jobDescription}
+            onChange={(e) => setJobDescription(e.target.value)}
+            rows={20}
+          />
+          <div className="flex flex-wrap gap-2">
             <Button
-              className="mt-4 bg-blue-600 text-white hover:bg-blue-700"
+              className="h-full bg-gray-700 text-white hover:bg-gray-600"
+              onClick={handlePasteFromClipboard}
+              title={t('paste_from_clipboard')}
+            >
+              <Clipboard className="mr-2 size-4" />
+              {t('paste_from_clipboard')}
+            </Button>
+            <Button
+              className="bg-blue-600 text-white hover:bg-blue-700"
               onClick={handleGenerate}
               disabled={isGenerating || !jobDescription.trim() || isLoading}
             >
@@ -254,32 +296,18 @@ export default function CVGeneratorPage() {
                 t('generate_document')
               )}
             </Button>
-          </CardContent>
-        </Card>
-
-        <Card className="border-gray-700 bg-gray-800">
-          <CardHeader>
-            <CardTitle className="text-white">
-              {t('generated_document')}
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="min-h-[300px] overflow-y-auto whitespace-pre-wrap rounded-md border border-gray-600 bg-gray-700 p-4 text-white">
-              {generatedDocument === undefined
-                ? t('generated_document_placeholder')
-                : JSON.stringify(generatedDocument, null, 2)}
-            </div>
-            {generatedDocument !== undefined && (
+            {generatedDocument && (
               <Button
-                className="mt-4 bg-green-600 hover:bg-green-700"
-                onClick={() => generateDocument(generatedDocument)}
+                className="bg-green-600 hover:bg-green-700"
+                onClick={handleDownload}
               >
+                <Download className="mr-2 size-4" />
                 {t('export_pdf')}
               </Button>
             )}
-          </CardContent>
-        </Card>
-      </div>
+          </div>
+        </CardContent>
+      </Card>
     </>
   ) : (
     <StellarConnectCard />

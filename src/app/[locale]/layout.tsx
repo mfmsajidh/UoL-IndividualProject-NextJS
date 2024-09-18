@@ -5,6 +5,7 @@ import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import type { ReactNode } from 'react';
 
+import { Toaster } from '@/components/ui/toaster';
 import { AppConfig } from '@/utils/AppConfig';
 
 export const viewport: Viewport = {
@@ -59,6 +60,7 @@ export default function RootLayout(props: {
         >
           {props.children}
         </NextIntlClientProvider>
+        <Toaster />
       </body>
     </html>
   );

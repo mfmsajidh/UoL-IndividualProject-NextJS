@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Generate your CV",
     "job_description": "Job Description",
-    "paste_your_description": "Paste your job description here...",
+    "paste_your_description": "The job description goes here...",
     "generating": "Generating...",
     "generate_document": "Generate Document",
     "generated_document": "Generated Document",
     "generated_document_placeholder": "The generated JSON structure will appear here...",
-    "export_pdf": "Download .DOCX"
+    "export_pdf": "Download .DOCX",
+    "paste_toast_title": "Pasted from clipboard",
+    "paste_toast_description": "The job description has been pasted successfully.",
+    "paste_toast_undo": "Undo",
+    "failed_paste_toast_title": "Paste failed",
+    "failed_paste_toast_description": "Unable to read from clipboard. Please paste manually.",
+    "paste_from_clipboard": "Paste from Clipboard"
   },
   "ProfileAbout": {
     "full_name": "Full Name",
