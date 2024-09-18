@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.5.0...v1.5.1) (2024-09-18)
+
+
+### Bug Fixes
+
+* improve LLM handling ([e1213e4](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/e1213e458e42870fa0c847f2d930c6f5a765a54d))
+
 # [1.5.0](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.4.2...v1.5.0) (2024-09-18)
 
 
