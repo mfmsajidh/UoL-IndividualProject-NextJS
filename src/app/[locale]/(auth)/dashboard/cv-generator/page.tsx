@@ -89,11 +89,13 @@ const generateDocument = (profileContent: ProfileContent) => {
 
     doc.render({
       name: profileContent.about.name,
+      headline: profileContent.about.headline,
       address: profileContent.about.address,
       email_address: profileContent.about.email,
       phone_number: profileContent.about.phoneNumber,
-      educations: profileContent.educations,
+      about: profileContent.about.about,
       experiences: profileContent.experiences,
+      educations: profileContent.educations,
       skills: profileContent.skills,
       languages: profileContent.languages,
     });
@@ -117,7 +119,9 @@ export default function CVGeneratorPage() {
   const { publicKey } = useWallet();
 
   const [jobDescription, setJobDescription] = useState('');
-  const [generatedDocument, setGeneratedDocument] = useState<string>('');
+  const [generatedDocument, setGeneratedDocument] = useState<
+    ProfileContent | undefined
+  >();
   const [isGenerating, setIsGenerating] = useState(false);
   const [profileData, setProfileData] = useState<ProfileContent>({
     about: {
@@ -200,70 +204,25 @@ export default function CVGeneratorPage() {
     };
 
     fetchProfileData();
-  }, [publicKey]);
+  }, [publicKey, router]);
 
-  const formatProfileData = (): string => {
-    const { about, educations, experiences, skills, languages } = profileData;
-
-    return `
-      Name: ${about?.name || 'N/A'}
-      Headline: ${about?.headline || 'N/A'}
-      About: ${about?.about || 'N/A'}
-
-      Education:
-      ${
-        educations
-          ?.map(
-            (edu: any) => `
-        School: ${edu.school}, Degree: ${edu.degree}
-        Field of Study: ${edu.fieldOfStudy}, Grade: ${edu.grade}
-        Start Date: ${edu.startDate}, End Date: ${edu.endDate}
-      `,
-          )
-          .join('\n') || 'N/A'
-      }
-
-      Experience:
-      ${
-        experiences
-          ?.map(
-            (exp: any) => `
-        Job Title: ${exp.title}, Company: ${exp.company}
-        Location: ${exp.location}, Employment Type: ${exp.employmentType}
-        Start Date: ${exp.startDate}, End Date: ${exp.endDate}
-        Description: ${exp.description}
-      `,
-          )
-          .join('\n') || 'N/A'
-      }
-
-      Skills: ${skills?.join(', ') || 'N/A'}
-
-      Languages:
-      ${
-        languages
-          ?.map(
-            (lang: any) => `
-        Language: ${lang.language}, Proficiency: ${lang.proficiency}
-      `,
-          )
-          .join('\n') || 'N/A'
-      }
-    `;
-  };
-
-  const handleGenerate = () => {
+  const handleGenerate = async () => {
     try {
       setIsGenerating(true);
-      const profileContent = formatProfileData();
-      setGeneratedDocument(profileContent);
+
+      await fetch('/api/ai', {
+        method: 'POST',
+        body: JSON.stringify({
+          userProfile: profileData,
+          jobDescription,
+        }),
+      }).then(async (response) => {
+        const content = await response.json();
+        setGeneratedDocument(content);
+      });
     } finally {
       setIsGenerating(false);
     }
-  };
-
-  const handleExport = () => {
-    generateDocument(profileData);
   };
 
   return publicKey ? (
@@ -284,7 +243,7 @@ export default function CVGeneratorPage() {
             <Button
               className="mt-4 bg-blue-600 text-white hover:bg-blue-700"
               onClick={handleGenerate}
-              disabled={isGenerating || !jobDescription.trim()}
+              disabled={isGenerating || !jobDescription.trim() || isLoading}
             >
               {isGenerating ? (
                 <>
@@ -306,14 +265,14 @@ export default function CVGeneratorPage() {
           </CardHeader>
           <CardContent>
             <div className="min-h-[300px] overflow-y-auto whitespace-pre-wrap rounded-md border border-gray-600 bg-gray-700 p-4 text-white">
-              {isLoading
-                ? t('loading_profile_data')
-                : generatedDocument || t('generated_document_placeholder')}
+              {generatedDocument === undefined
+                ? t('generated_document_placeholder')
+                : JSON.stringify(generatedDocument, null, 2)}
             </div>
-            {generatedDocument && (
+            {generatedDocument !== undefined && (
               <Button
                 className="mt-4 bg-green-600 hover:bg-green-700"
-                onClick={handleExport}
+                onClick={() => generateDocument(generatedDocument)}
               >
                 {t('export_pdf')}
               </Button>
