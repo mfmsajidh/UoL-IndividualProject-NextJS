@@ -247,8 +247,7 @@
     "generating": "Erstellen...",
     "generate_document": "Dokument generieren",
     "generated_document": "Generiertes Dokument",
-    "loading_profile_data": "Profildaten werden geladen...",
-    "generated_document_placeholder": "Ihr generiertes Dokument wird hier erscheinen...",
+    "generated_document_placeholder": "Die generierte JSON-Struktur wird hier erscheinen...",
     "export_pdf": ".DOCX herunterladen"
   },
   "ProfileAbout": {
