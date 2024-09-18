@@ -247,8 +247,7 @@
     "generating": "Створення...",
     "generate_document": "Створити документ",
     "generated_document": "Згенерований документ",
-    "loading_profile_data": "Завантаження даних профілю...",
-    "generated_document_placeholder": "Ваш згенерований документ з'явиться тут...",
+    "generated_document_placeholder": "Згенерована структура JSON з'явиться тут...",
     "export_pdf": "Завантажити .DOCX"
   },
   "ProfileAbout": {
