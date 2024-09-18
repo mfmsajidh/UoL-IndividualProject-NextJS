@@ -249,7 +249,7 @@
     "generated_document": "Сгенерированный документ",
     "loading_profile_data": "Загрузка данных профиля...",
     "generated_document_placeholder": "Здесь появится созданный вами документ...",
-    "export_pdf": "Экспорт в PDF"
+    "export_pdf": "Скачать .DOCX"
   },
   "ProfileAbout": {
     "full_name": "Полное имя",
