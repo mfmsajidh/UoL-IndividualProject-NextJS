@@ -249,7 +249,7 @@
     "generated_document": "وثيقة مولدة",
     "loading_profile_data": "جاري تحميل بيانات الملف الشخصي...",
     "generated_document_placeholder": "ستظهر هنا الوثيقة التي تم إنشاؤها...",
-    "export_pdf": "تصدير كملف PDF"
+    "export_pdf": "تحميل .DOCX"
   },
   "ProfileAbout": {
     "full_name": "الاسم الكامل",
