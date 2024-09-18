@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Generer dit CV",
     "job_description": "Jobbeskrivelse",
-    "paste_your_description": "Indsæt din jobbeskrivelse her...",
+    "paste_your_description": "Jobbeskrivelsen vises her...",
     "generating": "Genererer...",
     "generate_document": "Generer Dokument",
     "generated_document": "Genereret Dokument",
     "generated_document_placeholder": "Den genererede JSON struktur vises her...",
-    "export_pdf": "Download .DOCX"
+    "export_pdf": "Download .DOCX",
+    "paste_toast_title": "Indsat fra udklipsholder",
+    "paste_toast_description": "Jobbeskrivelsen er blevet indsat med succes.",
+    "paste_toast_undo": "Fortryd",
+    "failed_paste_toast_title": "Indsæt mislykkedes",
+    "failed_paste_toast_description": "Kan ikke læse fra udklipsholderen. Indsæt venligst manuelt.",
+    "paste_from_clipboard": "Indsæt fra udklipsholder"
   },
   "ProfileAbout": {
     "full_name": "Fulde Navn",

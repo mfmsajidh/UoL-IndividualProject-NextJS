@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Generovat CV",
     "job_description": "Popis zakázky",
-    "paste_your_description": "Zde vložte popis pracovní pozice...",
+    "paste_your_description": "Zde je popis práce...",
     "generating": "Generování",
     "generate_document": "Vygenerovat dokument",
     "generated_document": "Vygenerovaný dokument",
     "generated_document_placeholder": "Vygenerovaná JSON struktura se zobrazí zde...",
-    "export_pdf": "Stáhnout .DOCX"
+    "export_pdf": "Stáhnout .DOCX",
+    "paste_toast_title": "Vloženo ze schránky",
+    "paste_toast_description": "Popis úlohy byl úspěšně vložen.",
+    "paste_toast_undo": "Zpět",
+    "failed_paste_toast_title": "Vložení se nezdařilo",
+    "failed_paste_toast_description": "Nelze číst ze schránky. Vložte prosím ručně.",
+    "paste_from_clipboard": "Vložit ze schránky"
   },
   "ProfileAbout": {
     "full_name": "Celé jméno",

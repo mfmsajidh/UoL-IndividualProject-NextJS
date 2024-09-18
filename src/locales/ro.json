@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Generează CV-ul tău",
     "job_description": "Descriere job",
-    "paste_your_description": "Lipiți descrierea postului aici...",
+    "paste_your_description": "Descrierea postului merge aici...",
     "generating": "Generare...",
     "generate_document": "Generează Document",
     "generated_document": "Document generat",
     "generated_document_placeholder": "Structura JSON generată va apărea aici...",
-    "export_pdf": "Descarcă .DOCX"
+    "export_pdf": "Descarcă .DOCX",
+    "paste_toast_title": "Pastat din clipboard",
+    "paste_toast_description": "Descrierea postului a fost lipită cu succes.",
+    "paste_toast_undo": "Anulează",
+    "failed_paste_toast_title": "Lipirea a eșuat",
+    "failed_paste_toast_description": "Imposibil de citit din clipboard. Vă rugăm să lipiţi manual.",
+    "paste_from_clipboard": "Lipește din clipboard"
   },
   "ProfileAbout": {
     "full_name": "Nume complet",

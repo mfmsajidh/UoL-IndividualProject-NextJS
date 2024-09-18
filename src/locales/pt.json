@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Gerar seu CV",
     "job_description": "Descrição do Trabalho",
-    "paste_your_description": "Cole a descrição do seu trabalho aqui...",
+    "paste_your_description": "A descrição do trabalho vai aqui...",
     "generating": "Gerando...",
     "generate_document": "Gerar Documento",
     "generated_document": "Documento gerado",
     "generated_document_placeholder": "A estrutura JSON gerada vai aparecer aqui...",
-    "export_pdf": "Baixar .DOCX"
+    "export_pdf": "Baixar .DOCX",
+    "paste_toast_title": "Colado da área de transferência",
+    "paste_toast_description": "A descrição do trabalho foi colado com sucesso.",
+    "paste_toast_undo": "Desfazer",
+    "failed_paste_toast_title": "A colagem falhou",
+    "failed_paste_toast_description": "Não foi possível ler da área de transferência. Por favor, cole manualmente.",
+    "paste_from_clipboard": "Colar da área de transferência"
   },
   "ProfileAbout": {
     "full_name": "Nome Completo",

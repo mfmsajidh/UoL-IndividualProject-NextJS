@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Luo CV:si",
     "job_description": "Työn Kuvaus",
-    "paste_your_description": "Liitä tehtäväsi kuvaus tähän...",
+    "paste_your_description": "Työn kuvaus on täällä...",
     "generating": "Luodaan...",
     "generate_document": "Luo Asiakirja",
     "generated_document": "Luotu Asiakirja",
     "generated_document_placeholder": "Luotu JSON rakenne näkyy täällä...",
-    "export_pdf": "Lataa .DOCX"
+    "export_pdf": "Lataa .DOCX",
+    "paste_toast_title": "Liitetty leikepöydältä",
+    "paste_toast_description": "Työn kuvaus on liitetty onnistuneesti.",
+    "paste_toast_undo": "Kumoa",
+    "failed_paste_toast_title": "Liitä epäonnistui",
+    "failed_paste_toast_description": "Leikepöydältä ei voi lukea. Liitä manuaalisesti.",
+    "paste_from_clipboard": "Liitä leikepöydältä"
   },
   "ProfileAbout": {
     "full_name": "Koko Nimi",

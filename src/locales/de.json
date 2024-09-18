@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Generieren Sie Ihren Lebenslauf",
     "job_description": "Jobbeschreibung",
-    "paste_your_description": "Fügen Sie hier Ihre Jobbeschreibung ein...",
+    "paste_your_description": "Die Jobbeschreibung geht hier...",
     "generating": "Erstellen...",
     "generate_document": "Dokument generieren",
     "generated_document": "Generiertes Dokument",
     "generated_document_placeholder": "Die generierte JSON-Struktur wird hier erscheinen...",
-    "export_pdf": ".DOCX herunterladen"
+    "export_pdf": ".DOCX herunterladen",
+    "paste_toast_title": "Aus Zwischenablage eingefügt",
+    "paste_toast_description": "Die Jobbeschreibung wurde erfolgreich eingefügt.",
+    "paste_toast_undo": "Rückgängig",
+    "failed_paste_toast_title": "Einfügen fehlgeschlagen",
+    "failed_paste_toast_description": "Konnte aus der Zwischenablage nicht lesen. Bitte manuell einfügen.",
+    "paste_from_clipboard": "Aus Zwischenablage einfügen"
   },
   "ProfileAbout": {
     "full_name": "Voller Name",

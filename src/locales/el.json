@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Δημιουργήστε το βιογραφικό σας",
     "job_description": "Περιγραφή Εργασίας",
-    "paste_your_description": "Επικολλήστε την περιγραφή της εργασίας σας εδώ...",
+    "paste_your_description": "Η περιγραφή της εργασίας πηγαίνει εδώ...",
     "generating": "Δημιουργία...",
     "generate_document": "Δημιουργία Εγγράφου",
     "generated_document": "Δημιουργημένο Έγγραφο",
     "generated_document_placeholder": "Η κατασκευασμένη JSON δομή θα εμφανιστεί εδώ...",
-    "export_pdf": "Λήψη .DOCX"
+    "export_pdf": "Λήψη .DOCX",
+    "paste_toast_title": "Επικόλληση από το πρόχειρο",
+    "paste_toast_description": "Η περιγραφή της εργασίας επικολλήθηκε με επιτυχία.",
+    "paste_toast_undo": "Αναίρεση",
+    "failed_paste_toast_title": "Η επικόλληση απέτυχε",
+    "failed_paste_toast_description": "Αδυναμία ανάγνωσης από το πρόχειρο. Παρακαλώ επικολλήστε χειροκίνητα.",
+    "paste_from_clipboard": "Επικόλληση από το πρόχειρο"
   },
   "ProfileAbout": {
     "full_name": "Πλήρες Όνομα",
