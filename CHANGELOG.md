@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.5.1...v1.6.0) (2024-09-18)
+
+
+### Features
+
+* added toast ([95769ed](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/95769ed146591b42005f578668cc75d87efe9e31))
+
 ## [1.5.1](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.5.0...v1.5.1) (2024-09-18)
 
 
