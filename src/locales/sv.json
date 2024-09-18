@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Skapa ditt CV",
     "job_description": "Arbetsbeskrivning",
-    "paste_your_description": "Klistra in din arbetsbeskrivning här...",
+    "paste_your_description": "Jobbbeskrivningen går här...",
     "generating": "Genererar...",
     "generate_document": "Generera dokument",
     "generated_document": "Genererat dokument",
     "generated_document_placeholder": "Den genererade JSON-strukturen kommer att visas här...",
-    "export_pdf": "Ladda ner .DOCX"
+    "export_pdf": "Ladda ner .DOCX",
+    "paste_toast_title": "Klistrad från urklipp",
+    "paste_toast_description": "Jobbbeskrivningen har klistrats in.",
+    "paste_toast_undo": "Ångra",
+    "failed_paste_toast_title": "Klistra in misslyckades",
+    "failed_paste_toast_description": "Det gick inte att läsa från urklipp. Klistra in manuellt.",
+    "paste_from_clipboard": "Klistra in från urklipp"
   },
   "ProfileAbout": {
     "full_name": "Fullständigt namn",
