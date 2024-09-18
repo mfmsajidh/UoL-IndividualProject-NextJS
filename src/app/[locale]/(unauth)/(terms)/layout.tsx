@@ -26,7 +26,7 @@ const TermsLayout = (props: {
           </Link>
         </div>
       </header>
-      <main className="container mx-auto flex-1 py-12 md:py-24 lg:py-32">
+      <main className="container mx-auto flex-1 p-12 md:px-0 md:py-24 lg:py-32">
         {props.children}
       </main>
     </div>
