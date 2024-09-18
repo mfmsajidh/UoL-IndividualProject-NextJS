@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.4.2...v1.5.0) (2024-09-18)
+
+
+### Features
+
+* endpoints to process LLM ([0927f79](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/commit/0927f79a05d12bc22ebef6e60dd0413ad7b52967))
+
 ## [1.4.2](https://github.com/mfmsajidh/UoL-IndividualProject-NextJS/compare/v1.4.1...v1.4.2) (2024-09-17)
 
 
