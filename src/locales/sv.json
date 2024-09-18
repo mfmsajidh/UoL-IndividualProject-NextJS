@@ -249,7 +249,7 @@
     "generated_document": "Genererat dokument",
     "loading_profile_data": "Laddar profildata...",
     "generated_document_placeholder": "Ditt genererade dokument visas här...",
-    "export_pdf": "Exportera som PDF"
+    "export_pdf": "Ladda ner .DOCX"
   },
   "ProfileAbout": {
     "full_name": "Fullständigt namn",
