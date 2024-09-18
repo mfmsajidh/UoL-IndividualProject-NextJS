@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "توليد السيرة الذاتية",
     "job_description": "وصف الوظيفة",
-    "paste_your_description": "لصق توصيف العمل الخاص بك هنا...",
+    "paste_your_description": "الوصف الوظيفي هنا ...",
     "generating": "توليد ...",
     "generate_document": "إنشاء وثيقة",
     "generated_document": "وثيقة مولدة",
     "generated_document_placeholder": "سيظهر هنا هيكل JSON الذي تم إنشاؤه...",
-    "export_pdf": "تحميل .DOCX"
+    "export_pdf": "تحميل .DOCX",
+    "paste_toast_title": "لصق من الحافظة",
+    "paste_toast_description": "تم لصق وصف الوظيفة بنجاح.",
+    "paste_toast_undo": "التراجع",
+    "failed_paste_toast_title": "فشل اللصق",
+    "failed_paste_toast_description": "غير قادر على القراءة من الحافظة. الرجاء لصق يدويًا.",
+    "paste_from_clipboard": "لصق من الحافظة"
   },
   "ProfileAbout": {
     "full_name": "الاسم الكامل",

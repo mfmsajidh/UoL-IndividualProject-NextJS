@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Wygeneruj swoje CV",
     "job_description": "Opis zadania",
-    "paste_your_description": "Wklej swój opis pracy tutaj...",
+    "paste_your_description": "Opis pracy znajduje się tutaj...",
     "generating": "Generowanie...",
     "generate_document": "Wygeneruj dokument",
     "generated_document": "Wygenerowany dokument",
     "generated_document_placeholder": "Wygenerowana struktura JSON pojawi się tutaj...",
-    "export_pdf": "Pobierz .DOCX"
+    "export_pdf": "Pobierz .DOCX",
+    "paste_toast_title": "Wklejony ze schowka",
+    "paste_toast_description": "Opis pracy został wklejony pomyślnie.",
+    "paste_toast_undo": "Cofnij",
+    "failed_paste_toast_title": "Wklej nie powiodło się",
+    "failed_paste_toast_description": "Nie można odczytać ze schowka. Proszę wklej ręcznie.",
+    "paste_from_clipboard": "Wklej ze schowka"
   },
   "ProfileAbout": {
     "full_name": "Pełna nazwa",

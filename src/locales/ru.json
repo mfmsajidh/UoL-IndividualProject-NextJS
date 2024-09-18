@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Сгенерировать резюме",
     "job_description": "Описание задания",
-    "paste_your_description": "Вставьте здесь описание вашей работы...",
+    "paste_your_description": "Описание задачи идет здесь...",
     "generating": "Создание...",
     "generate_document": "Создать документ",
     "generated_document": "Сгенерированный документ",
     "generated_document_placeholder": "Генерируемая структура JSON появится здесь...",
-    "export_pdf": "Скачать .DOCX"
+    "export_pdf": "Скачать .DOCX",
+    "paste_toast_title": "Вставлено из буфера обмена",
+    "paste_toast_description": "Описание задачи было успешно вставлено.",
+    "paste_toast_undo": "Отменить",
+    "failed_paste_toast_title": "Ошибка вставки",
+    "failed_paste_toast_description": "Не удается прочитать из буфера обмена. Пожалуйста, вставьте вручную.",
+    "paste_from_clipboard": "Вставить из буфера обмена"
   },
   "ProfileAbout": {
     "full_name": "Полное имя",

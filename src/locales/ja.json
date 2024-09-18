@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "CV を生成",
     "job_description": "作業の説明",
-    "paste_your_description": "ここにジョブの説明を貼り付けてください...",
+    "paste_your_description": "ジョブの説明はここにあります...",
     "generating": "生成中...",
     "generate_document": "ドキュメントの生成",
     "generated_document": "生成された文書",
     "generated_document_placeholder": "生成された JSON 構造がここに表示されます。",
-    "export_pdf": ".DOCXをダウンロード"
+    "export_pdf": ".DOCXをダウンロード",
+    "paste_toast_title": "クリップボードから貼り付け",
+    "paste_toast_description": "ジョブの説明が正常に貼り付けられました。",
+    "paste_toast_undo": "元に戻す",
+    "failed_paste_toast_title": "貼り付けに失敗しました",
+    "failed_paste_toast_description": "クリップボードから読み取ることができません。手動で貼り付けてください。",
+    "paste_from_clipboard": "クリップボードから貼り付け"
   },
   "ProfileAbout": {
     "full_name": "フルネーム",

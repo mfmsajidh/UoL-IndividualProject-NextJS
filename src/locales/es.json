@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Genera tu CV",
     "job_description": "Descripción del trabajo",
-    "paste_your_description": "Pega tu descripción de trabajo aquí...",
+    "paste_your_description": "La descripción de la tarea va aquí...",
     "generating": "Generando...",
     "generate_document": "Generar documento",
     "generated_document": "Documento generado",
     "generated_document_placeholder": "La estructura JSON generada aparecerá aquí...",
-    "export_pdf": "Descargar .DOCX"
+    "export_pdf": "Descargar .DOCX",
+    "paste_toast_title": "Pegado desde el portapapeles",
+    "paste_toast_description": "La descripción de la tarea se ha pegado correctamente.",
+    "paste_toast_undo": "Deshacer",
+    "failed_paste_toast_title": "Pegado fallido",
+    "failed_paste_toast_description": "No se puede leer desde el portapapeles. Por favor pegue manualmente.",
+    "paste_from_clipboard": "Pegar desde el portapapeles"
   },
   "ProfileAbout": {
     "full_name": "Nombre completo",
