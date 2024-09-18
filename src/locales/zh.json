@@ -249,7 +249,7 @@
     "generated_document": "生成的文档",
     "loading_profile_data": "正在加载配置文件数据...",
     "generated_document_placeholder": "您生成的文档将出现在这里...",
-    "export_pdf": "导出为 PDF"
+    "export_pdf": "下载 .DOCX"
   },
   "ProfileAbout": {
     "full_name": "全名",
