@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Générer votre CV",
     "job_description": "Description du poste",
-    "paste_your_description": "Collez votre description de poste ici...",
+    "paste_your_description": "La description du poste se trouve ici...",
     "generating": "Génération en cours...",
     "generate_document": "Générer un document",
     "generated_document": "Document généré",
     "generated_document_placeholder": "La structure JSON générée apparaîtra ici...",
-    "export_pdf": "Télécharger .DOCX"
+    "export_pdf": "Télécharger .DOCX",
+    "paste_toast_title": "Collé depuis le presse-papiers",
+    "paste_toast_description": "La description de la tâche a été collée avec succès.",
+    "paste_toast_undo": "Annuler",
+    "failed_paste_toast_title": "Échec du collage",
+    "failed_paste_toast_description": "Impossible de lire depuis le presse-papiers. Veuillez coller manuellement.",
+    "paste_from_clipboard": "Coller depuis le presse-papier"
   },
   "ProfileAbout": {
     "full_name": "Nom complet",
