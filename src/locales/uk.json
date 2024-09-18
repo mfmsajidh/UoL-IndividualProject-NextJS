@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Згенерувати CV",
     "job_description": "Опис роботи",
-    "paste_your_description": "Вставте опис завдання тут...",
+    "paste_your_description": "Опис завдання ідеться тут...",
     "generating": "Створення...",
     "generate_document": "Створити документ",
     "generated_document": "Згенерований документ",
     "generated_document_placeholder": "Згенерована структура JSON з'явиться тут...",
-    "export_pdf": "Завантажити .DOCX"
+    "export_pdf": "Завантажити .DOCX",
+    "paste_toast_title": "Вставлено з буфера обміну",
+    "paste_toast_description": "Опис завдання успішно вставлено.",
+    "paste_toast_undo": "Скасувати",
+    "failed_paste_toast_title": "Вставити не вдалося",
+    "failed_paste_toast_description": "Не вдалося прочитати з буфера обміну. Вставте вручну.",
+    "paste_from_clipboard": "Вставити із буферу обміну"
   },
   "ProfileAbout": {
     "full_name": "Ім’я і прізвище",
