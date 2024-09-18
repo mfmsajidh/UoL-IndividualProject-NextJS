@@ -14,11 +14,18 @@ const EducationValidation = z.object({
     .string()
     .describe("Degree obtained or pursued (e.g., Bachelor's, Master's)"),
   fieldOfStudy: z.string().describe('Field of study or major'),
-  grade: z.string().optional().describe('Grade or GPA achieved (optional)'),
+  grade: z
+    .string()
+    .optional()
+    .describe(
+      'Grade or GPA achieved (Optional. Do not list if below a 2:1 - If still studying state predicted grade OR grade achieved to date)',
+    ),
   activities: z
     .string()
     .optional()
-    .describe('Extracurricular activities (optional)'),
+    .describe(
+      'Extracurricular activities, awards and/or achievements (optional). Note that relevant interests and skills can also be demonstrated through campus and volunteer activities. Explain the duties, role in organisation, describing the difference made. Use action verbs at the beginning of each statement. Describe what is accomplished by giving numbers.',
+    ),
   description: z
     .string()
     .optional()
@@ -40,8 +47,12 @@ const ExperienceValidation = z.object({
   description: z
     .string()
     .optional()
-    .describe('Job description and responsibilities'),
-  location: z.string().describe('Location of the job'),
+    .describe(
+      'Job description and responsibilities. Begin each line with an action verb and include details that will help the reader understand the accomplishments, skills, knowledge, abilities, or achievements. Describe what is accomplished in the position and give numbers indicating achievements (Quantify accomplishments where possible; be consistent presenting data, use either numerals or words). Do not use personal pronouns; each line should be a phrase rather than a full sentence',
+    ),
+  location: z
+    .string()
+    .describe("Location of the job. Format to 'City, Country'"),
   employmentType: z
     .string()
     .describe('Type of employment (e.g., full-time, part-time, freelance)'),
@@ -58,17 +69,27 @@ export const ProfileContentValidation = z.object({
   about: z.object({
     name: z.string().describe('Full name of the individual'),
     headline: z.string().describe('Professional headline, title or tagline'),
-    about: z.string().describe('Brief biography or professional summary'),
-    address: z.string().describe('Current location or address'),
+    about: z
+      .string()
+      .describe(
+        'Brief biography or professional summary. Located directly beneath the heading and contact information. This offers a way to stand out. Keep it concise (between one and four sentences long). Focus on the job description and only include the skills and qualifications that relate to the specific job.',
+      ),
+    address: z
+      .string()
+      .describe("Current location or address. Format to 'City, Country'"),
     email: z.string().describe('Email address of the individual'),
     phoneNumber: z.string().describe('Phone number of the individual'),
   }),
   educations: z
     .array(EducationValidation)
-    .describe('List of educational experiences'),
+    .describe(
+      'List of educational experiences. Arrange it according to the most recent.',
+    ),
   experiences: z
     .array(ExperienceValidation)
-    .describe('List of work experiences'),
+    .describe(
+      'List of work experiences. Arrange it according to the most recent position',
+    ),
   skills: z.array(z.string()).describe('List of professional skills'),
   languages: z
     .array(LanguageValidation)
