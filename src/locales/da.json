@@ -247,8 +247,7 @@
     "generating": "Genererer...",
     "generate_document": "Generer Dokument",
     "generated_document": "Genereret Dokument",
-    "loading_profile_data": "Indlæser profildata...",
-    "generated_document_placeholder": "Dit genererede dokument vil blive vist her...",
+    "generated_document_placeholder": "Den genererede JSON struktur vises her...",
     "export_pdf": "Download .DOCX"
   },
   "ProfileAbout": {
