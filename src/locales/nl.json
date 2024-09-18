@@ -243,12 +243,18 @@
   "CVGenerator": {
     "title": "Genereer uw CV",
     "job_description": "Job omschrijving",
-    "paste_your_description": "Plak uw job omschrijving hier ...",
+    "paste_your_description": "De job beschrijving komt hier...",
     "generating": "Genereren...",
     "generate_document": "Document aanmaken",
     "generated_document": "Gegenereerd document",
     "generated_document_placeholder": "De gegenereerde JSON-structuur zal hier verschijnen...",
-    "export_pdf": ".DOCX downloaden"
+    "export_pdf": ".DOCX downloaden",
+    "paste_toast_title": "Geplakt vanaf klembord",
+    "paste_toast_description": "De functiebeschrijving is met succes geplakt",
+    "paste_toast_undo": "Herstel",
+    "failed_paste_toast_title": "Plakken mislukt",
+    "failed_paste_toast_description": "Kan niet lezen vanaf klembord. Plak handmatig.",
+    "paste_from_clipboard": "Plakken vanaf klembord"
   },
   "ProfileAbout": {
     "full_name": "Volledige naam",
